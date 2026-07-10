@@ -1,0 +1,275 @@
+{
+  "unit": 6,
+  "title": "It's my party!",
+  "vocab": [
+    { "id": "v6_001", "unit": 6, "category": "party-checkin", "type": "phrase", "de": "sich etwas wünschen", "en": "to make a wish", "ipa": "meɪk ə wɪʃ" },
+    { "id": "v6_002", "unit": 6, "category": "party-checkin", "type": "word", "de": "Wunsch", "en": "wish", "ipa": "wɪʃ" },
+    { "id": "v6_003", "unit": 6, "category": "party-checkin", "type": "phrase", "de": "Alles Gute zum Geburtstag!", "en": "Happy Birthday!", "ipa": "ˈhæpi ˈbɜːθdeɪ" },
+    { "id": "v6_004", "unit": 6, "category": "party-checkin", "type": "word", "de": "Geburtstag", "en": "birthday", "ipa": "ˈbɜːθdeɪ" },
+    { "id": "v6_005", "unit": 6, "category": "party-checkin", "type": "word", "de": "feiern", "en": "to celebrate", "ipa": "ˈselɪbreɪt" },
+    { "id": "v6_006", "unit": 6, "category": "party-checkin", "type": "word", "de": "Luftballon", "en": "balloon", "ipa": "bəˈluːn" },
+    { "id": "v6_007", "unit": 6, "category": "party-checkin", "type": "word", "de": "Datum", "en": "date", "ipa": "deɪt" },
+    { "id": "v6_008", "unit": 6, "category": "party-checkin", "type": "phrase", "de": "gleichzeitig", "en": "at the same time", "ipa": "ət ðə seɪm taɪm" },
+    { "id": "v6_009", "unit": 6, "category": "party-checkin", "type": "word", "de": "Anfang, Beginn", "en": "beginning", "ipa": "bɪˈɡɪnɪŋ" },
+    { "id": "v6_010", "unit": 6, "category": "party-checkin", "type": "phrase", "de": "lass uns gehen", "en": "let's go", "ipa": "lets ɡəʊ" },
+
+    { "id": "v6_011", "unit": 6, "category": "ordinals", "type": "word", "de": "1.", "en": "first", "ipa": "" },
+    { "id": "v6_012", "unit": 6, "category": "ordinals", "type": "word", "de": "2.", "en": "second", "ipa": "" },
+    { "id": "v6_013", "unit": 6, "category": "ordinals", "type": "word", "de": "3.", "en": "third", "ipa": "" },
+    { "id": "v6_014", "unit": 6, "category": "ordinals", "type": "word", "de": "4.", "en": "fourth", "ipa": "" },
+    { "id": "v6_015", "unit": 6, "category": "ordinals", "type": "word", "de": "5.", "en": "fifth", "ipa": "" },
+    { "id": "v6_016", "unit": 6, "category": "ordinals", "type": "word", "de": "6.", "en": "sixth", "ipa": "" },
+    { "id": "v6_017", "unit": 6, "category": "ordinals", "type": "word", "de": "7.", "en": "seventh", "ipa": "" },
+    { "id": "v6_018", "unit": 6, "category": "ordinals", "type": "word", "de": "8.", "en": "eighth", "ipa": "" },
+    { "id": "v6_019", "unit": 6, "category": "ordinals", "type": "word", "de": "9.", "en": "ninth", "ipa": "" },
+    { "id": "v6_020", "unit": 6, "category": "ordinals", "type": "word", "de": "10.", "en": "tenth", "ipa": "" },
+    { "id": "v6_021", "unit": 6, "category": "ordinals", "type": "word", "de": "11.", "en": "eleventh", "ipa": "" },
+    { "id": "v6_022", "unit": 6, "category": "ordinals", "type": "word", "de": "12.", "en": "twelfth", "ipa": "" },
+    { "id": "v6_023", "unit": 6, "category": "ordinals", "type": "word", "de": "13.", "en": "thirteenth", "ipa": "" },
+    { "id": "v6_024", "unit": 6, "category": "ordinals", "type": "word", "de": "14.", "en": "fourteenth", "ipa": "" },
+    { "id": "v6_025", "unit": 6, "category": "ordinals", "type": "word", "de": "15.", "en": "fifteenth", "ipa": "" },
+    { "id": "v6_026", "unit": 6, "category": "ordinals", "type": "word", "de": "16.", "en": "sixteenth", "ipa": "" },
+    { "id": "v6_027", "unit": 6, "category": "ordinals", "type": "word", "de": "17.", "en": "seventeenth", "ipa": "" },
+    { "id": "v6_028", "unit": 6, "category": "ordinals", "type": "word", "de": "18.", "en": "eighteenth", "ipa": "" },
+    { "id": "v6_029", "unit": 6, "category": "ordinals", "type": "word", "de": "19.", "en": "nineteenth", "ipa": "" },
+    { "id": "v6_030", "unit": 6, "category": "ordinals", "type": "word", "de": "20.", "en": "twentieth", "ipa": "" },
+    { "id": "v6_031", "unit": 6, "category": "ordinals", "type": "word", "de": "21.", "en": "twenty-first", "ipa": "" },
+    { "id": "v6_032", "unit": 6, "category": "ordinals", "type": "word", "de": "22.", "en": "twenty-second", "ipa": "" },
+    { "id": "v6_033", "unit": 6, "category": "ordinals", "type": "word", "de": "23.", "en": "twenty-third", "ipa": "" },
+    { "id": "v6_034", "unit": 6, "category": "ordinals", "type": "word", "de": "24.", "en": "twenty-fourth", "ipa": "" },
+    { "id": "v6_035", "unit": 6, "category": "ordinals", "type": "word", "de": "30.", "en": "thirtieth", "ipa": "" },
+    { "id": "v6_036", "unit": 6, "category": "ordinals", "type": "word", "de": "40.", "en": "fortieth", "ipa": "" },
+    { "id": "v6_037", "unit": 6, "category": "ordinals", "type": "word", "de": "50.", "en": "fiftieth", "ipa": "" },
+    { "id": "v6_038", "unit": 6, "category": "ordinals", "type": "word", "de": "60.", "en": "sixtieth", "ipa": "" },
+    { "id": "v6_039", "unit": 6, "category": "ordinals", "type": "word", "de": "100.", "en": "hundredth", "ipa": "", "notes": "often said as \"one hundredth\"" },
+
+    { "id": "v6_040", "unit": 6, "category": "months-seasons", "type": "word", "de": "Januar", "en": "January", "ipa": "ˈdʒænjuəri" },
+    { "id": "v6_041", "unit": 6, "category": "months-seasons", "type": "word", "de": "Februar", "en": "February", "ipa": "ˈfebruəri" },
+    { "id": "v6_042", "unit": 6, "category": "months-seasons", "type": "word", "de": "März", "en": "March", "ipa": "mɑːtʃ" },
+    { "id": "v6_043", "unit": 6, "category": "months-seasons", "type": "word", "de": "April", "en": "April", "ipa": "ˈeɪprəl" },
+    { "id": "v6_044", "unit": 6, "category": "months-seasons", "type": "word", "de": "Mai", "en": "May", "ipa": "meɪ" },
+    { "id": "v6_045", "unit": 6, "category": "months-seasons", "type": "word", "de": "Juni", "en": "June", "ipa": "dʒuːn" },
+    { "id": "v6_046", "unit": 6, "category": "months-seasons", "type": "word", "de": "Juli", "en": "July", "ipa": "dʒʊˈlaɪ" },
+    { "id": "v6_047", "unit": 6, "category": "months-seasons", "type": "word", "de": "August", "en": "August", "ipa": "ˈɔːɡəst" },
+    { "id": "v6_048", "unit": 6, "category": "months-seasons", "type": "word", "de": "September", "en": "September", "ipa": "sepˈtembə" },
+    { "id": "v6_049", "unit": 6, "category": "months-seasons", "type": "word", "de": "Oktober", "en": "October", "ipa": "ɒkˈtəʊbə" },
+    { "id": "v6_050", "unit": 6, "category": "months-seasons", "type": "word", "de": "November", "en": "November", "ipa": "nəʊˈvembə" },
+    { "id": "v6_051", "unit": 6, "category": "months-seasons", "type": "word", "de": "Dezember", "en": "December", "ipa": "dɪˈsembə" },
+    { "id": "v6_052", "unit": 6, "category": "months-seasons", "type": "word", "de": "Frühling", "en": "spring", "ipa": "sprɪŋ" },
+    { "id": "v6_053", "unit": 6, "category": "months-seasons", "type": "word", "de": "Sommer", "en": "summer", "ipa": "ˈsʌmə" },
+    { "id": "v6_054", "unit": 6, "category": "months-seasons", "type": "word", "de": "Herbst", "en": "autumn", "ipa": "ˈɔːtəm" },
+    { "id": "v6_055", "unit": 6, "category": "months-seasons", "type": "word", "de": "Winter", "en": "winter", "ipa": "ˈwɪntə" },
+
+    { "id": "v6_056", "unit": 6, "category": "party-planning", "type": "word", "de": "planen", "en": "to plan", "ipa": "plæn" },
+    { "id": "v6_057", "unit": 6, "category": "party-planning", "type": "word", "de": "Übernachtung(sparty)", "en": "sleepover", "ipa": "ˈsliːpəʊvə" },
+    { "id": "v6_058", "unit": 6, "category": "party-planning", "type": "word", "de": "nicht dürfen (verboten)", "en": "mustn't", "ipa": "ˈmʌsnt" },
+    { "id": "v6_059", "unit": 6, "category": "party-planning", "type": "word", "de": "nicht brauchen/müssen", "en": "needn't", "ipa": "ˈniːdnt" },
+    { "id": "v6_060", "unit": 6, "category": "party-planning", "type": "phrase", "de": "so", "en": "like that", "ipa": "laɪk ðæt" },
+    { "id": "v6_061", "unit": 6, "category": "party-planning", "type": "word", "de": "Ferien", "en": "holidays", "ipa": "ˈhɒlədeɪz" },
+    { "id": "v6_062", "unit": 6, "category": "party-planning", "type": "word", "de": "dass", "en": "that", "ipa": "ðæt" },
+    { "id": "v6_063", "unit": 6, "category": "party-planning", "type": "word", "de": "Thema, Motto", "en": "theme", "ipa": "θiːm" },
+    { "id": "v6_064", "unit": 6, "category": "party-planning", "type": "word", "de": "Dekoration, Schmuck", "en": "decorations", "ipa": "ˌdekəˈreɪʃnz" },
+    { "id": "v6_065", "unit": 6, "category": "party-planning", "type": "word", "de": "einladen", "en": "to invite", "ipa": "ɪnˈvaɪt" },
+    { "id": "v6_066", "unit": 6, "category": "party-planning", "type": "word", "de": "Einladung", "en": "invitation", "ipa": "ˌɪnvɪˈteɪʃn" },
+    { "id": "v6_067", "unit": 6, "category": "party-planning", "type": "word", "de": "dekorieren, schmücken", "en": "to decorate", "ipa": "ˈdekəreɪt" },
+    { "id": "v6_068", "unit": 6, "category": "party-planning", "type": "word", "de": "Trifle (Nachtisch)", "en": "trifle", "ipa": "ˈtraɪfl" },
+    { "id": "v6_069", "unit": 6, "category": "party-planning", "type": "word", "de": "Eis, Eiscreme", "en": "ice cream", "ipa": "ˈaɪs kriːm" },
+    { "id": "v6_070", "unit": 6, "category": "party-planning", "type": "phrase", "de": "die ganze Nacht", "en": "all night", "ipa": "ɔːl naɪt" },
+    { "id": "v6_071", "unit": 6, "category": "party-planning", "type": "word", "de": "säubern, reinigen", "en": "to clean", "ipa": "kliːn" },
+    { "id": "v6_072", "unit": 6, "category": "party-planning", "type": "word", "de": "besorgen, kaufen", "en": "to get", "ipa": "ɡet" },
+    { "id": "v6_073", "unit": 6, "category": "party-planning", "type": "phrase", "de": "uns frisieren", "en": "to do our hair", "ipa": "duː aʊə heə" },
+    { "id": "v6_074", "unit": 6, "category": "party-planning", "type": "word", "de": "Größe, Kleidergröße", "en": "size", "ipa": "saɪz" },
+    { "id": "v6_075", "unit": 6, "category": "party-planning", "type": "word", "de": "Schließfach, Spind", "en": "locker", "ipa": "ˈlɒkə" },
+    { "id": "v6_076", "unit": 6, "category": "party-planning", "type": "word", "de": "ohne", "en": "without", "ipa": "wɪˈðaʊt" },
+    { "id": "v6_077", "unit": 6, "category": "party-planning", "type": "word", "de": "Handschuh", "en": "glove", "ipa": "ɡlʌv" },
+    { "id": "v6_078", "unit": 6, "category": "party-planning", "type": "word", "de": "(sich) bewegen", "en": "to move", "ipa": "muːv" },
+    { "id": "v6_079", "unit": 6, "category": "party-planning", "type": "phrase", "de": "überhaupt", "en": "at all", "ipa": "ət ɔːl" },
+    { "id": "v6_080", "unit": 6, "category": "party-planning", "type": "word", "de": "heraus, hinaus, raus", "en": "out", "ipa": "aʊt" },
+    { "id": "v6_081", "unit": 6, "category": "party-planning", "type": "word", "de": "gewinnen, siegen", "en": "to win", "ipa": "wɪn" },
+    { "id": "v6_082", "unit": 6, "category": "party-planning", "type": "word", "de": "vorbereiten, zubereiten", "en": "to prepare", "ipa": "prɪˈpeə" },
+
+    { "id": "v6_083", "unit": 6, "category": "trifle-recipe", "type": "word", "de": "Rühr-, Biskuit-", "en": "sponge", "ipa": "spʌndʒ" },
+    { "id": "v6_084", "unit": 6, "category": "trifle-recipe", "type": "word", "de": "Götterspeise, Gelee", "en": "jelly", "ipa": "ˈdʒeli" },
+    { "id": "v6_085", "unit": 6, "category": "trifle-recipe", "type": "word", "de": "Vanillesoße/-pudding", "en": "custard", "ipa": "ˈkʌstəd" },
+    { "id": "v6_086", "unit": 6, "category": "trifle-recipe", "type": "word", "de": "frisch", "en": "fresh", "ipa": "freʃ" },
+    { "id": "v6_087", "unit": 6, "category": "trifle-recipe", "type": "word", "de": "Dosen-, aus der Dose", "en": "tinned", "ipa": "tɪnd" },
+    { "id": "v6_088", "unit": 6, "category": "trifle-recipe", "type": "word", "de": "Creme, Sahne", "en": "cream", "ipa": "kriːm" },
+    { "id": "v6_089", "unit": 6, "category": "trifle-recipe", "type": "word", "de": "brechen, zerbrechen", "en": "to break", "ipa": "breɪk" },
+    { "id": "v6_090", "unit": 6, "category": "trifle-recipe", "type": "word", "de": "Schale, Schüssel", "en": "bowl", "ipa": "bəʊl" },
+    { "id": "v6_091", "unit": 6, "category": "trifle-recipe", "type": "word", "de": "in Scheiben schneiden", "en": "to slice", "ipa": "slaɪs" },
+    { "id": "v6_092", "unit": 6, "category": "trifle-recipe", "type": "phrase", "de": "oben, obendrauf", "en": "on top", "ipa": "ɒn tɒp" },
+    { "id": "v6_093", "unit": 6, "category": "trifle-recipe", "type": "phrase", "de": "kalt stellen", "en": "to leave it to cool", "ipa": "liːv ɪt tə kuːl" },
+    { "id": "v6_094", "unit": 6, "category": "trifle-recipe", "type": "word", "de": "einschenken, gießen", "en": "to pour", "ipa": "pɔː" },
+    { "id": "v6_095", "unit": 6, "category": "trifle-recipe", "type": "word", "de": "(Sahne) schlagen", "en": "to whip", "ipa": "wɪp" },
+
+    { "id": "v6_096", "unit": 6, "category": "simple-past-words", "type": "phrase", "de": "schiefgehen", "en": "to go wrong", "ipa": "ɡəʊ rɒŋ" },
+    { "id": "v6_097", "unit": 6, "category": "simple-past-words", "type": "phrase", "de": "schließlich, zum Schluss", "en": "in the end", "ipa": "ɪn ði end" },
+    { "id": "v6_098", "unit": 6, "category": "simple-past-words", "type": "word", "de": "stolpern (über)", "en": "to trip (over)", "ipa": "trɪp" },
+    { "id": "v6_099", "unit": 6, "category": "simple-past-words", "type": "word", "de": "verletzen, weh tun", "en": "to hurt", "ipa": "hɜːt" },
+    { "id": "v6_100", "unit": 6, "category": "simple-past-words", "type": "word", "de": "lecker", "en": "yummy", "ipa": "ˈjʌmi" },
+    { "id": "v6_101", "unit": 6, "category": "simple-past-words", "type": "phrase", "de": "Pech, Unglück", "en": "bad luck", "ipa": "bæd lʌk" },
+    { "id": "v6_102", "unit": 6, "category": "simple-past-words", "type": "word", "de": "Monat", "en": "month", "ipa": "mʌnθ" },
+    { "id": "v6_103", "unit": 6, "category": "simple-past-words", "type": "word", "de": "gestern", "en": "yesterday", "ipa": "ˈjestədeɪ" },
+    { "id": "v6_104", "unit": 6, "category": "simple-past-words", "type": "word", "de": "vor (zeitlich)", "en": "ago", "ipa": "əˈɡəʊ", "notes": "steht NACH der Zeit: two days ago" },
+
+    { "id": "v6_105", "unit": 6, "category": "american-party", "type": "word", "de": "Postkarte", "en": "postcard", "ipa": "ˈpəʊstkɑːd" },
+    { "id": "v6_106", "unit": 6, "category": "american-party", "type": "phrase", "de": "mindestens, wenigstens", "en": "at least", "ipa": "ət liːst" },
+    { "id": "v6_107", "unit": 6, "category": "american-party", "type": "word", "de": "Ferien, Urlaub (AE)", "en": "vacation", "ipa": "vəˈkeɪʃn" },
+    { "id": "v6_108", "unit": 6, "category": "american-party", "type": "word", "de": "Grill, Grillparty", "en": "barbecue", "ipa": "ˈbɑːbɪkjuː" },
+    { "id": "v6_109", "unit": 6, "category": "american-party", "type": "word", "de": "Feuerwerk", "en": "fireworks", "ipa": "ˈfaɪəwɜːks" },
+    { "id": "v6_110", "unit": 6, "category": "american-party", "type": "word", "de": "super, spitze", "en": "awesome", "ipa": "ˈɔːsəm" },
+    { "id": "v6_111", "unit": 6, "category": "american-party", "type": "word", "de": "Pfannkuchen", "en": "pancake", "ipa": "ˈpænkeɪk" },
+    { "id": "v6_112", "unit": 6, "category": "american-party", "type": "word", "de": "normal", "en": "normal", "ipa": "ˈnɔːml" },
+    { "id": "v6_113", "unit": 6, "category": "american-party", "type": "word", "de": "Garten (AE)", "en": "yard", "ipa": "jɑːd" },
+    { "id": "v6_114", "unit": 6, "category": "american-party", "type": "word", "de": "Keks (AE)", "en": "cookie", "ipa": "ˈkʊki" },
+    { "id": "v6_115", "unit": 6, "category": "american-party", "type": "word", "de": "Pommes frites (AE)", "en": "fries", "ipa": "fraɪz" },
+    { "id": "v6_116", "unit": 6, "category": "american-party", "type": "word", "de": "Süßigkeiten (AE)", "en": "candy", "ipa": "ˈkændi" },
+    { "id": "v6_117", "unit": 6, "category": "american-party", "type": "word", "de": "Typ, Kerl; (pl) Leute", "en": "guy", "ipa": "ɡaɪ" },
+    { "id": "v6_118", "unit": 6, "category": "american-party", "type": "phrase", "de": "wollen, dass jd. etw. tut", "en": "to want somebody to do something", "ipa": "" },
+    { "id": "v6_119", "unit": 6, "category": "american-party", "type": "phrase", "de": "statt, anstatt", "en": "instead of", "ipa": "ɪnˈsted əv" },
+    { "id": "v6_120", "unit": 6, "category": "american-party", "type": "word", "de": "Weihnachten", "en": "Christmas", "ipa": "ˈkrɪsməs" },
+    { "id": "v6_121", "unit": 6, "category": "american-party", "type": "word", "de": "Ostern", "en": "Easter", "ipa": "ˈiːstə" },
+    { "id": "v6_122", "unit": 6, "category": "american-party", "type": "phrase", "de": "Silvester", "en": "New Year's Eve", "ipa": "ˌnjuː jɪəz iːv" },
+    { "id": "v6_123", "unit": 6, "category": "american-party", "type": "phrase", "de": "aufbleiben", "en": "to stay up", "ipa": "steɪ ʌp" },
+    { "id": "v6_124", "unit": 6, "category": "american-party", "type": "word", "de": "Mitternacht", "en": "midnight", "ipa": "ˈmɪdnaɪt" },
+
+    { "id": "v6_125", "unit": 6, "category": "be-ae-differences", "type": "pair", "de": "Ferien", "en": "holidays", "notes": "AE: vacation" },
+    { "id": "v6_126", "unit": 6, "category": "be-ae-differences", "type": "pair", "de": "Garten", "en": "garden", "notes": "AE: yard" },
+    { "id": "v6_127", "unit": 6, "category": "be-ae-differences", "type": "pair", "de": "Keks", "en": "biscuit", "notes": "AE: cookie" },
+    { "id": "v6_128", "unit": 6, "category": "be-ae-differences", "type": "pair", "de": "Pommes frites", "en": "chips", "notes": "AE: fries" },
+    { "id": "v6_129", "unit": 6, "category": "be-ae-differences", "type": "pair", "de": "Süßigkeiten", "en": "sweets", "notes": "AE: candy" },
+    { "id": "v6_130", "unit": 6, "category": "be-ae-differences", "type": "pair", "de": "Fußball", "en": "football", "notes": "AE: soccer" },
+    { "id": "v6_131", "unit": 6, "category": "be-ae-differences", "type": "pair", "de": "Farbe (BE-Schreibung)", "en": "colour", "notes": "AE: color" },
+    { "id": "v6_132", "unit": 6, "category": "be-ae-differences", "type": "pair", "de": "Lieblings- (BE-Schreibung)", "en": "favourite", "notes": "AE: favorite" },
+    { "id": "v6_133", "unit": 6, "category": "be-ae-differences", "type": "pair", "de": "Zentrum (BE-Schreibung)", "en": "centre", "notes": "AE: center" },
+    { "id": "v6_134", "unit": 6, "category": "be-ae-differences", "type": "pair", "de": "Theater (BE-Schreibung)", "en": "theatre", "notes": "AE: theater" },
+    { "id": "v6_135", "unit": 6, "category": "be-ae-differences", "type": "pair", "de": "Mama (BE-Schreibung)", "en": "mum", "notes": "AE: mom" }
+  ],
+
+  "grammarTopics": [
+    {
+      "id": "g6_32",
+      "unit": 6,
+      "code": "G32-33",
+      "title": "Modalverben: can / can't / must / mustn't / needn't",
+      "explanation": "can = dürfen/können (Erlaubnis, Fähigkeit). can't = nicht dürfen/können. must = müssen (erforderlich). mustn't = verboten! needn't = nicht nötig, aber erlaubt. Wichtigster Stolperstein: mustn't (verboten) ist NICHT dasselbe wie needn't (nicht nötig). Modalverben haben für alle Personen dieselbe Form (kein -s bei he/she/it).",
+      "examples": ["You can invite five people.", "You can't watch TV all night.", "You must get a DVD.", "You mustn't eat too many sweets.", "You needn't buy a cake."],
+      "commonMistakes": ["mustn't und needn't verwechseln", "he/she/it + s beim Modalverb (he cans statt he can)"]
+    },
+    {
+      "id": "g6_34",
+      "unit": 6,
+      "code": "G34",
+      "title": "Simple Past",
+      "explanation": "Für Ereignisse in der Vergangenheit. Regelmäßige Verben: Infinitiv + -ed (play → played, want → wanted, invite → invited, trip → tripped — Verdopplung des Endkonsonanten bei kurzem betontem Vokal). Unregelmäßige Verben haben eigene Formen, die man auswendig lernen muss (go → went, have → had, be → was/were, buy → bought). Signalwörter: last week/month/year, two days ago, yesterday.",
+      "examples": ["I played football yesterday.", "She went to the party last week.", "We had a great time.", "They didn't come (Verneinung: didn't + Infinitiv)."],
+      "commonMistakes": ["-ed an unregelmäßige Verben anhängen (goed statt went)", "ago vor die Zeitangabe stellen statt danach"]
+    },
+    {
+      "id": "g6_dates",
+      "unit": 6,
+      "code": "Check-in",
+      "title": "Das Datum sagen",
+      "explanation": "Für das Datum benutzt man Ordnungszahlen (1st, 2nd, 3rd, 4th...) zusammen mit dem Monat. \"When is your birthday? – It's on 1st June. / My birthday is in April.\" Vor dem Tag steht \"on\", vor dem reinen Monat \"in\". Im amerikanischen Englisch steht zuerst der Monat, dann der Tag (April 1st = 1. April).",
+      "examples": ["It's on 1st June.", "My birthday is in April.", "The party is on 3rd October.", "AE: July 4th = 4. Juli"],
+      "commonMistakes": ["Kardinalzahl statt Ordnungszahl (on 1 June statt on 1st June)", "on/in verwechseln"]
+    }
+  ],
+
+  "grammarQuestions": [
+    { "id": "q6_g32_001", "topicId": "g6_32", "type": "multipleChoice", "prompt": "You ___ invite five people to your party.", "options": ["can", "must", "mustn't"], "answer": "can", "explanation": "Erlaubnis → can." },
+    { "id": "q6_g32_002", "topicId": "g6_32", "type": "multipleChoice", "prompt": "You ___ eat too many sweets — it's bad for you!", "options": ["mustn't", "needn't", "can"], "answer": "mustn't", "explanation": "Verbot → mustn't." },
+    { "id": "q6_g32_003", "topicId": "g6_32", "type": "multipleChoice", "prompt": "You ___ buy a cake — I've already got one.", "options": ["needn't", "mustn't", "must"], "answer": "needn't", "explanation": "Nicht nötig, aber erlaubt → needn't." },
+    { "id": "q6_g32_004", "topicId": "g6_32", "type": "multipleChoice", "prompt": "You ___ get a DVD for the party — it's important!", "options": ["must", "can't", "needn't"], "answer": "must", "explanation": "Erforderlich → must." },
+    { "id": "q6_g32_005", "topicId": "g6_32", "type": "multipleChoice", "prompt": "He ___ swim very well.", "options": ["can", "cans", "canning"], "answer": "can", "explanation": "Modalverben bekommen kein -s bei he/she/it." },
+    { "id": "q6_g32_006", "topicId": "g6_32", "type": "fillBlank", "prompt": "You ___ watch TV all night. (nicht erlaubt)", "answer": "can't", "explanation": "Verbot/Unfähigkeit → can't." },
+
+    { "id": "q6_g34_001", "topicId": "g6_34", "type": "fillBlank", "prompt": "Yesterday I ___ (play) football with my friends.", "answer": "played", "explanation": "Regelmäßiges Verb: play + ed." },
+    { "id": "q6_g34_002", "topicId": "g6_34", "type": "fillBlank", "prompt": "She ___ (go) to the party last week.", "answer": "went", "explanation": "go ist unregelmäßig: go → went." },
+    { "id": "q6_g34_003", "topicId": "g6_34", "type": "fillBlank", "prompt": "We ___ (have) a great time at the party.", "answer": "had", "explanation": "have ist unregelmäßig: have → had." },
+    { "id": "q6_g34_004", "topicId": "g6_34", "type": "fillBlank", "prompt": "He ___ (trip) over the chair and hurt his leg.", "answer": "tripped", "explanation": "Kurzer betonter Vokal → Endkonsonant verdoppeln: trip → tripped." },
+    { "id": "q6_g34_005", "topicId": "g6_34", "type": "multipleChoice", "prompt": "Two days ___ we celebrated her birthday.", "options": ["ago", "before", "last"], "answer": "ago", "explanation": "ago steht nach der Zeitangabe: two days ago." },
+    { "id": "q6_g34_006", "topicId": "g6_34", "type": "multipleChoice", "prompt": "Which is the correct Simple Past of \"buy\"?", "options": ["bought", "buyed", "buys"], "answer": "bought", "explanation": "buy ist unregelmäßig: buy → bought." },
+    { "id": "q6_g34_007", "topicId": "g6_34", "type": "fillBlank", "prompt": "They ___ (not/come) to the party. (Verneinung)", "answer": "didn't come", "explanation": "Verneinung im Simple Past: didn't + Infinitiv." },
+
+    { "id": "q6_dates_001", "topicId": "g6_dates", "type": "multipleChoice", "prompt": "When is your birthday? – It's ___ 1st June.", "options": ["on", "in", "at"], "answer": "on", "explanation": "Vor einem konkreten Tag steht on." },
+    { "id": "q6_dates_002", "topicId": "g6_dates", "type": "multipleChoice", "prompt": "My birthday is ___ April.", "options": ["in", "on", "at"], "answer": "in", "explanation": "Vor einem Monat (ohne Tag) steht in." },
+    { "id": "q6_dates_003", "topicId": "g6_dates", "type": "fillBlank", "prompt": "Ordnungszahl für 3: thi__", "answer": "third", "explanation": "3 → third." },
+    { "id": "q6_dates_004", "topicId": "g6_dates", "type": "fillBlank", "prompt": "Ordnungszahl für 5:", "answer": "fifth", "explanation": "5 → fifth (unregelmäßig gebildet)." },
+    { "id": "q6_dates_005", "topicId": "g6_dates", "type": "multipleChoice", "prompt": "Wie heißt der 12. auf Englisch?", "options": ["twelfth", "twelveth", "twelth"], "answer": "twelfth", "explanation": "12 → twelfth." }
+  ],
+
+  "conversationScenarios": [
+    {
+      "id": "c6_party_planning",
+      "unit": 6,
+      "title": "Eine Geburtstagsparty planen",
+      "level": 2,
+      "goal": "Party-Vokabeln, can/can't (Erlaubnis), Present Progressive, Zukunftspläne",
+      "startNode": "n1",
+      "nodes": {
+        "n1": {
+          "npcLine": "Yay, it's your birthday soon! Are you having a party? What are we going to do?",
+          "choices": [
+            { "text": "Yes, I'm having a party on Saturday.", "quality": "good", "feedback": "Sehr gut — Present Progressive für Zukunftspläne, genau wie im Buch.", "next": "n2" },
+            { "text": "Yes, I have a party Saturday.", "quality": "ok", "feedback": "Man versteht es, aber für feste Zukunftspläne ist \"I'm having a party on Saturday\" natürlicher.", "next": "n2" }
+          ]
+        },
+        "n2": {
+          "npcLine": "Awesome! What's the theme? And who can come?",
+          "choices": [
+            { "text": "It's a pool party! You can bring your little brother too.", "quality": "good", "feedback": "Schön natürlich formuliert mit can für Erlaubnis.", "next": "n3" },
+            { "text": "No theme. Everyone comes.", "quality": "ok", "feedback": "Grammatisch okay, aber sehr knapp — versuch ganze Sätze wie \"Everyone can come.\"", "next": "n3" }
+          ]
+        },
+        "n3": {
+          "npcLine": "Sounds great! Can I bring my little brother too?",
+          "choices": [
+            { "text": "Sure, you can bring him. There are balloons and a big cake!", "quality": "good", "feedback": "Perfekt — can für Erlaubnis plus schöne Partyvokabeln.", "next": "n4" },
+            { "text": "You mustn't bring your brother.", "quality": "wrong", "feedback": "mustn't klingt hier nach einem strengen Verbot — falls das nicht gemeint ist, ist \"you can't\" oder besser einfach \"sorry, not this time\" passender.", "next": "n4" }
+          ]
+        },
+        "n4": {
+          "npcLine": "Great, we can dance and play games together!",
+          "choices": [
+            { "text": "Yes! Let's celebrate together!", "quality": "good", "feedback": "Schöner Abschluss, genau die Buchphrase.", "next": "n5" }
+          ]
+        },
+        "n5": { "npcLine": "Can't wait! See you on Saturday!", "choices": [] }
+      },
+      "endNodes": ["n5"]
+    },
+    {
+      "id": "c6_party_rules",
+      "unit": 6,
+      "title": "Party-Regeln",
+      "level": 2,
+      "goal": "Modalverben can / can't / mustn't (Erlaubnis, Fähigkeit, Verbot)",
+      "startNode": "n1",
+      "nodes": {
+        "n1": {
+          "npcLine": "Welcome to the party! Before we start, here are the rules. You can play everywhere, but there are a few things you mustn't do. Ready?",
+          "choices": [
+            { "text": "Okay, what can't we do?", "quality": "good", "feedback": "Gute, natürliche Rückfrage.", "next": "n2" },
+            { "text": "Okay, what we can't do?", "quality": "ok", "feedback": "Fast richtig — in Fragen braucht man die Umstellung: \"What can't we do?\"", "next": "n2" }
+          ]
+        },
+        "n2": {
+          "npcLine": "You mustn't run near the pool — it's dangerous! But you can dance and eat as much cake as you like.",
+          "choices": [
+            { "text": "Got it. Do we have to tidy up afterwards?", "quality": "good", "feedback": "Super Frage, ganz aus dem Buch!", "next": "n3" },
+            { "text": "Got it. We must tidy up afterwards?", "quality": "wrong", "feedback": "Als Frage braucht \"must\" die Umstellung mit \"do\": \"Do we have to tidy up afterwards?\" ist die natürlichere Formulierung.", "next": "n3" }
+          ]
+        },
+        "n3": {
+          "npcLine": "No, you needn't — we've got a cleaning team! Can I open my presents now?",
+          "choices": [
+            { "text": "Not yet — you can open them after the cake!", "quality": "good", "feedback": "Toll formuliert, can für Erlaubnis richtig eingesetzt.", "next": "n4" }
+          ]
+        },
+        "n4": { "npcLine": "Okay! Let's dance until then!", "choices": [] }
+      },
+      "endNodes": ["n4"]
+    }
+  ]
+}
