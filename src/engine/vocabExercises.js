@@ -53,28 +53,13 @@ function normalize(str) {
     .replace(/\s+/g, ' ');
 }
 
-function levenshtein(a, b) {
-  const dp = Array.from({ length: a.length + 1 }, (_, i) => [i, ...Array(b.length).fill(0)]);
-  for (let j = 0; j <= b.length; j++) dp[0][j] = j;
-  for (let i = 1; i <= a.length; i++) {
-    for (let j = 1; j <= b.length; j++) {
-      dp[i][j] = a[i - 1] === b[j - 1]
-        ? dp[i - 1][j - 1]
-        : 1 + Math.min(dp[i - 1][j - 1], dp[i - 1][j], dp[i][j - 1]);
-    }
-  }
-  return dp[a.length][b.length];
-}
-
-// Accepts the primary answer or any "/"-separated alternative (e.g. "to call / to phone"),
-// tolerating a single typo (distance <= 1) on reasonably long answers.
+// Accepts the primary answer or any "/"-separated alternative (e.g. "to call / to phone").
+// Exact match only (after normalizing case/whitespace/punctuation) — a vocabulary drill
+// should confirm the learner actually knows the correct spelling, not approve near-misses
+// like a missing letter (e.g. "Supermarke" for "supermarket").
 export function checkVocabAnswer(userInput, correctAnswer) {
   const guess = normalize(userInput);
   if (!guess) return false;
   const alternatives = correctAnswer.split('/').map((a) => normalize(a));
-  return alternatives.some((alt) => {
-    if (guess === alt) return true;
-    if (alt.length >= 4) return levenshtein(guess, alt) <= 1;
-    return false;
-  });
+  return alternatives.some((alt) => guess === alt);
 }

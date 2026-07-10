@@ -201,7 +201,7 @@ export async function renderGrammarSession(root) {
       correctCount: session.correctCount,
       wrongCount: session.wrongCount,
       total: session.correctCount + session.wrongCount,
-      extensions: timer ? timer.getExtensions() : []
+      extensions: timer ? timer.getExtensions().map((e) => ({ amount: e.minutesAdded, unit: 'min' })) : []
     });
     navigate('/session-results');
   }

@@ -1,5 +1,5 @@
 const STORAGE_KEY = 'juna-lernapp';
-const SCHEMA_VERSION = 1;
+const SCHEMA_VERSION = 2;
 
 function defaultState() {
   return {
@@ -23,6 +23,9 @@ function defaultState() {
     },
     timerExtensions: [
       // { date: ISO string, mode: "grammar"|"vocabulary"|"conversation", minutesAdded: 5 }
+    ],
+    wordCountExtensions: [
+      // { date: ISO string, mode: "vocabulary", wordsAdded: 5 }
     ],
     exams: [
       // { id, createdAt, topics: [{ topicId, kind: "grammar"|"vocab", done: bool }] }

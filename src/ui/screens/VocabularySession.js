@@ -5,7 +5,9 @@ import { takeSessionConfig, setSessionResults } from '../sessionContext.js';
 import { buildVocabSession, buildWeakPointsSession, checkVocabAnswer, MAX_ATTEMPTS } from '../../engine/vocabExercises.js';
 import { recordAnswer } from '../../engine/leitner.js';
 import { createTimer } from '../../engine/session.js';
-import { logTimerExtension } from '../../engine/progress.js';
+import { logTimerExtension, logWordCountExtension } from '../../engine/progress.js';
+
+const WORDS_PER_EXTENSION = 5;
 
 const TIME_MODE_POOL_SIZE = 60;
 
@@ -41,7 +43,8 @@ export async function renderVocabularySession(root) {
     wrongCount: 0,
     finished: false,
     timeUp: false,
-    ended: false
+    ended: false,
+    wordExtensions: []
   };
 
   let timer = null;
@@ -65,7 +68,11 @@ export async function renderVocabularySession(root) {
 
   function drawQuestion() {
     if (session.index >= session.queue.length) {
-      finishSession();
+      if (config.mode === 'count') {
+        drawCountComplete();
+      } else {
+        finishSession();
+      }
       return;
     }
     const word = currentWord();
@@ -96,6 +103,47 @@ export async function renderVocabularySession(root) {
     input.focus();
     input.addEventListener('keydown', (e) => { if (e.key === 'Enter') submitAnswer(); });
     submitBtn.addEventListener('click', submitAnswer);
+  }
+
+  // Mirrors the timer's "+5 minutes" offer, but for count-based sessions: once
+  // the requested word count is done, offer to keep going instead of forcing a
+  // brand-new session setup for one more round.
+  function drawCountComplete() {
+    const usedIds = new Set(session.queue.map((w) => w.id));
+    const remainingPool = wordPool.filter((w) => !usedIds.has(w.id));
+    const addCount = Math.min(WORDS_PER_EXTENSION, remainingPool.length);
+
+    root.innerHTML = `
+      <div class="screen-header">
+        <button class="back-btn" id="back-btn">‹</button>
+        <h1 class="greeting" style="margin:0;font-size:1.2rem;">Vocabulary</h1>
+      </div>
+      <div class="exercise-card">
+        <div class="exercise-prompt">Nice work! 🎉</div>
+        <div class="exercise-ipa">You've finished all ${session.queue.length} words.</div>
+        ${addCount > 0
+          ? `<button class="primary-btn" id="learn-more-btn">Learn ${addCount} more word${addCount === 1 ? '' : 's'}</button>`
+          : `<div class="feedback-text" style="margin-top:10px;">No more new words available right now.</div>`}
+        <button class="primary-btn secondary" id="finish-count-btn" style="margin-top:10px;">Finish session</button>
+      </div>
+    `;
+
+    root.querySelector('#back-btn').addEventListener('click', () => endEarly());
+    root.querySelector('#finish-count-btn').addEventListener('click', finishSession);
+    const learnMoreBtn = root.querySelector('#learn-more-btn');
+    if (learnMoreBtn) {
+      learnMoreBtn.addEventListener('click', () => {
+        const freshState = db.load();
+        const extra = config.weakPoints
+          ? buildWeakPointsSession(remainingPool, freshState, addCount)
+          : buildVocabSession(remainingPool, freshState, config.currentUnit, addCount);
+        session.queue = [...session.queue, ...extra];
+        const now = new Date().toISOString();
+        session.wordExtensions.push({ amount: extra.length, unit: 'words' });
+        db.update((s) => logWordCountExtension(s, 'vocabulary', extra.length, now));
+        drawQuestion();
+      });
+    }
   }
 
   function submitAnswer() {
@@ -198,12 +246,13 @@ export async function renderVocabularySession(root) {
     session.ended = true;
     if (timer) timer.stop();
     document.querySelector('.timer-banner')?.remove();
+    const timeExtensions = timer ? timer.getExtensions().map((e) => ({ amount: e.minutesAdded, unit: 'min' })) : [];
     setSessionResults({
       type: 'vocabulary',
       correctCount: session.correctCount,
       wrongCount: session.wrongCount,
       total: session.correctCount + session.wrongCount,
-      extensions: timer ? timer.getExtensions() : []
+      extensions: [...timeExtensions, ...session.wordExtensions]
     });
     navigate('/session-results');
   }
