@@ -36,6 +36,14 @@ export async function renderConversationsSetup(root) {
         ${units.map((u) => `<button class="seg-btn${u === local.unit ? ' active' : ''}" data-unit="${u}">Unit ${u}</button>`).join('')}
       </div>
 
+      <button class="scenario-card ai-voice-card" id="ai-voice-btn">
+        <div class="scenario-card-top">
+          <span class="scenario-title">🎙️ Talk with an AI partner</span>
+          <span class="scenario-badge">needs internet</span>
+        </div>
+        <div class="scenario-goal">Real spoken conversation, not scripted — talk out loud and get natural replies.</div>
+      </button>
+
       <p class="setup-label">Choose a roleplay</p>
       <div class="scenario-list">
         ${ordered.map((s) => scenarioCard(s, local.unit)).join('')}
@@ -43,10 +51,11 @@ export async function renderConversationsSetup(root) {
     `;
 
     root.querySelector('#back-btn').addEventListener('click', () => navigate('/'));
+    root.querySelector('#ai-voice-btn').addEventListener('click', () => navigate('/conversations/ai'));
     root.querySelectorAll('#unit-segmented .seg-btn').forEach((btn) => {
       btn.addEventListener('click', () => { local.unit = Number(btn.dataset.unit); draw(); });
     });
-    root.querySelectorAll('.scenario-card').forEach((card) => {
+    root.querySelectorAll('.scenario-list .scenario-card').forEach((card) => {
       card.addEventListener('click', () => {
         setSessionConfig({ type: 'conversation', scenarioId: card.dataset.id });
         navigate('/conversations/session');

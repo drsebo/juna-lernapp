@@ -484,6 +484,42 @@ body {
   margin-bottom: 28px;
 }
 
+.ai-voice-card {
+  display: block;
+  width: 100%;
+  background: var(--color-primary);
+  border: none;
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  box-shadow: var(--shadow);
+  text-align: left;
+  cursor: pointer;
+  font: inherit;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.ai-voice-card .scenario-title,
+.ai-voice-card .scenario-goal {
+  color: #fff;
+}
+
+.ai-voice-card .scenario-goal {
+  opacity: 0.85;
+}
+
+.ai-voice-card .scenario-badge {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+.ai-widget-wrap {
+  margin-top: 20px;
+  min-height: 120px;
+  display: flex;
+  justify-content: center;
+}
+
 .scenario-list {
   display: flex;
   flex-direction: column;
