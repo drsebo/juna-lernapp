@@ -2,72 +2,583 @@
   "unit": 5,
   "title": "Let's go shopping",
   "vocab": [
-    { "id": "v5_001", "unit": 5, "category": "shopping-words", "type": "word", "de": "einkaufen gehen", "en": "to go shopping", "ipa": "gəʊ ˈʃɒpɪŋ" },
-    { "id": "v5_002", "unit": 5, "category": "shopping-words", "type": "phrase", "de": "Wie viel kostet…?", "en": "How much is…?", "ipa": "haʊ mʌtʃ ɪz" },
-    { "id": "v5_003", "unit": 5, "category": "money", "type": "word", "de": "Pfund (£)", "en": "pound", "ipa": "paʊnd" },
-    { "id": "v5_004", "unit": 5, "category": "shopping-words", "type": "word", "de": "teuer", "en": "expensive", "ipa": "ɪkˈspensɪv" },
-    { "id": "v5_005", "unit": 5, "category": "shopping-words", "type": "word", "de": "Flasche", "en": "bottle", "ipa": "ˈbɒtl" },
-    { "id": "v5_006", "unit": 5, "category": "shopping-phrases", "type": "phrase", "de": "Sonst noch etwas?", "en": "Anything else?", "ipa": "ˈeniθɪŋ els" },
-    { "id": "v5_007", "unit": 5, "category": "shopping-phrases", "type": "phrase", "de": "Ich suche…", "en": "I'm looking for…", "ipa": "aɪm ˈlʊkɪŋ fɔː" },
-    { "id": "v5_008", "unit": 5, "category": "shopping-words", "type": "word", "de": "Geschenk", "en": "present", "ipa": "ˈpreznt" },
-    { "id": "v5_009", "unit": 5, "category": "shopping-words", "type": "word", "de": "Armband", "en": "bracelet", "ipa": "ˈbreɪslɪt" },
-    { "id": "v5_010", "unit": 5, "category": "shopping-words", "type": "word", "de": "Sonderangebot", "en": "special offer", "ipa": "ˌspeʃl ˈɒfə" },
-    { "id": "v5_011", "unit": 5, "category": "shopping-words", "type": "word", "de": "Brieftasche", "en": "wallet", "ipa": "ˈwɒlɪt" },
-    { "id": "v5_012", "unit": 5, "category": "shopping-words", "type": "word", "de": "Tasche (Kleidung)", "en": "pocket", "ipa": "ˈpɒkɪt" },
-    { "id": "v5_013", "unit": 5, "category": "shopping-words", "type": "word", "de": "Wechselgeld", "en": "change", "ipa": "tʃeɪndʒ" },
-    { "id": "v5_014", "unit": 5, "category": "shopping-words", "type": "word", "de": "Geldbeutel", "en": "purse", "ipa": "pɜːs" },
-    { "id": "v5_015", "unit": 5, "category": "shopping-words", "type": "word", "de": "Telefon", "en": "telephone", "ipa": "ˈtelɪfəʊn" },
-    { "id": "v5_016", "unit": 5, "category": "shopping-words", "type": "word", "de": "T-Shirt", "en": "T-shirt", "ipa": "ˈtiː ʃɜːt" },
-    { "id": "v5_017", "unit": 5, "category": "shopping-words", "type": "word", "de": "Jeans", "en": "jeans", "ipa": "dʒiːnz" },
-    { "id": "v5_018", "unit": 5, "category": "shopping-words", "type": "word", "de": "Größe", "en": "size", "ipa": "saɪz" },
-
-    { "id": "v5_019", "unit": 5, "category": "shops", "type": "word", "de": "Geschäft", "en": "shop", "ipa": "ʃɒp" },
-    { "id": "v5_020", "unit": 5, "category": "shops", "type": "word", "de": "Kleidungsgeschäft", "en": "clothes shop", "ipa": "kləʊðz ʃɒp" },
-    { "id": "v5_021", "unit": 5, "category": "shops", "type": "word", "de": "Supermarkt", "en": "supermarket", "ipa": "ˈsuːpəmɑːkɪt" },
-    { "id": "v5_022", "unit": 5, "category": "shops", "type": "word", "de": "Markt", "en": "market", "ipa": "ˈmɑːkɪt" },
-    { "id": "v5_023", "unit": 5, "category": "shops", "type": "word", "de": "Buchhandlung", "en": "book shop", "ipa": "bʊk ʃɒp" },
-    { "id": "v5_024", "unit": 5, "category": "shops", "type": "word", "de": "Flohmarkt", "en": "flea market", "ipa": "ˈfliː mɑːkɪt" },
-
-    { "id": "v5_025", "unit": 5, "category": "money", "type": "phrase", "de": "ein Pfund", "en": "one pound", "ipa": "wʌn paʊnd" },
-    { "id": "v5_026", "unit": 5, "category": "money", "type": "word", "de": "Pence", "en": "pence", "ipa": "pens", "notes": "abbreviated as p" },
-    { "id": "v5_027", "unit": 5, "category": "money", "type": "phrase", "de": "fünfzig Pence", "en": "fifty pence", "ipa": "ˈfɪfti pens" },
-    { "id": "v5_028", "unit": 5, "category": "money", "type": "phrase", "de": "zwei Pfund", "en": "two pounds", "ipa": "tuː paʊndz" },
-
-    { "id": "v5_029", "unit": 5, "category": "shopping-phrases", "type": "phrase", "de": "Kann ich … haben?", "en": "Can I have … please?", "ipa": "" },
-    { "id": "v5_030", "unit": 5, "category": "shopping-phrases", "type": "phrase", "de": "Ich hätte gerne …", "en": "I'd like …", "ipa": "" },
-    { "id": "v5_031", "unit": 5, "category": "shopping-phrases", "type": "phrase", "de": "Wie viel kostet das?", "en": "How much is that?", "ipa": "" },
-    { "id": "v5_032", "unit": 5, "category": "shopping-phrases", "type": "phrase", "de": "Das ist mir zu teuer.", "en": "That's too expensive for me.", "ipa": "" },
-    { "id": "v5_033", "unit": 5, "category": "shopping-phrases", "type": "phrase", "de": "Haben Sie … in Größe …?", "en": "Have you got … in size …?", "ipa": "" },
-    { "id": "v5_034", "unit": 5, "category": "shopping-phrases", "type": "phrase", "de": "Hier ist das Wechselgeld.", "en": "Here's your change.", "ipa": "" },
-
-    { "id": "v5_035", "unit": 5, "category": "useful-words", "type": "word", "de": "es wert sein", "en": "to be worth it", "ipa": "biː wɜːθ ɪt" },
-    { "id": "v5_036", "unit": 5, "category": "useful-words", "type": "word", "de": "Glück haben", "en": "to be lucky", "ipa": "biː ˈlʌki" },
-    { "id": "v5_037", "unit": 5, "category": "useful-words", "type": "word", "de": "versuchen", "en": "to try", "ipa": "traɪ" },
-    { "id": "v5_038", "unit": 5, "category": "useful-words", "type": "word", "de": "ungefähr", "en": "about", "ipa": "əˈbaʊt" },
-    { "id": "v5_039", "unit": 5, "category": "useful-words", "type": "word", "de": "kein(e) (not…any)", "en": "not…any", "ipa": "nɒt ˈeni" },
-    { "id": "v5_040", "unit": 5, "category": "useful-words", "type": "word", "de": "weit (entfernt)", "en": "far", "ipa": "fɑː" },
-    { "id": "v5_041", "unit": 5, "category": "useful-words", "type": "word", "de": "glücklich/froh", "en": "happy / glad", "ipa": "ˈhæpi / ɡlæd" },
-    { "id": "v5_042", "unit": 5, "category": "useful-words", "type": "word", "de": "langsam", "en": "slow", "ipa": "sləʊ" },
-    { "id": "v5_043", "unit": 5, "category": "useful-words", "type": "word", "de": "Preis, Belohnung", "en": "prize / reward", "ipa": "praɪz / rɪˈwɔːd" },
-    { "id": "v5_044", "unit": 5, "category": "useful-words", "type": "word", "de": "hoffen", "en": "to hope", "ipa": "həʊp" },
-    { "id": "v5_045", "unit": 5, "category": "useful-words", "type": "word", "de": "traurig", "en": "sad", "ipa": "sæd" },
-    { "id": "v5_046", "unit": 5, "category": "useful-words", "type": "word", "de": "verlieren", "en": "to lose", "ipa": "luːz" },
-    { "id": "v5_047", "unit": 5, "category": "useful-words", "type": "word", "de": "finden", "en": "to find", "ipa": "faɪnd" },
-    { "id": "v5_048", "unit": 5, "category": "useful-words", "type": "word", "de": "irgendwie", "en": "somehow", "ipa": "ˈsʌmhaʊ" },
-    { "id": "v5_049", "unit": 5, "category": "useful-words", "type": "word", "de": "verdienen", "en": "to earn", "ipa": "ɜːn" },
-    { "id": "v5_050", "unit": 5, "category": "useful-words", "type": "word", "de": "verkaufen", "en": "to sell", "ipa": "sel" },
-    { "id": "v5_051", "unit": 5, "category": "useful-words", "type": "word", "de": "Wörterbuch", "en": "dictionary", "ipa": "ˈdɪkʃənri" },
-
-    { "id": "v5_052", "unit": 5, "category": "telephone", "type": "word", "de": "Anrufbeantworter", "en": "answering machine", "ipa": "ˈɑːnsərɪŋ məˈʃiːn" },
-    { "id": "v5_053", "unit": 5, "category": "telephone", "type": "word", "de": "anrufen", "en": "to call / to phone", "ipa": "kɔːl / fəʊn" },
-    { "id": "v5_054", "unit": 5, "category": "telephone", "type": "phrase", "de": "Nachricht hinterlassen", "en": "to leave a message", "ipa": "liːv ə ˈmesɪdʒ" },
-    { "id": "v5_055", "unit": 5, "category": "telephone", "type": "word", "de": "Anrufer/in", "en": "caller", "ipa": "ˈkɔːlə" },
-    { "id": "v5_056", "unit": 5, "category": "telephone", "type": "phrase", "de": "ans Telefon gehen", "en": "to answer the phone", "ipa": "ˈɑːnsə ðə fəʊn" },
-    { "id": "v5_057", "unit": 5, "category": "telephone", "type": "word", "de": "klingeln", "en": "to ring", "ipa": "rɪŋ" },
-    { "id": "v5_058", "unit": 5, "category": "telephone", "type": "phrase", "de": "Ich ruf dich zurück.", "en": "I'll get back to you.", "ipa": "" },
-    { "id": "v5_059", "unit": 5, "category": "telephone", "type": "word", "de": "sich fragen", "en": "to wonder", "ipa": "ˈwʌndə" }
+    {
+      "id": "v5_001",
+      "unit": 5,
+      "category": "shopping-words",
+      "type": "word",
+      "de": "einkaufen gehen",
+      "en": "to go shopping",
+      "ipa": "gəʊ ˈʃɒpɪŋ",
+      "example": "We go shopping on Saturday."
+    },
+    {
+      "id": "v5_002",
+      "unit": 5,
+      "category": "shopping-words",
+      "type": "phrase",
+      "de": "Wie viel kostet…?",
+      "en": "How much is…?",
+      "ipa": "haʊ mʌtʃ ɪz"
+    },
+    {
+      "id": "v5_003",
+      "unit": 5,
+      "category": "money",
+      "type": "word",
+      "de": "Pfund (£)",
+      "en": "pound",
+      "ipa": "paʊnd",
+      "example": "This bag costs one pound."
+    },
+    {
+      "id": "v5_004",
+      "unit": 5,
+      "category": "shopping-words",
+      "type": "word",
+      "de": "teuer",
+      "en": "expensive",
+      "ipa": "ɪkˈspensɪv",
+      "example": "This T-shirt is too expensive."
+    },
+    {
+      "id": "v5_005",
+      "unit": 5,
+      "category": "shopping-words",
+      "type": "word",
+      "de": "Flasche",
+      "en": "bottle",
+      "ipa": "ˈbɒtl",
+      "example": "Can I have a bottle of water, please?"
+    },
+    {
+      "id": "v5_006",
+      "unit": 5,
+      "category": "shopping-phrases",
+      "type": "phrase",
+      "de": "Sonst noch etwas?",
+      "en": "Anything else?",
+      "ipa": "ˈeniθɪŋ els"
+    },
+    {
+      "id": "v5_007",
+      "unit": 5,
+      "category": "shopping-phrases",
+      "type": "phrase",
+      "de": "Ich suche…",
+      "en": "I'm looking for…",
+      "ipa": "aɪm ˈlʊkɪŋ fɔː"
+    },
+    {
+      "id": "v5_008",
+      "unit": 5,
+      "category": "shopping-words",
+      "type": "word",
+      "de": "Geschenk",
+      "en": "present",
+      "ipa": "ˈpreznt",
+      "example": "I bought a present for my mum."
+    },
+    {
+      "id": "v5_009",
+      "unit": 5,
+      "category": "shopping-words",
+      "type": "word",
+      "de": "Armband",
+      "en": "bracelet",
+      "ipa": "ˈbreɪslɪt",
+      "example": "She is wearing a silver bracelet."
+    },
+    {
+      "id": "v5_010",
+      "unit": 5,
+      "category": "shopping-words",
+      "type": "word",
+      "de": "Sonderangebot",
+      "en": "special offer",
+      "ipa": "ˌspeʃl ˈɒfə",
+      "example": "There's a special offer on shoes today."
+    },
+    {
+      "id": "v5_011",
+      "unit": 5,
+      "category": "shopping-words",
+      "type": "word",
+      "de": "Brieftasche",
+      "en": "wallet",
+      "ipa": "ˈwɒlɪt",
+      "example": "My wallet is in my bag."
+    },
+    {
+      "id": "v5_012",
+      "unit": 5,
+      "category": "shopping-words",
+      "type": "word",
+      "de": "Tasche (Kleidung)",
+      "en": "pocket",
+      "ipa": "ˈpɒkɪt",
+      "example": "I put my keys in my pocket."
+    },
+    {
+      "id": "v5_013",
+      "unit": 5,
+      "category": "shopping-words",
+      "type": "word",
+      "de": "Wechselgeld",
+      "en": "change",
+      "ipa": "tʃeɪndʒ",
+      "example": "Here's your change, five pounds."
+    },
+    {
+      "id": "v5_014",
+      "unit": 5,
+      "category": "shopping-words",
+      "type": "word",
+      "de": "Geldbeutel",
+      "en": "purse",
+      "ipa": "pɜːs",
+      "example": "She keeps her money in a purse."
+    },
+    {
+      "id": "v5_015",
+      "unit": 5,
+      "category": "shopping-words",
+      "type": "word",
+      "de": "Telefon",
+      "en": "telephone",
+      "ipa": "ˈtelɪfəʊn",
+      "example": "The telephone is ringing."
+    },
+    {
+      "id": "v5_016",
+      "unit": 5,
+      "category": "shopping-words",
+      "type": "word",
+      "de": "T-Shirt",
+      "en": "T-shirt",
+      "ipa": "ˈtiː ʃɜːt",
+      "example": "I'm looking for a blue T-shirt."
+    },
+    {
+      "id": "v5_017",
+      "unit": 5,
+      "category": "shopping-words",
+      "type": "word",
+      "de": "Jeans",
+      "en": "jeans",
+      "ipa": "dʒiːnz",
+      "example": "He is wearing black jeans."
+    },
+    {
+      "id": "v5_018",
+      "unit": 5,
+      "category": "shopping-words",
+      "type": "word",
+      "de": "Größe",
+      "en": "size",
+      "ipa": "saɪz",
+      "example": "Have you got this in a bigger size?"
+    },
+    {
+      "id": "v5_019",
+      "unit": 5,
+      "category": "shops",
+      "type": "word",
+      "de": "Geschäft",
+      "en": "shop",
+      "ipa": "ʃɒp",
+      "example": "There's a new shop in town."
+    },
+    {
+      "id": "v5_020",
+      "unit": 5,
+      "category": "shops",
+      "type": "word",
+      "de": "Kleidungsgeschäft",
+      "en": "clothes shop",
+      "ipa": "kləʊðz ʃɒp",
+      "example": "We bought jeans at the clothes shop."
+    },
+    {
+      "id": "v5_021",
+      "unit": 5,
+      "category": "shops",
+      "type": "word",
+      "de": "Supermarkt",
+      "en": "supermarket",
+      "ipa": "ˈsuːpəmɑːkɪt",
+      "example": "My mum buys food at the supermarket."
+    },
+    {
+      "id": "v5_022",
+      "unit": 5,
+      "category": "shops",
+      "type": "word",
+      "de": "Markt",
+      "en": "market",
+      "ipa": "ˈmɑːkɪt",
+      "example": "We go to the market on Saturdays."
+    },
+    {
+      "id": "v5_023",
+      "unit": 5,
+      "category": "shops",
+      "type": "word",
+      "de": "Buchhandlung",
+      "en": "book shop",
+      "ipa": "bʊk ʃɒp",
+      "example": "I found a great book at the book shop."
+    },
+    {
+      "id": "v5_024",
+      "unit": 5,
+      "category": "shops",
+      "type": "word",
+      "de": "Flohmarkt",
+      "en": "flea market",
+      "ipa": "ˈfliː mɑːkɪt",
+      "example": "You can find cheap things at the flea market."
+    },
+    {
+      "id": "v5_025",
+      "unit": 5,
+      "category": "money",
+      "type": "phrase",
+      "de": "ein Pfund",
+      "en": "one pound",
+      "ipa": "wʌn paʊnd"
+    },
+    {
+      "id": "v5_026",
+      "unit": 5,
+      "category": "money",
+      "type": "word",
+      "de": "Pence",
+      "en": "pence",
+      "ipa": "pens",
+      "notes": "abbreviated as p",
+      "example": "This costs fifty pence."
+    },
+    {
+      "id": "v5_027",
+      "unit": 5,
+      "category": "money",
+      "type": "phrase",
+      "de": "fünfzig Pence",
+      "en": "fifty pence",
+      "ipa": "ˈfɪfti pens"
+    },
+    {
+      "id": "v5_028",
+      "unit": 5,
+      "category": "money",
+      "type": "phrase",
+      "de": "zwei Pfund",
+      "en": "two pounds",
+      "ipa": "tuː paʊndz"
+    },
+    {
+      "id": "v5_029",
+      "unit": 5,
+      "category": "shopping-phrases",
+      "type": "phrase",
+      "de": "Kann ich … haben?",
+      "en": "Can I have … please?",
+      "ipa": ""
+    },
+    {
+      "id": "v5_030",
+      "unit": 5,
+      "category": "shopping-phrases",
+      "type": "phrase",
+      "de": "Ich hätte gerne …",
+      "en": "I'd like …",
+      "ipa": ""
+    },
+    {
+      "id": "v5_031",
+      "unit": 5,
+      "category": "shopping-phrases",
+      "type": "phrase",
+      "de": "Wie viel kostet das?",
+      "en": "How much is that?",
+      "ipa": ""
+    },
+    {
+      "id": "v5_032",
+      "unit": 5,
+      "category": "shopping-phrases",
+      "type": "phrase",
+      "de": "Das ist mir zu teuer.",
+      "en": "That's too expensive for me.",
+      "ipa": ""
+    },
+    {
+      "id": "v5_033",
+      "unit": 5,
+      "category": "shopping-phrases",
+      "type": "phrase",
+      "de": "Haben Sie … in Größe …?",
+      "en": "Have you got … in size …?",
+      "ipa": ""
+    },
+    {
+      "id": "v5_034",
+      "unit": 5,
+      "category": "shopping-phrases",
+      "type": "phrase",
+      "de": "Hier ist das Wechselgeld.",
+      "en": "Here's your change.",
+      "ipa": ""
+    },
+    {
+      "id": "v5_035",
+      "unit": 5,
+      "category": "useful-words",
+      "type": "word",
+      "de": "es wert sein",
+      "en": "to be worth it",
+      "ipa": "biː wɜːθ ɪt",
+      "example": "The trip was expensive, but it was worth it."
+    },
+    {
+      "id": "v5_036",
+      "unit": 5,
+      "category": "useful-words",
+      "type": "word",
+      "de": "Glück haben",
+      "en": "to be lucky",
+      "ipa": "biː ˈlʌki",
+      "example": "I was lucky to find the perfect present."
+    },
+    {
+      "id": "v5_037",
+      "unit": 5,
+      "category": "useful-words",
+      "type": "word",
+      "de": "versuchen",
+      "en": "to try",
+      "ipa": "traɪ",
+      "example": "Can I try this jacket on?"
+    },
+    {
+      "id": "v5_038",
+      "unit": 5,
+      "category": "useful-words",
+      "type": "word",
+      "de": "ungefähr",
+      "en": "about",
+      "ipa": "əˈbaʊt",
+      "example": "It costs about ten pounds."
+    },
+    {
+      "id": "v5_039",
+      "unit": 5,
+      "category": "useful-words",
+      "type": "word",
+      "de": "kein(e) (not…any)",
+      "en": "not…any",
+      "ipa": "nɒt ˈeni",
+      "example": "I haven't got any money left."
+    },
+    {
+      "id": "v5_040",
+      "unit": 5,
+      "category": "useful-words",
+      "type": "word",
+      "de": "weit (entfernt)",
+      "en": "far",
+      "ipa": "fɑː",
+      "example": "The market is too far from here."
+    },
+    {
+      "id": "v5_041",
+      "unit": 5,
+      "category": "useful-words",
+      "type": "word",
+      "de": "glücklich/froh",
+      "en": "happy / glad",
+      "ipa": "ˈhæpi / ɡlæd",
+      "example": "She looks really happy today."
+    },
+    {
+      "id": "v5_042",
+      "unit": 5,
+      "category": "useful-words",
+      "type": "word",
+      "de": "langsam",
+      "en": "slow",
+      "ipa": "sləʊ",
+      "example": "The bus was very slow this morning."
+    },
+    {
+      "id": "v5_043",
+      "unit": 5,
+      "category": "useful-words",
+      "type": "word",
+      "de": "Preis, Belohnung",
+      "en": "prize / reward",
+      "ipa": "praɪz / rɪˈwɔːd",
+      "example": "The winner gets a big prize."
+    },
+    {
+      "id": "v5_044",
+      "unit": 5,
+      "category": "useful-words",
+      "type": "word",
+      "de": "hoffen",
+      "en": "to hope",
+      "ipa": "həʊp",
+      "example": "I hope you like your present."
+    },
+    {
+      "id": "v5_045",
+      "unit": 5,
+      "category": "useful-words",
+      "type": "word",
+      "de": "traurig",
+      "en": "sad",
+      "ipa": "sæd",
+      "example": "He felt sad when the shop was closed."
+    },
+    {
+      "id": "v5_046",
+      "unit": 5,
+      "category": "useful-words",
+      "type": "word",
+      "de": "verlieren",
+      "en": "to lose",
+      "ipa": "luːz",
+      "example": "Don't lose your ticket!"
+    },
+    {
+      "id": "v5_047",
+      "unit": 5,
+      "category": "useful-words",
+      "type": "word",
+      "de": "finden",
+      "en": "to find",
+      "ipa": "faɪnd",
+      "example": "I can't find my wallet."
+    },
+    {
+      "id": "v5_048",
+      "unit": 5,
+      "category": "useful-words",
+      "type": "word",
+      "de": "irgendwie",
+      "en": "somehow",
+      "ipa": "ˈsʌmhaʊ",
+      "example": "We'll find the money somehow."
+    },
+    {
+      "id": "v5_049",
+      "unit": 5,
+      "category": "useful-words",
+      "type": "word",
+      "de": "verdienen",
+      "en": "to earn",
+      "ipa": "ɜːn",
+      "example": "She earns money by helping in the shop."
+    },
+    {
+      "id": "v5_050",
+      "unit": 5,
+      "category": "useful-words",
+      "type": "word",
+      "de": "verkaufen",
+      "en": "to sell",
+      "ipa": "sel",
+      "example": "They sell fruit at the market."
+    },
+    {
+      "id": "v5_051",
+      "unit": 5,
+      "category": "useful-words",
+      "type": "word",
+      "de": "Wörterbuch",
+      "en": "dictionary",
+      "ipa": "ˈdɪkʃənri",
+      "example": "Look up the word in a dictionary."
+    },
+    {
+      "id": "v5_052",
+      "unit": 5,
+      "category": "telephone",
+      "type": "word",
+      "de": "Anrufbeantworter",
+      "en": "answering machine",
+      "ipa": "ˈɑːnsərɪŋ məˈʃiːn",
+      "example": "Leave a message on the answering machine."
+    },
+    {
+      "id": "v5_053",
+      "unit": 5,
+      "category": "telephone",
+      "type": "word",
+      "de": "anrufen",
+      "en": "to call / to phone",
+      "ipa": "kɔːl / fəʊn",
+      "example": "I'll call you after school."
+    },
+    {
+      "id": "v5_054",
+      "unit": 5,
+      "category": "telephone",
+      "type": "phrase",
+      "de": "Nachricht hinterlassen",
+      "en": "to leave a message",
+      "ipa": "liːv ə ˈmesɪdʒ"
+    },
+    {
+      "id": "v5_055",
+      "unit": 5,
+      "category": "telephone",
+      "type": "word",
+      "de": "Anrufer/in",
+      "en": "caller",
+      "ipa": "ˈkɔːlə",
+      "example": "The caller didn't say his name."
+    },
+    {
+      "id": "v5_056",
+      "unit": 5,
+      "category": "telephone",
+      "type": "phrase",
+      "de": "ans Telefon gehen",
+      "en": "to answer the phone",
+      "ipa": "ˈɑːnsə ðə fəʊn"
+    },
+    {
+      "id": "v5_057",
+      "unit": 5,
+      "category": "telephone",
+      "type": "word",
+      "de": "klingeln",
+      "en": "to ring",
+      "ipa": "rɪŋ",
+      "example": "Can you hear the phone ring?"
+    },
+    {
+      "id": "v5_058",
+      "unit": 5,
+      "category": "telephone",
+      "type": "phrase",
+      "de": "Ich ruf dich zurück.",
+      "en": "I'll get back to you.",
+      "ipa": ""
+    },
+    {
+      "id": "v5_059",
+      "unit": 5,
+      "category": "telephone",
+      "type": "word",
+      "de": "sich fragen",
+      "en": "to wonder",
+      "ipa": "ˈwʌndə",
+      "example": "I wonder what she bought me."
+    }
   ],
-
   "grammarTopics": [
     {
       "id": "g5_26",
@@ -75,8 +586,15 @@
       "code": "G26",
       "title": "Mengenangaben mit \"of\"",
       "explanation": "Um Mengen von zählbaren oder unzählbaren Dingen anzugeben, benutzt man Ausdrücke mit \"of\": a bottle of, a packet of, a piece of usw. Struktur: Mengenausdruck + of + Nomen.",
-      "examples": ["a bottle of water", "a packet of chips", "a piece of cake", "two bottles of milk"],
-      "commonMistakes": ["\"of\" vergessen: a bottle water (falsch) statt a bottle of water"]
+      "examples": [
+        "a bottle of water",
+        "a packet of chips",
+        "a piece of cake",
+        "two bottles of milk"
+      ],
+      "commonMistakes": [
+        "\"of\" vergessen: a bottle water (falsch) statt a bottle of water"
+      ]
     },
     {
       "id": "g5_28",
@@ -84,8 +602,16 @@
       "code": "G28",
       "title": "some / any / no",
       "explanation": "some: in positiven Sätzen sowie bei Angeboten und Bitten. any: in Fragen und negativen Sätzen. no: kann statt \"not...any\" verwendet werden.",
-      "examples": ["I've got some money.", "Have you got any money?", "I haven't got any money.", "I've got no money."],
-      "commonMistakes": ["some in Fragen statt any verwenden", "any in positiven Aussagesätzen statt some verwenden"]
+      "examples": [
+        "I've got some money.",
+        "Have you got any money?",
+        "I haven't got any money.",
+        "I've got no money."
+      ],
+      "commonMistakes": [
+        "some in Fragen statt any verwenden",
+        "any in positiven Aussagesätzen statt some verwenden"
+      ]
     },
     {
       "id": "g5_29",
@@ -93,8 +619,14 @@
       "code": "G29",
       "title": "Zusammensetzungen mit some/any/every/no",
       "explanation": "some/any/every/no + body/one → Personen; + thing → Dinge; + where → Orte. Gleiche Regeln wie bei some/any: some in positiven Sätzen, any in Fragen/Verneinungen, every für Allgemeingültigkeit, no für Verneinung ohne \"not\".",
-      "examples": ["somebody / anyone / everybody / nobody", "something / anything / everything / nothing", "somewhere / anywhere / everywhere / nowhere"],
-      "commonMistakes": ["anybody in positiven Aussagesätzen statt somebody"]
+      "examples": [
+        "somebody / anyone / everybody / nobody",
+        "something / anything / everything / nothing",
+        "somewhere / anywhere / everywhere / nowhere"
+      ],
+      "commonMistakes": [
+        "anybody in positiven Aussagesätzen statt somebody"
+      ]
     },
     {
       "id": "g5_30",
@@ -102,8 +634,16 @@
       "code": "G30",
       "title": "much / many / a lot of",
       "explanation": "a lot of / lots of: mit zählbaren und unzählbaren Nomen in positiven Sätzen. much: nur mit unzählbaren Nomen, meist in Fragen und Verneinungen. many: nur mit zählbaren Nomen (Plural), meist in Fragen und Verneinungen. how much / how many für Mengenfragen.",
-      "examples": ["I've got a lot of friends.", "I haven't got much time.", "How many apples have you got?", "How much water is there?"],
-      "commonMistakes": ["much mit zählbaren Nomen (much apples statt many apples)", "many mit unzählbaren Nomen (many money statt much money)"]
+      "examples": [
+        "I've got a lot of friends.",
+        "I haven't got much time.",
+        "How many apples have you got?",
+        "How much water is there?"
+      ],
+      "commonMistakes": [
+        "much mit zählbaren Nomen (much apples statt many apples)",
+        "many mit unzählbaren Nomen (many money statt much money)"
+      ]
     },
     {
       "id": "g5_31",
@@ -111,37 +651,288 @@
       "code": "G31",
       "title": "a few / a couple of / a little",
       "explanation": "a few / a couple of: mit zählbaren Nomen im Plural, bedeutet \"ein paar\". a little: mit unzählbaren Nomen, bedeutet \"ein bisschen\".",
-      "examples": ["a few apples", "a couple of friends", "a little water", "a little time"],
-      "commonMistakes": ["a few mit unzählbaren Nomen statt a little"]
+      "examples": [
+        "a few apples",
+        "a couple of friends",
+        "a little water",
+        "a little time"
+      ],
+      "commonMistakes": [
+        "a few mit unzählbaren Nomen statt a little"
+      ]
     }
   ],
-
   "grammarQuestions": [
-    { "id": "q5_g26_001", "topicId": "g5_26", "type": "fillBlank", "prompt": "I'd like a bottle ___ water, please.", "answer": "of", "explanation": "Mengenangabe + of + Nomen." },
-    { "id": "q5_g26_002", "topicId": "g5_26", "type": "multipleChoice", "prompt": "Wähle die richtige Mengenangabe: I bought a ___ of chips.", "options": ["packet", "bottle", "cup"], "answer": "packet", "explanation": "Chips kommen in a packet of chips." },
-    { "id": "q5_g26_003", "topicId": "g5_26", "type": "fillBlank", "prompt": "Can I have a piece ___ cake?", "answer": "of", "explanation": "a piece of + Nomen." },
-
-    { "id": "q5_g28_001", "topicId": "g5_28", "type": "multipleChoice", "prompt": "I've got ___ apples in my bag.", "options": ["some", "any", "no"], "answer": "some", "explanation": "Positiver Satz → some." },
-    { "id": "q5_g28_002", "topicId": "g5_28", "type": "multipleChoice", "prompt": "Have you got ___ money?", "options": ["some", "any", "no"], "answer": "any", "explanation": "Frage → any." },
-    { "id": "q5_g28_003", "topicId": "g5_28", "type": "multipleChoice", "prompt": "I haven't got ___ time today.", "options": ["some", "any", "no"], "answer": "any", "explanation": "Verneinung → any." },
-    { "id": "q5_g28_004", "topicId": "g5_28", "type": "multipleChoice", "prompt": "Sorry, we've got ___ bananas left.", "options": ["some", "any", "no"], "answer": "no", "explanation": "no ersetzt \"not...any\" in positiver Satzform." },
-    { "id": "q5_g28_005", "topicId": "g5_28", "type": "fillBlank", "prompt": "Would you like ___ tea? (Angebot)", "answer": "some", "explanation": "Bei Angeboten benutzt man some, auch in Frageform." },
-
-    { "id": "q5_g29_001", "topicId": "g5_29", "type": "multipleChoice", "prompt": "There isn't ___ in the fridge.", "options": ["something", "anything", "everything"], "answer": "anything", "explanation": "Verneinung → anything." },
-    { "id": "q5_g29_002", "topicId": "g5_29", "type": "multipleChoice", "prompt": "I can see ___ standing at the door.", "options": ["nobody", "somebody", "everybody"], "answer": "somebody", "explanation": "Positiver Aussagesatz → somebody." },
-    { "id": "q5_g29_003", "topicId": "g5_29", "type": "multipleChoice", "prompt": "There's ___ to do here — I'm bored!", "options": ["everything", "nothing", "something"], "answer": "nothing", "explanation": "\"nichts zu tun\" → nothing." },
-    { "id": "q5_g29_004", "topicId": "g5_29", "type": "fillBlank", "prompt": "You can sit ___ you like. (überall)", "answer": "anywhere", "explanation": "\"überall, wo du willst\" → anywhere." },
-
-    { "id": "q5_g30_001", "topicId": "g5_30", "type": "multipleChoice", "prompt": "How ___ apples have you got?", "options": ["much", "many", "a little"], "answer": "many", "explanation": "apples ist zählbar → many." },
-    { "id": "q5_g30_002", "topicId": "g5_30", "type": "multipleChoice", "prompt": "How ___ water is there in the bottle?", "options": ["much", "many", "a few"], "answer": "much", "explanation": "water ist unzählbar → much." },
-    { "id": "q5_g30_003", "topicId": "g5_30", "type": "multipleChoice", "prompt": "I've got ___ friends at school.", "options": ["a lot of", "much", "any"], "answer": "a lot of", "explanation": "a lot of funktioniert mit zählbaren Nomen im positiven Satz." },
-    { "id": "q5_g30_004", "topicId": "g5_30", "type": "fillBlank", "prompt": "I haven't got ___ money left. (much/many)", "answer": "much", "explanation": "money ist unzählbar → much." },
-
-    { "id": "q5_g31_001", "topicId": "g5_31", "type": "multipleChoice", "prompt": "There are only ___ eggs left.", "options": ["a few", "a little", "much"], "answer": "a few", "explanation": "eggs ist zählbar (Plural) → a few." },
-    { "id": "q5_g31_002", "topicId": "g5_31", "type": "multipleChoice", "prompt": "Can I have ___ sugar in my tea?", "options": ["a little", "a few", "many"], "answer": "a little", "explanation": "sugar ist unzählbar → a little." },
-    { "id": "q5_g31_003", "topicId": "g5_31", "type": "fillBlank", "prompt": "We invited a ___ of friends. (couple)", "answer": "couple", "explanation": "a couple of + Plural-Nomen = ein paar." }
+    {
+      "id": "q5_g26_001",
+      "topicId": "g5_26",
+      "type": "fillBlank",
+      "prompt": "I'd like a bottle ___ water, please.",
+      "answer": "of",
+      "explanation": "Nach einer Mengenangabe (a bottle, a piece, a packet ...) kommt immer \"of\" vor dem Nomen."
+    },
+    {
+      "id": "q5_g26_002",
+      "topicId": "g5_26",
+      "type": "multipleChoice",
+      "prompt": "Wähle die richtige Mengenangabe: I bought a ___ of chips.",
+      "options": [
+        "packet",
+        "bottle",
+        "cup"
+      ],
+      "answer": "packet",
+      "explanation": "Chips kommen in a packet of chips.",
+      "optionHints": {
+        "bottle": "Fast richtig! Aber Chips kommen nicht in einer Flasche — \"a packet of chips\" ist die richtige Menge.",
+        "cup": "Nicht ganz — \"a cup of\" passt eher zu Getränken, nicht zu Chips."
+      }
+    },
+    {
+      "id": "q5_g26_003",
+      "topicId": "g5_26",
+      "type": "fillBlank",
+      "prompt": "Can I have a piece ___ cake?",
+      "answer": "of",
+      "explanation": "Nach \"a piece\" kommt immer \"of\" vor dem Nomen — genau wie bei \"a bottle of\" oder \"a packet of\"."
+    },
+    {
+      "id": "q5_g28_001",
+      "topicId": "g5_28",
+      "type": "multipleChoice",
+      "prompt": "I've got ___ apples in my bag.",
+      "options": [
+        "some",
+        "any",
+        "no"
+      ],
+      "answer": "some",
+      "explanation": "Positiver Satz → some.",
+      "optionHints": {
+        "any": "Fast richtig! \"any\" benutzt man in Fragen und Verneinungen — dieser Satz ist aber positiv, also \"some\".",
+        "no": "\"no\" würde \"I've got no apples\" bedeuten — hier ist der Satz aber positiv mit \"some\"."
+      }
+    },
+    {
+      "id": "q5_g28_002",
+      "topicId": "g5_28",
+      "type": "multipleChoice",
+      "prompt": "Have you got ___ money?",
+      "options": [
+        "some",
+        "any",
+        "no"
+      ],
+      "answer": "any",
+      "explanation": "Frage → any.",
+      "optionHints": {
+        "some": "Fast richtig! In Fragen benutzt man meist \"any\", nicht \"some\" (außer bei Angeboten).",
+        "no": "\"no\" passt nicht in eine Frage — hier brauchst du \"any\"."
+      }
+    },
+    {
+      "id": "q5_g28_003",
+      "topicId": "g5_28",
+      "type": "multipleChoice",
+      "prompt": "I haven't got ___ time today.",
+      "options": [
+        "some",
+        "any",
+        "no"
+      ],
+      "answer": "any",
+      "explanation": "Verneinung → any.",
+      "optionHints": {
+        "some": "Fast richtig! In Verneinungen (haven't got) benutzt man \"any\", nicht \"some\".",
+        "no": "Das wäre doppelt verneint! Nach \"haven't got\" kommt \"any\", nicht \"no\"."
+      }
+    },
+    {
+      "id": "q5_g28_004",
+      "topicId": "g5_28",
+      "type": "multipleChoice",
+      "prompt": "Sorry, we've got ___ bananas left.",
+      "options": [
+        "some",
+        "any",
+        "no"
+      ],
+      "answer": "no",
+      "explanation": "no ersetzt \"not...any\" in positiver Satzform.",
+      "optionHints": {
+        "some": "Fast richtig! Hier fehlt eine Verneinung — \"no\" ersetzt \"not...any\" im positiven Satzbau.",
+        "any": "Fast richtig! \"any\" bräuchte ein \"not\" davor — einfacher ist \"no\" direkt im positiven Satz."
+      }
+    },
+    {
+      "id": "q5_g28_005",
+      "topicId": "g5_28",
+      "type": "fillBlank",
+      "prompt": "Would you like ___ tea? (Angebot)",
+      "answer": "some",
+      "explanation": "Bei Angeboten (z. B. \"Would you like...?\") benutzt man \"some\", auch wenn es eine Frage ist — das ist eine Ausnahme!"
+    },
+    {
+      "id": "q5_g29_001",
+      "topicId": "g5_29",
+      "type": "multipleChoice",
+      "prompt": "There isn't ___ in the fridge.",
+      "options": [
+        "something",
+        "anything",
+        "everything"
+      ],
+      "answer": "anything",
+      "explanation": "Verneinung → anything.",
+      "optionHints": {
+        "something": "Fast richtig! In Verneinungen (isn't) benutzt man \"anything\", nicht \"something\".",
+        "everything": "\"everything\" bedeutet \"alles\" — das passt hier nicht zur Verneinung. Nimm \"anything\"."
+      }
+    },
+    {
+      "id": "q5_g29_002",
+      "topicId": "g5_29",
+      "type": "multipleChoice",
+      "prompt": "I can see ___ standing at the door.",
+      "options": [
+        "nobody",
+        "somebody",
+        "everybody"
+      ],
+      "answer": "somebody",
+      "explanation": "Positiver Aussagesatz → somebody.",
+      "optionHints": {
+        "nobody": "Das würde bedeuten, dass niemand da ist — aber der Satz ist positiv, also \"somebody\".",
+        "everybody": "\"everybody\" bedeutet \"alle\" — hier geht es aber nur um eine Person: \"somebody\"."
+      }
+    },
+    {
+      "id": "q5_g29_003",
+      "topicId": "g5_29",
+      "type": "multipleChoice",
+      "prompt": "There's ___ to do here — I'm bored!",
+      "options": [
+        "everything",
+        "nothing",
+        "something"
+      ],
+      "answer": "nothing",
+      "explanation": "\"nichts zu tun\" → nothing.",
+      "optionHints": {
+        "everything": "\"everything\" bedeutet das Gegenteil — \"alles\". Für \"nichts\" brauchst du \"nothing\".",
+        "something": "Fast richtig! \"something\" bedeutet \"etwas\", aber hier ist von \"nichts\" die Rede: \"nothing\"."
+      }
+    },
+    {
+      "id": "q5_g29_004",
+      "topicId": "g5_29",
+      "type": "fillBlank",
+      "prompt": "You can sit ___ you like. (überall)",
+      "answer": "anywhere",
+      "explanation": "\"anywhere\" bedeutet \"überall, wo du willst\" — genau wie \"somewhere\", \"everywhere\" und \"nowhere\" gebildet."
+    },
+    {
+      "id": "q5_g30_001",
+      "topicId": "g5_30",
+      "type": "multipleChoice",
+      "prompt": "How ___ apples have you got?",
+      "options": [
+        "much",
+        "many",
+        "a little"
+      ],
+      "answer": "many",
+      "explanation": "apples ist zählbar → many.",
+      "optionHints": {
+        "much": "Fast richtig! \"much\" ist für unzählbare Nomen — \"apples\" kannst du aber zählen, also \"many\".",
+        "a little": "\"a little\" ist für unzählbare Nomen (wie \"a little water\") — \"apples\" sind zählbar: \"many\"."
+      }
+    },
+    {
+      "id": "q5_g30_002",
+      "topicId": "g5_30",
+      "type": "multipleChoice",
+      "prompt": "How ___ water is there in the bottle?",
+      "options": [
+        "much",
+        "many",
+        "a few"
+      ],
+      "answer": "much",
+      "explanation": "water ist unzählbar → much.",
+      "optionHints": {
+        "many": "Fast richtig! \"many\" ist für zählbare Nomen — \"water\" kannst du nicht zählen, also \"much\".",
+        "a few": "\"a few\" bedeutet \"ein paar\" und passt zu zählbaren Nomen — \"water\" ist unzählbar: \"much\"."
+      }
+    },
+    {
+      "id": "q5_g30_003",
+      "topicId": "g5_30",
+      "type": "multipleChoice",
+      "prompt": "I've got ___ friends at school.",
+      "options": [
+        "a lot of",
+        "much",
+        "any"
+      ],
+      "answer": "a lot of",
+      "explanation": "a lot of funktioniert mit zählbaren Nomen im positiven Satz.",
+      "optionHints": {
+        "much": "Fast richtig! \"much\" benutzt man meist in Fragen und Verneinungen, nicht in positiven Sätzen.",
+        "any": "\"any\" passt zu Fragen und Verneinungen — dieser Satz ist positiv: \"a lot of\"."
+      }
+    },
+    {
+      "id": "q5_g30_004",
+      "topicId": "g5_30",
+      "type": "fillBlank",
+      "prompt": "I haven't got ___ money left. (much/many)",
+      "answer": "much",
+      "explanation": "\"money\" kannst du nicht zählen (kein Plural) — deshalb \"much\", nicht \"many\"."
+    },
+    {
+      "id": "q5_g31_001",
+      "topicId": "g5_31",
+      "type": "multipleChoice",
+      "prompt": "There are only ___ eggs left.",
+      "options": [
+        "a few",
+        "a little",
+        "much"
+      ],
+      "answer": "a few",
+      "explanation": "eggs ist zählbar (Plural) → a few.",
+      "optionHints": {
+        "a little": "Fast richtig! \"a little\" ist für unzählbare Nomen — \"eggs\" sind zählbar (Plural): \"a few\".",
+        "much": "\"much\" passt zu unzählbaren Nomen und meist zu Fragen/Verneinungen — hier: \"a few\"."
+      }
+    },
+    {
+      "id": "q5_g31_002",
+      "topicId": "g5_31",
+      "type": "multipleChoice",
+      "prompt": "Can I have ___ sugar in my tea?",
+      "options": [
+        "a little",
+        "a few",
+        "many"
+      ],
+      "answer": "a little",
+      "explanation": "sugar ist unzählbar → a little.",
+      "optionHints": {
+        "a few": "Fast richtig! \"a few\" ist für zählbare Nomen — \"sugar\" kannst du nicht zählen: \"a little\".",
+        "many": "\"many\" ist für zählbare Nomen im Plural — \"sugar\" ist unzählbar: \"a little\"."
+      }
+    },
+    {
+      "id": "q5_g31_003",
+      "topicId": "g5_31",
+      "type": "fillBlank",
+      "prompt": "We invited a ___ of friends. (couple)",
+      "answer": "couple",
+      "explanation": "\"a couple of\" + Plural-Nomen bedeutet \"ein paar\", genau wie \"a few\"."
+    }
   ],
-
   "conversationScenarios": [
     {
       "id": "c5_cafe",
@@ -154,22 +945,52 @@
         "n1": {
           "npcLine": "Good afternoon! Welcome to The Green Café. Are you ready to order?",
           "choices": [
-            { "text": "Yes, please. Can I have a lemonade and a piece of cake?", "quality": "good", "feedback": "Sehr gut — höflich mit \"Can I have...\" und der Mengenangabe \"a piece of\".", "next": "n2" },
-            { "text": "Give me lemonade.", "quality": "wrong", "feedback": "Klingt unhöflich. Besser: \"Can I have a lemonade, please?\"", "next": "n2" },
-            { "text": "I'd like a lemonade, please.", "quality": "ok", "feedback": "Gut und höflich — auch \"I'd like...\" funktioniert super.", "next": "n2" }
+            {
+              "text": "Yes, please. Can I have a lemonade and a piece of cake?",
+              "quality": "good",
+              "feedback": "Sehr gut — höflich mit \"Can I have...\" und der Mengenangabe \"a piece of\".",
+              "next": "n2"
+            },
+            {
+              "text": "Give me lemonade.",
+              "quality": "wrong",
+              "feedback": "Klingt unhöflich. Besser: \"Can I have a lemonade, please?\"",
+              "next": "n2"
+            },
+            {
+              "text": "I'd like a lemonade, please.",
+              "quality": "ok",
+              "feedback": "Gut und höflich — auch \"I'd like...\" funktioniert super.",
+              "next": "n2"
+            }
           ]
         },
         "n2": {
           "npcLine": "Great choice! That's £4.50 in total. Anything else?",
           "choices": [
-            { "text": "No, thank you. That's all.", "quality": "good", "feedback": "Perfekt, klare und höfliche Antwort.", "next": "n3" },
-            { "text": "How much is that again?", "quality": "ok", "feedback": "Völlig okay, wenn du den Preis nicht verstanden hast.", "next": "n3" }
+            {
+              "text": "No, thank you. That's all.",
+              "quality": "good",
+              "feedback": "Perfekt, klare und höfliche Antwort.",
+              "next": "n3"
+            },
+            {
+              "text": "How much is that again?",
+              "quality": "ok",
+              "feedback": "Völlig okay, wenn du den Preis nicht verstanden hast.",
+              "next": "n3"
+            }
           ]
         },
         "n3": {
           "npcLine": "Here you go — one lemonade and a piece of cake. Enjoy!",
           "choices": [
-            { "text": "Thank you very much!", "quality": "good", "feedback": "Schön abgeschlossen!", "next": "n4" }
+            {
+              "text": "Thank you very much!",
+              "quality": "good",
+              "feedback": "Schön abgeschlossen!",
+              "next": "n4"
+            }
           ]
         },
         "n4": {
@@ -177,7 +998,9 @@
           "choices": []
         }
       },
-      "endNodes": ["n4"]
+      "endNodes": [
+        "n4"
+      ]
     },
     {
       "id": "c5_telephone",
@@ -190,33 +1013,73 @@
         "n1": {
           "npcLine": "[Ring, ring!] Hello? This is the King residence. Who's calling, please?",
           "choices": [
-            { "text": "Hello, this is Juna speaking. Can I speak to Emma, please?", "quality": "good", "feedback": "Genau die richtige Telefonformel!", "next": "n2" },
-            { "text": "It's me. Where is Emma?", "quality": "wrong", "feedback": "Am Telefon sagt man lieber \"This is ... speaking\" statt \"It's me\" — der andere kennt deine Stimme ja nicht.", "next": "n2" }
+            {
+              "text": "Hello, this is Juna speaking. Can I speak to Emma, please?",
+              "quality": "good",
+              "feedback": "Genau die richtige Telefonformel!",
+              "next": "n2"
+            },
+            {
+              "text": "It's me. Where is Emma?",
+              "quality": "wrong",
+              "feedback": "Am Telefon sagt man lieber \"This is ... speaking\" statt \"It's me\" — der andere kennt deine Stimme ja nicht.",
+              "next": "n2"
+            }
           ]
         },
         "n2": {
           "npcLine": "I'm afraid Emma isn't here right now. Can I take a message?",
           "choices": [
-            { "text": "Yes, please. Can you tell her I called?", "quality": "good", "feedback": "Sehr gut formuliert.", "next": "n3" },
-            { "text": "No. Bye.", "quality": "wrong", "feedback": "Etwas unhöflich — besser kurz erklären oder freundlich verabschieden, z.B. mit \"That's okay, I'll call back later.\"", "next": "n3" }
+            {
+              "text": "Yes, please. Can you tell her I called?",
+              "quality": "good",
+              "feedback": "Sehr gut formuliert.",
+              "next": "n3"
+            },
+            {
+              "text": "No. Bye.",
+              "quality": "wrong",
+              "feedback": "Etwas unhöflich — besser kurz erklären oder freundlich verabschieden, z.B. mit \"That's okay, I'll call back later.\"",
+              "next": "n3"
+            }
           ]
         },
         "n3": {
           "npcLine": "Sure, I'll tell her. Can you call back later, or should she call you back?",
           "choices": [
-            { "text": "She can call me back later, thank you.", "quality": "good", "feedback": "Klar und höflich.", "next": "n4" },
-            { "text": "I'll get back to you.", "quality": "ok", "feedback": "Grammatisch korrekt, aber hier eher unpassend — diese Phrase benutzt normalerweise die Person, die zurückruft.", "next": "n4" }
+            {
+              "text": "She can call me back later, thank you.",
+              "quality": "good",
+              "feedback": "Klar und höflich.",
+              "next": "n4"
+            },
+            {
+              "text": "I'll get back to you.",
+              "quality": "ok",
+              "feedback": "Grammatisch korrekt, aber hier eher unpassend — diese Phrase benutzt normalerweise die Person, die zurückruft.",
+              "next": "n4"
+            }
           ]
         },
         "n4": {
           "npcLine": "No problem. Goodbye!",
           "choices": [
-            { "text": "Goodbye, thank you!", "quality": "good", "feedback": "Schöner Abschluss des Telefonats.", "next": "n5" }
+            {
+              "text": "Goodbye, thank you!",
+              "quality": "good",
+              "feedback": "Schöner Abschluss des Telefonats.",
+              "next": "n5"
+            }
           ]
         },
-        "n5": { "npcLine": "[Click.]", "choices": [] }
+        "n5": {
+          "npcLine": "[Click.]",
+          "choices": []
+        }
       },
-      "endNodes": ["n5"]
+      "endNodes": [
+        "n5"
+      ]
     },
     {
       "id": "c5_market",
@@ -229,39 +1092,84 @@
         "n1": {
           "npcLine": "Good morning! Welcome to the market. What can I do for you today?",
           "choices": [
-            { "text": "I'm looking for a present for my mum.", "quality": "good", "feedback": "Sehr natürlich — genau die Formel aus dem Buch.", "next": "n2" },
-            { "text": "Give me a present.", "quality": "wrong", "feedback": "Zu direkt. Besser: \"I'm looking for...\" oder \"Can I have...\"", "next": "n2" }
+            {
+              "text": "I'm looking for a present for my mum.",
+              "quality": "good",
+              "feedback": "Sehr natürlich — genau die Formel aus dem Buch.",
+              "next": "n2"
+            },
+            {
+              "text": "Give me a present.",
+              "quality": "wrong",
+              "feedback": "Zu direkt. Besser: \"I'm looking for...\" oder \"Can I have...\"",
+              "next": "n2"
+            }
           ]
         },
         "n2": {
           "npcLine": "How about this bracelet? It's a special offer today.",
           "choices": [
-            { "text": "How much is it?", "quality": "good", "feedback": "Genau richtig, um nach dem Preis zu fragen.", "next": "n3" },
-            { "text": "Is it expensive?", "quality": "ok", "feedback": "Funktioniert auch, aber \"How much is it?\" ist die direktere Standardfrage.", "next": "n3" }
+            {
+              "text": "How much is it?",
+              "quality": "good",
+              "feedback": "Genau richtig, um nach dem Preis zu fragen.",
+              "next": "n3"
+            },
+            {
+              "text": "Is it expensive?",
+              "quality": "ok",
+              "feedback": "Funktioniert auch, aber \"How much is it?\" ist die direktere Standardfrage.",
+              "next": "n3"
+            }
           ]
         },
         "n3": {
           "npcLine": "It's twelve pounds. That's a bit less than usual.",
           "choices": [
-            { "text": "That's too expensive for me. Have you got anything cheaper?", "quality": "good", "feedback": "Perfekt — genau die Buchphrase, sehr höflich.", "next": "n4" },
-            { "text": "I'll take it. Here's a twenty pound note.", "quality": "good", "feedback": "Auch super, wenn du kaufen möchtest!", "next": "n5" }
+            {
+              "text": "That's too expensive for me. Have you got anything cheaper?",
+              "quality": "good",
+              "feedback": "Perfekt — genau die Buchphrase, sehr höflich.",
+              "next": "n4"
+            },
+            {
+              "text": "I'll take it. Here's a twenty pound note.",
+              "quality": "good",
+              "feedback": "Auch super, wenn du kaufen möchtest!",
+              "next": "n5"
+            }
           ]
         },
         "n4": {
           "npcLine": "Sure, this one is only six pounds.",
           "choices": [
-            { "text": "I'll take it. Here's a ten pound note.", "quality": "good", "feedback": "Klasse Abschluss des Kaufs.", "next": "n5" }
+            {
+              "text": "I'll take it. Here's a ten pound note.",
+              "quality": "good",
+              "feedback": "Klasse Abschluss des Kaufs.",
+              "next": "n5"
+            }
           ]
         },
         "n5": {
           "npcLine": "Here's your change. Anything else?",
           "choices": [
-            { "text": "No, thank you. Have a nice day!", "quality": "good", "feedback": "Schöner, höflicher Abschluss.", "next": "n6" }
+            {
+              "text": "No, thank you. Have a nice day!",
+              "quality": "good",
+              "feedback": "Schöner, höflicher Abschluss.",
+              "next": "n6"
+            }
           ]
         },
-        "n6": { "npcLine": "You too, bye!", "choices": [] }
+        "n6": {
+          "npcLine": "You too, bye!",
+          "choices": []
+        }
       },
-      "endNodes": ["n6"]
+      "endNodes": [
+        "n6"
+      ]
     }
   ]
 }

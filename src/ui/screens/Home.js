@@ -2,6 +2,10 @@ import { db } from '../../storage/db.js';
 import { navigate } from '../../router.js';
 import { loadContent, availableUnitNumbers } from '../../data/contentStore.js';
 import { computeVocabTargetProgress, computeGrammarTargetProgress } from '../../engine/progress.js';
+import { examCompletionPct } from '../../engine/examPrep.js';
+
+const RING_RADIUS = 22;
+const RING_CIRCUMFERENCE = 2 * Math.PI * RING_RADIUS;
 
 const ICONS = {
   grammar: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 19V6a2 2 0 0 1 2-2h9l5 5v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2Z"/><path d="M14 4v4a1 1 0 0 0 1 1h4"/><path d="M8 13h8M8 17h5"/></svg>',
@@ -15,7 +19,6 @@ export async function renderHome(root) {
   root.innerHTML = `<div class="placeholder-note">Loading…</div>`;
   const content = await loadContent();
   const units = availableUnitNumbers(content);
-  const local = { editingBar: null }; // 'grammar' | 'vocabulary' | null
 
   draw();
 
@@ -26,15 +29,14 @@ export async function renderHome(root) {
 
     const grammarUnit = parseUnitFromPosition(state.bookPosition.grammar) || units[units.length - 1];
     const vocabUnit = parseUnitFromPosition(state.bookPosition.vocabulary) || units[units.length - 1];
-    const grammarPct = computeGrammarTargetProgress(content.grammarTopics, state, grammarUnit);
-    const vocabPct = computeVocabTargetProgress(content.vocab, state, vocabUnit);
 
     root.innerHTML = `
       <div class="top-bar">
         <div class="streak-badge"><span class="flame">${ICONS.fire}</span> ${streak} day${streak === 1 ? '' : 's'}</div>
       </div>
-      ${progressBlock('grammar', 'Grammar', grammarUnit, grammarPct, units, local.editingBar === 'grammar')}
-      ${progressBlock('vocabulary', 'Vocabulary', vocabUnit, vocabPct, units, local.editingBar === 'vocabulary')}
+      ${learningPathRow('grammar', 'Grammar', grammarUnit, units, (u) => computeGrammarTargetProgress(content.grammarTopics, state, u))}
+      ${learningPathRow('vocabulary', 'Vocabulary', vocabUnit, units, (u) => computeVocabTargetProgress(content.vocab, state, u))}
+      ${examBar(state)}
 
       <h1 class="greeting">Hi Juna! 👋</h1>
       <p class="subgreeting">What do you want to practise today?</p>
@@ -59,40 +61,70 @@ export async function renderHome(root) {
     });
     root.querySelector('#weak-points-btn').addEventListener('click', () => navigate('/weak-points'));
     root.querySelector('#manage-content-btn').addEventListener('click', () => navigate('/manage-content'));
+    root.querySelector('#exam-bar').addEventListener('click', () => navigate('/exam-prep'));
 
-    root.querySelectorAll('.position-edit-btn').forEach((btn) => {
-      btn.addEventListener('click', (e) => {
+    root.querySelectorAll('.path-node').forEach((node) => {
+      node.addEventListener('click', (e) => {
         e.stopPropagation();
-        const key = btn.dataset.edit;
-        local.editingBar = local.editingBar === key ? null : key;
-        draw();
-      });
-    });
-    root.querySelectorAll('[data-set-unit]').forEach((btn) => {
-      btn.addEventListener('click', (e) => {
-        e.stopPropagation();
-        const [kind, unitStr] = btn.dataset.setUnit.split(':');
+        const [kind, unitStr] = node.dataset.setUnit.split(':');
         db.update((s) => { s.bookPosition[kind] = `Unit ${Number(unitStr)}`; });
-        local.editingBar = null;
         draw();
       });
     });
   }
 }
 
-function progressBlock(key, label, currentUnit, pct, units, isEditing) {
+// A tappable path of unit "stations". Units before the current position are
+// "completed" (taught already), the current one is highlighted, and anything
+// after is greyed out as not-yet-reached. Each reached station's ring is the
+// *cumulative* progress across the whole book up to and including that unit
+// (not just that unit alone) — so the current station always reads as "how
+// ready are you for everything up to where you are now."
+function learningPathRow(key, label, currentUnit, units, pctForUnit) {
+  const nodes = units.map((u, i) => {
+    const state = u < currentUnit ? 'completed' : u === currentUnit ? 'current' : 'future';
+    const pct = state === 'future' ? null : pctForUnit(u);
+    const connector = i < units.length - 1 ? `<div class="path-connector ${u < currentUnit ? 'filled' : ''}"></div>` : '';
+    return pathNode(key, u, state, pct) + connector;
+  }).join('');
+
   return `
-    <div class="progress-wrap">
+    <div class="learning-path-wrap">
+      <div class="path-label">${label}</div>
+      <div class="learning-path">${nodes}</div>
+    </div>
+  `;
+}
+
+function pathNode(key, unit, state, pct) {
+  const offset = pct === null ? RING_CIRCUMFERENCE : RING_CIRCUMFERENCE * (1 - pct / 100);
+  return `
+    <div class="path-node ${state}" data-set-unit="${key}:${unit}">
+      <svg viewBox="0 0 52 52" class="path-ring">
+        <circle cx="26" cy="26" r="${RING_RADIUS}" class="ring-bg"/>
+        ${state !== 'future' ? `<circle cx="26" cy="26" r="${RING_RADIUS}" class="ring-fill" stroke-dasharray="${RING_CIRCUMFERENCE}" stroke-dashoffset="${offset}"/>` : ''}
+      </svg>
+      <div class="path-node-inner">${state === 'completed' ? '✓' : unit}</div>
+      <div class="path-node-label">Unit ${unit}${state !== 'future' ? ` · ${pct}%` : ''}</div>
+    </div>
+  `;
+}
+
+// A third bar, separate from the two subject paths: covers only the topics an
+// active exam actually needs (not the whole book), and sits greyed-out/inert
+// until an exam is set up — mirrors the Exam Prep card's own active/inactive
+// state so the two never contradict each other.
+function examBar(state) {
+  const activeExam = state.exams.find((e) => e.id === state.activeExamId);
+  const pct = activeExam ? examCompletionPct(activeExam) : 0;
+
+  return `
+    <div class="progress-wrap exam-bar${activeExam ? '' : ' disabled'}" id="exam-bar">
       <div class="progress-label">
-        <span class="progress-title">${label} <button class="position-edit-btn" data-edit="${key}">Unit ${currentUnit} ✎</button></span>
-        <span>${pct}%</span>
+        <span class="progress-title">📋 Exam Prep</span>
+        <span>${activeExam ? `${pct}%` : 'No active exam'}</span>
       </div>
       <div class="progress-bar"><div class="progress-bar-fill" style="width:${pct}%"></div></div>
-      ${isEditing ? `
-        <div class="position-picker">
-          ${units.map((u) => `<button class="seg-btn${u === currentUnit ? ' active' : ''}" data-set-unit="${key}:${u}">Unit ${u}</button>`).join('')}
-        </div>
-      ` : ''}
     </div>
   `;
 }

@@ -5,6 +5,13 @@ export function getEntry(state, vocabId) {
   return state.leitner[vocabId] || { box: MIN_BOX, lastSeen: null, timesCorrect: 0, timesWrong: 0 };
 }
 
+// True only for a word never seen before — distinct from "box 1" in general,
+// which also covers words seen and gotten wrong. Only genuinely new words
+// should get the introduction card before being quizzed.
+export function isNewWord(state, vocabId) {
+  return !state.leitner[vocabId];
+}
+
 export function recordAnswer(state, vocabId, correct, now) {
   const entry = getEntry(state, vocabId);
   const nextBox = correct

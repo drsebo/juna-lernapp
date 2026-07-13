@@ -129,11 +129,17 @@ export async function renderGrammarSession(root) {
     feedback.textContent = correct ? '✓ Correct!' : `Not quite — correct answer: ${q.answer}`;
     feedback.className = `feedback-text ${correct ? 'correct' : 'wrong'}`;
 
-    if (q.explanation) {
-      const explEl = root.querySelector('#explanation');
-      explEl.style.display = 'block';
-      explEl.style.fontSize = '0.85rem';
-      explEl.textContent = q.explanation;
+    // Only show a hint on wrong answers — a specific, rule-based one where we have
+    // it for the exact mistake made (multiple choice), falling back to the
+    // question's general explanation otherwise.
+    if (!correct) {
+      const hint = (q.type === 'multipleChoice' && q.optionHints && q.optionHints[value]) || q.explanation;
+      if (hint) {
+        const explEl = root.querySelector('#explanation');
+        explEl.style.display = 'block';
+        explEl.style.fontSize = '0.85rem';
+        explEl.textContent = hint;
+      }
     }
 
     root.querySelector('.exercise-card').insertAdjacentHTML(

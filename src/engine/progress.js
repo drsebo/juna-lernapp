@@ -45,25 +45,42 @@ export function logWordCountExtension(state, mode, wordsAdded, now) {
 // Untouched items within the target scope count as 0% (they're expected to be
 // known by now but haven't been practiced), which is what makes this an honest
 // "how ready are you for what's been taught" measure rather than a vanity stat.
-export function computeVocabTargetProgress(vocab, state, targetUnit) {
-  const targetWords = vocab.filter((w) => w.type === 'word' && w.unit <= targetUnit);
-  if (targetWords.length === 0) return 0;
-  const total = targetWords.reduce((sum, w) => {
+function averageWordMastery(words, state) {
+  if (words.length === 0) return 0;
+  const total = words.reduce((sum, w) => {
     const entry = state.leitner[w.id];
     const box = entry ? entry.box : 1;
     return sum + (box - 1) / 3;
   }, 0);
-  return Math.round((total / targetWords.length) * 100);
+  return Math.round((total / words.length) * 100);
 }
 
-export function computeGrammarTargetProgress(grammarTopics, state, targetUnit) {
-  const targetTopics = grammarTopics.filter((t) => t.unit <= targetUnit);
-  if (targetTopics.length === 0) return 0;
-  const total = targetTopics.reduce((sum, t) => {
+function averageTopicMastery(topics, state) {
+  if (topics.length === 0) return 0;
+  const total = topics.reduce((sum, t) => {
     const entry = state.grammarProgress[t.id];
     if (!entry) return sum;
     const attempts = entry.timesCorrect + entry.timesWrong;
     return sum + (attempts === 0 ? 0 : entry.timesCorrect / attempts);
   }, 0);
-  return Math.round((total / targetTopics.length) * 100);
+  return Math.round((total / topics.length) * 100);
+}
+
+export function computeVocabTargetProgress(vocab, state, targetUnit) {
+  return averageWordMastery(vocab.filter((w) => w.type === 'word' && w.unit <= targetUnit), state);
+}
+
+export function computeGrammarTargetProgress(grammarTopics, state, targetUnit) {
+  return averageTopicMastery(grammarTopics.filter((t) => t.unit <= targetUnit), state);
+}
+
+// Per-unit variants (exactly one unit, not "up to and including") — used for the
+// learning-path station rings, where each station shows that unit's own mastery
+// rather than the cumulative figure.
+export function computeVocabUnitProgress(vocab, state, unit) {
+  return averageWordMastery(vocab.filter((w) => w.type === 'word' && w.unit === unit), state);
+}
+
+export function computeGrammarUnitProgress(grammarTopics, state, unit) {
+  return averageTopicMastery(grammarTopics.filter((t) => t.unit === unit), state);
 }

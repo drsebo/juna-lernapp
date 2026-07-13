@@ -3,9 +3,10 @@ import { db } from '../../storage/db.js';
 import { navigate } from '../../router.js';
 import { takeSessionConfig, setSessionResults } from '../sessionContext.js';
 import { buildVocabSession, buildWeakPointsSession, checkVocabAnswer, MAX_ATTEMPTS } from '../../engine/vocabExercises.js';
-import { recordAnswer } from '../../engine/leitner.js';
+import { recordAnswer, isNewWord } from '../../engine/leitner.js';
 import { createTimer } from '../../engine/session.js';
 import { logTimerExtension, logWordCountExtension } from '../../engine/progress.js';
+import { speak, canSpeak } from '../../engine/speech.js';
 
 const WORDS_PER_EXTENSION = 5;
 
@@ -44,7 +45,8 @@ export async function renderVocabularySession(root) {
     finished: false,
     timeUp: false,
     ended: false,
-    wordExtensions: []
+    wordExtensions: [],
+    introShown: false
   };
 
   let timer = null;
@@ -76,6 +78,12 @@ export async function renderVocabularySession(root) {
       return;
     }
     const word = currentWord();
+
+    if (!session.introShown && isNewWord(db.load(), word.id)) {
+      drawIntroCard(word);
+      return;
+    }
+
     root.innerHTML = `
       <div class="screen-header">
         <button class="back-btn" id="back-btn">‹</button>
@@ -103,6 +111,42 @@ export async function renderVocabularySession(root) {
     input.focus();
     input.addEventListener('keydown', (e) => { if (e.key === 'Enter') submitAnswer(); });
     submitBtn.addEventListener('click', submitAnswer);
+  }
+
+  // Shown once, the first time a genuinely new word (no Leitner entry yet) comes
+  // up — words already seen before (even Box 1 from a wrong answer) skip straight
+  // to the quiz. Presents the word before testing it, like Babbel's word intro step.
+  function drawIntroCard(word) {
+    root.innerHTML = `
+      <div class="screen-header">
+        <button class="back-btn" id="back-btn">‹</button>
+        <h1 class="greeting" style="margin:0;font-size:1.2rem;">Vocabulary</h1>
+      </div>
+      <div class="session-progress">
+        <span id="progress-label">New word</span>
+        <span></span>
+      </div>
+      <div class="exercise-card">
+        <div class="intro-en">${word.en}</div>
+        ${word.ipa ? `<div class="exercise-ipa">/${word.ipa}/</div>` : ''}
+        ${canSpeak() ? `<button class="intro-speak-btn" id="speak-btn" aria-label="Listen">🔊</button>` : ''}
+        <div class="intro-de">${word.de}</div>
+        ${word.example ? `<div class="intro-example">“${word.example}”</div>` : ''}
+        <button class="primary-btn" id="intro-continue-btn">Got it — quiz me!</button>
+      </div>
+    `;
+
+    root.querySelector('#back-btn').addEventListener('click', () => endEarly());
+    const speakBtn = root.querySelector('#speak-btn');
+    if (speakBtn) {
+      speakBtn.addEventListener('click', () => {
+        speak(word.example ? `${word.en}. ${word.example}` : word.en);
+      });
+    }
+    root.querySelector('#intro-continue-btn').addEventListener('click', () => {
+      session.introShown = true;
+      drawQuestion();
+    });
   }
 
   // Mirrors the timer's "+5 minutes" offer, but for count-based sessions: once
@@ -198,6 +242,7 @@ export async function renderVocabularySession(root) {
   function nextWord() {
     session.index += 1;
     session.attempts = 0;
+    session.introShown = false;
     drawQuestion();
   }
 

@@ -24,6 +24,7 @@ const APP_SHELL = [
   './src/engine/leitner.js',
   './src/engine/progress.js',
   './src/engine/session.js',
+  './src/engine/speech.js',
   './src/engine/vocabExercises.js',
   './src/ocr/ocrService.js',
   './src/storage/db.js',
