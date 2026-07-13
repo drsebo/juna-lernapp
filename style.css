@@ -484,33 +484,78 @@ body {
   margin-bottom: 28px;
 }
 
-.ai-voice-card {
-  display: block;
+.convo-mode-banner {
+  display: flex;
+  align-items: center;
+  gap: 14px;
   width: 100%;
-  background: var(--color-primary);
-  border: none;
   border-radius: var(--radius);
-  padding: 14px 16px;
+  padding: 14px;
   box-shadow: var(--shadow);
   text-align: left;
-  cursor: pointer;
   font: inherit;
-  color: #fff;
-  margin-bottom: 20px;
+  border: 1.5px solid transparent;
+  margin-bottom: 14px;
 }
 
-.ai-voice-card .scenario-title,
-.ai-voice-card .scenario-goal {
-  color: #fff;
+.convo-mode-illustration {
+  flex: 0 0 84px;
+  width: 84px;
 }
 
-.ai-voice-card .scenario-goal {
-  opacity: 0.85;
+.convo-mode-illustration svg {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
-.ai-voice-card .scenario-badge {
-  background: rgba(255, 255, 255, 0.2);
-  color: #fff;
+.convo-mode-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.convo-mode-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+
+.convo-mode-sub {
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+  line-height: 1.35;
+}
+
+.convo-mode-speak {
+  background: var(--color-primary-light);
+  border-color: var(--color-primary);
+  cursor: pointer;
+}
+
+.convo-mode-speak:active {
+  transform: scale(0.98);
+}
+
+.convo-mode-write {
+  background: #fdf1de;
+  border-color: var(--color-accent);
+  margin-bottom: 12px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .convo-mode-write {
+    background: #2c2416;
+  }
+}
+
+.convo-mode-divider {
+  text-align: center;
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+  margin: 4px 0 16px;
 }
 
 .ai-widget-wrap {

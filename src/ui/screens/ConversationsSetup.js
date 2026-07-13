@@ -3,6 +3,7 @@ import { db } from '../../storage/db.js';
 import { navigate } from '../../router.js';
 import { setSessionConfig } from '../sessionContext.js';
 import { orderScenariosByRecency } from '../../engine/conversationEngine.js';
+import { TALKING_ILLUSTRATION, WRITING_ILLUSTRATION } from '../illustrations.js';
 
 export async function renderConversationsSetup(root) {
   root.innerHTML = `
@@ -36,15 +37,24 @@ export async function renderConversationsSetup(root) {
         ${units.map((u) => `<button class="seg-btn${u === local.unit ? ' active' : ''}" data-unit="${u}">Unit ${u}</button>`).join('')}
       </div>
 
-      <button class="scenario-card ai-voice-card" id="ai-voice-btn">
-        <div class="scenario-card-top">
-          <span class="scenario-title">🎙️ Talk with an AI partner</span>
-          <span class="scenario-badge">needs internet</span>
+      <button class="convo-mode-banner convo-mode-speak" id="ai-voice-btn">
+        <div class="convo-mode-illustration">${TALKING_ILLUSTRATION}</div>
+        <div class="convo-mode-text">
+          <div class="convo-mode-title">🎙️ Speak with an AI<span class="scenario-badge">needs internet</span></div>
+          <div class="convo-mode-sub">A real spoken conversation — talk out loud, get natural replies back.</div>
         </div>
-        <div class="scenario-goal">Real spoken conversation, not scripted — talk out loud and get natural replies.</div>
       </button>
 
-      <p class="setup-label">Choose a roleplay</p>
+      <div class="convo-mode-divider">or practice a written roleplay</div>
+
+      <div class="convo-mode-banner convo-mode-write">
+        <div class="convo-mode-illustration">${WRITING_ILLUSTRATION}</div>
+        <div class="convo-mode-text">
+          <div class="convo-mode-title">✍️ Written roleplays</div>
+          <div class="convo-mode-sub">Pick a scenario below and tap your responses. Works offline.</div>
+        </div>
+      </div>
+
       <div class="scenario-list">
         ${ordered.map((s) => scenarioCard(s, local.unit)).join('')}
       </div>

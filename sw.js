@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'juna-lernapp-v1';
+const CACHE_VERSION = 'juna-lernapp-v2';
 
 const APP_SHELL = [
   './',
@@ -28,12 +28,15 @@ const APP_SHELL = [
   './src/ocr/ocrService.js',
   './src/storage/db.js',
   './src/ui/sessionContext.js',
+  './src/ui/illustrations.js',
+  './src/ui/screens/AiConversation.js',
   './src/ui/screens/ConversationSession.js',
   './src/ui/screens/ConversationsSetup.js',
   './src/ui/screens/ExamPrep.js',
   './src/ui/screens/GrammarSession.js',
   './src/ui/screens/GrammarSetup.js',
   './src/ui/screens/Home.js',
+  './src/ui/screens/ManageContent.js',
   './src/ui/screens/SessionResults.js',
   './src/ui/screens/VocabularySession.js',
   './src/ui/screens/VocabularySetup.js',
@@ -56,25 +59,26 @@ self.addEventListener('activate', (event) => {
   );
 });
 
-// Cache-first so the app (and OCR engine) works with zero network — the whole
-// point of a locally-bundled, offline-capable PWA. Anything not precached
-// (e.g. a future manually-uploaded unit file) is cached the first time it's
-// fetched, so it's available offline from then on too.
+// Network-first, falling back to cache when offline. This still gets the app
+// (and OCR engine) working with zero network once cached, but — unlike a
+// cache-first strategy — it doesn't silently keep serving stale app code
+// forever while online just because sw.js itself didn't change byte-for-byte
+// (which is what happened during development: edits to other files never
+// triggered a fresh install, so the phone kept seeing old versions).
 self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
   const url = new URL(event.request.url);
   if (url.origin !== self.location.origin) return;
 
   event.respondWith(
-    caches.match(event.request).then((cached) => {
-      if (cached) return cached;
-      return fetch(event.request).then((response) => {
+    fetch(event.request)
+      .then((response) => {
         if (response.ok) {
           const clone = response.clone();
           caches.open(CACHE_VERSION).then((cache) => cache.put(event.request, clone));
         }
         return response;
-      }).catch(() => cached);
-    })
+      })
+      .catch(() => caches.match(event.request))
   );
 });
