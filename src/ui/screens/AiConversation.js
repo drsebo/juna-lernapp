@@ -6,12 +6,12 @@ const AGENT_ID = 'agent_5501kx8em1ckfcas3g3kmm49s72j';
 const WIDGET_SCRIPT_SRC = 'https://unpkg.com/@elevenlabs/convai-widget-embed';
 
 const THEMES = [
-  { key: 'general', label: 'Surprise me', hint: 'Any topic — let the AI pick.' },
-  { key: 'market', label: 'Market / shopping', hint: 'Unit 5' },
-  { key: 'cafe', label: 'Café', hint: 'Unit 5' },
-  { key: 'telephone', label: 'On the phone', hint: 'Unit 5' },
-  { key: 'party_planning', label: 'Party planning', hint: 'Unit 6' },
-  { key: 'party_rules', label: 'Party rules', hint: 'Unit 6' }
+  { key: 'general', label: 'Surprise me', hint: 'Any topic — let the AI pick.', opener: "Hi! I'm here to help you practice English. What would you like to talk about today?" },
+  { key: 'market', label: 'Market / shopping', hint: 'Unit 5', opener: 'Hi there! Welcome to the market — what are you looking for today?' },
+  { key: 'cafe', label: 'Café', hint: 'Unit 5', opener: 'Hello, welcome in! What can I get you today?' },
+  { key: 'telephone', label: 'On the phone', hint: 'Unit 5', opener: "Ring ring... Hello, this is Sam speaking. Who's calling?" },
+  { key: 'party_planning', label: 'Party planning', hint: 'Unit 6', opener: "Hey! I heard you're planning a birthday party — where should we start?" },
+  { key: 'party_rules', label: 'Party rules', hint: 'Unit 6', opener: "So, what are the rules for the party — what can and can't we do?" }
 ];
 
 export async function renderAiConversation(root) {
@@ -49,6 +49,10 @@ export async function renderAiConversation(root) {
   }
 }
 
+function openerFor(theme) {
+  return (THEMES.find((t) => t.key === theme) || THEMES[0]).opener;
+}
+
 // Scopes the word list to the same teacher-defined learning stand used for the
 // Home progress bars (state.bookPosition.vocabulary), not the entire bundled
 // content — the AI shouldn't reach for Unit 6 words if only Unit 5 is taught yet.
@@ -76,7 +80,12 @@ function mountWidget(container, theme, knownVocabulary) {
   widget.setAttribute('agent-id', AGENT_ID);
   widget.setAttribute('dynamic-variables', JSON.stringify({
     scenario: theme,
-    known_vocabulary: knownVocabulary.join(', ')
+    known_vocabulary: knownVocabulary.join(', '),
+    // Drives the agent's "Erste Nachricht" field (set to {{opening_line}} in the
+    // ElevenLabs dashboard) so the very first thing said already sets the scene
+    // for the chosen theme, instead of a generic "what do you want to talk
+    // about" greeting that ignores the theme the learner just picked.
+    opening_line: openerFor(theme)
   }));
   container.appendChild(widget);
 }

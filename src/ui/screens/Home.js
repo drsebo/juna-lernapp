@@ -3,6 +3,7 @@ import { navigate } from '../../router.js';
 import { loadContent, availableUnitNumbers } from '../../data/contentStore.js';
 import { computeVocabTargetProgress, computeGrammarTargetProgress } from '../../engine/progress.js';
 import { examCompletionPct } from '../../engine/examPrep.js';
+import { HORSE_MASCOT } from '../illustrations.js';
 
 const RING_RADIUS = 22;
 const RING_CIRCUMFERENCE = 2 * Math.PI * RING_RADIUS;
@@ -27,8 +28,11 @@ export async function renderHome(root) {
     const streak = state.streak.count;
     const hasActiveExam = Boolean(state.activeExamId);
 
-    const grammarUnit = parseUnitFromPosition(state.bookPosition.grammar) || units[units.length - 1];
-    const vocabUnit = parseUnitFromPosition(state.bookPosition.vocabulary) || units[units.length - 1];
+    // Default to the first unit, not the last, when no position has been set yet
+    // (fresh install) — defaulting to the last unit would mark every earlier
+    // unit as "completed" on the learning path despite 0% actually practiced.
+    const grammarUnit = parseUnitFromPosition(state.bookPosition.grammar) || units[0];
+    const vocabUnit = parseUnitFromPosition(state.bookPosition.vocabulary) || units[0];
 
     root.innerHTML = `
       <div class="top-bar">
@@ -38,8 +42,13 @@ export async function renderHome(root) {
       ${learningPathRow('vocabulary', 'Vocabulary', vocabUnit, units, (u) => computeVocabTargetProgress(content.vocab, state, u))}
       ${examBar(state)}
 
-      <h1 class="greeting">Hi Juna! 👋</h1>
-      <p class="subgreeting">What do you want to practise today?</p>
+      <div class="greeting-row">
+        <div class="mascot-badge">${HORSE_MASCOT}</div>
+        <div>
+          <h1 class="greeting">Hi Juna! 👋</h1>
+          <p class="subgreeting">What do you want to practise today?</p>
+        </div>
+      </div>
 
       <div class="card-grid">
         ${card('grammar', 'Grammar', 'Units 5 & 6', ICONS.grammar)}

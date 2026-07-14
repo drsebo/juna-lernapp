@@ -237,6 +237,29 @@ body {
   font-size: 0.95rem;
 }
 
+.greeting-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.mascot-badge {
+  flex: 0 0 auto;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--color-primary-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.mascot-badge svg {
+  width: 68%;
+  height: 68%;
+}
+
 .card-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -920,4 +943,36 @@ body {
   font-size: 0.9rem;
   text-align: center;
   line-height: 1.5;
+}
+
+/* Wider viewports (tablet landscape / laptop). The app is built mobile-first
+   as an edge-to-edge single column; on a wide browser window that same
+   column just floats in empty space and looks stretched, so above 640px we
+   frame it as a centered panel instead of scaling it to fill the screen. */
+@media (min-width: 640px) {
+  #app {
+    max-width: 600px;
+    margin: 32px auto;
+    min-height: auto;
+    padding: 28px 32px calc(32px + env(safe-area-inset-bottom));
+    background: var(--color-surface);
+    border-radius: 24px;
+    box-shadow: 0 16px 48px rgba(38, 51, 46, 0.12);
+  }
+}
+
+@media (min-width: 640px) and (prefers-color-scheme: dark) {
+  #app {
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.45);
+  }
+}
+
+@media (min-width: 900px) {
+  #app {
+    max-width: 760px;
+  }
+
+  .card-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
