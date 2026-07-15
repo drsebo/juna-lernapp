@@ -237,29 +237,6 @@ body {
   font-size: 0.95rem;
 }
 
-.greeting-row {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.mascot-badge {
-  flex: 0 0 auto;
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
-  background: var(--color-primary-light);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-
-.mascot-badge svg {
-  width: 68%;
-  height: 68%;
-}
-
 .card-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;

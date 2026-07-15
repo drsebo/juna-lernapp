@@ -29,40 +29,6 @@ export const TALKING_ILLUSTRATION = `
 </svg>
 `;
 
-export const HORSE_MASCOT = `
-<svg viewBox="0 0 200 210" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Horse mascot">
-  <path d="M52,58 L38,66 L52,80 L36,92 L50,108 L36,122 L48,140 L38,158 L48,180 L42,198"
-        stroke="#5b3a24" stroke-width="14" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
-
-  <path d="M45,198
-           C42,178 40,158 40,140
-           C39,120 42,105 46,90
-           C49,78 54,66 63,57
-           C58,50 57,42 62,34
-           C68,40 71,47 72,52
-           C79,44 88,41 98,42
-           C110,43 120,48 130,56
-           C144,65 155,77 163,88
-           C167,93 167,99 162,102
-           C156,106 148,104 141,99
-           C130,110 116,116 100,118
-           C90,124 80,128 72,136
-           C68,148 66,164 68,178
-           C69,186 68,192 62,198
-           Z"
-        fill="#c98a52"/>
-
-  <path d="M58,50 L48,20 L69,44 Z" fill="#c98a52"/>
-  <path d="M69,45 L74,16 L84,44 Z" fill="#c98a52"/>
-  <path d="M58,50 L52,26 L67,44 Z" fill="#5b3a24" opacity="0.5"/>
-  <path d="M69,45 L73,22 L82,44 Z" fill="#5b3a24" opacity="0.5"/>
-
-  <circle cx="96" cy="61" r="4.5" fill="#2c2c2c"/>
-  <ellipse cx="153" cy="92" rx="15" ry="12" fill="#f4d9b0" transform="rotate(20 153 92)"/>
-  <ellipse cx="157" cy="94" rx="3.5" ry="5.5" fill="#5b3a24" transform="rotate(35 157 94)"/>
-</svg>
-`;
-
 export const WRITING_ILLUSTRATION = `
 <svg viewBox="0 0 220 130" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A person writing">
   <ellipse cx="110" cy="122" rx="88" ry="5" fill="#00000014"/>
