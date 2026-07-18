@@ -1,5 +1,5 @@
 const STORAGE_KEY = 'juna-lernapp';
-const SCHEMA_VERSION = 2;
+const SCHEMA_VERSION = 3;
 
 function defaultState() {
   return {
@@ -7,6 +7,13 @@ function defaultState() {
     bookPosition: {
       grammar: null, // e.g. "Unit 5.5"
       vocabulary: null // e.g. "Unit 5"
+    },
+    // The teacher-confirmed "knows everything up to here" reference used for the
+    // Home progress percentages — precise to a specific vocab word / grammar
+    // topic (set via the manual input fields on Home), not just a whole unit.
+    progressReference: {
+      vocabularyWordId: null,
+      grammarTopicId: null
     },
     leitner: {
       // vocabId -> { box: 1-4, lastSeen: ISO string, timesCorrect: n, timesWrong: n }

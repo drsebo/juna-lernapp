@@ -107,8 +107,8 @@ body {
   background: var(--color-disabled-text);
 }
 
-.learning-path-wrap {
-  margin-bottom: 20px;
+.position-field-wrap {
+  margin-bottom: 8px;
 }
 
 .path-label {
@@ -116,6 +116,41 @@ body {
   font-weight: 600;
   color: var(--color-text-muted);
   margin-bottom: 8px;
+}
+
+.position-input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1.5px solid var(--color-border);
+  background: var(--color-surface);
+  color: var(--color-text);
+  font: inherit;
+  font-size: 0.95rem;
+}
+
+.position-input:focus {
+  outline: none;
+  border-color: var(--color-primary);
+}
+
+.position-input.input-error {
+  border-color: #c0392b;
+}
+
+.position-status {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  margin: 6px 0 0;
+  line-height: 1.35;
+}
+
+.position-input.input-error + datalist + .position-status {
+  color: #c0392b;
+}
+
+.learning-path-wrap {
+  margin-bottom: 20px;
 }
 
 .learning-path {
@@ -132,16 +167,11 @@ body {
   flex-direction: column;
   align-items: center;
   width: 64px;
-  cursor: pointer;
   background: none;
   border: none;
   font: inherit;
   color: inherit;
   padding: 0;
-}
-
-.path-node:active {
-  transform: scale(0.96);
 }
 
 .path-ring {

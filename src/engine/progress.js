@@ -66,12 +66,24 @@ function averageTopicMastery(topics, state) {
   return Math.round((total / topics.length) * 100);
 }
 
-export function computeVocabTargetProgress(vocab, state, targetUnit) {
-  return averageWordMastery(vocab.filter((w) => w.type === 'word' && w.unit <= targetUnit), state);
+// Resolves a stored progress-reference id (a specific vocab word / grammar
+// topic id — "Juna knows everything up to and including this one") to its
+// position in the book-ordered content array. -1 means "not set" or the
+// referenced item no longer exists (e.g. content was edited); callers treat
+// that as nothing being confirmed yet rather than guessing a default.
+export function resolveReferenceIndex(items, itemId) {
+  if (!itemId) return -1;
+  return items.findIndex((item) => item.id === itemId);
 }
 
-export function computeGrammarTargetProgress(grammarTopics, state, targetUnit) {
-  return averageTopicMastery(grammarTopics.filter((t) => t.unit <= targetUnit), state);
+export function computeVocabTargetProgress(vocab, state, cutoffIndex) {
+  if (cutoffIndex < 0) return 0;
+  return averageWordMastery(vocab.filter((w, i) => w.type === 'word' && i <= cutoffIndex), state);
+}
+
+export function computeGrammarTargetProgress(grammarTopics, state, cutoffIndex) {
+  if (cutoffIndex < 0) return 0;
+  return averageTopicMastery(grammarTopics.filter((t, i) => i <= cutoffIndex), state);
 }
 
 // Per-unit variants (exactly one unit, not "up to and including") — used for the
