@@ -85,14 +85,3 @@ export function computeGrammarTargetProgress(grammarTopics, state, cutoffIndex) 
   if (cutoffIndex < 0) return 0;
   return averageTopicMastery(grammarTopics.filter((t, i) => i <= cutoffIndex), state);
 }
-
-// Per-unit variants (exactly one unit, not "up to and including") — used for the
-// learning-path station rings, where each station shows that unit's own mastery
-// rather than the cumulative figure.
-export function computeVocabUnitProgress(vocab, state, unit) {
-  return averageWordMastery(vocab.filter((w) => w.type === 'word' && w.unit === unit), state);
-}
-
-export function computeGrammarUnitProgress(grammarTopics, state, unit) {
-  return averageTopicMastery(grammarTopics.filter((t) => t.unit === unit), state);
-}

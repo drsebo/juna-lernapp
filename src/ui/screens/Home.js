@@ -1,11 +1,8 @@
 import { db } from '../../storage/db.js';
 import { navigate } from '../../router.js';
-import { loadContent, availableUnitNumbers } from '../../data/contentStore.js';
+import { loadContent } from '../../data/contentStore.js';
 import { computeVocabTargetProgress, computeGrammarTargetProgress, resolveReferenceIndex } from '../../engine/progress.js';
 import { examCompletionPct } from '../../engine/examPrep.js';
-
-const RING_RADIUS = 22;
-const RING_CIRCUMFERENCE = 2 * Math.PI * RING_RADIUS;
 
 const ICONS = {
   grammar: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 19V6a2 2 0 0 1 2-2h9l5 5v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2Z"/><path d="M14 4v4a1 1 0 0 0 1 1h4"/><path d="M8 13h8M8 17h5"/></svg>',
@@ -18,7 +15,6 @@ const ICONS = {
 export async function renderHome(root) {
   root.innerHTML = `<div class="placeholder-note">Loading…</div>`;
   const content = await loadContent();
-  const units = availableUnitNumbers(content);
 
   draw();
 
@@ -45,10 +41,10 @@ export async function renderHome(root) {
         datalistId: 'grammar-options',
         datalistHtml: content.grammarTopics.map((t) => `<option value="${escapeAttr(t.code)}">${escapeHtml(t.code)} — ${escapeHtml(t.title)}</option>`).join(''),
         status: grammarRefItem
-          ? `→ Unit ${grammarRefItem.unit} · ${computeGrammarTargetProgress(content.grammarTopics, state, grammarRefIndex)}% mastered of ${grammarRefIndex + 1} topics covered so far`
-          : 'Enter the grammar number your teacher confirmed she knows (e.g. G30), to track real progress.'
+          ? `→ Unit ${grammarRefItem.unit} · ${grammarRefIndex + 1} topics covered so far`
+          : 'Enter the grammar number your teacher confirmed she knows (e.g. G30), to track real progress.',
+        pct: grammarRefItem ? computeGrammarTargetProgress(content.grammarTopics, state, grammarRefIndex) : 0
       })}
-      ${learningPathRow('grammar', grammarRefItem ? grammarRefItem.unit : null, units, (u) => computeGrammarTargetProgress(content.grammarTopics, state, cutoffIndexForUnit(content.grammarTopics, u)))}
 
       ${positionField({
         key: 'vocabulary',
@@ -58,10 +54,10 @@ export async function renderHome(root) {
         datalistId: 'vocab-options',
         datalistHtml: content.vocab.map((w) => `<option value="${escapeAttr(w.en)}">${escapeHtml(w.en)} — ${escapeHtml(w.de)} (Unit ${w.unit})</option>`).join(''),
         status: vocabRefItem
-          ? `→ Unit ${vocabRefItem.unit} · ${computeVocabTargetProgress(content.vocab, state, vocabRefIndex)}% mastered of ${vocabRefIndex + 1} words covered so far`
-          : 'Enter the last English word your teacher confirmed she knows, to track real progress.'
+          ? `→ Unit ${vocabRefItem.unit} · ${vocabRefIndex + 1} words covered so far`
+          : 'Enter the last English word your teacher confirmed she knows, to track real progress.',
+        pct: vocabRefItem ? computeVocabTargetProgress(content.vocab, state, vocabRefIndex) : 0
       })}
-      ${learningPathRow('vocabulary', vocabRefItem ? vocabRefItem.unit : null, units, (u) => computeVocabTargetProgress(content.vocab, state, cutoffIndexForUnit(content.vocab, u)))}
 
       ${examBar(state)}
 
@@ -104,8 +100,8 @@ export async function renderHome(root) {
 // A manual text field (with a native datalist of valid values for assistance)
 // used to pin down exactly which word/topic the teacher confirmed as known —
 // far more precise than picking a whole unit, and the actual source of truth
-// for the progress percentages shown below it and on the learning path.
-function positionField({ key, label, placeholder, currentValue, datalistId, datalistHtml, status }) {
+// for the mastery bar shown below it.
+function positionField({ key, label, placeholder, currentValue, datalistId, datalistHtml, status, pct }) {
   return `
     <div class="position-field-wrap">
       <div class="path-label">${label}</div>
@@ -119,6 +115,8 @@ function positionField({ key, label, placeholder, currentValue, datalistId, data
       />
       <datalist id="${datalistId}">${datalistHtml}</datalist>
       <div class="position-status" id="position-status-${key}">${status}</div>
+      <div class="progress-bar"><div class="progress-bar-fill" style="width:${pct}%"></div></div>
+      <div class="position-pct">${pct}% mastered</div>
     </div>
   `;
 }
@@ -152,50 +150,6 @@ function findVocabByText(vocab, text) {
 function findGrammarByCode(grammarTopics, text) {
   const norm = text.trim().toLowerCase();
   return grammarTopics.find((t) => t.code.trim().toLowerCase() === norm) || null;
-}
-
-// Index of the last item (in book order) belonging to a unit at or before the
-// given one — i.e. "everything through the end of this unit". Used to give
-// each learning-path station a cumulative percentage, same as before this
-// became word/topic-precise for the actual stored reference.
-function cutoffIndexForUnit(items, unit) {
-  let idx = -1;
-  items.forEach((item, i) => { if (item.unit <= unit) idx = i; });
-  return idx;
-}
-
-// A read-only path of unit "stations" showing cumulative progress. Units
-// before the reference's unit are "completed", the reference's own unit is
-// "current", anything after is "future" — greyed out until a reference is set
-// at all (cutoffUnit === null), which happens on first use before either
-// position field above has been filled in.
-function learningPathRow(key, cutoffUnit, units, pctForUnit) {
-  const nodes = units.map((u, i) => {
-    const state = cutoffUnit === null ? 'future' : u < cutoffUnit ? 'completed' : u === cutoffUnit ? 'current' : 'future';
-    const pct = state === 'future' ? null : pctForUnit(u);
-    const connector = i < units.length - 1 ? `<div class="path-connector ${cutoffUnit !== null && u < cutoffUnit ? 'filled' : ''}"></div>` : '';
-    return pathNode(u, state, pct) + connector;
-  }).join('');
-
-  return `
-    <div class="learning-path-wrap">
-      <div class="learning-path">${nodes}</div>
-    </div>
-  `;
-}
-
-function pathNode(unit, state, pct) {
-  const offset = pct === null ? RING_CIRCUMFERENCE : RING_CIRCUMFERENCE * (1 - pct / 100);
-  return `
-    <div class="path-node ${state}">
-      <svg viewBox="0 0 52 52" class="path-ring">
-        <circle cx="26" cy="26" r="${RING_RADIUS}" class="ring-bg"/>
-        ${state !== 'future' ? `<circle cx="26" cy="26" r="${RING_RADIUS}" class="ring-fill" stroke-dasharray="${RING_CIRCUMFERENCE}" stroke-dashoffset="${offset}"/>` : ''}
-      </svg>
-      <div class="path-node-inner">${state === 'completed' ? '✓' : unit}</div>
-      <div class="path-node-label">Unit ${unit}${state !== 'future' ? ` · ${pct}%` : ''}</div>
-    </div>
-  `;
 }
 
 // A third bar, separate from the two subject paths: covers only the topics an
