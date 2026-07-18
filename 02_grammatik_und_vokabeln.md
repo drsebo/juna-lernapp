@@ -1,7 +1,7 @@
 # Grammatik & Vokabeln – Klasse 5 (Bayern)
 
 > **Anleitung:** Diese Datei enthält die Lerninhalte als Projektdatei im Claude Chat-Projekt.  
-> Inhalte wurden aus dem Buch (Klett-Verlag) übernommen.
+> Inhalte wurden aus dem Schulbuch übernommen.
 
 ---
 

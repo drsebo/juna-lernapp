@@ -2,7 +2,7 @@
 
 ## 1. Overview
 
-A Progressive Web App (PWA) for practising English (Klett-Verlag), usable offline on iPad/iPhone/Mac. Covers **grammar**, **vocabulary**, and **conversation** practice, plus a dedicated **exam prep mode**. Built to scale beyond Grade 5 into Grade 6 as more units are added later.
+A Progressive Web App (PWA) for practising English, usable offline on iPad/iPhone/Mac. Covers **grammar**, **vocabulary**, and **conversation** practice, plus a dedicated **exam prep mode**. Built to scale beyond Grade 5 into Grade 6 as more units are added later.
 
 **Prototype scope (v1):** Unit 5 (*Let's go shopping*) and Unit 6 (*It's my party!*) content only, bundled directly into the app.
 
