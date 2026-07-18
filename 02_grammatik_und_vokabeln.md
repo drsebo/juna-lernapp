@@ -1,7 +1,7 @@
-# Grammatik & Vokabeln – Green Line Klasse 5 (Bayern)
+# Grammatik & Vokabeln – Klasse 5 (Bayern)
 
 > **Anleitung:** Diese Datei enthält die Lerninhalte als Projektdatei im Claude Chat-Projekt.  
-> Inhalte wurden aus dem Buch (Green Line, Klett-Verlag) übernommen.
+> Inhalte wurden aus dem Buch (Klett-Verlag) übernommen.
 
 ---
 
@@ -736,7 +736,7 @@ theatre → theater  |  mum → mom
 
 ---
 
-## 🔤 Unregelmäßige Verben (vollständige Liste Green Line, Buch S. 276–278)
+## 🔤 Unregelmäßige Verben (vollständige Liste, Buch S. 276–278)
 
 > Für Simple Past (Unit 6) wichtig! Unregelmäßige Formen muss man auswendig lernen.
 

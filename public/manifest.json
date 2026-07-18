@@ -1,7 +1,7 @@
 {
   "name": "Juna's English",
   "short_name": "Juna English",
-  "description": "Offline English practice for Green Line Klasse 5/6 — grammar, vocabulary, conversations and exam prep.",
+  "description": "Offline English practice for Klasse 5/6 — grammar, vocabulary, conversations and exam prep.",
   "start_url": "../index.html",
   "scope": "../",
   "display": "standalone",
