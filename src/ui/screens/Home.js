@@ -51,8 +51,6 @@ export async function renderHome(root) {
         label: 'Vocabulary known up to',
         placeholder: 'e.g. bracelet',
         currentValue: vocabRefItem ? vocabRefItem.en : '',
-        datalistId: 'vocab-options',
-        datalistHtml: content.vocab.map((w) => `<option value="${escapeAttr(w.en)}">${escapeHtml(w.en)} — ${escapeHtml(w.de)} (Unit ${w.unit})</option>`).join(''),
         status: vocabRefItem
           ? `→ Unit ${vocabRefItem.unit} · ${vocabRefIndex + 1} words covered so far`
           : 'Enter the last English word your teacher confirmed she knows, to track real progress.',
@@ -97,10 +95,13 @@ export async function renderHome(root) {
   }
 }
 
-// A manual text field (with a native datalist of valid values for assistance)
-// used to pin down exactly which word/topic the teacher confirmed as known —
-// far more precise than picking a whole unit, and the actual source of truth
-// for the mastery bar shown below it.
+// A plain manual text field used to pin down exactly which word/topic the
+// teacher confirmed as known — far more precise than picking a whole unit,
+// and the actual source of truth for the mastery bar shown below it. A
+// datalist of valid values is optional (grammar codes are few enough that
+// suggestions help; the full vocab list is long enough that on-device
+// datalist pickers got in the way more than they helped, so that one is
+// plain free-text entry).
 function positionField({ key, label, placeholder, currentValue, datalistId, datalistHtml, status, pct }) {
   return `
     <div class="position-field-wrap">
@@ -108,12 +109,12 @@ function positionField({ key, label, placeholder, currentValue, datalistId, data
       <input
         class="position-input"
         id="position-input-${key}"
-        list="${datalistId}"
+        ${datalistId ? `list="${datalistId}"` : ''}
         placeholder="${escapeAttr(placeholder)}"
         value="${escapeAttr(currentValue)}"
         autocomplete="off"
       />
-      <datalist id="${datalistId}">${datalistHtml}</datalist>
+      ${datalistId ? `<datalist id="${datalistId}">${datalistHtml}</datalist>` : ''}
       <div class="position-status" id="position-status-${key}">${status}</div>
       <div class="progress-bar"><div class="progress-bar-fill" style="width:${pct}%"></div></div>
       <div class="position-pct">${pct}% mastered</div>
