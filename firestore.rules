@@ -1,0 +1,15 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Each user's progress document — only that user can read or write it.
+    match /progress/{uid} {
+      allow read, write: if request.auth != null && request.auth.uid == uid;
+    }
+    // Book content (vocab/grammar) — readable and writable by any logged-in
+    // user. There's only one real user (Juna's family), so this keeps the
+    // one-time/occasional content-sync step simple without a service account.
+    match /content/{docId} {
+      allow read, write: if request.auth != null;
+    }
+  }
+}

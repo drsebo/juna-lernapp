@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'juna-lernapp-v2';
+const CACHE_VERSION = 'juna-lernapp-v3';
 
 const APP_SHELL = [
   './',
@@ -14,6 +14,8 @@ const APP_SHELL = [
   './public/vendor/tessdata/eng.traineddata.gz',
   './src/app.js',
   './src/router.js',
+  './src/firebase/init.js',
+  './src/auth/authGate.js',
   './src/data/contentStore.js',
   './src/data/irregularVerbs.json',
   './src/data/units/unit5.json',

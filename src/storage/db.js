@@ -1,4 +1,6 @@
-const STORAGE_KEY = 'juna-lernapp';
+import { firestore } from '../firebase/init.js';
+import { doc, getDoc, setDoc } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js';
+
 const SCHEMA_VERSION = 3;
 
 function defaultState() {
@@ -44,33 +46,48 @@ function defaultState() {
   };
 }
 
-function load() {
-  const raw = localStorage.getItem(STORAGE_KEY);
-  if (!raw) return defaultState();
-  try {
-    const parsed = JSON.parse(raw);
-    if (parsed.schemaVersion !== SCHEMA_VERSION) {
-      return migrate(parsed);
-    }
-    return parsed;
-  } catch {
-    return defaultState();
-  }
-}
-
 function migrate(oldState) {
   return { ...defaultState(), ...oldState, schemaVersion: SCHEMA_VERSION };
 }
 
+// The rest of the app calls db.load()/db.update() synchronously, dozens of
+// call sites across every screen — keeping that interface (instead of making
+// everything async) means only this file needed to change when progress
+// moved from localStorage to Firestore. initForUser() does the one real
+// network round-trip, once, at login; after that, load()/update() work
+// against an in-memory copy and push writes to Firestore in the background
+// (the Firebase SDK queues them automatically if offline, and syncs once
+// back online).
+let cachedState = null;
+let stateDocRef = null;
+
+async function initForUser(uid) {
+  stateDocRef = doc(firestore, 'progress', uid);
+  const snap = await getDoc(stateDocRef);
+  if (snap.exists()) {
+    const data = snap.data();
+    cachedState = data.schemaVersion === SCHEMA_VERSION ? data : migrate(data);
+  } else {
+    cachedState = defaultState();
+    await setDoc(stateDocRef, cachedState);
+  }
+}
+
+function load() {
+  return cachedState;
+}
+
 function save(state) {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+  cachedState = state;
+  setDoc(stateDocRef, state).catch((err) => {
+    console.error('Failed to sync progress to Firestore', err);
+  });
 }
 
 function update(mutator) {
-  const state = load();
-  mutator(state);
-  save(state);
-  return state;
+  mutator(cachedState);
+  save(cachedState);
+  return cachedState;
 }
 
-export const db = { load, save, update, defaultState };
+export const db = { load, save, update, defaultState, initForUser };

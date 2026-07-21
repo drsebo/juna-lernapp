@@ -516,6 +516,35 @@ body {
 .feedback-text.correct { color: var(--color-primary); }
 .feedback-text.wrong { color: #c9564c; }
 
+.login-wrap {
+  padding-top: 15vh;
+  text-align: center;
+}
+
+.login-wrap .greeting {
+  text-align: center;
+}
+
+.login-wrap .subgreeting {
+  text-align: center;
+}
+
+.login-wrap form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 24px;
+  text-align: left;
+}
+
+.login-error {
+  min-height: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #c9564c;
+  text-align: center;
+}
+
 .reveal-answer {
   font-size: 1.1rem;
   font-weight: 700;

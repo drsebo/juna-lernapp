@@ -1,9 +1,10 @@
 import { db } from '../../storage/db.js';
 import { navigate } from '../../router.js';
-import { invalidateContentCache } from '../../data/contentStore.js';
+import { invalidateContentCache, syncBundledContentToFirestore } from '../../data/contentStore.js';
 
 export function renderManageContent(root) {
   let lastMessage = null; // { cls, text } — survives the re-render triggered right after a successful upload
+  let syncMessage = null;
   draw();
 
   function draw() {
@@ -18,6 +19,9 @@ export function renderManageContent(root) {
       <label class="primary-btn" for="unit-file-input" style="display:block;text-align:center;">📄 Choose a unit .json file</label>
       <input type="file" id="unit-file-input" accept="application/json,.json" style="display:none;" />
       <div id="upload-feedback" class="feedback-text ${lastMessage ? lastMessage.cls : ''}" style="text-align:center;margin-top:10px;">${lastMessage ? lastMessage.text : ''}</div>
+
+      <button class="text-link-btn" id="sync-content-btn" style="margin-top:24px;">🔄 Re-sync bundled Unit 5/6 content to the database</button>
+      <div id="sync-feedback" class="feedback-text ${syncMessage ? syncMessage.cls : ''}" style="text-align:center;">${syncMessage ? syncMessage.text : ''}</div>
 
       ${state.customUnits.length > 0 ? `
         <p class="setup-label" style="margin-top:28px;">Added units</p>
@@ -39,6 +43,17 @@ export function renderManageContent(root) {
     root.querySelector('#unit-file-input').addEventListener('change', (e) => {
       const file = e.target.files[0];
       if (file) handleFile(file);
+    });
+    root.querySelector('#sync-content-btn').addEventListener('click', async (e) => {
+      e.target.disabled = true;
+      e.target.textContent = 'Syncing…';
+      try {
+        await syncBundledContentToFirestore();
+        syncMessage = { cls: 'correct', text: 'Content synced to the database.' };
+      } catch (err) {
+        syncMessage = { cls: 'wrong', text: `Sync failed: ${err.message}` };
+      }
+      draw();
     });
     root.querySelectorAll('[data-remove-idx]').forEach((btn) => {
       btn.addEventListener('click', () => {

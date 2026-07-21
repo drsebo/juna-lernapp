@@ -11,6 +11,8 @@ import { renderSessionResults } from './ui/screens/SessionResults.js';
 import { renderWeakPoints } from './ui/screens/WeakPoints.js';
 import { renderExamPrep } from './ui/screens/ExamPrep.js';
 import { renderManageContent } from './ui/screens/ManageContent.js';
+import { waitForInitialUser, renderLogin } from './auth/authGate.js';
+import { db } from './storage/db.js';
 
 registerRoute('/', renderHome);
 registerRoute('/grammar', renderGrammarSetup);
@@ -25,4 +27,19 @@ registerRoute('/exam-prep', renderExamPrep);
 registerRoute('/weak-points', renderWeakPoints);
 registerRoute('/manage-content', renderManageContent);
 
-startRouter(document.getElementById('app'));
+const appRoot = document.getElementById('app');
+
+async function boot(user) {
+  await db.initForUser(user.uid);
+  startRouter(appRoot);
+}
+
+appRoot.innerHTML = `<div class="placeholder-note">Loading…</div>`;
+
+waitForInitialUser().then((user) => {
+  if (user) {
+    boot(user);
+  } else {
+    renderLogin(appRoot, boot);
+  }
+});
