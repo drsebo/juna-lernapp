@@ -1,0 +1,11 @@
+{
+  "name": "juna-lernapp-tools",
+  "private": true,
+  "description": "Local dev tooling for the Juna English PWA. The deployed app itself is plain HTML/CSS/JS with no build step or dependencies — this package.json only exists for the content-sync script.",
+  "scripts": {
+    "sync-content": "node scripts/syncContent.js"
+  },
+  "dependencies": {
+    "firebase-admin": "^12.6.0"
+  }
+}

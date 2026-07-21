@@ -38,8 +38,15 @@ appRoot.innerHTML = `<div class="placeholder-note">Loading…</div>`;
 
 waitForInitialUser().then((user) => {
   if (user) {
-    boot(user);
-  } else {
-    renderLogin(appRoot, boot);
+    return boot(user);
   }
+  renderLogin(appRoot, boot);
+}).catch((err) => {
+  console.error('Failed to start the app', err);
+  appRoot.innerHTML = `
+    <div class="placeholder-note">
+      Couldn't connect. Check your internet connection and reload.<br>
+      <span style="font-size:0.8rem;opacity:0.8;">${String(err && err.message || err)}</span>
+    </div>
+  `;
 });
