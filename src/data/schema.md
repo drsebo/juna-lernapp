@@ -1,8 +1,8 @@
 # Content data schema
 
 Defines the shape of `src/data/units/unitN.json` and `src/data/irregularVerbs.json`.
-This is also the schema future manually-uploaded unit files must follow (spec §2/§9 — the
-upload button that adds units without a rebuild expects a file in this exact shape).
+Future units must follow this same shape — add a new `unitN.json` file here, then push it
+to Firestore with `npm run sync-content` (see `scripts/syncContent.js`).
 
 ## Unit file (`unitN.json`)
 

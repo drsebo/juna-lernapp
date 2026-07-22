@@ -10,7 +10,6 @@ import { renderAiConversation } from './ui/screens/AiConversation.js';
 import { renderSessionResults } from './ui/screens/SessionResults.js';
 import { renderWeakPoints } from './ui/screens/WeakPoints.js';
 import { renderExamPrep } from './ui/screens/ExamPrep.js';
-import { renderManageContent } from './ui/screens/ManageContent.js';
 import { waitForInitialUser, renderLogin } from './auth/authGate.js';
 import { db } from './storage/db.js';
 
@@ -25,7 +24,6 @@ registerRoute('/conversations/session', renderConversationSession);
 registerRoute('/conversations/ai', renderAiConversation);
 registerRoute('/exam-prep', renderExamPrep);
 registerRoute('/weak-points', renderWeakPoints);
-registerRoute('/manage-content', renderManageContent);
 
 const appRoot = document.getElementById('app');
 

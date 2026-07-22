@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'juna-lernapp-v3';
+const CACHE_VERSION = 'juna-lernapp-v4';
 
 const APP_SHELL = [
   './',
@@ -39,7 +39,6 @@ const APP_SHELL = [
   './src/ui/screens/GrammarSession.js',
   './src/ui/screens/GrammarSetup.js',
   './src/ui/screens/Home.js',
-  './src/ui/screens/ManageContent.js',
   './src/ui/screens/SessionResults.js',
   './src/ui/screens/VocabularySession.js',
   './src/ui/screens/VocabularySetup.js',

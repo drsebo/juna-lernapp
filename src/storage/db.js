@@ -39,10 +39,7 @@ function defaultState() {
     exams: [
       // { id, createdAt, topics: [{ topicId, kind: "grammar"|"vocab", done: bool }] }
     ],
-    activeExamId: null,
-    customUnits: [
-      // future manually-uploaded unit content, same shape as data/units/unitN.json
-    ]
+    activeExamId: null
   };
 }
 
