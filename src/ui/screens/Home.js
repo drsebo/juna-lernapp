@@ -3,6 +3,7 @@ import { navigate } from '../../router.js';
 import { loadContent } from '../../data/contentStore.js';
 import { computeVocabTargetProgress, computeGrammarTargetProgress, resolveReferenceIndex } from '../../engine/progress.js';
 import { examCompletionPct } from '../../engine/examPrep.js';
+import { logOut } from '../../auth/authGate.js';
 
 const ICONS = {
   grammar: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 19V6a2 2 0 0 1 2-2h9l5 5v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2Z"/><path d="M14 4v4a1 1 0 0 0 1 1h4"/><path d="M8 13h8M8 17h5"/></svg>',
@@ -74,15 +75,20 @@ export async function renderHome(root) {
         <span>›</span>
       </button>
 
-      <button class="text-link-btn" id="manage-content-btn">＋ Add unit content</button>
+      <button class="text-link-btn" id="logout-btn">Log out</button>
     `;
 
     root.querySelectorAll('.card').forEach((el) => {
       el.addEventListener('click', () => navigate(`/${el.dataset.route}`));
     });
     root.querySelector('#weak-points-btn').addEventListener('click', () => navigate('/weak-points'));
-    root.querySelector('#manage-content-btn').addEventListener('click', () => navigate('/manage-content'));
     root.querySelector('#exam-bar').addEventListener('click', () => navigate('/exam-prep'));
+    root.querySelector('#logout-btn').addEventListener('click', () => {
+      // No persistent onAuthStateChanged listener is set up (app.js only checks
+      // auth once at boot) — a full reload is the simplest way to land back on
+      // the login screen after signing out.
+      logOut().then(() => window.location.reload());
+    });
 
     bindPositionInput(root, 'grammar', (text) => findGrammarByCode(content.grammarTopics, text), (match) => {
       db.update((s) => { s.progressReference.grammarTopicId = match ? match.id : null; });
