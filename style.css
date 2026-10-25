@@ -995,6 +995,10 @@ button { font-family: inherit; }
   text-align: center;
 }
 
+.login-error.login-info { color: var(--color-text-muted); }
+
+.login-wrap .login-forgot { margin-top: 0; }
+
 /* ---------- Exam prep / weak points ---------- */
 
 .topic-checklist {
