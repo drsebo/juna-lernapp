@@ -1764,3 +1764,18 @@ button { font-family: inherit; }
 }
 
 .theme-situation { margin-top: 10px; }
+
+/* Teacher check-in: confirm button and feedback */
+.teacher-panel-body #confirm-stand-btn { margin-top: 6px; }
+
+.stand-feedback {
+  min-height: 20px;
+  margin: 8px 0 10px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.stand-feedback.ok { color: var(--color-success); }
+.stand-feedback.error { color: var(--color-danger); }
+.stand-feedback.pending { color: var(--color-text-muted); }

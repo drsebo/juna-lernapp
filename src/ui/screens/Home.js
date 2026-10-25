@@ -6,6 +6,7 @@ import { examCompletionPct } from '../../engine/examPrep.js';
 import { activeExamFor, countdownLabel, examCompletionPct6, EXAM_KINDS } from '../../engine/examPrep6.js';
 import { logOut } from '../../auth/authGate.js';
 import { getXp, levelInfo, streakStatus, boxCounts } from '../../engine/motivation.js';
+import { checkVocabAnswer } from '../../engine/vocabExercises.js';
 
 const ICONS = {
   grammar: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 19V6a2 2 0 0 1 2-2h9l5 5v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2Z"/><path d="M14 4v4a1 1 0 0 0 1 1h4"/><path d="M8 13h8M8 17h5"/></svg>',
@@ -29,6 +30,8 @@ export async function renderHome(root) {
   // draw() re-renders the whole screen after each position edit — remember
   // whether the teacher panel was open so it doesn't snap shut mid-edit.
   let teacherPanelOpen = false;
+  // result of the last "Stand bestätigen" tap, shown until the next redraw
+  let confirmMessage = null;
 
   draw();
 
@@ -48,7 +51,10 @@ export async function renderHome(root) {
     const lvl = levelInfo(xp);
     const streakState = streakStatus(state, new Date().toISOString().slice(0, 10));
     const shownStreak = streakState === 'start' ? 0 : streak;
-    const boxes = boxCounts(content.vocab, state);
+    // With a confirmed vocabulary stand, the word count and boxes cover only
+    // the words up to it — the ones that actually have to be learnt by now.
+    const wordsToLearn = vocabRefIndex >= 0 ? content.vocab.slice(0, vocabRefIndex + 1) : content.vocab;
+    const boxes = boxCounts(wordsToLearn, state);
     const totalWords = boxes.fresh + boxes[1] + boxes[2] + boxes[3] + boxes[4];
 
     root.innerHTML = `
@@ -105,7 +111,7 @@ export async function renderHome(root) {
       <p class="boxes-hint">Every right answer moves a word one box up. Get it to “Mastered”!</p>
 
       <details class="teacher-panel" id="teacher-panel"${teacherPanelOpen ? ' open' : ''}>
-        <summary><span>Teacher check-in<small>What has been confirmed in class</small></span></summary>
+        <summary><span>Teacher check-in<small>${vocabRefItem || grammarRefItem ? `Stand: ${[grammarRefItem && `bis ${grammarRefItem.code}`, vocabRefItem && `${totalWords} Vokabeln`].filter(Boolean).join(' · ')}${progressReference.confirmedAt ? ` · bestätigt am ${new Date(progressReference.confirmedAt).toLocaleDateString('de-DE')}` : ''}` : 'What has been confirmed in class'}</small></span></summary>
         <div class="teacher-panel-body">
           ${positionField({
             key: 'grammar',
@@ -126,10 +132,12 @@ export async function renderHome(root) {
             placeholder: `e.g. ${examples.vocabulary}`,
             currentValue: vocabRefItem ? vocabRefItem.en : '',
             status: vocabRefItem
-              ? `→ Unit ${vocabRefItem.unit} · ${vocabRefIndex + 1} words covered so far`
+              ? `→ Unit ${vocabRefItem.unit} · ${totalWords} words to learn so far`
               : 'Enter the last English word your teacher confirmed she knows, to track real progress.',
             pct: vocabRefItem ? computeVocabTargetProgress(content.vocab, state, vocabRefIndex) : 0
           })}
+          <button class="primary-btn" id="confirm-stand-btn">Stand bestätigen</button>
+          <div class="stand-feedback${confirmMessage ? ` ${confirmMessage.ok ? 'ok' : 'error'}` : ''}" id="stand-feedback" role="status">${confirmMessage ? confirmMessage.text : ''}</div>
         </div>
       </details>
 
@@ -157,14 +165,72 @@ export async function renderHome(root) {
       logOut().then(() => window.location.reload());
     });
 
-    bindPositionInput(root, 'grammar', (text) => findGrammarByCode(content.grammarTopics, text), (match) => {
-      db.update((s) => { gradeState(s, content.grade).progressReference.grammarTopicId = match ? match.id : null; });
-      draw();
+    confirmMessage = null;
+    bindTeacherCheckIn(root, content, () => draw(), (message) => { confirmMessage = message; });
+  }
+}
+
+// The two "known up to" fields are only saved with "Stand bestätigen" (or
+// Enter) — typing alone changes nothing. Both values are checked first; if one
+// isn't found, nothing is saved and the field says why. An empty field clears
+// that part of the stand.
+function bindTeacherCheckIn(root, content, redraw, setMessage) {
+  const fields = {
+    grammar: { input: root.querySelector('#position-input-grammar'), status: root.querySelector('#position-status-grammar') },
+    vocabulary: { input: root.querySelector('#position-input-vocabulary'), status: root.querySelector('#position-status-vocabulary') }
+  };
+  const feedback = root.querySelector('#stand-feedback');
+
+  Object.values(fields).forEach(({ input }) => {
+    input.addEventListener('input', () => {
+      input.classList.remove('input-error');
+      feedback.className = 'stand-feedback pending';
+      feedback.textContent = 'Noch nicht gespeichert – tippe auf „Stand bestätigen“.';
     });
-    bindPositionInput(root, 'vocabulary', (text) => findVocabByText(content.vocab, text), (match) => {
-      db.update((s) => { gradeState(s, content.grade).progressReference.vocabularyWordId = match ? match.id : null; });
-      draw();
+    input.addEventListener('keydown', (e) => { if (e.key === 'Enter') { e.preventDefault(); confirm(); } });
+  });
+  root.querySelector('#confirm-stand-btn').addEventListener('click', confirm);
+
+  function confirm() {
+    const grammarText = fields.grammar.input.value.trim();
+    const vocabText = fields.vocabulary.input.value.trim();
+    const grammar = grammarText ? findGrammarByCode(content.grammarTopics, grammarText) : null;
+    const word = vocabText ? findVocabByText(content.vocab, vocabText) : null;
+
+    const errors = [];
+    if (grammarText && !grammar) {
+      fields.grammar.input.classList.add('input-error');
+      fields.grammar.status.textContent = `„${grammarText}“ gibt es nicht – bitte einen G-Code wie ${content.grammarTopics[2] ? content.grammarTopics[2].code : 'G3'} eingeben.`;
+      errors.push('Grammatik');
+    }
+    if (vocabText && !word) {
+      fields.vocabulary.input.classList.add('input-error');
+      fields.vocabulary.status.textContent = `„${vocabText}“ steht nicht in der Vokabelliste – bitte das englische Wort genau wie im Buch eingeben.`;
+      errors.push('Vokabeln');
+    }
+    if (errors.length) {
+      feedback.className = 'stand-feedback error';
+      feedback.textContent = `Nicht gespeichert – bitte ${errors.join(' und ')} prüfen.`;
+      return;
+    }
+
+    db.update((s) => {
+      const gs = gradeState(s, content.grade);
+      gs.progressReference.grammarTopicId = grammar ? grammar.id : null;
+      gs.progressReference.vocabularyWordId = word ? word.id : null;
+      gs.progressReference.confirmedAt = new Date().toISOString();
+      // keeps the unit preselection on the setup screens and the AI word list in step
+      if (grammar) gs.bookPosition.grammar = `Unit ${grammar.unit}`;
+      if (word) gs.bookPosition.vocabulary = `Unit ${word.unit}`;
     });
+
+    const parts = [];
+    parts.push(grammar ? `Grammatik bis ${grammar.code}` : 'kein Grammatik-Stand');
+    // same count as the Vocabulary card: words (not phrases) up to the stand
+    const wordCount = word ? content.vocab.slice(0, content.vocab.indexOf(word) + 1).filter((w) => w.type === 'word').length : 0;
+    parts.push(word ? `Vokabeln bis „${word.en}“ (${wordCount} Vokabeln, Unit ${word.unit})` : 'kein Vokabel-Stand');
+    setMessage({ ok: true, text: `✓ Gespeichert: ${parts.join(' · ')}` });
+    redraw();
   }
 }
 
@@ -195,35 +261,19 @@ function positionField({ key, label, placeholder, currentValue, datalistId, data
   `;
 }
 
-function bindPositionInput(root, key, matcher, onResolved) {
-  const input = root.querySelector(`#position-input-${key}`);
-  const status = root.querySelector(`#position-status-${key}`);
-  input.addEventListener('change', () => {
-    const text = input.value.trim();
-    if (text === '') {
-      input.classList.remove('input-error');
-      onResolved(null);
-      return;
-    }
-    const match = matcher(text);
-    if (match) {
-      input.classList.remove('input-error');
-      onResolved(match);
-    } else {
-      input.classList.add('input-error');
-      status.textContent = 'Not found in the list — pick a suggestion as you type.';
-    }
-  });
-}
-
+// Exact match first; otherwise the same tolerant check as the vocabulary
+// trainer ("hang out" finds "to hang out (with) (infml)").
 function findVocabByText(vocab, text) {
   const norm = text.trim().toLowerCase();
-  return vocab.find((w) => w.en.trim().toLowerCase() === norm) || null;
+  return vocab.find((w) => w.en.trim().toLowerCase() === norm)
+    || vocab.find((w) => checkVocabAnswer(text, w.en))
+    || null;
 }
 
+// "G3", "g3", "G 3"
 function findGrammarByCode(grammarTopics, text) {
-  const norm = text.trim().toLowerCase();
-  return grammarTopics.find((t) => t.code.trim().toLowerCase() === norm) || null;
+  const norm = text.trim().toLowerCase().replace(/\s+/g, '');
+  return grammarTopics.find((t) => t.code.trim().toLowerCase().replace(/\s+/g, '') === norm) || null;
 }
 
 // Shown only while an exam is active — covers just the topics that exam needs
