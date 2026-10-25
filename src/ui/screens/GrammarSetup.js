@@ -1,5 +1,5 @@
-import { loadContent, availableUnitNumbers } from '../../data/contentStore.js';
-import { db } from '../../storage/db.js';
+import { loadContent, availableUnitNumbers, defaultUnit } from '../../data/contentStore.js';
+import { db, gradeState } from '../../storage/db.js';
 import { navigate } from '../../router.js';
 import { setSessionConfig } from '../sessionContext.js';
 
@@ -18,7 +18,7 @@ export async function renderGrammarSetup(root) {
   const units = availableUnitNumbers(content);
 
   const local = {
-    unit: parseUnitFromPosition(state.bookPosition.grammar) || units[units.length - 1],
+    unit: parseUnitFromPosition(gradeState(state).bookPosition.grammar) || defaultUnit(content, gradeState(state)),
     mode: 'topics', // 'topics' | 'time'
     topicCount: 3,
     minutes: 15
@@ -77,7 +77,7 @@ export async function renderGrammarSetup(root) {
     }
 
     root.querySelector('#start-btn').addEventListener('click', () => {
-      db.update((s) => { s.bookPosition.grammar = `Unit ${local.unit}`; });
+      db.update((s) => { gradeState(s).bookPosition.grammar = `Unit ${local.unit}`; });
       setSessionConfig({
         type: 'grammar',
         currentUnit: local.unit,

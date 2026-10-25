@@ -267,6 +267,24 @@ function main() {
     if (!/\/(k6u\d+|irregularVerbs6|learningGoals6|examTasks6)\.json$/.test(f)) warn(f, 'unbekannte Datei – wird nicht geprüft');
   }
 
+  // The index decides what the app loads and what sync-content uploads, so
+  // every content file has to be in it (and every entry has to exist).
+  const indexFile = 'contentIndex.json';
+  const index = load(indexFile);
+  if (index) {
+    const listed = new Set();
+    for (const entry of index.documents || []) {
+      registerId(indexFile, `index:${entry.id}`, 'Index-Eintrag');
+      if (!fs.existsSync(path.join(DATA_DIR, entry.file || ''))) err(indexFile, `${entry.id}: Datei "${entry.file}" fehlt`);
+      if (!(index.grades || []).includes(entry.grade)) err(indexFile, `${entry.id}: grade ${entry.grade} steht nicht in "grades"`);
+      if (!['unit', 'irregularVerbs', 'learningGoals', 'examTasks'].includes(entry.kind)) err(indexFile, `${entry.id}: unbekannte kind "${entry.kind}"`);
+      listed.add(entry.file);
+    }
+    for (const f of [...listJson('units'), ...listJson('grade6'), 'irregularVerbs.json']) {
+      if (!listed.has(f)) err(indexFile, `"${f}" fehlt im Index – wird weder geladen noch synchronisiert`);
+    }
+  }
+
   console.log(`Geprüft: ${unitFiles.length} Unit-Dateien, ${counts.vocab} Vokabeln, ${counts.topics} Grammatikthemen, ${counts.questions} Fragen, ${counts.scenarios} Szenarien, ${seenIds.size} IDs.`);
   if (warnings.length) {
     console.log(`\n${warnings.length} Warnung(en):`);

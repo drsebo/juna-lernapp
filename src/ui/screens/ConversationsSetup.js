@@ -1,5 +1,5 @@
-import { loadContent, availableUnitNumbers } from '../../data/contentStore.js';
-import { db } from '../../storage/db.js';
+import { loadContent, availableUnitNumbers, defaultUnit } from '../../data/contentStore.js';
+import { db, gradeState } from '../../storage/db.js';
 import { navigate } from '../../router.js';
 import { setSessionConfig } from '../sessionContext.js';
 import { orderScenariosByRecency } from '../../engine/conversationEngine.js';
@@ -18,9 +18,10 @@ export async function renderConversationsSetup(root) {
   const content = await loadContent();
   const state = db.load();
   const units = availableUnitNumbers(content);
-  const savedUnit = parseUnitFromPosition(state.bookPosition.vocabulary || state.bookPosition.grammar);
+  const { bookPosition } = gradeState(state);
+  const savedUnit = parseUnitFromPosition(bookPosition.vocabulary || bookPosition.grammar);
 
-  const local = { unit: savedUnit || units[units.length - 1] };
+  const local = { unit: savedUnit || defaultUnit(content, gradeState(state)) };
   draw();
 
   function draw() {

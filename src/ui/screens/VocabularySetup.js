@@ -1,5 +1,5 @@
-import { loadContent, availableUnitNumbers } from '../../data/contentStore.js';
-import { db } from '../../storage/db.js';
+import { loadContent, availableUnitNumbers, defaultUnit } from '../../data/contentStore.js';
+import { db, gradeState } from '../../storage/db.js';
 import { navigate } from '../../router.js';
 import { setSessionConfig } from '../sessionContext.js';
 
@@ -18,7 +18,7 @@ export async function renderVocabularySetup(root) {
   const units = availableUnitNumbers(content);
 
   const local = {
-    unit: parseUnitFromPosition(state.bookPosition.vocabulary) || units[units.length - 1],
+    unit: parseUnitFromPosition(gradeState(state).bookPosition.vocabulary) || defaultUnit(content, gradeState(state)),
     mode: 'count', // 'count' | 'time'
     count: 10,
     minutes: 10
@@ -72,7 +72,7 @@ export async function renderVocabularySetup(root) {
     }
 
     root.querySelector('#start-btn').addEventListener('click', () => {
-      db.update((s) => { s.bookPosition.vocabulary = `Unit ${local.unit}`; });
+      db.update((s) => { gradeState(s).bookPosition.vocabulary = `Unit ${local.unit}`; });
       setSessionConfig({
         type: 'vocabulary',
         currentUnit: local.unit,

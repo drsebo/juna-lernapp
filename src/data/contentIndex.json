@@ -1,0 +1,74 @@
+{
+  "grades": [
+    5,
+    6
+  ],
+  "documents": [
+    {
+      "id": "unit5",
+      "grade": 5,
+      "kind": "unit",
+      "file": "units/unit5.json"
+    },
+    {
+      "id": "unit6",
+      "grade": 5,
+      "kind": "unit",
+      "file": "units/unit6.json"
+    },
+    {
+      "id": "irregularVerbs",
+      "grade": 5,
+      "kind": "irregularVerbs",
+      "file": "irregularVerbs.json"
+    },
+    {
+      "id": "k6u1",
+      "grade": 6,
+      "kind": "unit",
+      "file": "grade6/k6u1.json"
+    },
+    {
+      "id": "k6u2",
+      "grade": 6,
+      "kind": "unit",
+      "file": "grade6/k6u2.json"
+    },
+    {
+      "id": "k6u3",
+      "grade": 6,
+      "kind": "unit",
+      "file": "grade6/k6u3.json"
+    },
+    {
+      "id": "k6u4",
+      "grade": 6,
+      "kind": "unit",
+      "file": "grade6/k6u4.json"
+    },
+    {
+      "id": "k6u5",
+      "grade": 6,
+      "kind": "unit",
+      "file": "grade6/k6u5.json"
+    },
+    {
+      "id": "k6u6",
+      "grade": 6,
+      "kind": "unit",
+      "file": "grade6/k6u6.json"
+    },
+    {
+      "id": "irregularVerbs6",
+      "grade": 6,
+      "kind": "irregularVerbs",
+      "file": "grade6/irregularVerbs6.json"
+    },
+    {
+      "id": "learningGoals6",
+      "grade": 6,
+      "kind": "learningGoals",
+      "file": "grade6/learningGoals6.json"
+    }
+  ]
+}

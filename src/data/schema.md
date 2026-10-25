@@ -119,4 +119,12 @@ every grade 6 id carries a `k6` prefix to stay unique next to the grade 5 ids.
 - `learningGoals6.json`: `learningGoals` ("Can you …" per unit, with `grammarCodes` and
   `vocabSections`) and `skills` (S1–S30).
 
+## Content index (`contentIndex.json`)
+
+Lists every content document with its Firestore id, `grade`, `kind` (`unit` | `irregularVerbs` |
+`learningGoals` | `examTasks`) and bundled `file`. `npm run sync-content` uploads exactly these
+documents plus the index itself (as `content/index`); the app loads one grade at a time from it
+(`loadContent({ grade })`, default: the grade picked on Home). A new content file must be added
+here, or it is neither loaded nor synced — `npm run validate` checks that.
+
 Check everything with `npm run validate` before syncing.

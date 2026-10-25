@@ -39,7 +39,7 @@ export function logWordCountExtension(state, mode, wordsAdded, now) {
   return state;
 }
 
-// Progress against the teacher-defined learning stand (state.bookPosition), not
+// Progress against the teacher-defined learning stand (bookPosition of the active grade), not
 // against the entire bundled book content — a word/topic from a unit beyond
 // where the teacher has taught doesn't count against or for the learner yet.
 // Untouched items within the target scope count as 0% (they're expected to be

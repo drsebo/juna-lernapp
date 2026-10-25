@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'juna-lernapp-v5';
+const CACHE_VERSION = 'juna-lernapp-v6';
 
 const APP_SHELL = [
   './',
@@ -17,9 +17,18 @@ const APP_SHELL = [
   './src/firebase/init.js',
   './src/auth/authGate.js',
   './src/data/contentStore.js',
+  './src/data/contentIndex.json',
   './src/data/irregularVerbs.json',
   './src/data/units/unit5.json',
   './src/data/units/unit6.json',
+  './src/data/grade6/k6u1.json',
+  './src/data/grade6/k6u2.json',
+  './src/data/grade6/k6u3.json',
+  './src/data/grade6/k6u4.json',
+  './src/data/grade6/k6u5.json',
+  './src/data/grade6/k6u6.json',
+  './src/data/grade6/irregularVerbs6.json',
+  './src/data/grade6/learningGoals6.json',
   './src/engine/conversationEngine.js',
   './src/engine/examPrep.js',
   './src/engine/grammarExercises.js',

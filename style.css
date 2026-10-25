@@ -1391,3 +1391,12 @@ button { font-family: inherit; }
   #app { max-width: 760px; }
   .card-grid { grid-template-columns: repeat(4, 1fr); }
 }
+
+/* Klasse 5 | Klasse 6 switch on Home */
+.grade-switch {
+  margin-bottom: 14px;
+}
+
+.grade-switch .seg-btn {
+  padding: 8px 12px;
+}

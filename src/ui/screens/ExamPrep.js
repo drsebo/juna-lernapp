@@ -1,4 +1,4 @@
-import { loadContent } from '../../data/contentStore.js';
+import { loadContent, unitRangeLabel } from '../../data/contentStore.js';
 import { db } from '../../storage/db.js';
 import { navigate } from '../../router.js';
 import { recognizeText, terminateOcr } from '../../ocr/ocrService.js';
@@ -22,7 +22,7 @@ export async function renderExamPrep(root) {
         <button class="back-btn" id="back-btn">‹</button>
         <h1 class="greeting" style="margin:0;font-size:1.2rem;">Exam Prep</h1>
       </div>
-      <p class="subgreeting">Photograph a machine-printed exam prep sheet from school and we'll match its topics against Units 5 &amp; 6 — fully offline, nothing leaves this device.</p>
+      <p class="subgreeting">Photograph a machine-printed exam prep sheet from school and we'll match its topics against ${unitRangeLabel(content).replace('&', '&amp;')} — fully offline, nothing leaves this device.</p>
       <label class="primary-btn" for="photo-input" style="display:block;text-align:center;">📷 Take or choose a photo</label>
       <input type="file" id="photo-input" accept="image/*" capture="environment" style="display:none;" />
       ${state.exams.length > 0 ? `<p class="setup-label" style="margin-top:24px;">Past exams</p>${pastExamsList(state.exams)}` : ''}

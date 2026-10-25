@@ -1,6 +1,6 @@
-import { db } from '../../storage/db.js';
+import { db, gradeState } from '../../storage/db.js';
 import { navigate } from '../../router.js';
-import { loadContent } from '../../data/contentStore.js';
+import { loadContent, availableGrades, unitRangeLabel } from '../../data/contentStore.js';
 import { computeVocabTargetProgress, computeGrammarTargetProgress, resolveReferenceIndex } from '../../engine/progress.js';
 import { examCompletionPct } from '../../engine/examPrep.js';
 import { logOut } from '../../auth/authGate.js';
@@ -14,9 +14,17 @@ const ICONS = {
   fire: '🔥'
 };
 
+// Example values for the teacher check-in fields, per grade.
+const POSITION_EXAMPLES = {
+  5: { grammar: 'G30', vocabulary: 'bracelet' },
+  6: { grammar: 'G3', vocabulary: 'industry' }
+};
+
 export async function renderHome(root) {
   root.innerHTML = `<div class="placeholder-note">Loading…</div>`;
-  const content = await loadContent();
+  const [content, grades] = await Promise.all([loadContent(), availableGrades()]);
+  const examples = POSITION_EXAMPLES[content.grade] || POSITION_EXAMPLES[6];
+  const units = unitRangeLabel(content);
   // draw() re-renders the whole screen after each position edit — remember
   // whether the teacher panel was open so it doesn't snap shut mid-edit.
   let teacherPanelOpen = false;
@@ -27,9 +35,10 @@ export async function renderHome(root) {
     const state = db.load();
     const streak = state.streak.count;
     const hasActiveExam = Boolean(state.activeExamId);
+    const { progressReference } = gradeState(state, content.grade);
 
-    const vocabRefIndex = resolveReferenceIndex(content.vocab, state.progressReference.vocabularyWordId);
-    const grammarRefIndex = resolveReferenceIndex(content.grammarTopics, state.progressReference.grammarTopicId);
+    const vocabRefIndex = resolveReferenceIndex(content.vocab, progressReference.vocabularyWordId);
+    const grammarRefIndex = resolveReferenceIndex(content.grammarTopics, progressReference.grammarTopicId);
     const vocabRefItem = vocabRefIndex >= 0 ? content.vocab[vocabRefIndex] : null;
     const grammarRefItem = grammarRefIndex >= 0 ? content.grammarTopics[grammarRefIndex] : null;
 
@@ -45,6 +54,12 @@ export async function renderHome(root) {
         <div class="hello">Hi Juna! 👋</div>
         <div class="streak-badge${shownStreak === 0 ? ' cold' : ''}"><span class="flame">${ICONS.fire}</span> ${shownStreak} day${shownStreak === 1 ? '' : 's'}</div>
       </div>
+
+      ${grades.length > 1 ? `
+        <div class="segmented grade-switch" id="grade-switch">
+          ${grades.map((g) => `<button class="seg-btn${g === content.grade ? ' active' : ''}" data-grade="${g}">Klasse ${g}</button>`).join('')}
+        </div>
+      ` : ''}
 
       <div class="hero">
         <div class="hero-row">
@@ -64,9 +79,9 @@ export async function renderHome(root) {
 
       <div class="section-title">What do you want to practise?</div>
       <div class="card-grid">
-        ${card('grammar', 'Grammar', 'Rules that click', ICONS.grammar)}
+        ${card('grammar', 'Grammar', `${content.grammarTopics.length} topics · ${units}`, ICONS.grammar)}
         ${card('vocabulary', 'Vocabulary', `${boxes[4]} of ${totalWords} words mastered`, ICONS.vocabulary)}
-        ${card('conversations', 'Conversations', 'Roleplay & dialogue', ICONS.conversations)}
+        ${card('conversations', 'Conversations', `${content.conversationScenarios.length} roleplays · ${units}`, ICONS.conversations)}
         ${card('exam-prep', 'Exam Prep', hasActiveExam ? 'Active exam in progress' : 'Tap to set up an exam', ICONS.exam, !hasActiveExam)}
       </div>
 
@@ -93,20 +108,20 @@ export async function renderHome(root) {
           ${positionField({
             key: 'grammar',
             label: 'Grammar known up to',
-            placeholder: 'e.g. G30',
+            placeholder: `e.g. ${examples.grammar}`,
             currentValue: grammarRefItem ? grammarRefItem.code : '',
             datalistId: 'grammar-options',
             datalistHtml: content.grammarTopics.map((t) => `<option value="${escapeAttr(t.code)}">${escapeHtml(t.code)} — ${escapeHtml(t.title)}</option>`).join(''),
             status: grammarRefItem
               ? `→ Unit ${grammarRefItem.unit} · ${grammarRefIndex + 1} topics covered so far`
-              : 'Enter the grammar number your teacher confirmed she knows (e.g. G30), to track real progress.',
+              : `Enter the grammar number your teacher confirmed she knows (e.g. ${examples.grammar}), to track real progress.`,
             pct: grammarRefItem ? computeGrammarTargetProgress(content.grammarTopics, state, grammarRefIndex) : 0
           })}
 
           ${positionField({
             key: 'vocabulary',
             label: 'Vocabulary known up to',
-            placeholder: 'e.g. bracelet',
+            placeholder: `e.g. ${examples.vocabulary}`,
             currentValue: vocabRefItem ? vocabRefItem.en : '',
             status: vocabRefItem
               ? `→ Unit ${vocabRefItem.unit} · ${vocabRefIndex + 1} words covered so far`
@@ -122,6 +137,14 @@ export async function renderHome(root) {
     root.querySelectorAll('.card').forEach((el) => {
       el.addEventListener('click', () => navigate(`/${el.dataset.route}`));
     });
+    root.querySelectorAll('#grade-switch .seg-btn').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const grade = Number(btn.dataset.grade);
+        if (grade === content.grade) return;
+        db.update((s) => { s.activeGrade = grade; });
+        renderHome(root);
+      });
+    });
     root.querySelector('#weak-points-btn').addEventListener('click', () => navigate('/weak-points'));
     root.querySelector('#exam-bar')?.addEventListener('click', () => navigate('/exam-prep'));
     root.querySelector('#teacher-panel').addEventListener('toggle', (e) => { teacherPanelOpen = e.target.open; });
@@ -133,11 +156,11 @@ export async function renderHome(root) {
     });
 
     bindPositionInput(root, 'grammar', (text) => findGrammarByCode(content.grammarTopics, text), (match) => {
-      db.update((s) => { s.progressReference.grammarTopicId = match ? match.id : null; });
+      db.update((s) => { gradeState(s, content.grade).progressReference.grammarTopicId = match ? match.id : null; });
       draw();
     });
     bindPositionInput(root, 'vocabulary', (text) => findVocabByText(content.vocab, text), (match) => {
-      db.update((s) => { s.progressReference.vocabularyWordId = match ? match.id : null; });
+      db.update((s) => { gradeState(s, content.grade).progressReference.vocabularyWordId = match ? match.id : null; });
       draw();
     });
   }

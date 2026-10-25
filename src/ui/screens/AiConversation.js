@@ -1,6 +1,6 @@
 import { navigate } from '../../router.js';
 import { loadContent } from '../../data/contentStore.js';
-import { db } from '../../storage/db.js';
+import { db, gradeState } from '../../storage/db.js';
 
 const AGENT_ID = 'agent_5501kx8em1ckfcas3g3kmm49s72j';
 const WIDGET_SCRIPT_SRC = 'https://unpkg.com/@elevenlabs/convai-widget-embed';
@@ -30,7 +30,7 @@ export async function renderAiConversation(root) {
         <h1 class="greeting" style="margin:0;font-size:1.2rem;">Talk with an AI partner</h1>
       </div>
       <p class="subgreeting">This is a live, open conversation with an AI — not the scripted roleplays. It needs an internet connection and microphone access, and isn't stored in this app.</p>
-      <p class="subgreeting">The AI is asked to stick to the ${knownVocabulary.length} words/phrases you've covered so far (Vocabulary: ${state.bookPosition.vocabulary || 'not set'}). It's a best-effort instruction to the AI, not a hard filter — it can still stray sometimes.</p>
+      <p class="subgreeting">The AI is asked to stick to the ${knownVocabulary.length} words/phrases you've covered so far (Vocabulary: ${gradeState(state).bookPosition.vocabulary || 'not set'}). It's a best-effort instruction to the AI, not a hard filter — it can still stray sometimes.</p>
 
       <p class="setup-label">Pick a topic to start with</p>
       <div class="segmented" id="theme-picker">
@@ -54,10 +54,10 @@ function openerFor(theme) {
 }
 
 // Scopes the word list to the same teacher-defined learning stand used for the
-// Home progress bars (state.bookPosition.vocabulary), not the entire bundled
+// Home progress bars (bookPosition.vocabulary of the active grade), not the entire bundled
 // content — the AI shouldn't reach for Unit 6 words if only Unit 5 is taught yet.
 function buildKnownVocabulary(content, state) {
-  const targetUnit = parseUnitFromPosition(state.bookPosition.vocabulary)
+  const targetUnit = parseUnitFromPosition(gradeState(state).bookPosition.vocabulary)
     || Math.max(...content.vocab.map((w) => w.unit));
   const inScope = content.vocab.filter((w) => w.unit <= targetUnit);
   const words = new Set();
