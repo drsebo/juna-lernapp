@@ -1748,6 +1748,14 @@ button { font-family: inherit; }
 .mock-solution.wrong { color: var(--color-danger); }
 
 /* AI conversation: grade 6 topic list */
+.theme-picker .seg-btn {
+  min-width: 0;
+  flex: 1 1 140px;
+  padding: 10px 8px;
+  overflow-wrap: anywhere;
+  hyphens: auto;
+}
+
 .theme-picker .seg-btn small {
   display: block;
   font-size: 0.7rem;

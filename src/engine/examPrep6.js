@@ -280,6 +280,8 @@ function gapItem(word) {
   if (base.length < 3) return null;
   const match = word.example.match(new RegExp(`\\b${escapeRegExp(base)}\\b`, 'i'));
   if (!match) return null;
+  // the German hint mustn't give the answer away ("LOL", "spanisch; Spanish")
+  if (word.de.toLowerCase().includes(match[0].toLowerCase())) return null;
   return {
     id: word.id,
     section: `section::${word.unit}|${word.section}`,
