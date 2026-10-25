@@ -2,11 +2,17 @@ import { loadContent } from '../../data/contentStore.js';
 import { db } from '../../storage/db.js';
 import { navigate } from '../../router.js';
 import { takeSessionConfig, setSessionResults } from '../sessionContext.js';
-import { buildGrammarSession, buildWeakGrammarSession, checkGrammarAnswer, recordGrammarAnswer } from '../../engine/grammarExercises.js';
+import {
+  buildGrammarSession, buildWeakGrammarSession, buildTopicBlockSession, checkGrammarAnswer, recordGrammarAnswer, acceptedAnswersOf
+} from '../../engine/grammarExercises.js';
 import { createTimer } from '../../engine/session.js';
 import { logTimerExtension } from '../../engine/progress.js';
 
 const TIME_MODE_TOPIC_COUNT = 20;
+// A wrongly answered question comes back this many questions later (grade 6),
+// at most MAX_REPEATS times.
+const REPEAT_GAP = 3;
+const MAX_REPEATS = 2;
 
 export async function renderGrammarSession(root) {
   const config = takeSessionConfig();
@@ -19,9 +25,14 @@ export async function renderGrammarSession(root) {
   const content = await loadContent();
   const state = db.load();
 
+  // Grade 6: rule cards, repeats of wrong answers, "Also right: …" — grade 5
+  // keeps its original flow.
+  const grade6Flow = content.grade !== 5;
   const { questions } = config.weakPoints
     ? buildWeakGrammarSession(content.grammarTopics, content.grammarQuestions, state, config.topicCount)
-    : buildGrammarSession(
+    : config.topicIds
+      ? buildTopicBlockSession(content.grammarTopics, content.grammarQuestions, config.topicIds)
+      : buildGrammarSession(
         content.grammarTopics,
         content.grammarQuestions,
         config.currentUnit,
@@ -36,7 +47,10 @@ export async function renderGrammarSession(root) {
     wrongCount: 0,
     answered: false,
     timeUp: false,
-    ended: false
+    ended: false,
+    rulesShown: new Set(),
+    skipRules: !(grade6Flow && config.showRules),
+    repeats: new Map() // question id → times re-queued
   };
 
   let timer = null;
@@ -64,6 +78,12 @@ export async function renderGrammarSession(root) {
     const q = currentQuestion();
     const topic = topicsById.get(q.topicId);
 
+    if (topic && !session.skipRules && !session.rulesShown.has(topic.id)) {
+      drawRuleCard(topic);
+      return;
+    }
+    const isRepeat = (session.repeats.get(q.id) || 0) > 0 && session.questions.indexOf(q) < session.index;
+
     root.innerHTML = `
       <div class="screen-header">
         <button class="back-btn" id="back-btn">‹</button>
@@ -75,6 +95,7 @@ export async function renderGrammarSession(root) {
       </div>
       <div class="exercise-card">
         <div class="exercise-ipa">${topic ? `${topic.code} — ${topic.title}` : ''}</div>
+        ${isRepeat ? '<div class="review-tag">Once more</div>' : ''}
         <div class="exercise-prompt" style="font-size:1.15rem;">${q.prompt}</div>
         <div id="answer-area" style="margin-top:18px;"></div>
         <div class="feedback-text" id="feedback"></div>
@@ -96,7 +117,7 @@ export async function renderGrammarSession(root) {
       });
     } else {
       answerArea.innerHTML = `
-        <input class="exercise-input" id="answer-input" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Type your answer…" />
+        <input class="exercise-input${q.type === 'transform' ? ' transform-input' : ''}" id="answer-input" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="${q.type === 'transform' ? 'Write the whole sentence…' : 'Type your answer…'}" />
         <button class="primary-btn" id="submit-btn">Check</button>
       `;
       const input = answerArea.querySelector('#answer-input');
@@ -104,6 +125,30 @@ export async function renderGrammarSession(root) {
       input.addEventListener('keydown', (e) => { if (e.key === 'Enter') submitAnswer(input.value); });
       answerArea.querySelector('#submit-btn').addEventListener('click', () => submitAnswer(input.value));
     }
+  }
+
+  // Short rule reminder before a topic's first question — skippable, and
+  // "Skip rule cards" turns them off for the rest of the session.
+  function drawRuleCard(topic) {
+    root.innerHTML = `
+      <div class="screen-header">
+        <button class="back-btn" id="back-btn">‹</button>
+        <h1 class="greeting" style="margin:0;font-size:1.2rem;">Grammar</h1>
+      </div>
+      <div class="session-progress"><span>Rule card</span><span id="timer-display"></span></div>
+      <div class="exercise-card rule-card">
+        <div class="exercise-ipa">${topic.code}${topic.bookPages ? ` · Buch ${topic.bookPages.replace(/^S\.\s*/, 'S. ')}` : ''}</div>
+        <div class="exercise-prompt" style="font-size:1.15rem;">${topic.title}</div>
+        <p class="rule-text">${topic.explanation}</p>
+        ${(topic.examples || []).length ? `<div class="rule-examples">${topic.examples.slice(0, 2).map((e) => `<div>“${e}”</div>`).join('')}</div>` : ''}
+        ${(topic.commonMistakes || []).length ? `<div class="rule-mistakes"><strong>Watch out:</strong>${topic.commonMistakes.map((m) => `<div>⚠️ ${m}</div>`).join('')}</div>` : ''}
+        <button class="primary-btn" id="rule-go-btn">Got it — let's go!</button>
+        <button class="text-link-btn" id="rule-skip-btn">Skip rule cards</button>
+      </div>
+    `;
+    root.querySelector('#back-btn').addEventListener('click', () => endEarly());
+    root.querySelector('#rule-go-btn').addEventListener('click', () => { session.rulesShown.add(topic.id); drawQuestion(); });
+    root.querySelector('#rule-skip-btn').addEventListener('click', () => { session.skipRules = true; drawQuestion(); });
   }
 
   function submitAnswer(value, clickedBtn) {
@@ -129,6 +174,12 @@ export async function renderGrammarSession(root) {
     feedback.textContent = correct ? '✓ Correct!' : `Not quite — correct answer: ${q.answer}`;
     feedback.className = `feedback-text ${correct ? 'correct' : 'wrong'}`;
 
+    if (grade6Flow && q.type !== 'multipleChoice') {
+      const others = acceptedAnswersOf(q).filter((a, i, all) => a !== q.answer && all.indexOf(a) === i && a !== value.trim());
+      if (others.length) feedback.insertAdjacentHTML('afterend', `<div class="also-right">Also right: ${others.join(' · ')}</div>`);
+    }
+    const willRepeat = grade6Flow && !correct && (session.repeats.get(q.id) || 0) < MAX_REPEATS;
+
     // Only show a hint on wrong answers — a specific, rule-based one where we have
     // it for the exact mistake made (multiple choice), falling back to the
     // question's general explanation otherwise.
@@ -142,9 +193,14 @@ export async function renderGrammarSession(root) {
       }
     }
 
+    if (willRepeat) {
+      session.repeats.set(q.id, (session.repeats.get(q.id) || 0) + 1);
+      session.questions.splice(Math.min(session.index + 1 + REPEAT_GAP, session.questions.length), 0, q);
+    }
+
     root.querySelector('.exercise-card').insertAdjacentHTML(
       'beforeend',
-      `<button class="primary-btn" id="next-btn">${session.index + 1 >= session.questions.length ? 'Finish' : 'Next question'}</button>`
+      `${willRepeat ? '<div class="also-right">🔁 This one comes back later in the round.</div>' : ''}<button class="primary-btn" id="next-btn">${session.index + 1 >= session.questions.length ? 'Finish' : 'Next question'}</button>`
     );
     root.querySelector('#next-btn').addEventListener('click', nextQuestion);
 

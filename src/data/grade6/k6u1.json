@@ -2309,6 +2309,53 @@
       "explanation": "Holly = she → What is Holly going to do?"
     },
     {
+      "id": "k6q_G1_014",
+      "topicId": "k6g_G1",
+      "type": "transform",
+      "prompt": "Mach daraus eine Frage: Emily is going to ride in the barrel race.",
+      "answer": "Is Emily going to ride in the barrel race?",
+      "acceptedAnswers": [
+        "Is Emily going to ride in the barrel race?"
+      ],
+      "explanation": "Frage im going-to future: is/are vor das Subjekt stellen – Is Emily going to …?"
+    },
+    {
+      "id": "k6q_G1_015",
+      "topicId": "k6g_G1",
+      "type": "transform",
+      "prompt": "Verneine den Satz: We are going to stay at home this weekend.",
+      "answer": "We aren't going to stay at home this weekend.",
+      "acceptedAnswers": [
+        "We aren't going to stay at home this weekend.",
+        "We are not going to stay at home this weekend.",
+        "We're not going to stay at home this weekend."
+      ],
+      "explanation": "Verneinung: aren't (are not) going to + Grundform."
+    },
+    {
+      "id": "k6q_G1_016",
+      "topicId": "k6g_G1",
+      "type": "transform",
+      "prompt": "Frag mit „What …?\" danach, was Dave heute Abend vorhat: Dave is going to watch a movie tonight.",
+      "answer": "What is Dave going to do tonight?",
+      "acceptedAnswers": [
+        "What is Dave going to do tonight?"
+      ],
+      "explanation": "Ergänzungsfrage: What + is + Subjekt + going to do …?"
+    },
+    {
+      "id": "k6q_G1_017",
+      "topicId": "k6g_G1",
+      "type": "transform",
+      "prompt": "Schreib den Satz im going-to future: I / visit / my aunt / next week",
+      "answer": "I'm going to visit my aunt next week.",
+      "acceptedAnswers": [
+        "I'm going to visit my aunt next week.",
+        "I am going to visit my aunt next week."
+      ],
+      "explanation": "Plan für die Zukunft: am/is/are + going to + Grundform."
+    },
+    {
       "id": "k6q_G2_001",
       "topicId": "k6g_G2",
       "type": "multipleChoice",

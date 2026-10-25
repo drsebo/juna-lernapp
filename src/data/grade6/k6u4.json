@@ -2025,6 +2025,52 @@
       "explanation": "Verneinung: hasn't + past participle (win – won – won)."
     },
     {
+      "id": "k6q_G9_015",
+      "topicId": "k6g_G9",
+      "type": "transform",
+      "prompt": "Mach daraus eine Frage mit „ever\": You have been to London.",
+      "answer": "Have you ever been to London?",
+      "acceptedAnswers": [
+        "Have you ever been to London?"
+      ],
+      "explanation": "Frage im present perfect: Have + Subjekt + ever + past participle?"
+    },
+    {
+      "id": "k6q_G9_016",
+      "topicId": "k6g_G9",
+      "type": "transform",
+      "prompt": "Verneine mit „yet\": Olivia has prepared for the trials.",
+      "answer": "Olivia hasn't prepared for the trials yet.",
+      "acceptedAnswers": [
+        "Olivia hasn't prepared for the trials yet.",
+        "Olivia has not prepared for the trials yet."
+      ],
+      "explanation": "not … yet: hasn't + past participle, yet steht am Satzende."
+    },
+    {
+      "id": "k6q_G9_017",
+      "topicId": "k6g_G9",
+      "type": "transform",
+      "prompt": "Setze „already\" an die richtige Stelle: Gwen has had an idea.",
+      "answer": "Gwen has already had an idea.",
+      "acceptedAnswers": [
+        "Gwen has already had an idea."
+      ],
+      "explanation": "already steht direkt nach has/have."
+    },
+    {
+      "id": "k6q_G9_018",
+      "topicId": "k6g_G9",
+      "type": "transform",
+      "prompt": "Schreib den Satz im present perfect: Jay / never / run / a marathon",
+      "answer": "Jay has never run a marathon.",
+      "acceptedAnswers": [
+        "Jay has never run a marathon.",
+        "Jay's never run a marathon."
+      ],
+      "explanation": "never steht direkt nach has; run – ran – run."
+    },
+    {
       "id": "k6q_G10_001",
       "topicId": "k6g_G10",
       "type": "multipleChoice",
@@ -2220,6 +2266,51 @@
       "prompt": "___ (you / already / tell) Luke?",
       "answer": "Have you already told",
       "explanation": "already in der Frage → present perfect: Have you already told …?"
+    },
+    {
+      "id": "k6q_G10_015",
+      "topicId": "k6g_G10",
+      "type": "transform",
+      "prompt": "Ergänze „yesterday\" und pass die Zeitform an: I have seen that film.",
+      "answer": "I saw that film yesterday.",
+      "acceptedAnswers": [
+        "I saw that film yesterday.",
+        "Yesterday I saw that film."
+      ],
+      "explanation": "Mit yesterday (genaue Zeitangabe) steht das simple past."
+    },
+    {
+      "id": "k6q_G10_016",
+      "topicId": "k6g_G10",
+      "type": "transform",
+      "prompt": "Frag mit „ever\" statt mit „last week\": Did you win a race last week?",
+      "answer": "Have you ever won a race?",
+      "acceptedAnswers": [
+        "Have you ever won a race?"
+      ],
+      "explanation": "ever ohne Zeitangabe → present perfect: Have you ever won …?"
+    },
+    {
+      "id": "k6q_G10_017",
+      "topicId": "k6g_G10",
+      "type": "transform",
+      "prompt": "Schreib den Satz richtig: My dad has run a marathon when he was 20.",
+      "answer": "My dad ran a marathon when he was 20.",
+      "acceptedAnswers": [
+        "My dad ran a marathon when he was 20."
+      ],
+      "explanation": "„when he was 20\" ist eine genaue Zeitangabe → simple past (run – ran – run)."
+    },
+    {
+      "id": "k6q_G10_018",
+      "topicId": "k6g_G10",
+      "type": "transform",
+      "prompt": "Schreib den Satz richtig: We have gone to Florida last summer.",
+      "answer": "We went to Florida last summer.",
+      "acceptedAnswers": [
+        "We went to Florida last summer."
+      ],
+      "explanation": "„last summer\" → simple past: went."
     },
     {
       "id": "k6q_G11_001",

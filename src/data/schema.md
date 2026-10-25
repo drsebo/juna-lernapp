@@ -111,7 +111,11 @@ every grade 6 id carries a `k6` prefix to stay unique next to the grade 5 ids.
   book), `pair: { be, ae }` for `type: "pair"`, `example`, `notes` (⚠️ hints, word families).
   Focus / Across cultures words belong to the unit before them. Array order = book order.
 - Grammar topics: `id: "k6g_G1"`, `code: "G1"`, `bookPages`. Questions: `id: "k6q_G1_001"`,
-  optional `acceptedAnswers: [...]` (all answers that count as correct, incl. `answer`).
+  optional `acceptedAnswers: [...]` (all answers that count as correct, incl. `answer`). Extra
+  type `"transform"`: rewrite a whole sentence (prompt = German instruction + sentence, `answer`
+  = full sentence). Typed grade 6 answers are compared ignoring case, punctuation, ’ vs ' and
+  short vs. long forms (I've = I have, won't = will not), so `acceptedAnswers` only needs real
+  alternatives (word order, "has bought" / "bought").
 - Scenarios: `id: "k6c_…"`, `grade: 6`, optional `section`, `situation`, `openingLine`,
   `grammarCodes`, `phrases`.
 - `irregularVerbs6.json`: all grade 5 verbs plus the grade 6 *-verbs, each with

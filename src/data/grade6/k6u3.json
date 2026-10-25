@@ -2104,6 +2104,53 @@
       "explanation": "Das neue Ereignis → simple past. ring – rang – rung."
     },
     {
+      "id": "k6q_G7_014",
+      "topicId": "k6g_G7",
+      "type": "transform",
+      "prompt": "Mach daraus eine Frage: Mike was ziplining at 3 o'clock.",
+      "answer": "Was Mike ziplining at 3 o'clock?",
+      "acceptedAnswers": [
+        "Was Mike ziplining at 3 o'clock?"
+      ],
+      "explanation": "Frage im past progressive: was/were vor das Subjekt – Was Mike ziplining …?"
+    },
+    {
+      "id": "k6q_G7_015",
+      "topicId": "k6g_G7",
+      "type": "transform",
+      "prompt": "Verneine den Satz: Grace and Ava were playing in the water.",
+      "answer": "Grace and Ava weren't playing in the water.",
+      "acceptedAnswers": [
+        "Grace and Ava weren't playing in the water.",
+        "Grace and Ava were not playing in the water."
+      ],
+      "explanation": "Verneinung: weren't (were not) + -ing."
+    },
+    {
+      "id": "k6q_G7_016",
+      "topicId": "k6g_G7",
+      "type": "transform",
+      "prompt": "Verbinde mit „when\": Emily was riding around the barrel. Her hat fell off.",
+      "answer": "Emily was riding around the barrel when her hat fell off.",
+      "acceptedAnswers": [
+        "Emily was riding around the barrel when her hat fell off.",
+        "When her hat fell off, Emily was riding around the barrel."
+      ],
+      "explanation": "Die laufende Handlung im past progressive, das plötzliche Ereignis mit when im simple past."
+    },
+    {
+      "id": "k6q_G7_017",
+      "topicId": "k6g_G7",
+      "type": "transform",
+      "prompt": "Verbinde mit „while\": Emily and Ryan were looking at photos. Their dad was preparing dinner.",
+      "answer": "While Emily and Ryan were looking at photos, their dad was preparing dinner.",
+      "acceptedAnswers": [
+        "While Emily and Ryan were looking at photos, their dad was preparing dinner.",
+        "Their dad was preparing dinner while Emily and Ryan were looking at photos."
+      ],
+      "explanation": "Zwei Handlungen gleichzeitig: while + past progressive. Nebensatz zuerst → Komma."
+    },
+    {
       "id": "k6q_G8_001",
       "topicId": "k6g_G8",
       "type": "multipleChoice",

@@ -1461,3 +1461,82 @@ button { font-family: inherit; }
   color: var(--color-text-muted);
   text-align: left;
 }
+
+/* ---------- Grammar trainer, grade 6 ---------- */
+
+.topic-unit { margin-bottom: 12px; }
+
+.topic-unit-head {
+  padding: 4px 12px;
+  margin-bottom: 6px;
+  border-radius: 999px;
+  border: 2px solid var(--color-border);
+  background: var(--color-surface);
+  color: var(--color-text-muted);
+  font: inherit;
+  font-size: 0.78rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.topic-unit-head.active {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.topic-pick-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.topic-pick {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  border: 2px solid var(--color-border);
+  background: var(--color-surface);
+  color: var(--color-text);
+  font: inherit;
+  font-size: 0.88rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.topic-pick small { margin-left: auto; color: var(--color-text-muted); }
+
+.topic-pick.active {
+  border-color: var(--color-primary);
+  background: var(--color-primary-light);
+}
+
+.rule-toggle { margin: 18px 0 4px; }
+
+.rule-card { text-align: left; }
+.rule-card .exercise-prompt,
+.rule-card .exercise-ipa { text-align: center; }
+
+.rule-text { font-size: 0.92rem; line-height: 1.5; }
+
+.rule-examples,
+.rule-mistakes {
+  margin: 10px 0;
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: var(--color-surface-2);
+  font-size: 0.88rem;
+}
+
+.rule-examples div { font-style: italic; }
+.rule-mistakes div { margin-top: 4px; }
+
+.also-right {
+  margin: 6px 0;
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+}
+
+.exercise-input.transform-input { text-align: left; font-size: 1rem; }

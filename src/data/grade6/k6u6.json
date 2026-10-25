@@ -1528,6 +1528,52 @@
       "explanation": "Versprechen → will future, verneint: won't forget."
     },
     {
+      "id": "k6q_G15_014",
+      "topicId": "k6g_G15",
+      "type": "transform",
+      "prompt": "Mach daraus eine Frage: Your dad will find work there.",
+      "answer": "Will your dad find work there?",
+      "acceptedAnswers": [
+        "Will your dad find work there?"
+      ],
+      "explanation": "Frage im will future: Will + Subjekt + Grundform?"
+    },
+    {
+      "id": "k6q_G15_015",
+      "topicId": "k6g_G15",
+      "type": "transform",
+      "prompt": "Verneine den Satz: Aunt Frances will come to Cornwall.",
+      "answer": "Aunt Frances won't come to Cornwall.",
+      "acceptedAnswers": [
+        "Aunt Frances won't come to Cornwall.",
+        "Aunt Frances will not come to Cornwall."
+      ],
+      "explanation": "Verneinung: won't (will not) + Grundform."
+    },
+    {
+      "id": "k6q_G15_016",
+      "topicId": "k6g_G15",
+      "type": "transform",
+      "prompt": "Schreib im will future: I hope / Dave / love / his new school",
+      "answer": "I hope Dave will love his new school.",
+      "acceptedAnswers": [
+        "I hope Dave will love his new school.",
+        "I hope that Dave will love his new school."
+      ],
+      "explanation": "Nach I hope steht oft das will future: will + Grundform."
+    },
+    {
+      "id": "k6q_G15_017",
+      "topicId": "k6g_G15",
+      "type": "transform",
+      "prompt": "Ersetze „can\" durch die Ersatzform im will future: The friends can find enough money.",
+      "answer": "The friends will be able to find enough money.",
+      "acceptedAnswers": [
+        "The friends will be able to find enough money."
+      ],
+      "explanation": "can in der Zukunft → will be able to."
+    },
+    {
       "id": "k6q_G16_001",
       "topicId": "k6g_G16",
       "type": "multipleChoice",
@@ -1910,6 +1956,54 @@
       "prompt": "___ I say yes, will it cost a lot? (vielleicht)",
       "answer": "If",
       "explanation": "Bedingung (vielleicht) → If."
+    },
+    {
+      "id": "k6q_G17_015",
+      "topicId": "k6g_G17",
+      "type": "transform",
+      "prompt": "Verbinde zu einem if-Satz (Typ 1): You go to Cornwall. You will like the beaches.",
+      "answer": "If you go to Cornwall, you will like the beaches.",
+      "acceptedAnswers": [
+        "If you go to Cornwall, you will like the beaches.",
+        "You will like the beaches if you go to Cornwall."
+      ],
+      "explanation": "if-Satz im simple present, Hauptsatz im will future. if-Satz zuerst → Komma."
+    },
+    {
+      "id": "k6q_G17_016",
+      "topicId": "k6g_G17",
+      "type": "transform",
+      "prompt": "Bilde einen if-Satz (Typ 1): it / rain / tomorrow → we / stay / at home",
+      "answer": "If it rains tomorrow, we will stay at home.",
+      "acceptedAnswers": [
+        "If it rains tomorrow, we will stay at home.",
+        "We will stay at home if it rains tomorrow."
+      ],
+      "explanation": "if-Satz: simple present (rains), Hauptsatz: will future."
+    },
+    {
+      "id": "k6q_G17_017",
+      "topicId": "k6g_G17",
+      "type": "transform",
+      "prompt": "Schreib den Satz richtig: If it will rain, we will stay at home.",
+      "answer": "If it rains, we will stay at home.",
+      "acceptedAnswers": [
+        "If it rains, we will stay at home.",
+        "We will stay at home if it rains."
+      ],
+      "explanation": "Im if-Satz steht nie will – simple present."
+    },
+    {
+      "id": "k6q_G17_018",
+      "topicId": "k6g_G17",
+      "type": "transform",
+      "prompt": "Bilde einen if-Satz mit „should\": you / want to learn about plants → you / visit / the Eden Project",
+      "answer": "If you want to learn about plants, you should visit the Eden Project.",
+      "acceptedAnswers": [
+        "If you want to learn about plants, you should visit the Eden Project.",
+        "You should visit the Eden Project if you want to learn about plants."
+      ],
+      "explanation": "Im Hauptsatz kann statt will auch should + Grundform stehen (Ratschlag)."
     },
     {
       "id": "k6q_G18_001",
