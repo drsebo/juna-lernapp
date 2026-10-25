@@ -1,0 +1,2326 @@
+{
+  "id": "k6u5",
+  "grade": 6,
+  "unit": 5,
+  "title": "Stay in touch",
+  "vocab": [
+    {
+      "id": "k6v5_001",
+      "grade": 6,
+      "unit": 5,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "in Kontakt bleiben (mit)",
+      "en": "to stay in touch (with)",
+      "example": "E-mails are a good way to stay in touch with your friends."
+    },
+    {
+      "id": "k6v5_002",
+      "grade": 6,
+      "unit": 5,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "soziales Netzwerk",
+      "en": "social network",
+      "example": "You can chat with all kinds of people in social networks."
+    },
+    {
+      "id": "k6v5_003",
+      "grade": 6,
+      "unit": 5,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "garstig; gemein",
+      "en": "nasty",
+      "example": "Why did you say such a nasty thing to me?"
+    },
+    {
+      "id": "k6v5_004",
+      "grade": 6,
+      "unit": 5,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Kommentar",
+      "en": "comment",
+      "example": "This is serious, so I don't need your funny comments!"
+    },
+    {
+      "id": "k6v5_005",
+      "grade": 6,
+      "unit": 5,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "jemand, der andere in sozialen Netzwerken belästigt/mobbt",
+      "en": "cyber bully",
+      "example": "Cyber bullies write nasty comments in social networks."
+    },
+    {
+      "id": "k6v5_006",
+      "grade": 6,
+      "unit": 5,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Schutz",
+      "en": "protection",
+      "example": "Kids on social networks need protection from cyber bullies."
+    },
+    {
+      "id": "k6v5_007",
+      "grade": 6,
+      "unit": 5,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Profil; Porträt",
+      "en": "profile",
+      "example": "Luke's profile looks cool."
+    },
+    {
+      "id": "k6v5_008",
+      "grade": 6,
+      "unit": 5,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Medien",
+      "en": "media",
+      "example": "Radio, TV and the internet are all media."
+    },
+    {
+      "id": "k6v5_009",
+      "grade": 6,
+      "unit": 5,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Brief",
+      "en": "letter",
+      "example": "I like letters better than e-mails."
+    },
+    {
+      "id": "k6v5_010",
+      "grade": 6,
+      "unit": 5,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "gedruckt; Druck-",
+      "en": "print",
+      "example": "I never buy print magazines. I always read them online."
+    },
+    {
+      "id": "k6v5_011",
+      "grade": 6,
+      "unit": 5,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Interesse",
+      "en": "interest",
+      "example": "Video games are one of my biggest interests.",
+      "notes": "→ interesting → be interested in"
+    },
+    {
+      "id": "k6v5_012",
+      "grade": 6,
+      "unit": 5,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Paradies",
+      "en": "paradise",
+      "example": "This place is so beautiful. It's like paradise."
+    },
+    {
+      "id": "k6v5_013",
+      "grade": 6,
+      "unit": 5,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "online stellen; posten",
+      "en": "to post",
+      "example": "Have you posted the photos of the class trip?"
+    },
+    {
+      "id": "k6v5_014",
+      "grade": 6,
+      "unit": 5,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "teilnehmen (an)",
+      "en": "to take part (in)",
+      "irregular": true,
+      "example": "Let's take part in the new Drama Club at school."
+    },
+    {
+      "id": "k6v5_015",
+      "grade": 6,
+      "unit": 5,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "eine SMS schicken",
+      "en": "to text",
+      "example": "Can you text me when we are going to meet?",
+      "notes": "→ a text message"
+    },
+    {
+      "id": "k6v5_016",
+      "grade": 6,
+      "unit": 5,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Diskussion",
+      "en": "discussion",
+      "example": "I had a discussion about video games with my parents.",
+      "notes": "→ to discuss"
+    },
+    {
+      "id": "k6v5_017",
+      "grade": 6,
+      "unit": 5,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "praktisch",
+      "en": "practical",
+      "example": "Smartphones are a practical way to stay in touch."
+    },
+    {
+      "id": "k6v5_018",
+      "grade": 6,
+      "unit": 5,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "pair",
+      "de": "Handy; Mobiltelefon",
+      "en": "mobile",
+      "pair": {
+        "be": "mobile (phone)",
+        "ae": "cell phone"
+      },
+      "notes": "mobile (phone) (BE) = cell phone (AE)"
+    },
+    {
+      "id": "k6v5_019",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 1",
+      "sectionTitle": "Dear Ruby",
+      "category": "station-1",
+      "type": "word",
+      "de": "Kummerkastentante",
+      "en": "agony aunt",
+      "example": "Lauren wrote a letter to her favourite magazine's agony aunt."
+    },
+    {
+      "id": "k6v5_020",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 1",
+      "sectionTitle": "Dear Ruby",
+      "category": "station-1",
+      "type": "phrase",
+      "de": "… was ich tun soll.",
+      "en": "… what to do.",
+      "example": "I don't know what to do."
+    },
+    {
+      "id": "k6v5_021",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 1",
+      "sectionTitle": "Dear Ruby",
+      "category": "station-1",
+      "type": "word",
+      "de": "beide",
+      "en": "the two of them",
+      "example": "My brothers sent me a photo of the two of them."
+    },
+    {
+      "id": "k6v5_022",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 1",
+      "sectionTitle": "Dear Ruby",
+      "category": "station-1",
+      "type": "word",
+      "de": "wann immer; jedes Mal, wenn",
+      "en": "whenever",
+      "example": "Whenever I ask my brother for something, he says \"no\"."
+    },
+    {
+      "id": "k6v5_023",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 1",
+      "sectionTitle": "Dear Ruby",
+      "category": "station-1",
+      "type": "word",
+      "de": "selbstkritisch",
+      "en": "self-critical",
+      "example": "The agony aunt's advice is to be more self-critical."
+    },
+    {
+      "id": "k6v5_024",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 1",
+      "sectionTitle": "Dear Ruby",
+      "category": "station-1",
+      "type": "word",
+      "de": "überreagieren",
+      "en": "to overreact",
+      "example": "I know you're angry with him, but don't overreact."
+    },
+    {
+      "id": "k6v5_025",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 1",
+      "sectionTitle": "Dear Ruby",
+      "category": "station-1",
+      "type": "word",
+      "de": "sobald",
+      "en": "as soon as",
+      "example": "Things usually get better as soon as you talk to the person you're fighting with."
+    },
+    {
+      "id": "k6v5_026",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 1",
+      "sectionTitle": "Dear Ruby",
+      "category": "station-1",
+      "type": "word",
+      "de": "Kopfhörer",
+      "en": "headphones (pl)",
+      "example": "Take my headphones and listen to this!"
+    },
+    {
+      "id": "k6v5_027",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 1",
+      "sectionTitle": "Dear Ruby",
+      "category": "station-1",
+      "type": "word",
+      "de": "Meinung",
+      "en": "opinion",
+      "example": "What's your opinion?",
+      "notes": "In my opinion … = I think …"
+    },
+    {
+      "id": "k6v5_028",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 1",
+      "sectionTitle": "Dear Ruby",
+      "category": "station-1",
+      "type": "word",
+      "de": "Kompromiss",
+      "en": "compromise",
+      "example": "It isn't always easy to find a compromise."
+    },
+    {
+      "id": "k6v5_029",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 1",
+      "sectionTitle": "Dear Ruby",
+      "category": "station-1",
+      "type": "word",
+      "de": "nachdem",
+      "en": "after",
+      "notes": "⚠️ after the show = nach · after the show finished = nachdem"
+    },
+    {
+      "id": "k6v5_030",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 1",
+      "sectionTitle": "Dear Ruby",
+      "category": "station-1",
+      "type": "word",
+      "de": "persönlich; von Angesicht zu Angesicht",
+      "en": "face-to-face",
+      "example": "It's fun to meet people face-to-face and not just in social networks."
+    },
+    {
+      "id": "k6v5_031",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 1",
+      "sectionTitle": "Dear Ruby",
+      "category": "station-1",
+      "type": "word",
+      "de": "blockieren; abblocken",
+      "en": "to block",
+      "example": "You can block messages from people you don't like."
+    },
+    {
+      "id": "k6v5_032",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 1",
+      "sectionTitle": "Dear Ruby",
+      "category": "station-1",
+      "type": "word",
+      "de": "für immer; ewig",
+      "en": "forever",
+      "example": "Photos that you post on the internet never go away. They stay there forever."
+    },
+    {
+      "id": "k6v5_033",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 1",
+      "sectionTitle": "Dear Ruby",
+      "category": "station-1",
+      "type": "word",
+      "de": "Aufmerksamkeit; Beachtung",
+      "en": "attention",
+      "example": "Now that I have your attention, please listen to me."
+    },
+    {
+      "id": "k6v5_034",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 2",
+      "sectionTitle": "Forum? What forum?",
+      "category": "station-2",
+      "type": "word",
+      "de": "dürfen",
+      "en": "to be allowed to (do sth)",
+      "irregular": true,
+      "example": "Students aren't allowed to use mobiles at school."
+    },
+    {
+      "id": "k6v5_035",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 2",
+      "sectionTitle": "Forum? What forum?",
+      "category": "station-2",
+      "type": "word",
+      "de": "hinübergehen zu; zu jmdm. nach Hause gehen",
+      "en": "to go over to",
+      "irregular": true,
+      "example": "Come on, let's go over to your house."
+    },
+    {
+      "id": "k6v5_036",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 2",
+      "sectionTitle": "Forum? What forum?",
+      "category": "station-2",
+      "type": "phrase",
+      "de": "Was um alles in der Welt …?",
+      "en": "What on earth …?",
+      "example": "What on earth is this?"
+    },
+    {
+      "id": "k6v5_037",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 2",
+      "sectionTitle": "Forum? What forum?",
+      "category": "station-2",
+      "type": "word",
+      "de": "Rohr; Rohrleitung",
+      "en": "pipe",
+      "example": "He broke a pipe and now there's water everywhere!"
+    },
+    {
+      "id": "k6v5_038",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 2",
+      "sectionTitle": "Forum? What forum?",
+      "category": "station-2",
+      "type": "word",
+      "de": "ausflippen; durchdrehen; verrückt werden",
+      "en": "to go crazy",
+      "irregular": true,
+      "example": "I don't understand the Maths homework at all!"
+    },
+    {
+      "id": "k6v5_039",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 2",
+      "sectionTitle": "Forum? What forum?",
+      "category": "station-2",
+      "type": "word",
+      "de": "Waschmaschine",
+      "en": "washing machine",
+      "example": "Put your dirty clothes in the washing machine.",
+      "notes": "→ to wash"
+    },
+    {
+      "id": "k6v5_040",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 2",
+      "sectionTitle": "Forum? What forum?",
+      "category": "station-2",
+      "type": "word",
+      "de": "verschwenden",
+      "en": "to waste",
+      "example": "You're wasting your time, Dad!"
+    },
+    {
+      "id": "k6v5_041",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 2",
+      "sectionTitle": "Forum? What forum?",
+      "category": "station-2",
+      "type": "word",
+      "de": "kann nicht; können nicht",
+      "en": "cannot",
+      "example": "You cannot help me with this.",
+      "notes": "= can't"
+    },
+    {
+      "id": "k6v5_042",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 2",
+      "sectionTitle": "Forum? What forum?",
+      "category": "station-2",
+      "type": "word",
+      "de": "Schritt-für-Schritt-",
+      "en": "step-by-step",
+      "example": "On the internet, there's step-by-step advice for everything."
+    },
+    {
+      "id": "k6v5_043",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 2",
+      "sectionTitle": "Forum? What forum?",
+      "category": "station-2",
+      "type": "word",
+      "de": "fähig sein zu; können",
+      "en": "to be able to (do sth)",
+      "irregular": true,
+      "example": "When my grandma lived in the next town, we were able to see her often."
+    },
+    {
+      "id": "k6v5_044",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 2",
+      "sectionTitle": "Forum? What forum?",
+      "category": "station-2",
+      "type": "word",
+      "de": "dennoch",
+      "en": "still",
+      "example": "I don't have any money, but I'm still going to go to London."
+    },
+    {
+      "id": "k6v5_045",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 2",
+      "sectionTitle": "Forum? What forum?",
+      "category": "station-2",
+      "type": "phrase",
+      "de": "Ich habe das schon eine Million Mal gemacht.",
+      "en": "I've done this a million times before.",
+      "example": "I can fix my computer. I've done this a million times before."
+    },
+    {
+      "id": "k6v5_046",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 2",
+      "sectionTitle": "Forum? What forum?",
+      "category": "station-2",
+      "type": "word",
+      "de": "Griff",
+      "en": "knob",
+      "example": "Cupboard doors often have knobs."
+    },
+    {
+      "id": "k6v5_047",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 2",
+      "sectionTitle": "Forum? What forum?",
+      "category": "station-2",
+      "type": "word",
+      "de": "erreichen; dran kommen",
+      "en": "to reach",
+      "example": "My mum put the chocolate on top of the cupboard so my little sister can't reach it."
+    },
+    {
+      "id": "k6v5_048",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 2",
+      "sectionTitle": "Forum? What forum?",
+      "category": "station-2",
+      "type": "word",
+      "de": "abschalten; ausschalten",
+      "en": "to turn off",
+      "example": "Please turn off the TV. It's time to go to bed."
+    },
+    {
+      "id": "k6v5_049",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 2",
+      "sectionTitle": "Forum? What forum?",
+      "category": "station-2",
+      "type": "word",
+      "de": "hier: funktionieren",
+      "en": "to work",
+      "example": "Is the washing machine working again?"
+    },
+    {
+      "id": "k6v5_050",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 2",
+      "sectionTitle": "Forum? What forum?",
+      "category": "station-2",
+      "type": "word",
+      "de": "Genie",
+      "en": "genius",
+      "example": "How did you do it? You're a genius!"
+    },
+    {
+      "id": "k6v5_051",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 2",
+      "sectionTitle": "Forum? What forum?",
+      "category": "station-2",
+      "type": "phrase",
+      "de": "Und ein Angeber!",
+      "en": "With a very big head!",
+      "example": "I'm a genius! – With a very big head!"
+    },
+    {
+      "id": "k6v5_052",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 2",
+      "sectionTitle": "Forum? What forum?",
+      "category": "station-2",
+      "type": "word",
+      "de": "Sohn",
+      "en": "son",
+      "example": "The Elliots have two sons: Jamie and Luke."
+    },
+    {
+      "id": "k6v5_053",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 2",
+      "sectionTitle": "Forum? What forum?",
+      "category": "station-2",
+      "type": "word",
+      "de": "von; durch",
+      "en": "by",
+      "example": "This is a report by Mike Ness."
+    },
+    {
+      "id": "k6v5_054",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 2",
+      "sectionTitle": "Forum? What forum?",
+      "category": "station-2",
+      "type": "word",
+      "de": "Bibliothek; Bücherei",
+      "en": "library",
+      "example": "You can read books in a library or take them home."
+    },
+    {
+      "id": "k6v5_055",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 2",
+      "sectionTitle": "Forum? What forum?",
+      "category": "station-2",
+      "type": "word",
+      "de": "Polizei",
+      "en": "police",
+      "example": "There has been an accident. Let's call the police.",
+      "notes": "⚠️ The police are looking for a dangerous man. (Plural!)"
+    },
+    {
+      "id": "k6v5_056",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 2",
+      "sectionTitle": "Forum? What forum?",
+      "category": "station-2",
+      "type": "word",
+      "de": "Ergebnis; Resultat",
+      "en": "result",
+      "example": "Have we got the test results yet?"
+    },
+    {
+      "id": "k6v5_057",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 2",
+      "sectionTitle": "Forum? What forum?",
+      "category": "station-2",
+      "type": "word",
+      "de": "mailen; per E-Mail schicken",
+      "en": "to (e-)mail",
+      "example": "Could you e-mail me your part of the class project?"
+    },
+    {
+      "id": "k6v5_058",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 2",
+      "sectionTitle": "Forum? What forum?",
+      "category": "station-2",
+      "type": "word",
+      "de": "herunterladen",
+      "en": "to download",
+      "example": "I've downloaded a new video. Let's watch it."
+    },
+    {
+      "id": "k6v5_059",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 2",
+      "sectionTitle": "Forum? What forum?",
+      "category": "station-2",
+      "type": "word",
+      "de": "kommentieren",
+      "en": "to comment (on)",
+      "example": "Please don't comment on my test results!"
+    },
+    {
+      "id": "k6v5_060",
+      "grade": 6,
+      "unit": 5,
+      "section": "Station 2",
+      "sectionTitle": "Forum? What forum?",
+      "category": "station-2",
+      "type": "word",
+      "de": "wichtig nehmen; sich kümmern (um); sich interessieren (für)",
+      "en": "to care (about)",
+      "example": "If you care about something, then it's important to you."
+    },
+    {
+      "id": "k6v5_061",
+      "grade": 6,
+      "unit": 5,
+      "section": "Skills",
+      "sectionTitle": "How to write a letter and a reply",
+      "category": "skills",
+      "type": "word",
+      "de": "zum Beispiel",
+      "en": "for example",
+      "example": "I speak four languages, for example English and French."
+    },
+    {
+      "id": "k6v5_062",
+      "grade": 6,
+      "unit": 5,
+      "section": "Skills",
+      "sectionTitle": "How to write a letter and a reply",
+      "category": "skills",
+      "type": "word",
+      "de": "verpassen; versäumen",
+      "en": "to miss",
+      "example": "Try not to miss the bus!"
+    },
+    {
+      "id": "k6v5_063",
+      "grade": 6,
+      "unit": 5,
+      "section": "Skills",
+      "sectionTitle": "How to write a letter and a reply",
+      "category": "skills",
+      "type": "phrase",
+      "de": "Viele Grüße … (am Ende von Briefen und Mails)",
+      "en": "Yours …",
+      "example": "Please write back soon. Yours, Dave"
+    },
+    {
+      "id": "k6v5_064",
+      "grade": 6,
+      "unit": 5,
+      "section": "Skills",
+      "sectionTitle": "How to write a letter and a reply",
+      "category": "skills",
+      "type": "word",
+      "de": "irgendwo; überall (egal, wo)",
+      "en": "anywhere",
+      "example": "Are there any souvenir shops anywhere?"
+    },
+    {
+      "id": "k6v5_065",
+      "grade": 6,
+      "unit": 5,
+      "section": "Skills",
+      "sectionTitle": "How to write a letter and a reply",
+      "category": "skills",
+      "type": "word",
+      "de": "Verständnis",
+      "en": "understanding",
+      "example": "What can you say to show understanding?"
+    },
+    {
+      "id": "k6v5_066",
+      "grade": 6,
+      "unit": 5,
+      "section": "Skills",
+      "sectionTitle": "How to write a letter and a reply",
+      "category": "skills",
+      "type": "word",
+      "de": "merkwürdig; seltsam; sonderbar",
+      "en": "weird",
+      "example": "That's weird.",
+      "notes": "= strange"
+    },
+    {
+      "id": "k6v5_067",
+      "grade": 6,
+      "unit": 5,
+      "section": "Story",
+      "sectionTitle": "It's a disaster!",
+      "category": "story",
+      "type": "word",
+      "de": "Desaster; Katastrophe; Unglück",
+      "en": "disaster",
+      "example": "Frank's day was a disaster."
+    },
+    {
+      "id": "k6v5_068",
+      "grade": 6,
+      "unit": 5,
+      "section": "Story",
+      "sectionTitle": "It's a disaster!",
+      "category": "story",
+      "type": "word",
+      "de": "an sein; laufen",
+      "en": "to be on",
+      "irregular": true,
+      "example": "The race is on."
+    },
+    {
+      "id": "k6v5_069",
+      "grade": 6,
+      "unit": 5,
+      "section": "Story",
+      "sectionTitle": "It's a disaster!",
+      "category": "story",
+      "type": "word",
+      "de": "Donner",
+      "en": "thunder (no pl)",
+      "example": "In a storm there's usually thunder and lightning."
+    },
+    {
+      "id": "k6v5_070",
+      "grade": 6,
+      "unit": 5,
+      "section": "Story",
+      "sectionTitle": "It's a disaster!",
+      "category": "story",
+      "type": "word",
+      "de": "Blitz",
+      "en": "lightning (no pl)",
+      "example": "There was a bad storm with thunder and lightning."
+    },
+    {
+      "id": "k6v5_071",
+      "grade": 6,
+      "unit": 5,
+      "section": "Story",
+      "sectionTitle": "It's a disaster!",
+      "category": "story",
+      "type": "word",
+      "de": "aussteigen; herauskommen aus",
+      "en": "to get out of",
+      "irregular": true,
+      "example": "He got out of the car quickly and ran to the house."
+    },
+    {
+      "id": "k6v5_072",
+      "grade": 6,
+      "unit": 5,
+      "section": "Story",
+      "sectionTitle": "It's a disaster!",
+      "category": "story",
+      "type": "word",
+      "de": "Haustür",
+      "en": "front door",
+      "example": "Every house has a front door."
+    },
+    {
+      "id": "k6v5_073",
+      "grade": 6,
+      "unit": 5,
+      "section": "Story",
+      "sectionTitle": "It's a disaster!",
+      "category": "story",
+      "type": "word",
+      "de": "PC",
+      "en": "PC (= personal computer)",
+      "example": "I need to work with the PC today."
+    },
+    {
+      "id": "k6v5_074",
+      "grade": 6,
+      "unit": 5,
+      "section": "Story",
+      "sectionTitle": "It's a disaster!",
+      "category": "story",
+      "type": "word",
+      "de": "nach oben; im Obergeschoss; oben",
+      "en": "upstairs",
+      "example": "Let's play upstairs in my room."
+    },
+    {
+      "id": "k6v5_075",
+      "grade": 6,
+      "unit": 5,
+      "section": "Story",
+      "sectionTitle": "It's a disaster!",
+      "category": "story",
+      "type": "word",
+      "de": "nach unten; im Untergeschoss; unten",
+      "en": "downstairs",
+      "example": "I think it's coming from downstairs.",
+      "notes": "downstairs ↔ upstairs"
+    },
+    {
+      "id": "k6v5_076",
+      "grade": 6,
+      "unit": 5,
+      "section": "Story",
+      "sectionTitle": "It's a disaster!",
+      "category": "story",
+      "type": "word",
+      "de": "abnehmen; herunternehmen; ausziehen",
+      "en": "to take off",
+      "irregular": true,
+      "example": "Take off your shoes before you jump on the bed!"
+    },
+    {
+      "id": "k6v5_077",
+      "grade": 6,
+      "unit": 5,
+      "section": "Story",
+      "sectionTitle": "It's a disaster!",
+      "category": "story",
+      "type": "word",
+      "de": "antippen",
+      "en": "to tap",
+      "example": "Jay tapped Olivia's shoulder."
+    },
+    {
+      "id": "k6v5_078",
+      "grade": 6,
+      "unit": 5,
+      "section": "Story",
+      "sectionTitle": "It's a disaster!",
+      "category": "story",
+      "type": "word",
+      "de": "scherzen",
+      "en": "to joke",
+      "example": "Don't worry, I'm only joking!",
+      "notes": "→ a joke"
+    },
+    {
+      "id": "k6v5_079",
+      "grade": 6,
+      "unit": 5,
+      "section": "Story",
+      "sectionTitle": "It's a disaster!",
+      "category": "story",
+      "type": "word",
+      "de": "drücken; pressen",
+      "en": "to press",
+      "example": "Don't press 'send'. The e-mail isn't finished."
+    },
+    {
+      "id": "k6v5_080",
+      "grade": 6,
+      "unit": 5,
+      "section": "Story",
+      "sectionTitle": "It's a disaster!",
+      "category": "story",
+      "type": "word",
+      "de": "schwarz werden",
+      "en": "to go black",
+      "irregular": true,
+      "example": "After the bang everything went black."
+    },
+    {
+      "id": "k6v5_081",
+      "grade": 6,
+      "unit": 5,
+      "section": "Story",
+      "sectionTitle": "It's a disaster!",
+      "category": "story",
+      "type": "word",
+      "de": "abstürzen",
+      "en": "to crash",
+      "example": "Has your computer ever crashed?"
+    },
+    {
+      "id": "k6v5_082",
+      "grade": 6,
+      "unit": 5,
+      "section": "Story",
+      "sectionTitle": "It's a disaster!",
+      "category": "story",
+      "type": "word",
+      "de": "Stromausfall",
+      "en": "power cut",
+      "example": "The city went black because of a power cut."
+    },
+    {
+      "id": "k6v5_083",
+      "grade": 6,
+      "unit": 5,
+      "section": "Story",
+      "sectionTitle": "It's a disaster!",
+      "category": "story",
+      "type": "word",
+      "de": "Kerzenlicht",
+      "en": "candlelight (no pl)",
+      "example": "When there was a power cut, we were sitting together in candlelight."
+    },
+    {
+      "id": "k6v5_084",
+      "grade": 6,
+      "unit": 5,
+      "section": "Story",
+      "sectionTitle": "It's a disaster!",
+      "category": "story",
+      "type": "pair",
+      "de": "Fackel; Taschenlampe",
+      "en": "torch",
+      "pair": {
+        "be": "torch",
+        "ae": "flashlight"
+      },
+      "example": "It's dark outside. We need torches.",
+      "notes": "torch BE = flashlight AE"
+    },
+    {
+      "id": "k6v5_085",
+      "grade": 6,
+      "unit": 5,
+      "section": "Story",
+      "sectionTitle": "It's a disaster!",
+      "category": "story",
+      "type": "word",
+      "de": "einzige/-r/-s",
+      "en": "only",
+      "example": "I'm the only girl in my tutor group without glasses."
+    },
+    {
+      "id": "k6v5_086",
+      "grade": 6,
+      "unit": 5,
+      "section": "Story",
+      "sectionTitle": "It's a disaster!",
+      "category": "story",
+      "type": "word",
+      "de": "jetzt gleich; sofort; gerade",
+      "en": "right now",
+      "example": "Right now I don't have any problems."
+    },
+    {
+      "id": "k6v5_087",
+      "grade": 6,
+      "unit": 5,
+      "section": "Story",
+      "sectionTitle": "It's a disaster!",
+      "category": "story",
+      "type": "word",
+      "de": "beeindruckt",
+      "en": "impressed",
+      "example": "The friends were impressed with Jay's dancing and singing."
+    },
+    {
+      "id": "k6v5_088",
+      "grade": 6,
+      "unit": 5,
+      "section": "Story",
+      "sectionTitle": "It's a disaster!",
+      "category": "story",
+      "type": "word",
+      "de": "angeben",
+      "en": "to show off",
+      "irregular": true,
+      "example": "My brother always shows off with his expensive smartphone.",
+      "notes": "→ a show-off"
+    },
+    {
+      "id": "k6v5_089",
+      "grade": 6,
+      "unit": 5,
+      "section": "Story",
+      "sectionTitle": "It's a disaster!",
+      "category": "story",
+      "type": "word",
+      "de": "(sich) ausleihen",
+      "en": "to borrow",
+      "example": "Can I borrow this T-shirt? – OK, but please remember to give it back."
+    },
+    {
+      "id": "k6v5_090",
+      "grade": 6,
+      "unit": 5,
+      "section": "Story",
+      "sectionTitle": "It's a disaster!",
+      "category": "story",
+      "type": "word",
+      "de": "mein/-er/-e/-es",
+      "en": "mine",
+      "example": "Whose bag is this? – It's mine."
+    },
+    {
+      "id": "k6v5_091",
+      "grade": 6,
+      "unit": 5,
+      "section": "Story",
+      "sectionTitle": "It's a disaster!",
+      "category": "story",
+      "type": "word",
+      "de": "nervös; aufgeregt",
+      "en": "nervously",
+      "example": "He was laughing nervously while he was talking to the girl he liked."
+    },
+    {
+      "id": "k6v5_092",
+      "grade": 6,
+      "unit": 5,
+      "section": "Story",
+      "sectionTitle": "It's a disaster!",
+      "category": "story",
+      "type": "word",
+      "de": "Website",
+      "en": "site",
+      "example": "This is my favourite guitar music site."
+    },
+    {
+      "id": "k6v5_093",
+      "grade": 6,
+      "unit": 5,
+      "section": "Story",
+      "sectionTitle": "It's a disaster!",
+      "category": "story",
+      "type": "word",
+      "de": "sich anstrengen; sich Mühe geben",
+      "en": "to try hard",
+      "example": "I tried hard to win the competition."
+    },
+    {
+      "id": "k6v5_094",
+      "grade": 6,
+      "unit": 5,
+      "section": "Story",
+      "sectionTitle": "It's a disaster!",
+      "category": "story",
+      "type": "word",
+      "de": "überlassen",
+      "en": "to leave",
+      "irregular": true,
+      "example": "I can't fix my mobile. – Leave it to me."
+    },
+    {
+      "id": "k6v5_095",
+      "grade": 6,
+      "unit": 5,
+      "section": "Check-out",
+      "sectionTitle": "",
+      "category": "check-out",
+      "type": "word",
+      "de": "sich ausgeschlossen fühlen",
+      "en": "to feel left out",
+      "irregular": true,
+      "example": "Did Frank feel left out?"
+    },
+    {
+      "id": "k6v5_096",
+      "grade": 6,
+      "unit": 5,
+      "section": "Check-out",
+      "sectionTitle": "",
+      "category": "check-out",
+      "type": "word",
+      "de": "Argumente für und gegen etw.",
+      "en": "pros and cons",
+      "example": "Discuss the pros and cons of social networks."
+    },
+    {
+      "id": "k6v5_097",
+      "grade": 6,
+      "unit": 5,
+      "section": "Check-out",
+      "sectionTitle": "",
+      "category": "check-out",
+      "type": "word",
+      "de": "modern",
+      "en": "modern",
+      "example": "Smartphones, computers and tablets are modern technologies."
+    },
+    {
+      "id": "k6v5_098",
+      "grade": 6,
+      "unit": 5,
+      "section": "Check-out",
+      "sectionTitle": "",
+      "category": "check-out",
+      "type": "word",
+      "de": "verbinden",
+      "en": "to link",
+      "example": "Try to link your ideas."
+    },
+    {
+      "id": "k6v5_099",
+      "grade": 6,
+      "unit": 5,
+      "section": "Focus 3",
+      "sectionTitle": "The Celts and the Romans in Britain",
+      "category": "focus-3",
+      "type": "word",
+      "de": "Kelte/Keltin",
+      "en": "Celt",
+      "example": "The Celts were very brave."
+    },
+    {
+      "id": "k6v5_100",
+      "grade": 6,
+      "unit": 5,
+      "section": "Focus 3",
+      "sectionTitle": "The Celts and the Romans in Britain",
+      "category": "focus-3",
+      "type": "word",
+      "de": "Römer/-in; römisch",
+      "en": "Roman",
+      "example": "London was originally a Roman town."
+    },
+    {
+      "id": "k6v5_101",
+      "grade": 6,
+      "unit": 5,
+      "section": "Focus 3",
+      "sectionTitle": "The Celts and the Romans in Britain",
+      "category": "focus-3",
+      "type": "word",
+      "de": "keltisch",
+      "en": "Celtic",
+      "example": "In this museum we can see lots of Celtic things."
+    },
+    {
+      "id": "k6v5_102",
+      "grade": 6,
+      "unit": 5,
+      "section": "Focus 3",
+      "sectionTitle": "The Celts and the Romans in Britain",
+      "category": "focus-3",
+      "type": "word",
+      "de": "Krieger",
+      "en": "warrior",
+      "example": "The Celtic warriors were fighting hard."
+    },
+    {
+      "id": "k6v5_103",
+      "grade": 6,
+      "unit": 5,
+      "section": "Focus 3",
+      "sectionTitle": "The Celts and the Romans in Britain",
+      "category": "focus-3",
+      "type": "word",
+      "de": "stark; mächtig",
+      "en": "powerful",
+      "example": "Who's the most powerful person in the world?"
+    },
+    {
+      "id": "k6v5_104",
+      "grade": 6,
+      "unit": 5,
+      "section": "Focus 3",
+      "sectionTitle": "The Celts and the Romans in Britain",
+      "category": "focus-3",
+      "type": "word",
+      "de": "einmarschieren (in); eindringen (in); überfallen",
+      "en": "to invade",
+      "example": "The Romans invaded the country.",
+      "notes": "→ invasion"
+    },
+    {
+      "id": "k6v5_105",
+      "grade": 6,
+      "unit": 5,
+      "section": "Focus 3",
+      "sectionTitle": "The Celts and the Romans in Britain",
+      "category": "focus-3",
+      "type": "word",
+      "de": "Reich; Kaiserreich",
+      "en": "empire",
+      "example": "the Roman Empire, the British Empire"
+    },
+    {
+      "id": "k6v5_106",
+      "grade": 6,
+      "unit": 5,
+      "section": "Focus 3",
+      "sectionTitle": "The Celts and the Romans in Britain",
+      "category": "focus-3",
+      "type": "word",
+      "de": "Armee",
+      "en": "army",
+      "notes": "an army = a big number of soldiers"
+    },
+    {
+      "id": "k6v5_107",
+      "grade": 6,
+      "unit": 5,
+      "section": "Focus 3",
+      "sectionTitle": "The Celts and the Romans in Britain",
+      "category": "focus-3",
+      "type": "word",
+      "de": "Schlacht; Kampf",
+      "en": "battle",
+      "example": "Armies fight in battles."
+    },
+    {
+      "id": "k6v5_108",
+      "grade": 6,
+      "unit": 5,
+      "section": "Focus 3",
+      "sectionTitle": "The Celts and the Romans in Britain",
+      "category": "focus-3",
+      "type": "word",
+      "de": "Stamm; Volksstamm",
+      "en": "tribe",
+      "example": "There were lots of different Celtic tribes."
+    },
+    {
+      "id": "k6v5_109",
+      "grade": 6,
+      "unit": 5,
+      "section": "Focus 3",
+      "sectionTitle": "The Celts and the Romans in Britain",
+      "category": "focus-3",
+      "type": "word",
+      "de": "Frieden",
+      "en": "peace",
+      "example": "We just want to live in peace."
+    },
+    {
+      "id": "k6v5_110",
+      "grade": 6,
+      "unit": 5,
+      "section": "Focus 3",
+      "sectionTitle": "The Celts and the Romans in Britain",
+      "category": "focus-3",
+      "type": "word",
+      "de": "danken",
+      "en": "to thank",
+      "example": "She thanked her friend for her help."
+    },
+    {
+      "id": "k6v5_111",
+      "grade": 6,
+      "unit": 5,
+      "section": "Focus 3",
+      "sectionTitle": "The Celts and the Romans in Britain",
+      "category": "focus-3",
+      "type": "word",
+      "de": "Gott",
+      "en": "god",
+      "example": "The Celts believed in many gods."
+    },
+    {
+      "id": "k6v5_112",
+      "grade": 6,
+      "unit": 5,
+      "section": "Focus 3",
+      "sectionTitle": "The Celts and the Romans in Britain",
+      "category": "focus-3",
+      "type": "word",
+      "de": "Kaiser",
+      "en": "emperor",
+      "example": "Augustus was the first Roman emperor."
+    },
+    {
+      "id": "k6v5_113",
+      "grade": 6,
+      "unit": 5,
+      "section": "Focus 3",
+      "sectionTitle": "The Celts and the Romans in Britain",
+      "category": "focus-3",
+      "type": "word",
+      "de": "Nase",
+      "en": "nose",
+      "example": "The Celts were scared of the animals with the long noses."
+    },
+    {
+      "id": "k6v5_114",
+      "grade": 6,
+      "unit": 5,
+      "section": "Focus 3",
+      "sectionTitle": "The Celts and the Romans in Britain",
+      "category": "focus-3",
+      "type": "word",
+      "de": "Handel treiben",
+      "en": "to trade",
+      "notes": "to trade = to buy, sell or exchange things"
+    },
+    {
+      "id": "k6v5_115",
+      "grade": 6,
+      "unit": 5,
+      "section": "Focus 3",
+      "sectionTitle": "The Celts and the Romans in Britain",
+      "category": "focus-3",
+      "type": "word",
+      "de": "stattdessen",
+      "en": "instead",
+      "example": "It's too cold for swimming. Let's go for a walk instead."
+    },
+    {
+      "id": "k6v5_116",
+      "grade": 6,
+      "unit": 5,
+      "section": "Focus 3",
+      "sectionTitle": "The Celts and the Romans in Britain",
+      "category": "focus-3",
+      "type": "word",
+      "de": "grausam",
+      "en": "cruel",
+      "example": "People are sometimes cruel to each other."
+    },
+    {
+      "id": "k6v5_117",
+      "grade": 6,
+      "unit": 5,
+      "section": "Focus 3",
+      "sectionTitle": "The Celts and the Romans in Britain",
+      "category": "focus-3",
+      "type": "word",
+      "de": "abbrennen; niederbrennen",
+      "en": "to burn down",
+      "irregular": true,
+      "example": "The Celts burned down the Roman towns."
+    },
+    {
+      "id": "k6v5_118",
+      "grade": 6,
+      "unit": 5,
+      "section": "Focus 3",
+      "sectionTitle": "The Celts and the Romans in Britain",
+      "category": "focus-3",
+      "type": "word",
+      "de": "verloren",
+      "en": "lost",
+      "example": "The battle was lost.",
+      "notes": "→ to lose"
+    },
+    {
+      "id": "k6v5_119",
+      "grade": 6,
+      "unit": 5,
+      "section": "Focus 3",
+      "sectionTitle": "The Celts and the Romans in Britain",
+      "category": "focus-3",
+      "type": "word",
+      "de": "Gefangene/-r",
+      "en": "prisoner",
+      "example": "After the battle was lost, the warriors became prisoners."
+    },
+    {
+      "id": "k6v5_120",
+      "grade": 6,
+      "unit": 5,
+      "section": "Focus 3",
+      "sectionTitle": "The Celts and the Romans in Britain",
+      "category": "focus-3",
+      "type": "word",
+      "de": "vor Christus",
+      "en": "BC (= before Christ)",
+      "example": "The Celts arrived in the British Isles around 500 BC."
+    },
+    {
+      "id": "k6v5_121",
+      "grade": 6,
+      "unit": 5,
+      "section": "Focus 3",
+      "sectionTitle": "The Celts and the Romans in Britain",
+      "category": "focus-3",
+      "type": "word",
+      "de": "nach Christus",
+      "en": "AD (= Anno Domini)",
+      "example": "The Romans built Hadrian's Wall around 117 AD.",
+      "notes": "AD ↔ BC"
+    },
+    {
+      "id": "k6v5_122",
+      "grade": 6,
+      "unit": 5,
+      "section": "Focus 3",
+      "sectionTitle": "The Celts and the Romans in Britain",
+      "category": "focus-3",
+      "type": "word",
+      "de": "Schild",
+      "en": "shield",
+      "example": "In the museum we saw a Celtic shield."
+    },
+    {
+      "id": "k6v5_123",
+      "grade": 6,
+      "unit": 5,
+      "section": "Focus 3",
+      "sectionTitle": "The Celts and the Romans in Britain",
+      "category": "focus-3",
+      "type": "word",
+      "de": "Kreis; Ring",
+      "en": "circle",
+      "example": "Please sit in a circle."
+    },
+    {
+      "id": "k6v5_124",
+      "grade": 6,
+      "unit": 5,
+      "section": "Focus 3",
+      "sectionTitle": "The Celts and the Romans in Britain",
+      "category": "focus-3",
+      "type": "word",
+      "de": "walisisch; Walisisch; Waliser/-in",
+      "en": "Welsh",
+      "example": "Welsh people are from Wales. Some of them still speak Welsh."
+    },
+    {
+      "id": "k6v5_125",
+      "grade": 6,
+      "unit": 5,
+      "section": "Focus 3",
+      "sectionTitle": "The Celts and the Romans in Britain",
+      "category": "focus-3",
+      "type": "word",
+      "de": "gälisch; Gälisch",
+      "en": "Gaelic",
+      "example": "Gaelic is a Celtic language."
+    },
+    {
+      "id": "k6v5_126",
+      "grade": 6,
+      "unit": 5,
+      "section": "Focus 3",
+      "sectionTitle": "The Celts and the Romans in Britain",
+      "category": "focus-3",
+      "type": "word",
+      "de": "Fort; Festung",
+      "en": "fort",
+      "example": "They built forts to protect the country."
+    },
+    {
+      "id": "k6v5_127",
+      "grade": 6,
+      "unit": 5,
+      "section": "Focus 3",
+      "sectionTitle": "The Celts and the Romans in Britain",
+      "category": "focus-3",
+      "type": "word",
+      "de": "beschützen; schützen",
+      "en": "to protect",
+      "example": "The Celtic warrior tried to protect his tribe.",
+      "notes": "→ a protection"
+    },
+    {
+      "id": "k6v5_128",
+      "grade": 6,
+      "unit": 5,
+      "section": "Focus 3",
+      "sectionTitle": "The Celts and the Romans in Britain",
+      "category": "focus-3",
+      "type": "word",
+      "de": "Detektiv/-in",
+      "en": "detective",
+      "example": "A detective is sb who tries to find out things."
+    }
+  ],
+  "grammarTopics": [
+    {
+      "id": "k6g_G12",
+      "grade": 6,
+      "unit": 5,
+      "code": "G12",
+      "title": "Adverbial clauses of time, reason, purpose and concession",
+      "bookPages": "S. 84–86",
+      "explanation": "Mit Konjunktionen verbindest du Haupt- und Nebensatz logisch. Zeit: after (nachdem), as soon as (sobald), before (bevor), until (bis), when (wenn/als), whenever (jedes Mal, wenn), while (während). Grund: because (weil). Zweck: so that (damit). Einräumung: although (obwohl). Komma: Nebensatz zuerst → Komma; Hauptsatz zuerst → kein Komma.",
+      "examples": [
+        "After I spoke to my friend, I felt much better.",
+        "Things often get better as soon as you talk to somebody.",
+        "Carol wrote to an agony aunt because she had a problem.",
+        "Write to Ruby so that she can give you advice.",
+        "They had a big fight although they were best friends."
+      ],
+      "commonMistakes": [
+        "because und although verwechseln",
+        "so that und because verwechseln (Zweck ↔ Grund)",
+        "Komma, obwohl der Hauptsatz zuerst steht"
+      ]
+    },
+    {
+      "id": "k6g_G13",
+      "grade": 6,
+      "unit": 5,
+      "code": "G13",
+      "title": "Modals and their substitute forms (be allowed to, be able to, have to)",
+      "bookPages": "S. 87–88",
+      "explanation": "can, may, must, mustn't, needn't gibt es nur im simple present. Für andere Zeitformen brauchst du Ersatzformen: Erlaubnis/Verbot → be allowed to (was/weren't allowed to), Fähigkeit → be able to (was able to), Notwendigkeit → have to (had to, didn't have to). Achtung: mustn't = darf nicht; needn't / don't have to = muss nicht.",
+      "examples": [
+        "Olivia is allowed to use her parents' computer.",
+        "She was allowed to play a game on it last weekend.",
+        "When I was young, I wasn't able to look everything up on the internet.",
+        "He had to ask somebody for help.",
+        "We didn't have to wait long."
+      ],
+      "commonMistakes": [
+        "„musted\" oder „must\" für die Vergangenheit statt „had to\"",
+        "mustn't (darf nicht) mit needn't (muss nicht) verwechseln",
+        "Form von be vergessen: „I allowed to …\""
+      ]
+    },
+    {
+      "id": "k6g_G14",
+      "grade": 6,
+      "unit": 5,
+      "code": "G14",
+      "title": "should, shouldn't, could",
+      "bookPages": "S. 87–88",
+      "explanation": "Mit should (solltest), shouldn't (solltest nicht) und could (könntest) machst du Vorschläge und gibst Ratschläge. Wie alle Modalverben sind sie in allen Personen gleich (kein -s), und danach steht das Vollverb in der Grundform ohne to.",
+      "examples": [
+        "Mr Elliot could look for help on the internet.",
+        "They should ask their parents for advice.",
+        "You shouldn't try to fix everything yourself.",
+        "You could look at a forum for help. But you shouldn't believe everything you read online."
+      ],
+      "commonMistakes": [
+        "to nach dem Modalverb: „You should to ask …\"",
+        "-s beim Modalverb oder Vollverb: „She shoulds …\", „He could looks …\"",
+        "Verneinung mit do: „You don't should …\""
+      ]
+    }
+  ],
+  "grammarQuestions": [
+    {
+      "id": "k6q_G12_001",
+      "topicId": "k6g_G12",
+      "type": "multipleChoice",
+      "prompt": "___ I spoke to my friend, I felt much better.",
+      "options": [
+        "After",
+        "Although",
+        "So that"
+      ],
+      "answer": "After",
+      "explanation": "Zeitliche Reihenfolge: nachdem → after.",
+      "optionHints": {
+        "Although": "although = obwohl – das passt hier nicht.",
+        "So that": "so that = damit (Zweck) – hier geht es um die zeitliche Reihenfolge."
+      }
+    },
+    {
+      "id": "k6q_G12_002",
+      "topicId": "k6g_G12",
+      "type": "multipleChoice",
+      "prompt": "Carol wrote to an agony aunt ___ she had a problem.",
+      "options": [
+        "because",
+        "although",
+        "so that"
+      ],
+      "answer": "because",
+      "explanation": "Grund: weil sie ein Problem hatte → because.",
+      "optionHints": {
+        "although": "although = obwohl. Hier ist es ein Grund → because.",
+        "so that": "so that = damit. Hier ist es ein Grund → because."
+      }
+    },
+    {
+      "id": "k6q_G12_003",
+      "topicId": "k6g_G12",
+      "type": "multipleChoice",
+      "prompt": "Write to Ruby ___ she can give you advice.",
+      "options": [
+        "so that",
+        "because",
+        "although"
+      ],
+      "answer": "so that",
+      "explanation": "Zweck: damit sie dir Rat geben kann → so that.",
+      "optionHints": {
+        "because": "because = weil. Hier geht es um einen Zweck → so that.",
+        "although": "although = obwohl – das passt nicht."
+      }
+    },
+    {
+      "id": "k6q_G12_004",
+      "topicId": "k6g_G12",
+      "type": "multipleChoice",
+      "prompt": "They had a big fight ___ they were best friends.",
+      "options": [
+        "although",
+        "because",
+        "so that"
+      ],
+      "answer": "although",
+      "explanation": "Gegensatz: obwohl sie beste Freundinnen waren → although.",
+      "optionHints": {
+        "because": "Sie stritten nicht, WEIL sie Freundinnen waren – es ist ein Gegensatz.",
+        "so that": "so that = damit – passt hier nicht."
+      }
+    },
+    {
+      "id": "k6q_G12_005",
+      "topicId": "k6g_G12",
+      "type": "multipleChoice",
+      "prompt": "Things often get better ___ you talk to somebody.",
+      "options": [
+        "as soon as",
+        "although",
+        "until"
+      ],
+      "answer": "as soon as",
+      "explanation": "as soon as = sobald.",
+      "optionHints": {
+        "although": "although = obwohl – passt hier nicht.",
+        "until": "until = bis – der Sinn wäre falsch."
+      }
+    },
+    {
+      "id": "k6q_G12_006",
+      "topicId": "k6g_G12",
+      "type": "multipleChoice",
+      "prompt": "Never give out your address ___ you've really met your new friend.",
+      "options": [
+        "until",
+        "while",
+        "because"
+      ],
+      "answer": "until",
+      "explanation": "until = bis (erst wenn).",
+      "optionHints": {
+        "while": "while = während – passt hier nicht.",
+        "because": "because = weil – der Sinn wäre falsch."
+      }
+    },
+    {
+      "id": "k6q_G12_007",
+      "topicId": "k6g_G12",
+      "type": "multipleChoice",
+      "prompt": "___ you want to put photos of other people online, ask them first.",
+      "options": [
+        "Whenever",
+        "Although",
+        "Until"
+      ],
+      "answer": "Whenever",
+      "explanation": "whenever = jedes Mal, wenn.",
+      "optionHints": {
+        "Although": "although = obwohl – passt nicht.",
+        "Until": "until = bis – passt nicht."
+      }
+    },
+    {
+      "id": "k6q_G12_008",
+      "topicId": "k6g_G12",
+      "type": "fillBlank",
+      "prompt": "Your friend asked for you ___ you were sleeping.",
+      "answer": "while",
+      "acceptedAnswers": [
+        "while",
+        "when"
+      ],
+      "explanation": "while = während (die Handlung lief)."
+    },
+    {
+      "id": "k6q_G12_009",
+      "topicId": "k6g_G12",
+      "type": "fillBlank",
+      "prompt": "Ask your parents ___ you need advice.",
+      "answer": "when",
+      "acceptedAnswers": [
+        "when",
+        "whenever",
+        "if"
+      ],
+      "explanation": "when = wenn (zeitlich)."
+    },
+    {
+      "id": "k6q_G12_010",
+      "topicId": "k6g_G12",
+      "type": "fillBlank",
+      "prompt": "___ they had an argument, Carol spent a lot of time with her friend.",
+      "answer": "Before",
+      "explanation": "before = bevor."
+    },
+    {
+      "id": "k6q_G12_011",
+      "topicId": "k6g_G12",
+      "type": "fillBlank",
+      "prompt": "I switched off my phone ___ the film started.",
+      "answer": "before",
+      "acceptedAnswers": [
+        "before",
+        "when",
+        "as soon as"
+      ],
+      "explanation": "before = bevor (vor dem Filmstart)."
+    },
+    {
+      "id": "k6q_G12_012",
+      "topicId": "k6g_G12",
+      "type": "fillBlank",
+      "prompt": "He went to bed early ___ he was very tired.",
+      "answer": "because",
+      "explanation": "Grund → because."
+    },
+    {
+      "id": "k6q_G12_013",
+      "topicId": "k6g_G12",
+      "type": "fillBlank",
+      "prompt": "I called Holly ___ I got home.",
+      "answer": "as soon as",
+      "acceptedAnswers": [
+        "as soon as",
+        "when",
+        "after"
+      ],
+      "explanation": "as soon as = sobald."
+    },
+    {
+      "id": "k6q_G13_001",
+      "topicId": "k6g_G13",
+      "type": "multipleChoice",
+      "prompt": "When I was young, I ___ look everything up on the internet.",
+      "options": [
+        "wasn't able to",
+        "can't",
+        "didn't able to"
+      ],
+      "answer": "wasn't able to",
+      "explanation": "Fähigkeit in der Vergangenheit → was/wasn't able to.",
+      "optionHints": {
+        "can't": "can gibt es nur im simple present. Vergangenheit: wasn't able to.",
+        "didn't able to": "be able to wird mit be verneint: wasn't able to."
+      }
+    },
+    {
+      "id": "k6q_G13_002",
+      "topicId": "k6g_G13",
+      "type": "multipleChoice",
+      "prompt": "Olivia ___ use her parents' computer. (darf)",
+      "options": [
+        "is allowed to",
+        "is able to",
+        "has to"
+      ],
+      "answer": "is allowed to",
+      "explanation": "Erlaubnis → be allowed to.",
+      "optionHints": {
+        "is able to": "be able to = können (Fähigkeit). Erlaubnis: be allowed to.",
+        "has to": "have to = müssen. Erlaubnis: be allowed to."
+      }
+    },
+    {
+      "id": "k6q_G13_003",
+      "topicId": "k6g_G13",
+      "type": "multipleChoice",
+      "prompt": "She ___ play a game on it last weekend. (durfte)",
+      "options": [
+        "was allowed to",
+        "is allowed to",
+        "had allowed to"
+      ],
+      "answer": "was allowed to",
+      "explanation": "Erlaubnis in der Vergangenheit → was allowed to.",
+      "optionHints": {
+        "is allowed to": "last weekend → Vergangenheit: was allowed to.",
+        "had allowed to": "Die Ersatzform heißt be allowed to → was allowed to."
+      }
+    },
+    {
+      "id": "k6q_G13_004",
+      "topicId": "k6g_G13",
+      "type": "multipleChoice",
+      "prompt": "Mrs Elliot ___ do the shopping yesterday. (musste)",
+      "options": [
+        "had to",
+        "must",
+        "has to"
+      ],
+      "answer": "had to",
+      "explanation": "must gibt es nur im simple present. Vergangenheit: had to.",
+      "optionHints": {
+        "must": "must hat keine Vergangenheitsform – du brauchst had to.",
+        "has to": "yesterday → Vergangenheit: had to."
+      }
+    },
+    {
+      "id": "k6q_G13_005",
+      "topicId": "k6g_G13",
+      "type": "multipleChoice",
+      "prompt": "You ___ look for the phone number. I've got it. (musst nicht)",
+      "options": [
+        "don't have to",
+        "mustn't",
+        "aren't allowed to"
+      ],
+      "answer": "don't have to",
+      "explanation": "muss nicht = don't have to (oder needn't).",
+      "optionHints": {
+        "mustn't": "Vorsicht: mustn't = darfst nicht! Muss nicht = don't have to / needn't.",
+        "aren't allowed to": "aren't allowed to = darfst nicht. Muss nicht = don't have to."
+      }
+    },
+    {
+      "id": "k6q_G13_006",
+      "topicId": "k6g_G13",
+      "type": "multipleChoice",
+      "prompt": "In my last school we ___ use computers just for fun. (durften nicht)",
+      "options": [
+        "weren't allowed to",
+        "didn't have to",
+        "weren't able to"
+      ],
+      "answer": "weren't allowed to",
+      "explanation": "Verbot in der Vergangenheit → weren't allowed to.",
+      "optionHints": {
+        "didn't have to": "didn't have to = mussten nicht. Verbot: weren't allowed to.",
+        "weren't able to": "weren't able to = konnten nicht. Verbot: weren't allowed to."
+      }
+    },
+    {
+      "id": "k6q_G13_007",
+      "topicId": "k6g_G13",
+      "type": "multipleChoice",
+      "prompt": "We ___ wait long. The bus came quickly. (mussten nicht)",
+      "options": [
+        "didn't have to",
+        "mustn't",
+        "weren't allowed to"
+      ],
+      "answer": "didn't have to",
+      "explanation": "mussten nicht → didn't have to.",
+      "optionHints": {
+        "mustn't": "mustn't = darf nicht, und nur Gegenwart. Mussten nicht: didn't have to.",
+        "weren't allowed to": "Das hieße „durften nicht warten\". Gemeint: mussten nicht → didn't have to."
+      }
+    },
+    {
+      "id": "k6q_G13_008",
+      "topicId": "k6g_G13",
+      "type": "fillBlank",
+      "prompt": "Luke ___ help his dad with the washing machine. (kann – Ersatzform)",
+      "answer": "is able to",
+      "explanation": "Fähigkeit, simple present → is able to."
+    },
+    {
+      "id": "k6q_G13_009",
+      "topicId": "k6g_G13",
+      "type": "fillBlank",
+      "prompt": "When the boys were four, they ___ swim. (konnten nicht – Ersatzform)",
+      "answer": "weren't able to",
+      "acceptedAnswers": [
+        "weren't able to",
+        "were not able to",
+        "couldn't",
+        "could not"
+      ],
+      "explanation": "Fähigkeit in der Vergangenheit, verneint → weren't able to."
+    },
+    {
+      "id": "k6q_G13_010",
+      "topicId": "k6g_G13",
+      "type": "fillBlank",
+      "prompt": "He ___ ask somebody for help. (musste)",
+      "answer": "had to",
+      "explanation": "Notwendigkeit in der Vergangenheit → had to."
+    },
+    {
+      "id": "k6q_G13_011",
+      "topicId": "k6g_G13",
+      "type": "fillBlank",
+      "prompt": "___ I allowed to use your tablet, Dad?",
+      "answer": "Am",
+      "explanation": "Frage mit be allowed to: Am I allowed to …?"
+    },
+    {
+      "id": "k6q_G13_012",
+      "topicId": "k6g_G13",
+      "type": "fillBlank",
+      "prompt": "Mr Elliot ___ work in the evenings. (muss nicht)",
+      "answer": "doesn't have to",
+      "acceptedAnswers": [
+        "doesn't have to",
+        "does not have to",
+        "needn't",
+        "need not"
+      ],
+      "explanation": "muss nicht → doesn't have to (oder needn't)."
+    },
+    {
+      "id": "k6q_G13_013",
+      "topicId": "k6g_G13",
+      "type": "fillBlank",
+      "prompt": "___ you allowed to use your dad's tablet when you were younger?",
+      "answer": "Were",
+      "explanation": "Frage in der Vergangenheit mit be allowed to: Were you allowed to …?"
+    },
+    {
+      "id": "k6q_G14_001",
+      "topicId": "k6g_G14",
+      "type": "multipleChoice",
+      "prompt": "You ___ believe everything you read online.",
+      "options": [
+        "shouldn't",
+        "should",
+        "could"
+      ],
+      "answer": "shouldn't",
+      "explanation": "Rat, etwas NICHT zu tun → shouldn't.",
+      "optionHints": {
+        "should": "Man sollte nicht alles glauben → shouldn't.",
+        "could": "could ist ein Vorschlag („könntest\") – hier ist eine Warnung gemeint → shouldn't."
+      }
+    },
+    {
+      "id": "k6q_G14_002",
+      "topicId": "k6g_G14",
+      "type": "multipleChoice",
+      "prompt": "They ___ ask their parents for advice. (sollten)",
+      "options": [
+        "should",
+        "shouldn't",
+        "must not"
+      ],
+      "answer": "should",
+      "explanation": "Ratschlag: sie sollten → should.",
+      "optionHints": {
+        "shouldn't": "shouldn't = sollten nicht. Gemeint: sollten → should.",
+        "must not": "must not = dürfen nicht. Gemeint: sollten → should."
+      }
+    },
+    {
+      "id": "k6q_G14_003",
+      "topicId": "k6g_G14",
+      "type": "multipleChoice",
+      "prompt": "Mr Elliot could ___ for help on the internet.",
+      "options": [
+        "look",
+        "looks",
+        "to look"
+      ],
+      "answer": "look",
+      "explanation": "Nach Modalverben steht die Grundform ohne to.",
+      "optionHints": {
+        "looks": "Nach could steht die Grundform – kein -s.",
+        "to look": "Nach Modalverben kein to: could look."
+      }
+    },
+    {
+      "id": "k6q_G14_004",
+      "topicId": "k6g_G14",
+      "type": "multipleChoice",
+      "prompt": "Herr Elliot könnte im Internet nach Hilfe suchen. =",
+      "options": [
+        "Mr Elliot could look for help on the internet.",
+        "Mr Elliot could looking for help on the internet.",
+        "Mr Elliot coulds look for help on the internet."
+      ],
+      "answer": "Mr Elliot could look for help on the internet.",
+      "explanation": "could + Grundform: could look.",
+      "optionHints": {
+        "Mr Elliot could looking for help on the internet.": "Nach could kommt die Grundform, kein -ing.",
+        "Mr Elliot coulds look for help on the internet.": "Modalverben bekommen nie ein -s."
+      }
+    },
+    {
+      "id": "k6q_G14_005",
+      "topicId": "k6g_G14",
+      "type": "multipleChoice",
+      "prompt": "I've got a headache. – You ___ drink some water. That always helps.",
+      "options": [
+        "could",
+        "couldn't",
+        "shouldn't"
+      ],
+      "answer": "could",
+      "explanation": "Vorschlag → could (oder should).",
+      "optionHints": {
+        "couldn't": "Hier wird etwas vorgeschlagen → could.",
+        "shouldn't": "Wasser trinken ist ein guter Vorschlag → could/should."
+      }
+    },
+    {
+      "id": "k6q_G14_006",
+      "topicId": "k6g_G14",
+      "type": "multipleChoice",
+      "prompt": "Du solltest nicht versuchen, alles selbst zu reparieren. =",
+      "options": [
+        "You shouldn't try to fix everything yourself.",
+        "You don't should try to fix everything yourself.",
+        "You shouldn't to try to fix everything yourself."
+      ],
+      "answer": "You shouldn't try to fix everything yourself.",
+      "explanation": "shouldn't + Grundform.",
+      "optionHints": {
+        "You don't should try to fix everything yourself.": "Modalverben verneinst du mit not: shouldn't, nicht mit don't.",
+        "You shouldn't to try to fix everything yourself.": "Nach shouldn't kein to: shouldn't try."
+      }
+    },
+    {
+      "id": "k6q_G14_007",
+      "topicId": "k6g_G14",
+      "type": "multipleChoice",
+      "prompt": "She ___ play video games all night. She has a test tomorrow!",
+      "options": [
+        "shouldn't",
+        "should",
+        "could"
+      ],
+      "answer": "shouldn't",
+      "explanation": "Rat, etwas nicht zu tun → shouldn't.",
+      "optionHints": {
+        "should": "Vor einem Test ist das keine gute Idee → shouldn't.",
+        "could": "Hier ist eine Warnung gemeint → shouldn't."
+      }
+    },
+    {
+      "id": "k6q_G14_008",
+      "topicId": "k6g_G14",
+      "type": "fillBlank",
+      "prompt": "Olivia hurt a girl in netball. She ___ say sorry. (Rat)",
+      "answer": "should",
+      "acceptedAnswers": [
+        "should",
+        "could"
+      ],
+      "explanation": "Ratschlag → should (oder could)."
+    },
+    {
+      "id": "k6q_G14_009",
+      "topicId": "k6g_G14",
+      "type": "fillBlank",
+      "prompt": "Jay ruined Dave's book. He ___ buy him a new one.",
+      "answer": "should",
+      "acceptedAnswers": [
+        "should",
+        "could"
+      ],
+      "explanation": "Ratschlag → should (oder could)."
+    },
+    {
+      "id": "k6q_G14_010",
+      "topicId": "k6g_G14",
+      "type": "fillBlank",
+      "prompt": "You ___ eat so many sweets. (Rat: lieber nicht)",
+      "answer": "shouldn't",
+      "acceptedAnswers": [
+        "shouldn't",
+        "should not"
+      ],
+      "explanation": "Rat, etwas nicht zu tun → shouldn't."
+    },
+    {
+      "id": "k6q_G14_011",
+      "topicId": "k6g_G14",
+      "type": "fillBlank",
+      "prompt": "This phone doesn't work. – You ___ ask Luke. He's good at fixing things.",
+      "answer": "could",
+      "acceptedAnswers": [
+        "could",
+        "should"
+      ],
+      "explanation": "Vorschlag → could (oder should)."
+    },
+    {
+      "id": "k6q_G14_012",
+      "topicId": "k6g_G14",
+      "type": "fillBlank",
+      "prompt": "Holly's cat hides under the bed. Holly ___ be loud. (Rat: nicht)",
+      "answer": "shouldn't",
+      "acceptedAnswers": [
+        "shouldn't",
+        "should not"
+      ],
+      "explanation": "Rat, etwas nicht zu tun → shouldn't."
+    },
+    {
+      "id": "k6q_G14_013",
+      "topicId": "k6g_G14",
+      "type": "fillBlank",
+      "prompt": "Why don't you ___ (ask) your teacher?",
+      "answer": "ask",
+      "explanation": "Why don't you + Grundform …? = Warum … du nicht …? (Vorschlag)"
+    }
+  ],
+  "conversationScenarios": [
+    {
+      "id": "k6c_dear_ruby",
+      "unit": 5,
+      "title": "Dear Ruby – Kummerkasten",
+      "level": 3,
+      "goal": "Ratschläge (should, could, Why don't you …?), Ersatzformen (G12–G14)",
+      "grammarCodes": [
+        "G12",
+        "G13",
+        "G14"
+      ],
+      "situation": "Du bist die Kummerkastentante „Ruby\". Lauren schreibt dir mit einem Problem.",
+      "openingLine": "Dear Ruby, I'm writing to you because I don't know what to do. My parents say I'm not allowed to use my phone after 8 p.m. …",
+      "phrases": [
+        "I'm sorry you're feeling …",
+        "My advice is to …",
+        "As a first step …",
+        "Why don't you …?",
+        "You should/shouldn't …",
+        "I hope this advice helps!"
+      ],
+      "grade": 6,
+      "startNode": "n1",
+      "nodes": {
+        "n1": {
+          "npcLine": "Dear Ruby, I'm writing to you because I don't know what to do. My parents say I'm not allowed to use my phone after 8 p.m. All my friends are allowed to chat until 10. What should I do? – Lauren",
+          "choices": [
+            {
+              "text": "Dear Lauren, I'm sorry you're feeling sad. My advice is to talk to your parents.",
+              "quality": "good",
+              "feedback": "Einfühlsam und ein klarer Rat – wie eine echte Kummerkastentante!",
+              "next": "n2"
+            },
+            {
+              "text": "Talk to your parents.",
+              "quality": "ok",
+              "feedback": "Guter Rat! Etwas freundlicher: Dear Lauren, my advice is to talk to your parents.",
+              "next": "n2"
+            },
+            {
+              "text": "You should to talk to your parents.",
+              "quality": "wrong",
+              "feedback": "Nach should kein to: You should talk to your parents.",
+              "next": "n2"
+            }
+          ]
+        },
+        "n2": {
+          "npcLine": "But I've already talked to them! They say I have to do my homework first.",
+          "choices": [
+            {
+              "text": "Why don't you do your homework as soon as you get home? Then you could chat a bit before 8.",
+              "quality": "good",
+              "feedback": "Super – Why don't you …?, as soon as und could!",
+              "next": "n3"
+            },
+            {
+              "text": "Do your homework.",
+              "quality": "ok",
+              "feedback": "Okay! Mit Begründung überzeugt es mehr: Do your homework first so that you have time to chat.",
+              "next": "n3"
+            },
+            {
+              "text": "You mustn't do your homework.",
+              "quality": "wrong",
+              "feedback": "mustn't = darfst nicht – das wäre ein schlechter Rat! Besser: You should do your homework first.",
+              "next": "n3"
+            }
+          ]
+        },
+        "n3": {
+          "npcLine": "OK, that's a good idea. But what about my friends? They chat in the evening and I feel left out.",
+          "choices": [
+            {
+              "text": "You could ask your friends to chat a bit earlier. Real friends will understand.",
+              "quality": "good",
+              "feedback": "Ein freundlicher, kluger Vorschlag mit could.",
+              "next": "n4"
+            },
+            {
+              "text": "Tell your friends.",
+              "quality": "ok",
+              "feedback": "Ein Anfang! Genauer: You could tell your friends about the rule.",
+              "next": "n4"
+            },
+            {
+              "text": "You should chat although your parents say no.",
+              "quality": "wrong",
+              "feedback": "Das bringt nur Ärger. Besser: You could ask your friends to chat earlier.",
+              "next": "n4"
+            }
+          ]
+        },
+        "n4": {
+          "npcLine": "Thanks, Ruby! When I was younger, I wasn't allowed to have a phone at all. Do you think my parents will change the rule one day?",
+          "choices": [
+            {
+              "text": "Maybe! Show them that you can do your homework first. I hope this advice helps!",
+              "quality": "good",
+              "feedback": "Mutmachend – und ein typischer Briefschluss.",
+              "next": "n5"
+            },
+            {
+              "text": "I don't know.",
+              "quality": "ok",
+              "feedback": "Ehrlich – aber mach Lauren Mut: Maybe! I hope this advice helps.",
+              "next": "n5"
+            },
+            {
+              "text": "They had to change it.",
+              "quality": "wrong",
+              "feedback": "had to = mussten (Vergangenheit). Hier passt: Maybe they will change it.",
+              "next": "n5"
+            }
+          ]
+        },
+        "n5": {
+          "npcLine": "Thank you so much, Ruby. I'm going to talk to my parents tonight! – Lauren",
+          "choices": []
+        }
+      },
+      "endNodes": [
+        "n5"
+      ]
+    }
+  ]
+}

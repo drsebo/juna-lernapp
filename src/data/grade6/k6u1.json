@@ -1,0 +1,2916 @@
+{
+  "id": "k6u1",
+  "grade": 6,
+  "unit": 1,
+  "title": "My friends and I",
+  "vocab": [
+    {
+      "id": "k6v1_001",
+      "grade": 6,
+      "unit": 1,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "peinlich",
+      "en": "embarrassing",
+      "example": "In the photo Jay is wearing an embarrassing outfit."
+    },
+    {
+      "id": "k6v1_002",
+      "grade": 6,
+      "unit": 1,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "enden; landen",
+      "en": "to end up",
+      "example": "Embarrassing photos often end up in the yearbook."
+    },
+    {
+      "id": "k6v1_003",
+      "grade": 6,
+      "unit": 1,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Jahrbuch",
+      "en": "yearbook",
+      "example": "A yearbook is a book with information about events and students at the school."
+    },
+    {
+      "id": "k6v1_004",
+      "grade": 6,
+      "unit": 1,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "LOL",
+      "en": "LOL (= laughing out loud)",
+      "example": "This is an embarrassing photo! LOL!"
+    },
+    {
+      "id": "k6v1_005",
+      "grade": 6,
+      "unit": 1,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "echt; richtig; wirklich",
+      "en": "real",
+      "example": "Not everything you see on TV is real."
+    },
+    {
+      "id": "k6v1_006",
+      "grade": 6,
+      "unit": 1,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Angeber/-in",
+      "en": "show-off",
+      "example": "My brother is a show-off. He always wants to look cool."
+    },
+    {
+      "id": "k6v1_007",
+      "grade": 6,
+      "unit": 1,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Kunst",
+      "en": "art",
+      "example": "Not every painting is art!"
+    },
+    {
+      "id": "k6v1_008",
+      "grade": 6,
+      "unit": 1,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "phrase",
+      "de": "was für ein/-e …; welch ein/-e …",
+      "en": "what a …",
+      "example": "What a great idea!"
+    },
+    {
+      "id": "k6v1_009",
+      "grade": 6,
+      "unit": 1,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Heimatstadt",
+      "en": "home town",
+      "example": "I live in Augsburg. What's your home town?"
+    },
+    {
+      "id": "k6v1_010",
+      "grade": 6,
+      "unit": 1,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Vorlieben und Abneigungen",
+      "en": "likes and dislikes",
+      "example": "What are your likes and dislikes?"
+    },
+    {
+      "id": "k6v1_011",
+      "grade": 6,
+      "unit": 1,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "riesig; riesengroß; gewaltig",
+      "en": "huge",
+      "example": "Berlin is a big city. London is a huge city."
+    },
+    {
+      "id": "k6v1_012",
+      "grade": 6,
+      "unit": 1,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Feld; Wiese; Weide; Acker",
+      "en": "field",
+      "example": "I can see twelve cows in the field over there."
+    },
+    {
+      "id": "k6v1_013",
+      "grade": 6,
+      "unit": 1,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Berg; Hügel",
+      "en": "hill",
+      "example": "Our house is on a hill and we can look down on the river."
+    },
+    {
+      "id": "k6v1_014",
+      "grade": 6,
+      "unit": 1,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "draußen; im Freien",
+      "en": "outdoors",
+      "example": "It's a nice day. Let's play outdoors!"
+    },
+    {
+      "id": "k6v1_015",
+      "grade": 6,
+      "unit": 1,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "drinnen; im Haus",
+      "en": "indoors",
+      "notes": "indoors ↔ outdoors"
+    },
+    {
+      "id": "k6v1_016",
+      "grade": 6,
+      "unit": 1,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "rumhängen (mit); sich treffen (mit)",
+      "en": "to hang out (with) (infml)",
+      "irregular": true,
+      "example": "I love to hang out in the park with my friends."
+    },
+    {
+      "id": "k6v1_017",
+      "grade": 6,
+      "unit": 1,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Einkaufszentrum",
+      "en": "mall",
+      "example": "Let's go shopping at the mall."
+    },
+    {
+      "id": "k6v1_018",
+      "grade": 6,
+      "unit": 1,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Adler",
+      "en": "eagle",
+      "example": "Look, there's an eagle!"
+    },
+    {
+      "id": "k6v1_019",
+      "grade": 6,
+      "unit": 1,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Gefühl",
+      "en": "feeling",
+      "example": "I've got a bad feeling about the Maths test."
+    },
+    {
+      "id": "k6v1_020",
+      "grade": 6,
+      "unit": 1,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "verlegen",
+      "en": "embarrassed",
+      "example": "I'm so embarrassed. Don't show this photo to anyone, please.",
+      "notes": "embarrassed → embarrassing"
+    },
+    {
+      "id": "k6v1_021",
+      "grade": 6,
+      "unit": 1,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "nervös; aufgeregt",
+      "en": "nervous",
+      "example": "I felt nervous before the class test."
+    },
+    {
+      "id": "k6v1_022",
+      "grade": 6,
+      "unit": 1,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "stolz (auf)",
+      "en": "proud (of)",
+      "example": "Jay is proud because he won a singing contest last summer."
+    },
+    {
+      "id": "k6v1_023",
+      "grade": 6,
+      "unit": 1,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Bericht; Meldung",
+      "en": "report",
+      "example": "Who can write the report about the class trip?"
+    },
+    {
+      "id": "k6v1_024",
+      "grade": 6,
+      "unit": 1,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "während (+ Nomen)",
+      "en": "during (+ noun)",
+      "example": "Don't eat during lessons."
+    },
+    {
+      "id": "k6v1_025",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 1",
+      "sectionTitle": "I don't even know if she's nice",
+      "category": "station-1",
+      "type": "word",
+      "de": "tatsächlich; wirklich; eigentlich",
+      "en": "actually",
+      "example": "This isn't my father. Actually it's his brother.",
+      "notes": "⚠️ actually ≠ aktuell"
+    },
+    {
+      "id": "k6v1_026",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 1",
+      "sectionTitle": "I don't even know if she's nice",
+      "category": "station-1",
+      "type": "word",
+      "de": "Fass; Tonne",
+      "en": "barrel",
+      "example": "This barrel is full of water."
+    },
+    {
+      "id": "k6v1_027",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 1",
+      "sectionTitle": "I don't even know if she's nice",
+      "category": "station-1",
+      "type": "word",
+      "de": "Wettlauf; Rennen",
+      "en": "race",
+      "example": "Can we watch the bike race on TV, Mum?"
+    },
+    {
+      "id": "k6v1_028",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 1",
+      "sectionTitle": "I don't even know if she's nice",
+      "category": "station-1",
+      "type": "word",
+      "de": "Tochter",
+      "en": "daughter",
+      "example": "Sally Richardson has two daughters: Holly and Amber."
+    },
+    {
+      "id": "k6v1_029",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 1",
+      "sectionTitle": "I don't even know if she's nice",
+      "category": "station-1",
+      "type": "word",
+      "de": "Rollstuhl",
+      "en": "wheelchair",
+      "example": "My best friend can't walk. She's in a wheelchair."
+    },
+    {
+      "id": "k6v1_030",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 1",
+      "sectionTitle": "I don't even know if she's nice",
+      "category": "station-1",
+      "type": "word",
+      "de": "unterrichten; lehren; beibringen",
+      "en": "to teach",
+      "irregular": true,
+      "example": "I want to learn English. Can you teach me?",
+      "notes": "to teach → teacher"
+    },
+    {
+      "id": "k6v1_031",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 1",
+      "sectionTitle": "I don't even know if she's nice",
+      "category": "station-1",
+      "type": "word",
+      "de": "jmdn. aufziehen; hänseln; ärgern",
+      "en": "to tease sb",
+      "example": "Ryan sometimes teases Emily."
+    },
+    {
+      "id": "k6v1_032",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 1",
+      "sectionTitle": "I don't even know if she's nice",
+      "category": "station-1",
+      "type": "word",
+      "de": "neueste/-r/-s",
+      "en": "latest",
+      "example": "What's the latest fantasy movie?",
+      "notes": "⚠️ the latest news = die neuesten (nicht: spätesten) Nachrichten"
+    },
+    {
+      "id": "k6v1_033",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 1",
+      "sectionTitle": "I don't even know if she's nice",
+      "category": "station-1",
+      "type": "pair",
+      "de": "Film",
+      "en": "movie",
+      "pair": {
+        "ae": "movie",
+        "be": "film"
+      },
+      "example": "Let's watch a movie.",
+      "notes": "movie (AE) = film (BE)"
+    },
+    {
+      "id": "k6v1_034",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 1",
+      "sectionTitle": "I don't even know if she's nice",
+      "category": "station-1",
+      "type": "pair",
+      "de": "Kino (amerik.)",
+      "en": "movie theater (AE)",
+      "pair": {
+        "ae": "movie theater",
+        "be": "cinema"
+      },
+      "notes": "movie theater (AE) = cinema (BE)"
+    },
+    {
+      "id": "k6v1_035",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 1",
+      "sectionTitle": "I don't even know if she's nice",
+      "category": "station-1",
+      "type": "phrase",
+      "de": "Es gibt nichts Spannenderes als …",
+      "en": "There's nothing more exciting than …",
+      "example": "I think there's nothing more exciting than football."
+    },
+    {
+      "id": "k6v1_036",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 1",
+      "sectionTitle": "I don't even know if she's nice",
+      "category": "station-1",
+      "type": "word",
+      "de": "Vogel",
+      "en": "bird",
+      "example": "An eagle is a big bird."
+    },
+    {
+      "id": "k6v1_037",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 1",
+      "sectionTitle": "I don't even know if she's nice",
+      "category": "station-1",
+      "type": "word",
+      "de": "Luft",
+      "en": "air",
+      "example": "Let's go for a walk and get some fresh air."
+    },
+    {
+      "id": "k6v1_038",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 1",
+      "sectionTitle": "I don't even know if she's nice",
+      "category": "station-1",
+      "type": "word",
+      "de": "ein bisschen; ein wenig",
+      "en": "a bit",
+      "example": "Before the race, she's always a bit nervous."
+    },
+    {
+      "id": "k6v1_039",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 1",
+      "sectionTitle": "I don't even know if she's nice",
+      "category": "station-1",
+      "type": "word",
+      "de": "beunruhigt; besorgt",
+      "en": "worried",
+      "example": "I feel a bit worried about the Maths test next week."
+    },
+    {
+      "id": "k6v1_040",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 1",
+      "sectionTitle": "I don't even know if she's nice",
+      "category": "station-1",
+      "type": "word",
+      "de": "umziehen",
+      "en": "to move (house)",
+      "example": "When you move house, you leave your old home and go to live in a new one."
+    },
+    {
+      "id": "k6v1_041",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 1",
+      "sectionTitle": "I don't even know if she's nice",
+      "category": "station-1",
+      "type": "word",
+      "de": "sich Sorgen machen",
+      "en": "to worry",
+      "example": "Don't worry about your friend. Everything is OK now.",
+      "notes": "to worry → worried"
+    },
+    {
+      "id": "k6v1_042",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 1",
+      "sectionTitle": "I don't even know if she's nice",
+      "category": "station-1",
+      "type": "word",
+      "de": "Plan; Entwurf",
+      "en": "plan",
+      "example": "What are your plans for the weekend?"
+    },
+    {
+      "id": "k6v1_043",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 1",
+      "sectionTitle": "I don't even know if she's nice",
+      "category": "station-1",
+      "type": "word",
+      "de": "Leben",
+      "en": "life, lives (pl)",
+      "example": "I love my life in the country.",
+      "notes": "life → to live"
+    },
+    {
+      "id": "k6v1_044",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 1",
+      "sectionTitle": "I don't even know if she's nice",
+      "category": "station-1",
+      "type": "word",
+      "de": "müssen",
+      "en": "to have to",
+      "irregular": true,
+      "example": "They have to make a poster for the competition."
+    },
+    {
+      "id": "k6v1_045",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 1",
+      "sectionTitle": "I don't even know if she's nice",
+      "category": "station-1",
+      "type": "word",
+      "de": "erkennen; wissen",
+      "en": "to tell",
+      "irregular": true,
+      "example": "Can you tell who my brother is in this picture?"
+    },
+    {
+      "id": "k6v1_046",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 1",
+      "sectionTitle": "I don't even know if she's nice",
+      "category": "station-1",
+      "type": "word",
+      "de": "zeigen",
+      "en": "to point",
+      "example": "Olivia pointed at her sister and said: \"This is Lucy.\""
+    },
+    {
+      "id": "k6v1_047",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 1",
+      "sectionTitle": "I don't even know if she's nice",
+      "category": "station-1",
+      "type": "word",
+      "de": "Bank; Sitzbank",
+      "en": "bench",
+      "example": "Let's sit down on this bench and watch the birds."
+    },
+    {
+      "id": "k6v1_048",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 1",
+      "sectionTitle": "I don't even know if she's nice",
+      "category": "station-1",
+      "type": "word",
+      "de": "aufwachsen; erwachsen werden",
+      "en": "to grow up",
+      "irregular": true,
+      "example": "I grew up in Minneapolis. It's my home town."
+    },
+    {
+      "id": "k6v1_049",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 2",
+      "sectionTitle": "Come on, Em!",
+      "category": "station-2",
+      "type": "word",
+      "de": "Jugend",
+      "en": "youth",
+      "example": "My grandma often talks about her youth.",
+      "notes": "youth → young"
+    },
+    {
+      "id": "k6v1_050",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 2",
+      "sectionTitle": "Come on, Em!",
+      "category": "station-2",
+      "type": "word",
+      "de": "nahe",
+      "en": "close",
+      "example": "Don't go too close to the dog."
+    },
+    {
+      "id": "k6v1_051",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 2",
+      "sectionTitle": "Come on, Em!",
+      "category": "station-2",
+      "type": "word",
+      "de": "fast; beinahe",
+      "en": "almost",
+      "example": "It's almost 8 o'clock! You're late for school."
+    },
+    {
+      "id": "k6v1_052",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 2",
+      "sectionTitle": "Come on, Em!",
+      "category": "station-2",
+      "type": "word",
+      "de": "Juror/-in; Richter/-in",
+      "en": "judge",
+      "example": "The judges at the talent show really liked my song."
+    },
+    {
+      "id": "k6v1_053",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 2",
+      "sectionTitle": "Come on, Em!",
+      "category": "station-2",
+      "type": "word",
+      "de": "Punkt; Komma (bei Zahlenangaben)",
+      "en": "point",
+      "example": "That's right. One point for your team.",
+      "notes": "⚠️ one point five = eins Komma fünf"
+    },
+    {
+      "id": "k6v1_054",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 2",
+      "sectionTitle": "Come on, Em!",
+      "category": "station-2",
+      "type": "word",
+      "de": "Sekunde",
+      "en": "second",
+      "example": "Just a second, I can help you!"
+    },
+    {
+      "id": "k6v1_055",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 2",
+      "sectionTitle": "Come on, Em!",
+      "category": "station-2",
+      "type": "word",
+      "de": "Wendung; Drehung",
+      "en": "turn",
+      "example": "My horse is famous for its turns."
+    },
+    {
+      "id": "k6v1_056",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 2",
+      "sectionTitle": "Come on, Em!",
+      "category": "station-2",
+      "type": "word",
+      "de": "arm",
+      "en": "poor",
+      "example": "Poor people don't have much money."
+    },
+    {
+      "id": "k6v1_057",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 2",
+      "sectionTitle": "Come on, Em!",
+      "category": "station-2",
+      "type": "word",
+      "de": "werden",
+      "en": "to get",
+      "irregular": true,
+      "example": "I always get tired when I watch TV."
+    },
+    {
+      "id": "k6v1_058",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 2",
+      "sectionTitle": "Come on, Em!",
+      "category": "station-2",
+      "type": "word",
+      "de": "herunterfallen; hinunterfallen",
+      "en": "to fall off",
+      "irregular": true,
+      "example": "I fell off my horse last week."
+    },
+    {
+      "id": "k6v1_059",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 2",
+      "sectionTitle": "Come on, Em!",
+      "category": "station-2",
+      "type": "word",
+      "de": "verrückt; wütend",
+      "en": "mad",
+      "example": "My sister always gets mad at me when I take her clothes."
+    },
+    {
+      "id": "k6v1_060",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 2",
+      "sectionTitle": "Come on, Em!",
+      "category": "station-2",
+      "type": "phrase",
+      "de": "Wie schade!",
+      "en": "What a shame!",
+      "example": "I can't come to your party. – Oh, what a shame!"
+    },
+    {
+      "id": "k6v1_061",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 2",
+      "sectionTitle": "Come on, Em!",
+      "category": "station-2",
+      "type": "word",
+      "de": "trainieren",
+      "en": "to train",
+      "example": "Luke plays football. He trains every day.",
+      "notes": "to train = to practise"
+    },
+    {
+      "id": "k6v1_062",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 2",
+      "sectionTitle": "Come on, Em!",
+      "category": "station-2",
+      "type": "word",
+      "de": "reparieren; befestigen",
+      "en": "to fix",
+      "example": "My bike is broken. Can you fix it?"
+    },
+    {
+      "id": "k6v1_063",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 2",
+      "sectionTitle": "Come on, Em!",
+      "category": "station-2",
+      "type": "word",
+      "de": "positiv",
+      "en": "positive",
+      "example": "Give positive feedback and be friendly."
+    },
+    {
+      "id": "k6v1_064",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 2",
+      "sectionTitle": "Come on, Em!",
+      "category": "station-2",
+      "type": "word",
+      "de": "negativ; verneint",
+      "en": "negative",
+      "example": "I got some negative feedback on my last post.",
+      "notes": "negative ↔ positive"
+    },
+    {
+      "id": "k6v1_065",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 2",
+      "sectionTitle": "Come on, Em!",
+      "category": "station-2",
+      "type": "word",
+      "de": "hinauf; (nach) oben",
+      "en": "up",
+      "example": "She looked up and down the street.",
+      "notes": "up ↔ down"
+    },
+    {
+      "id": "k6v1_066",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 2",
+      "sectionTitle": "Come on, Em!",
+      "category": "station-2",
+      "type": "word",
+      "de": "Armbanduhr",
+      "en": "watch",
+      "example": "A clock hangs on the wall – a watch is on your arm."
+    },
+    {
+      "id": "k6v1_067",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 2",
+      "sectionTitle": "Come on, Em!",
+      "category": "station-2",
+      "type": "word",
+      "de": "interessiert sein (an); sich interessieren (für)",
+      "en": "to be interested (in)",
+      "irregular": true,
+      "example": "Are you interested in history?",
+      "notes": "→ interesting"
+    },
+    {
+      "id": "k6v1_068",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 2",
+      "sectionTitle": "Come on, Em!",
+      "category": "station-2",
+      "type": "phrase",
+      "de": "Ich verstehe.; Aha; Ach so!",
+      "en": "I see.",
+      "example": "Scarlet is Emily's new horse. – I see."
+    },
+    {
+      "id": "k6v1_069",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 2",
+      "sectionTitle": "Come on, Em!",
+      "category": "station-2",
+      "type": "phrase",
+      "de": "ich meine",
+      "en": "I mean",
+      "example": "I'm OK. I mean, I'm really happy."
+    },
+    {
+      "id": "k6v1_070",
+      "grade": 6,
+      "unit": 1,
+      "section": "Station 2",
+      "sectionTitle": "Come on, Em!",
+      "category": "station-2",
+      "type": "word",
+      "de": "beide",
+      "en": "both",
+      "example": "Rusty and Scarlet are both good at barrel racing.",
+      "notes": "⚠️ both of them = die beiden (nicht: the both)"
+    },
+    {
+      "id": "k6v1_071",
+      "grade": 6,
+      "unit": 1,
+      "section": "Skills",
+      "sectionTitle": "How to use a dictionary",
+      "category": "skills",
+      "type": "word",
+      "de": "elektronisch",
+      "en": "electronic",
+      "example": "Do you use an electronic dictionary?"
+    },
+    {
+      "id": "k6v1_072",
+      "grade": 6,
+      "unit": 1,
+      "section": "Skills",
+      "sectionTitle": "How to use a dictionary",
+      "category": "skills",
+      "type": "word",
+      "de": "Suche; Such-",
+      "en": "search",
+      "example": "Write the word in the search box."
+    },
+    {
+      "id": "k6v1_073",
+      "grade": 6,
+      "unit": 1,
+      "section": "Skills",
+      "sectionTitle": "How to use a dictionary",
+      "category": "skills",
+      "type": "word",
+      "de": "nachschlagen; nachschauen",
+      "en": "to look up",
+      "example": "You can look up words in a dictionary."
+    },
+    {
+      "id": "k6v1_074",
+      "grade": 6,
+      "unit": 1,
+      "section": "Skills",
+      "sectionTitle": "How to use a dictionary",
+      "category": "skills",
+      "type": "word",
+      "de": "Bedeutung; Sinn",
+      "en": "meaning",
+      "example": "What's the meaning of 'to describe'?"
+    },
+    {
+      "id": "k6v1_075",
+      "grade": 6,
+      "unit": 1,
+      "section": "Skills",
+      "sectionTitle": "How to use a dictionary",
+      "category": "skills",
+      "type": "word",
+      "de": "Mal",
+      "en": "time",
+      "example": "I listened to the song three times."
+    },
+    {
+      "id": "k6v1_076",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "wunderbar",
+      "en": "wonderful",
+      "example": "I love this movie. It's just wonderful!",
+      "notes": "= great, fantastic"
+    },
+    {
+      "id": "k6v1_077",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "Nachricht(en); Neuigkeit(en)",
+      "en": "news (sg)",
+      "example": "Let me tell you the latest news.",
+      "notes": "⚠️ That's good news. = Das ist eine gute Nachricht."
+    },
+    {
+      "id": "k6v1_078",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "Wettbewerb; Turnier",
+      "en": "competition",
+      "example": "There's a painting competition at our school this year.",
+      "notes": "= contest"
+    },
+    {
+      "id": "k6v1_079",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "Titel; Überschrift",
+      "en": "title",
+      "example": "The title of this story is \"Problems on Springfield Farm\"."
+    },
+    {
+      "id": "k6v1_080",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "sich anfühlen",
+      "en": "to feel",
+      "irregular": true,
+      "example": "I'm not sure if this is a good idea. It feels wrong."
+    },
+    {
+      "id": "k6v1_081",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "teilen",
+      "en": "to share",
+      "example": "Jay doesn't want to share his ideas with Luke."
+    },
+    {
+      "id": "k6v1_082",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "hineingehen; betreten; eintreten; hier: mitmachen",
+      "en": "to enter",
+      "example": "He entered the competition. The teacher entered the room."
+    },
+    {
+      "id": "k6v1_083",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "überrascht sein",
+      "en": "to be surprised",
+      "irregular": true,
+      "example": "I was surprised about your picture.",
+      "notes": "→ a surprise"
+    },
+    {
+      "id": "k6v1_084",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "er/sich (selbst); selber",
+      "en": "himself",
+      "example": "He wants to do everything himself."
+    },
+    {
+      "id": "k6v1_085",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "dreckig; schmutzig",
+      "en": "dirty",
+      "example": "I can't wear this T-shirt because it's dirty."
+    },
+    {
+      "id": "k6v1_086",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "Blume",
+      "en": "flower",
+      "example": "What a wonderful garden! Look at all the flowers!"
+    },
+    {
+      "id": "k6v1_087",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "bemerken; wahrnehmen",
+      "en": "to notice",
+      "example": "Did you notice this strange sound?"
+    },
+    {
+      "id": "k6v1_088",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "Zeichnung",
+      "en": "drawing",
+      "example": "Can I see your drawings? They're really good!"
+    },
+    {
+      "id": "k6v1_089",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "konnte/-n; könnte/-n",
+      "en": "could",
+      "example": "Jay could use mangas for his poster. Could I use your rubber, please?"
+    },
+    {
+      "id": "k6v1_090",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "selbstsicher; selbstbewusst",
+      "en": "confident",
+      "example": "He felt confident because he knew his ideas were good."
+    },
+    {
+      "id": "k6v1_091",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "Moment; Augenblick",
+      "en": "moment",
+      "example": "Can you please be quiet for a moment?"
+    },
+    {
+      "id": "k6v1_092",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "toll; prima; leuchtend",
+      "en": "brilliant",
+      "example": "I like this game. It's brilliant."
+    },
+    {
+      "id": "k6v1_093",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "lassen; verlassen; abfahren; losgehen",
+      "en": "to leave",
+      "irregular": true,
+      "example": "Don't leave your phone in the car."
+    },
+    {
+      "id": "k6v1_094",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "schnell",
+      "en": "quickly",
+      "example": "Jay looked at the exercise book quickly."
+    },
+    {
+      "id": "k6v1_095",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "Auge",
+      "en": "eye",
+      "example": "You can see with your eyes."
+    },
+    {
+      "id": "k6v1_096",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "Biene",
+      "en": "bee",
+      "example": "There are a lot of bees in our garden. They love our flowers."
+    },
+    {
+      "id": "k6v1_097",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "schlau; klug",
+      "en": "clever",
+      "example": "What a clever idea!"
+    },
+    {
+      "id": "k6v1_098",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "unglaublich; toll; erstaunlich",
+      "en": "amazing",
+      "example": "That's an amazing story! I love it."
+    },
+    {
+      "id": "k6v1_099",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "fertig",
+      "en": "finished",
+      "example": "My poster is finished! Can you give me feedback?"
+    },
+    {
+      "id": "k6v1_100",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "schockiert; geschockt",
+      "en": "shocked",
+      "example": "I was shocked when I heard the bad news."
+    },
+    {
+      "id": "k6v1_101",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "stehlen",
+      "en": "to steal",
+      "irregular": true,
+      "example": "Somebody stole my money!"
+    },
+    {
+      "id": "k6v1_102",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "sich beruhigen",
+      "en": "to calm down",
+      "example": "It isn't easy for me to calm down before tests.",
+      "notes": "⚠️ Das „l\" in calm wird nicht gesprochen."
+    },
+    {
+      "id": "k6v1_103",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "stoßen; schieben; schubsen",
+      "en": "to push",
+      "example": "He pushed me – and I fell over."
+    },
+    {
+      "id": "k6v1_104",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "(sich) umdrehen; wenden",
+      "en": "to turn (a)round",
+      "example": "When they heard a voice behind them, they turned around."
+    },
+    {
+      "id": "k6v1_105",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "Kampf; Streit",
+      "en": "fight",
+      "example": "I'm not talking to Jay at the moment. We had a big fight."
+    },
+    {
+      "id": "k6v1_106",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "aufgebracht; bestürzt",
+      "en": "upset",
+      "example": "Why are you so upset? – I can't find my phone."
+    },
+    {
+      "id": "k6v1_107",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "Idiot/-in",
+      "en": "idiot",
+      "example": "Jay called Luke an idiot."
+    },
+    {
+      "id": "k6v1_108",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "sollte; solltest; sollten; solltet",
+      "en": "should",
+      "example": "You should practise more for the barrel race."
+    },
+    {
+      "id": "k6v1_109",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "einander; sich gegenseitig",
+      "en": "each other",
+      "example": "Work with a partner and talk to each other."
+    },
+    {
+      "id": "k6v1_110",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "herausnehmen",
+      "en": "to take out",
+      "irregular": true,
+      "example": "Take out your exercise book."
+    },
+    {
+      "id": "k6v1_111",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "Papier",
+      "en": "paper",
+      "example": "Please take a piece of paper."
+    },
+    {
+      "id": "k6v1_112",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "fertig; bereit",
+      "en": "ready",
+      "example": "Let's get ready for school now."
+    },
+    {
+      "id": "k6v1_113",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "Anfang; Beginn",
+      "en": "beginning",
+      "example": "The beginning of the story is very exciting.",
+      "notes": "beginning ↔ end"
+    },
+    {
+      "id": "k6v1_114",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "verwandt; bezogen",
+      "en": "related",
+      "example": "'to win' and 'winner' are related.",
+      "notes": "⚠️ related to = verwandt mit, bezogen auf"
+    },
+    {
+      "id": "k6v1_115",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "stark",
+      "en": "strong",
+      "example": "My favourite manga character is very strong."
+    },
+    {
+      "id": "k6v1_116",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "Theater; Drama",
+      "en": "drama",
+      "example": "In Drama class, you can learn how to act scenes."
+    },
+    {
+      "id": "k6v1_117",
+      "grade": 6,
+      "unit": 1,
+      "section": "Story",
+      "sectionTitle": "What a wonderful world",
+      "category": "story",
+      "type": "word",
+      "de": "hassen; nicht mögen",
+      "en": "to hate",
+      "example": "It's really strong language to say you hate somebody.",
+      "notes": "to hate ↔ to love"
+    },
+    {
+      "id": "k6v1_118",
+      "grade": 6,
+      "unit": 1,
+      "section": "Check-out",
+      "sectionTitle": "",
+      "category": "check-out",
+      "type": "word",
+      "de": "Angeln; Fischen; Fischerei",
+      "en": "fishing",
+      "example": "My dad sometimes goes fishing at the weekend."
+    },
+    {
+      "id": "k6v1_119",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "Region; Gegend",
+      "en": "region",
+      "example": "What region in Germany do you come from?"
+    },
+    {
+      "id": "k6v1_120",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "Geschichte",
+      "en": "history",
+      "example": "I'd like to learn more about American history."
+    },
+    {
+      "id": "k6v1_121",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "beginnen; anfangen",
+      "en": "to begin",
+      "irregular": true,
+      "example": "When does the barrel race begin?",
+      "notes": "→ a beginning"
+    },
+    {
+      "id": "k6v1_122",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "Siedler/-in",
+      "en": "settler",
+      "example": "The English settlers started colonies in the Northeast."
+    },
+    {
+      "id": "k6v1_123",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "pair",
+      "de": "Herbst",
+      "en": "fall (AE)",
+      "pair": {
+        "ae": "fall",
+        "be": "autumn"
+      },
+      "example": "When fall begins, summer is over.",
+      "notes": "fall (AE) = autumn (BE)"
+    },
+    {
+      "id": "k6v1_124",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "Hurrikan; Orkan; Wirbelsturm",
+      "en": "hurricane",
+      "example": "In fall, there are often hurricanes in the Northeast."
+    },
+    {
+      "id": "k6v1_125",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "der/die größte; am größten",
+      "en": "largest",
+      "example": "Berlin is the largest city in Germany."
+    },
+    {
+      "id": "k6v1_126",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "Jahrhundert",
+      "en": "century",
+      "example": "We live in the 21st century."
+    },
+    {
+      "id": "k6v1_127",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "Sklave/Sklavin",
+      "en": "slave",
+      "example": "In the south of the US, slaves worked on the cotton fields."
+    },
+    {
+      "id": "k6v1_128",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "bis",
+      "en": "until",
+      "example": "You can stay at your friend's house until 8 o'clock.",
+      "notes": "= till"
+    },
+    {
+      "id": "k6v1_129",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "Bürgerkrieg",
+      "en": "civil war",
+      "example": "People fought in the American Civil War from 1861 to 1865."
+    },
+    {
+      "id": "k6v1_130",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "enden; beenden",
+      "en": "to end",
+      "example": "The American Civil War ended in 1865.",
+      "notes": "to end ↔ to begin"
+    },
+    {
+      "id": "k6v1_131",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "Sklaverei",
+      "en": "slavery",
+      "example": "Slavery in the US ended after the Civil War.",
+      "notes": "slavery ↔ freedom"
+    },
+    {
+      "id": "k6v1_132",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "illegal; unrechtmäßig; rechtswidrig",
+      "en": "illegal",
+      "example": "Stealing is illegal."
+    },
+    {
+      "id": "k6v1_133",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "Afroamerikaner/-in; afroamerikanisch",
+      "en": "African-American",
+      "example": "My family has an African-American background."
+    },
+    {
+      "id": "k6v1_134",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "Vergnügungspark; Themenpark",
+      "en": "theme park",
+      "example": "At the weekend we had lots of fun at a theme park."
+    },
+    {
+      "id": "k6v1_135",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "sonnig",
+      "en": "sunny",
+      "example": "It's a sunny day. Let's go to the park!"
+    },
+    {
+      "id": "k6v1_136",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "wegen",
+      "en": "because of",
+      "example": "My feet really hurt because of my new shoes."
+    },
+    {
+      "id": "k6v1_137",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "pensioniert; im Ruhestand",
+      "en": "retired",
+      "example": "My granny doesn't work any more. She's retired."
+    },
+    {
+      "id": "k6v1_138",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "regnen",
+      "en": "to rain",
+      "example": "It's raining! Let's go inside."
+    },
+    {
+      "id": "k6v1_139",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "feucht",
+      "en": "humid",
+      "example": "Our region is very humid. It rains a lot here."
+    },
+    {
+      "id": "k6v1_140",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "trocken",
+      "en": "dry",
+      "example": "Last summer was very dry.",
+      "notes": "dry ↔ humid"
+    },
+    {
+      "id": "k6v1_141",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "Wüste",
+      "en": "desert",
+      "example": "There isn't much water in the desert."
+    },
+    {
+      "id": "k6v1_142",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "Vieh; Rindvieh",
+      "en": "cattle (pl only)",
+      "example": "The cattle are in the field."
+    },
+    {
+      "id": "k6v1_143",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "Fledermaus",
+      "en": "bat",
+      "example": "Bats often live in caves."
+    },
+    {
+      "id": "k6v1_144",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "fliegen",
+      "en": "to fly",
+      "irregular": true,
+      "example": "Next summer we're going to fly to New York City."
+    },
+    {
+      "id": "k6v1_145",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "aus … heraus",
+      "en": "out of",
+      "example": "Take a pencil out of your pencil case, please."
+    },
+    {
+      "id": "k6v1_146",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "Höhle",
+      "en": "cave",
+      "example": "Next weekend we're going to visit a cave."
+    },
+    {
+      "id": "k6v1_147",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "Stunde",
+      "en": "hour",
+      "example": "There are 24 hours in a day."
+    },
+    {
+      "id": "k6v1_148",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "Temperatur",
+      "en": "temperature",
+      "example": "Temperatures were very high this summer."
+    },
+    {
+      "id": "k6v1_149",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "Grad Fahrenheit",
+      "en": "degree Fahrenheit (°F)",
+      "example": "The temperature today is 86 °F = eighty-six degrees Fahrenheit."
+    },
+    {
+      "id": "k6v1_150",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "Grad Celsius",
+      "en": "degree Celsius (°C)",
+      "example": "Today the temperature is 30 °C.",
+      "notes": "⚠️ one degree Celsius – thirty degrees Celsius"
+    },
+    {
+      "id": "k6v1_151",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "Schnee",
+      "en": "snow",
+      "example": "Today it's cold and there's a lot of snow."
+    },
+    {
+      "id": "k6v1_152",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "als (bei Vergleichen)",
+      "en": "than",
+      "example": "Her English is better than her French."
+    },
+    {
+      "id": "k6v1_153",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "einmal; einst",
+      "en": "once",
+      "example": "Listen to the dialogue once."
+    },
+    {
+      "id": "k6v1_154",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "pair",
+      "de": "Meter",
+      "en": "meter (AE)",
+      "pair": {
+        "ae": "meter",
+        "be": "metre"
+      },
+      "example": "This tree is 90 meters tall.",
+      "notes": "meter (AE) = metre (BE)"
+    },
+    {
+      "id": "k6v1_155",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "dreieinhalbmal",
+      "en": "three and a half times",
+      "example": "Wyoming is three and a half times the size of Bavaria."
+    },
+    {
+      "id": "k6v1_156",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "Ackerland",
+      "en": "farmland",
+      "example": "We produce food on our own farmland."
+    },
+    {
+      "id": "k6v1_157",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "Europäer/-in; europäisch",
+      "en": "European",
+      "example": "Germany is a European country."
+    },
+    {
+      "id": "k6v1_158",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "industriell; Industrie-",
+      "en": "industrial",
+      "example": "In the Midwest there's farmland, but also industrial regions."
+    },
+    {
+      "id": "k6v1_159",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "Flughafen",
+      "en": "airport",
+      "example": "London has got five airports."
+    },
+    {
+      "id": "k6v1_160",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "übrigens",
+      "en": "by the way",
+      "example": "By the way, I like your shoes."
+    },
+    {
+      "id": "k6v1_161",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "dauern; (Zeit) brauchen",
+      "en": "to take",
+      "irregular": true,
+      "example": "It takes two hours to get to London by train."
+    },
+    {
+      "id": "k6v1_162",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "Camp; Lager",
+      "en": "camp",
+      "example": "Lots of American teenagers go to summer camps."
+    },
+    {
+      "id": "k6v1_163",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "vorstellen; einführen; einleiten",
+      "en": "to introduce",
+      "example": "Let me introduce you to my friend Peter."
+    },
+    {
+      "id": "k6v1_164",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "Brücke",
+      "en": "bridge",
+      "example": "A bridge goes over a river."
+    },
+    {
+      "id": "k6v1_165",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "französisch; Französisch",
+      "en": "French",
+      "example": "French people speak French."
+    },
+    {
+      "id": "k6v1_166",
+      "grade": 6,
+      "unit": 1,
+      "section": "Focus 1",
+      "sectionTitle": "Regions of the US",
+      "category": "focus-1",
+      "type": "word",
+      "de": "Industrie; Branche; Gewerbe",
+      "en": "industry",
+      "example": "Hollywood is the centre of the US film industry."
+    }
+  ],
+  "grammarTopics": [
+    {
+      "id": "k6g_G1",
+      "grade": 6,
+      "unit": 1,
+      "code": "G1",
+      "title": "going-to future (Futur mit going to)",
+      "bookPages": "S. 10–11",
+      "explanation": "Mit dem going-to future sprichst du über feste Pläne und Absichten – und über Dinge, die gleich passieren, weil es deutliche Anzeichen gibt. Bildung: am/is/are + going to + Grundform. Verneinung: isn't/aren't/'m not going to. Frage: Are you going to …? – Yes, I am. / No, I'm not. Im Deutschen nimmt man für die Zukunft oft das Präsens („Wir besuchen nächste Woche …\"), im Englischen geht das nicht.",
+      "examples": [
+        "Mom's friends are going to visit with their daughter Madison.",
+        "Emily isn't going to practice for the barrel race.",
+        "What are you going to do this weekend, Dave?",
+        "Are you going to go to the movie theater? – Yes, I am."
+      ],
+      "commonMistakes": [
+        "Präsens wie im Deutschen: „We visit Minneapolis next week.\" statt „We're going to visit …\"",
+        "Form von be vergessen: „I going to …\" statt „I'm going to …\"",
+        "Verneinung mit do: „She doesn't going to …\" statt „She isn't going to …\""
+      ]
+    },
+    {
+      "id": "k6g_G2",
+      "grade": 6,
+      "unit": 1,
+      "code": "G2",
+      "title": "Question tags (Bestätigungsfragen)",
+      "bookPages": "S. 12–13",
+      "explanation": "Ein question tag ist eine kurze Frage am Satzende („…, oder?\", „…, nicht wahr?\"). Du wiederholst das Hilfsverb des Satzes mit umgekehrter Polung: bejahter Satz → verneinter Tag, verneinter Satz → bejahter Tag. Im Tag steht immer das passende Personalpronomen. Steht nur ein Vollverb im Satz, nimmst du do/does/did. Sonderfall: I'm … → aren't I? Vor dem Tag steht ein Komma.",
+      "examples": [
+        "You're feeling nervous, aren't you?",
+        "Emily isn't going to watch an action movie, is she?",
+        "Aunt Amy knows a lot about horses, doesn't she?",
+        "We talked about this last week, didn't we?",
+        "I'm in your team, aren't I?"
+      ],
+      "commonMistakes": [
+        "Gleiche Polung: „You're nervous, are you?\" statt „aren't you?\"",
+        "Bei Vollverben be statt do: „She knows a lot, isn't she?\" statt „doesn't she?\"",
+        "Nomen statt Pronomen im Tag: „…, isn't Madison?\" statt „isn't she?\"",
+        "„amn't I\" statt „aren't I\""
+      ]
+    },
+    {
+      "id": "k6g_G3",
+      "grade": 6,
+      "unit": 1,
+      "code": "G3",
+      "title": "Questions with prepositions (Fragen mit Präpositionen)",
+      "bookPages": "S. 13",
+      "explanation": "Viele Verben haben feste Präpositionen (worry about, wait for, come from, talk to, look at). Fragst du nach dem Objekt, steht die Präposition am Ende der Frage – hinter dem Verb. Im Deutschen steht sie vor dem Fragewort („Mit wem …?\", „Worauf …?\").",
+      "examples": [
+        "What is she waiting for? – She's waiting for the bus.",
+        "Where does he come from? – He comes from Iowa.",
+        "What are you worried about?",
+        "Who is he talking to?"
+      ],
+      "commonMistakes": [
+        "Präposition an den Anfang wie im Deutschen: „About what are you worried?\"",
+        "Präposition vergessen: „What are you waiting?\"",
+        "Falsche Präposition aus dem Deutschen: „interested for\" statt „interested in\""
+      ]
+    }
+  ],
+  "grammarQuestions": [
+    {
+      "id": "k6q_G1_001",
+      "topicId": "k6g_G1",
+      "type": "multipleChoice",
+      "prompt": "Look at those dark clouds! It ___ rain.",
+      "options": [
+        "is going to",
+        "goes to",
+        "going to"
+      ],
+      "answer": "is going to",
+      "explanation": "Deutliche Anzeichen (dunkle Wolken) → going-to future: is going to rain.",
+      "optionHints": {
+        "goes to": "going to braucht eine Form von be davor: It is going to rain.",
+        "going to": "Hier fehlt die Form von be: It is going to rain."
+      }
+    },
+    {
+      "id": "k6q_G1_002",
+      "topicId": "k6g_G1",
+      "type": "multipleChoice",
+      "prompt": "We ___ visit Minneapolis next week.",
+      "options": [
+        "are going to",
+        "visit",
+        "is going to"
+      ],
+      "answer": "are going to",
+      "explanation": "Ein fester Plan für die Zukunft → we are going to visit. Das deutsche Präsens („Wir besuchen …\") geht im Englischen nicht.",
+      "optionHints": {
+        "visit": "Im Deutschen sagt man „Wir besuchen nächste Woche …\" – im Englischen brauchst du für Pläne going to.",
+        "is going to": "we → are, nicht is."
+      }
+    },
+    {
+      "id": "k6q_G1_003",
+      "topicId": "k6g_G1",
+      "type": "multipleChoice",
+      "prompt": "Emily ___ practise for the barrel race this weekend. She's too tired.",
+      "options": [
+        "isn't going to",
+        "aren't going to",
+        "doesn't going to"
+      ],
+      "answer": "isn't going to",
+      "explanation": "Emily = she → isn't going to.",
+      "optionHints": {
+        "aren't going to": "Emily ist eine Person (she) → isn't, nicht aren't.",
+        "doesn't going to": "Beim going-to future verneinst du mit be (isn't), nicht mit do."
+      }
+    },
+    {
+      "id": "k6q_G1_004",
+      "topicId": "k6g_G1",
+      "type": "multipleChoice",
+      "prompt": "What ___ you going to do this weekend, Dave?",
+      "options": [
+        "are",
+        "do",
+        "is"
+      ],
+      "answer": "are",
+      "explanation": "Fragen mit going to bildest du mit be: What are you going to do?",
+      "optionHints": {
+        "do": "Beim going-to future steht in der Frage eine Form von be, nicht do.",
+        "is": "you → are."
+      }
+    },
+    {
+      "id": "k6q_G1_005",
+      "topicId": "k6g_G1",
+      "type": "multipleChoice",
+      "prompt": "Are you going to go to the mall? – Yes, I ___.",
+      "options": [
+        "am",
+        "do",
+        "go"
+      ],
+      "answer": "am",
+      "explanation": "Die Frage beginnt mit Are → die Kurzantwort wiederholt be: Yes, I am.",
+      "optionHints": {
+        "do": "Die Frage beginnt mit Are, also antwortest du mit be: Yes, I am.",
+        "go": "In Kurzantworten wiederholst du das Hilfsverb, nicht das Vollverb."
+      }
+    },
+    {
+      "id": "k6q_G1_006",
+      "topicId": "k6g_G1",
+      "type": "multipleChoice",
+      "prompt": "My parents ___ going to move house next year.",
+      "options": [
+        "are",
+        "is",
+        "be"
+      ],
+      "answer": "are",
+      "explanation": "My parents = they → are going to.",
+      "optionHints": {
+        "is": "My parents sind mehrere Personen (they) → are.",
+        "be": "Du brauchst die passende Form von be: are."
+      }
+    },
+    {
+      "id": "k6q_G1_007",
+      "topicId": "k6g_G1",
+      "type": "multipleChoice",
+      "prompt": "Welcher Satz drückt einen Plan richtig aus?",
+      "options": [
+        "I'm going to visit my aunt tomorrow.",
+        "I visit my aunt tomorrow.",
+        "I going to visit my aunt tomorrow."
+      ],
+      "answer": "I'm going to visit my aunt tomorrow.",
+      "explanation": "Pläne für die Zukunft: am/is/are + going to + Grundform.",
+      "optionHints": {
+        "I visit my aunt tomorrow.": "Das deutsche Präsens für die Zukunft funktioniert im Englischen nicht – für Pläne: I'm going to …",
+        "I going to visit my aunt tomorrow.": "Es fehlt am bzw. 'm: I'm going to visit …"
+      }
+    },
+    {
+      "id": "k6q_G1_008",
+      "topicId": "k6g_G1",
+      "type": "fillBlank",
+      "prompt": "Next summer we ___ (fly) to New York.",
+      "answer": "are going to fly",
+      "acceptedAnswers": [
+        "are going to fly",
+        "'re going to fly"
+      ],
+      "explanation": "Plan für die Zukunft → are going to + Grundform: are going to fly."
+    },
+    {
+      "id": "k6q_G1_009",
+      "topicId": "k6g_G1",
+      "type": "fillBlank",
+      "prompt": "Madison ___ (go) to the mall tomorrow.",
+      "answer": "is going to go",
+      "acceptedAnswers": [
+        "is going to go",
+        "'s going to go"
+      ],
+      "explanation": "Madison = she → is going to go."
+    },
+    {
+      "id": "k6q_G1_010",
+      "topicId": "k6g_G1",
+      "type": "fillBlank",
+      "prompt": "___ Ryan going to play the guitar at the party?",
+      "answer": "Is",
+      "explanation": "Frage im going-to future: Is + Subjekt + going to …? Ryan = he → Is."
+    },
+    {
+      "id": "k6q_G1_011",
+      "topicId": "k6g_G1",
+      "type": "fillBlank",
+      "prompt": "Dave and Luke ___ (not watch) a movie tonight.",
+      "answer": "aren't going to watch",
+      "acceptedAnswers": [
+        "aren't going to watch",
+        "are not going to watch",
+        "'re not going to watch"
+      ],
+      "explanation": "Verneinung: aren't going to + Grundform. Dave and Luke = they → aren't."
+    },
+    {
+      "id": "k6q_G1_012",
+      "topicId": "k6g_G1",
+      "type": "fillBlank",
+      "prompt": "Be careful, Emily! You ___ (fall off) your horse!",
+      "answer": "are going to fall off",
+      "acceptedAnswers": [
+        "are going to fall off",
+        "'re going to fall off"
+      ],
+      "explanation": "Man sieht schon, dass es gleich passiert (deutliches Anzeichen) → going-to future."
+    },
+    {
+      "id": "k6q_G1_013",
+      "topicId": "k6g_G1",
+      "type": "fillBlank",
+      "prompt": "What ___ Holly going to do after school?",
+      "answer": "is",
+      "explanation": "Holly = she → What is Holly going to do?"
+    },
+    {
+      "id": "k6q_G2_001",
+      "topicId": "k6g_G2",
+      "type": "multipleChoice",
+      "prompt": "You're feeling nervous, ___?",
+      "options": [
+        "aren't you",
+        "are you",
+        "don't you"
+      ],
+      "answer": "aren't you",
+      "explanation": "Bejahter Satz mit are → verneinter Tag: aren't you?",
+      "optionHints": {
+        "are you": "Der Satz ist bejaht → der Tag muss verneint sein: aren't you?",
+        "don't you": "Im Satz steht are (be) – also wiederholst du are, nicht do."
+      }
+    },
+    {
+      "id": "k6q_G2_002",
+      "topicId": "k6g_G2",
+      "type": "multipleChoice",
+      "prompt": "Emily isn't going to watch an action movie, ___?",
+      "options": [
+        "is she",
+        "isn't she",
+        "does she"
+      ],
+      "answer": "is she",
+      "explanation": "Verneinter Satz (isn't) → bejahter Tag: is she?",
+      "optionHints": {
+        "isn't she": "Der Satz ist schon verneint → der Tag wird bejaht: is she?",
+        "does she": "Im Satz steht is (be) – also wiederholst du is, nicht does."
+      }
+    },
+    {
+      "id": "k6q_G2_003",
+      "topicId": "k6g_G2",
+      "type": "multipleChoice",
+      "prompt": "Madison is a nice girl, ___?",
+      "options": [
+        "isn't she",
+        "isn't it",
+        "is she"
+      ],
+      "answer": "isn't she",
+      "explanation": "Madison ist ein Mädchen → Pronomen she; bejahter Satz → isn't she?",
+      "optionHints": {
+        "isn't it": "Madison ist eine Person, kein Ding → she, nicht it.",
+        "is she": "Bejahter Satz → verneinter Tag: isn't she?"
+      }
+    },
+    {
+      "id": "k6q_G2_004",
+      "topicId": "k6g_G2",
+      "type": "multipleChoice",
+      "prompt": "I'm in your team, ___?",
+      "options": [
+        "aren't I",
+        "am not I",
+        "isn't I"
+      ],
+      "answer": "aren't I",
+      "explanation": "Sonderfall: Nach I'm heißt der Tag aren't I?",
+      "optionHints": {
+        "am not I": "Das sagt man nicht. Merke den Sonderfall: I'm …, aren't I?",
+        "isn't I": "Zu I passt is nicht. Merke: I'm …, aren't I?"
+      }
+    },
+    {
+      "id": "k6q_G2_005",
+      "topicId": "k6g_G2",
+      "type": "multipleChoice",
+      "prompt": "Aunt Amy knows a lot about horses, ___?",
+      "options": [
+        "doesn't she",
+        "isn't she",
+        "don't she"
+      ],
+      "answer": "doesn't she",
+      "explanation": "Nur ein Vollverb (knows) im simple present → Tag mit does: doesn't she?",
+      "optionHints": {
+        "isn't she": "Im Satz steht kein be, sondern ein Vollverb (knows) → Tag mit do/does.",
+        "don't she": "she → does: doesn't she?"
+      }
+    },
+    {
+      "id": "k6q_G2_006",
+      "topicId": "k6g_G2",
+      "type": "multipleChoice",
+      "prompt": "We talked about this last week, ___?",
+      "options": [
+        "didn't we",
+        "don't we",
+        "weren't we"
+      ],
+      "answer": "didn't we",
+      "explanation": "Vollverb im simple past (talked) → Tag mit did: didn't we?",
+      "optionHints": {
+        "don't we": "Der Satz steht im simple past (talked) → did, nicht do.",
+        "weren't we": "Im Satz steht kein be, sondern ein Vollverb → Tag mit did."
+      }
+    },
+    {
+      "id": "k6q_G2_007",
+      "topicId": "k6g_G2",
+      "type": "multipleChoice",
+      "prompt": "We've got a good horse, ___?",
+      "options": [
+        "haven't we",
+        "don't we",
+        "didn't we"
+      ],
+      "answer": "haven't we",
+      "explanation": "have got → der Tag wiederholt have: haven't we?",
+      "optionHints": {
+        "don't we": "Bei have got nimmst du have im Tag: haven't we?",
+        "didn't we": "Der Satz steht in der Gegenwart, und bei have got heißt der Tag haven't we?"
+      }
+    },
+    {
+      "id": "k6q_G2_008",
+      "topicId": "k6g_G2",
+      "type": "multipleChoice",
+      "prompt": "We often have a little party, ___?",
+      "options": [
+        "don't we",
+        "haven't we",
+        "aren't we"
+      ],
+      "answer": "don't we",
+      "explanation": "have (ohne got) ist hier ein Vollverb → Tag mit do: don't we?",
+      "optionHints": {
+        "haven't we": "Ohne got ist have ein Vollverb → Tag mit do: don't we?",
+        "aren't we": "Im Satz steht kein be → aren't passt nicht."
+      }
+    },
+    {
+      "id": "k6q_G2_009",
+      "topicId": "k6g_G2",
+      "type": "fillBlank",
+      "prompt": "Emily and Madison can be friends, ___?",
+      "answer": "can't they",
+      "explanation": "Modalverb can → can't im Tag; Emily and Madison = they."
+    },
+    {
+      "id": "k6q_G2_010",
+      "topicId": "k6g_G2",
+      "type": "fillBlank",
+      "prompt": "Mr Gibson played an interesting song in class today, ___?",
+      "answer": "didn't he",
+      "explanation": "Vollverb im simple past (played) → didn't; Mr Gibson = he."
+    },
+    {
+      "id": "k6q_G2_011",
+      "topicId": "k6g_G2",
+      "type": "fillBlank",
+      "prompt": "Emily's parents are watching the barrel race, ___?",
+      "answer": "aren't they",
+      "explanation": "are … → aren't; Emily's parents = they."
+    },
+    {
+      "id": "k6q_G2_012",
+      "topicId": "k6g_G2",
+      "type": "fillBlank",
+      "prompt": "Ryan doesn't like horror movies, ___?",
+      "answer": "does he",
+      "explanation": "Verneinter Satz mit doesn't → bejahter Tag: does he?"
+    },
+    {
+      "id": "k6q_G2_013",
+      "topicId": "k6g_G2",
+      "type": "fillBlank",
+      "prompt": "It isn't raining, ___?",
+      "answer": "is it",
+      "explanation": "Verneinter Satz (isn't) → bejahter Tag: is it?"
+    },
+    {
+      "id": "k6q_G2_014",
+      "topicId": "k6g_G2",
+      "type": "fillBlank",
+      "prompt": "Jay and Luke had a lot of fun, ___?",
+      "answer": "didn't they",
+      "explanation": "had ist hier Vollverb im simple past → didn't they?"
+    },
+    {
+      "id": "k6q_G3_001",
+      "topicId": "k6g_G3",
+      "type": "multipleChoice",
+      "prompt": "What is she waiting ___? – She's waiting for the bus.",
+      "options": [
+        "for",
+        "on",
+        "to"
+      ],
+      "answer": "for",
+      "explanation": "wait for = warten auf. Die Präposition steht am Ende der Frage.",
+      "optionHints": {
+        "on": "Deutsch „warten auf\" – Englisch wait for.",
+        "to": "wait to + Verb gibt es, aber „warten auf etwas\" heißt wait for."
+      }
+    },
+    {
+      "id": "k6q_G3_002",
+      "topicId": "k6g_G3",
+      "type": "multipleChoice",
+      "prompt": "Where does he come ___? – He comes from Iowa.",
+      "options": [
+        "from",
+        "of",
+        "to"
+      ],
+      "answer": "from",
+      "explanation": "come from = kommen aus. Die Präposition steht am Ende.",
+      "optionHints": {
+        "of": "Man sagt come from, nicht come of.",
+        "to": "come to = zu etwas kommen. Herkunft: come from."
+      }
+    },
+    {
+      "id": "k6q_G3_003",
+      "topicId": "k6g_G3",
+      "type": "multipleChoice",
+      "prompt": "Who is he talking ___?",
+      "options": [
+        "to",
+        "at",
+        "for"
+      ],
+      "answer": "to",
+      "explanation": "talk to sb = mit jemandem sprechen. Präposition am Ende: Who is he talking to?",
+      "optionHints": {
+        "at": "Man sagt talk to somebody.",
+        "for": "talk for passt hier nicht – mit jemandem sprechen: talk to."
+      }
+    },
+    {
+      "id": "k6q_G3_004",
+      "topicId": "k6g_G3",
+      "type": "multipleChoice",
+      "prompt": "Welche Frage ist richtig?",
+      "options": [
+        "What are you worried about?",
+        "About what are you worried?",
+        "What are you worried?"
+      ],
+      "answer": "What are you worried about?",
+      "explanation": "Im Englischen steht die Präposition am Ende der Frage.",
+      "optionHints": {
+        "About what are you worried?": "So würde man es im Deutschen bauen („Worüber …?\"). Im Englischen kommt about ans Ende.",
+        "What are you worried?": "worried about – die Präposition darf nicht fehlen."
+      }
+    },
+    {
+      "id": "k6q_G3_005",
+      "topicId": "k6g_G3",
+      "type": "multipleChoice",
+      "prompt": "What are you thinking ___? – Christmas!",
+      "options": [
+        "of",
+        "in",
+        "to"
+      ],
+      "answer": "of",
+      "explanation": "think of/about = denken an. Präposition am Ende: What are you thinking of?",
+      "optionHints": {
+        "in": "think in passt hier nicht. Denken an: think of/about.",
+        "to": "think to gibt es so nicht. Denken an: think of/about."
+      }
+    },
+    {
+      "id": "k6q_G3_006",
+      "topicId": "k6g_G3",
+      "type": "multipleChoice",
+      "prompt": "What are you interested ___? – I'm interested in history.",
+      "options": [
+        "in",
+        "for",
+        "at"
+      ],
+      "answer": "in",
+      "explanation": "be interested in = sich interessieren für.",
+      "optionHints": {
+        "for": "Deutsch: sich interessieren für – Englisch: be interested in.",
+        "at": "Man sagt be interested in."
+      }
+    },
+    {
+      "id": "k6q_G3_007",
+      "topicId": "k6g_G3",
+      "type": "multipleChoice",
+      "prompt": "Who is Emily writing ___? – She's writing to Dave.",
+      "options": [
+        "to",
+        "for",
+        "at"
+      ],
+      "answer": "to",
+      "explanation": "write to sb = jemandem schreiben.",
+      "optionHints": {
+        "for": "write for sb = für jemanden schreiben. Hier: an Dave → write to.",
+        "at": "write at passt nicht – jemandem schreiben: write to."
+      }
+    },
+    {
+      "id": "k6q_G3_008",
+      "topicId": "k6g_G3",
+      "type": "fillBlank",
+      "prompt": "What is Madison looking ___? – She's looking at a magazine.",
+      "answer": "at",
+      "explanation": "look at = anschauen. Präposition am Ende der Frage."
+    },
+    {
+      "id": "k6q_G3_009",
+      "topicId": "k6g_G3",
+      "type": "fillBlank",
+      "prompt": "Who are you waiting ___? – I'm waiting for my cousin.",
+      "answer": "for",
+      "explanation": "wait for = warten auf."
+    },
+    {
+      "id": "k6q_G3_010",
+      "topicId": "k6g_G3",
+      "type": "fillBlank",
+      "prompt": "What is Ryan talking ___? – He's talking about Emily's hat.",
+      "answer": "about",
+      "explanation": "talk about = sprechen über."
+    },
+    {
+      "id": "k6q_G3_011",
+      "topicId": "k6g_G3",
+      "type": "fillBlank",
+      "prompt": "Who is Emily talking ___? – She's talking to her aunt.",
+      "answer": "to",
+      "acceptedAnswers": [
+        "to",
+        "with"
+      ],
+      "explanation": "talk to sb = mit jemandem sprechen."
+    },
+    {
+      "id": "k6q_G3_012",
+      "topicId": "k6g_G3",
+      "type": "fillBlank",
+      "prompt": "Where's he ___? – He's from Decorah.",
+      "answer": "from",
+      "explanation": "be from = kommen aus: Where's he from?"
+    },
+    {
+      "id": "k6q_G3_013",
+      "topicId": "k6g_G3",
+      "type": "fillBlank",
+      "prompt": "Who do you want to hang out ___ this weekend?",
+      "answer": "with",
+      "explanation": "hang out with = rumhängen mit / sich treffen mit."
+    }
+  ],
+  "conversationScenarios": [
+    {
+      "id": "k6c_weekend_plans",
+      "unit": 1,
+      "title": "Wochenendpläne",
+      "level": 2,
+      "goal": "going-to future, question tags, Feedback geben (G1–G3)",
+      "grammarCodes": [
+        "G1",
+        "G2",
+        "G3"
+      ],
+      "situation": "Dave aus Greenwich fragt dich per Videochat nach deinen Plänen fürs Wochenende.",
+      "openingLine": "Hi Juna! It's Dave. So, what are you going to do this weekend? You're not going to stay at home all the time, are you?",
+      "phrases": [
+        "I'm going to …",
+        "We aren't going to …",
+        "…, isn't it?",
+        "Really? I see.",
+        "What are you worried about?"
+      ],
+      "grade": 6,
+      "startNode": "n1",
+      "nodes": {
+        "n1": {
+          "npcLine": "Hi Juna! It's Dave. So, what are you going to do this weekend? You're not going to stay at home all the time, are you?",
+          "choices": [
+            {
+              "text": "No, I'm not. I'm going to visit my grandma on Saturday, and on Sunday I'm going to play football.",
+              "quality": "good",
+              "feedback": "Super – Kurzantwort und zwei Pläne mit going to!",
+              "next": "n2"
+            },
+            {
+              "text": "I visit my grandma on Saturday.",
+              "quality": "ok",
+              "feedback": "Verständlich! Für Pläne sagt man im Englischen aber: I'm going to visit my grandma.",
+              "next": "n2"
+            },
+            {
+              "text": "Yes, I am stay at home.",
+              "quality": "wrong",
+              "feedback": "Hier ist einiges verrutscht. Besser: No, I'm not. I'm going to …",
+              "next": "n2"
+            }
+          ]
+        },
+        "n2": {
+          "npcLine": "That sounds great! Your grandma lives in the country, doesn't she?",
+          "choices": [
+            {
+              "text": "Yes, she does. She lives on a farm with lots of animals.",
+              "quality": "good",
+              "feedback": "Perfekt – die Frage endet mit doesn't she, also antwortest du mit does.",
+              "next": "n3"
+            },
+            {
+              "text": "Yes. On a farm.",
+              "quality": "ok",
+              "feedback": "Klar verständlich! Noch natürlicher mit Kurzantwort: Yes, she does.",
+              "next": "n3"
+            },
+            {
+              "text": "Yes, she is.",
+              "quality": "wrong",
+              "feedback": "Fast! Der Tag war doesn't she → Antwort mit does: Yes, she does.",
+              "next": "n3"
+            }
+          ]
+        },
+        "n3": {
+          "npcLine": "Cool! I'm going to watch a barrel race with Emily on Sunday. I'm a bit nervous – it's my first race.",
+          "choices": [
+            {
+              "text": "Really? What are you nervous about?",
+              "quality": "good",
+              "feedback": "Toll – echtes Nachfragen, und die Präposition steht am Ende (G3)!",
+              "next": "n4"
+            },
+            {
+              "text": "I see. That's exciting!",
+              "quality": "ok",
+              "feedback": "Gutes Feedback mit I see! Du könntest auch nachfragen: What are you nervous about?",
+              "next": "n4"
+            },
+            {
+              "text": "About what are you nervous?",
+              "quality": "wrong",
+              "feedback": "Im Englischen kommt die Präposition ans Ende: What are you nervous about?",
+              "next": "n4"
+            }
+          ]
+        },
+        "n4": {
+          "npcLine": "I'm worried about the horses. They're so big! But it's going to be fun, isn't it?",
+          "choices": [
+            {
+              "text": "Yes, it is! You're going to have a great time.",
+              "quality": "good",
+              "feedback": "Wunderbar – Kurzantwort und ein Mutmacher mit going to.",
+              "next": "n5"
+            },
+            {
+              "text": "Yes. Don't worry.",
+              "quality": "ok",
+              "feedback": "Lieb gesagt! Mit Kurzantwort klingt es noch natürlicher: Yes, it is.",
+              "next": "n5"
+            },
+            {
+              "text": "Yes, it isn't.",
+              "quality": "wrong",
+              "feedback": "Bei Yes bleibt die Kurzantwort positiv: Yes, it is.",
+              "next": "n5"
+            }
+          ]
+        },
+        "n5": {
+          "npcLine": "Thanks, Juna! Let's talk again next week. Have a great weekend!",
+          "choices": []
+        }
+      },
+      "endNodes": [
+        "n5"
+      ]
+    },
+    {
+      "id": "k6c_city_country",
+      "unit": 1,
+      "title": "Stadt oder Land?",
+      "level": 2,
+      "goal": "likes/dislikes, Gefühle, question tags",
+      "grammarCodes": [
+        "G1",
+        "G2"
+      ],
+      "situation": "Emily aus Decorah (Iowa) fragt dich, wo du lebst und ob du lieber in der Stadt oder auf dem Land wohnen möchtest.",
+      "openingLine": "Hi, I'm Emily! I live in Decorah – it's a small town with huge fields and lots of eagles. What's your home town like?",
+      "phrases": [
+        "My home town is …",
+        "There's a … / There are …",
+        "I like hanging out …",
+        "I'm going to live in …",
+        "…, can't it?"
+      ],
+      "grade": 6,
+      "startNode": "n1",
+      "nodes": {
+        "n1": {
+          "npcLine": "Hi, I'm Emily! I live in Decorah – it's a small town with huge fields and lots of eagles. What's your home town like?",
+          "choices": [
+            {
+              "text": "My home town is quite big. There's a mall and lots of shops, but there are hills outside the town too.",
+              "quality": "good",
+              "feedback": "Klasse beschrieben – mit There's und There are!",
+              "next": "n2"
+            },
+            {
+              "text": "It's nice. Big.",
+              "quality": "ok",
+              "feedback": "Verständlich! Mit ganzen Sätzen wird es lebendiger: It's a big town with …",
+              "next": "n2"
+            },
+            {
+              "text": "My home town have a mall.",
+              "quality": "wrong",
+              "feedback": "town = it → has: My home town has a mall.",
+              "next": "n2"
+            }
+          ]
+        },
+        "n2": {
+          "npcLine": "Wow! What do you like doing there? I love to hang out outdoors with my horse.",
+          "choices": [
+            {
+              "text": "I like hanging out with my friends in the park. And I love riding my bike.",
+              "quality": "good",
+              "feedback": "Super – nach like steht die -ing-Form.",
+              "next": "n3"
+            },
+            {
+              "text": "Shopping at the mall.",
+              "quality": "ok",
+              "feedback": "Gut! Als ganzer Satz: I like shopping at the mall.",
+              "next": "n3"
+            },
+            {
+              "text": "I like hang out with friends.",
+              "quality": "wrong",
+              "feedback": "Nach like brauchst du hanging out (oder to hang out).",
+              "next": "n3"
+            }
+          ]
+        },
+        "n3": {
+          "npcLine": "Do you want to live in the city or in the country when you're older?",
+          "choices": [
+            {
+              "text": "I'm going to live in the country because I love animals and fresh air.",
+              "quality": "good",
+              "feedback": "Super – ein Plan mit going to und eine Begründung mit because!",
+              "next": "n4"
+            },
+            {
+              "text": "In the city, I think.",
+              "quality": "ok",
+              "feedback": "Okay! Sag noch warum: … because there's more to do.",
+              "next": "n4"
+            },
+            {
+              "text": "I am live in the city.",
+              "quality": "wrong",
+              "feedback": "Für Pläne: I'm going to live in the city.",
+              "next": "n4"
+            }
+          ]
+        },
+        "n4": {
+          "npcLine": "Life in the country can be boring sometimes, can't it? There isn't a movie theater in Decorah!",
+          "choices": [
+            {
+              "text": "Yes, it can. But you've got horses and eagles – that's amazing!",
+              "quality": "good",
+              "feedback": "Klasse – Kurzantwort mit can und ein Kompliment.",
+              "next": "n5"
+            },
+            {
+              "text": "Maybe. I don't know.",
+              "quality": "ok",
+              "feedback": "Ehrlich! Mit Kurzantwort klingt es natürlicher: Yes, it can.",
+              "next": "n5"
+            },
+            {
+              "text": "Yes, it does.",
+              "quality": "wrong",
+              "feedback": "Der Tag war can't it → Antwort mit can: Yes, it can.",
+              "next": "n5"
+            }
+          ]
+        },
+        "n5": {
+          "npcLine": "Ha, you're right! Maybe you can visit us one day. Bye!",
+          "choices": []
+        }
+      },
+      "endNodes": [
+        "n5"
+      ]
+    }
+  ]
+}

@@ -96,3 +96,27 @@ to Firestore with `npm run sync-content` (see `scripts/syncContent.js`).
   progress — every choice has a `next`, per the "correct gently, don't stop the flow" guidance.
 - Vocab `category` values are free strings used purely for topic-scoped session filtering; they
   don't need to be enumerated anywhere else.
+
+## Grade 6 (`src/data/grade6/`)
+
+Same unit shape as above, with these additions. Grade 6 also has a "Unit 5" and "Unit 6", so
+every grade 6 id carries a `k6` prefix to stay unique next to the grade 5 ids.
+
+- `k6uN.json` (N = 1–6): `id: "k6uN"`, `grade: 6`. `vocab` is generated from
+  `../C_Vokabeln/vokabeln.md` by `npm run build-grade6` (re-run after editing the list — it only
+  replaces `vocab`, the hand-written grammar and scenarios stay). Grammar and scenarios are
+  edited directly in the JSON.
+- Vocab: `id: "k6v1_001"`, `grade: 6`, `section` ("Check-in", "Station 1", "Focus 1" …),
+  `sectionTitle`, `category` (slug of `section`), optional `irregular: true` (marked * in the
+  book), `pair: { be, ae }` for `type: "pair"`, `example`, `notes` (⚠️ hints, word families).
+  Focus / Across cultures words belong to the unit before them. Array order = book order.
+- Grammar topics: `id: "k6g_G1"`, `code: "G1"`, `bookPages`. Questions: `id: "k6q_G1_001"`,
+  optional `acceptedAnswers: [...]` (all answers that count as correct, incl. `answer`).
+- Scenarios: `id: "k6c_…"`, `grade: 6`, optional `section`, `situation`, `openingLine`,
+  `grammarCodes`, `phrases`.
+- `irregularVerbs6.json`: all grade 5 verbs plus the grade 6 *-verbs, each with
+  `pastParticiple`, `introducedIn` (5 | 6), `grade5Id` / `vocabIds` links.
+- `learningGoals6.json`: `learningGoals` ("Can you …" per unit, with `grammarCodes` and
+  `vocabSections`) and `skills` (S1–S30).
+
+Check everything with `npm run validate` before syncing.

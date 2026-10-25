@@ -1,0 +1,601 @@
+{
+  "grade": 6,
+  "learningGoals": [
+    {
+      "id": "k6lg_1_01",
+      "grade": 6,
+      "unit": 1,
+      "text": "Wörter für Gefühle",
+      "example": "happy, embarrassed, excited, nervous, proud, bored",
+      "grammarCodes": [],
+      "vocabSections": [
+        "Check-in",
+        "Story"
+      ]
+    },
+    {
+      "id": "k6lg_1_02",
+      "grade": 6,
+      "unit": 1,
+      "text": "über Pläne für die Zukunft sprechen (going-to future)",
+      "example": "I'm going to watch …/I'm going to live …",
+      "grammarCodes": [
+        "G1"
+      ],
+      "vocabSections": [
+        "Station 1"
+      ]
+    },
+    {
+      "id": "k6lg_1_03",
+      "grade": 6,
+      "unit": 1,
+      "text": "sagen, was gleich passieren wird",
+      "example": "She's going to …/Aren't you going to …?",
+      "grammarCodes": [
+        "G1"
+      ],
+      "vocabSections": [
+        "Station 1"
+      ]
+    },
+    {
+      "id": "k6lg_1_04",
+      "grade": 6,
+      "unit": 1,
+      "text": "question tags bilden",
+      "example": "…, isn't he? …, are you? …, did it?",
+      "grammarCodes": [
+        "G2"
+      ],
+      "vocabSections": [
+        "Station 2"
+      ]
+    },
+    {
+      "id": "k6lg_1_05",
+      "grade": 6,
+      "unit": 1,
+      "text": "Fragen mit Präpositionen",
+      "example": "What are you worried about?",
+      "grammarCodes": [
+        "G3"
+      ],
+      "vocabSections": [
+        "Station 2"
+      ]
+    },
+    {
+      "id": "k6lg_1_06",
+      "grade": 6,
+      "unit": 1,
+      "text": "ein Gespräch am Laufen halten (Feedback, Füllwörter)",
+      "example": "I see. Did you really …? I mean …",
+      "grammarCodes": [],
+      "vocabSections": [
+        "Station 2"
+      ]
+    },
+    {
+      "id": "k6lg_2_01",
+      "grade": 6,
+      "unit": 2,
+      "text": "Kultur und Geschichte eines Ortes beschreiben",
+      "example": "Florida: settlers, immigrants, Cuban music",
+      "grammarCodes": [],
+      "vocabSections": [
+        "Check-in",
+        "Station 2",
+        "Across cultures 1"
+      ]
+    },
+    {
+      "id": "k6lg_2_02",
+      "grade": 6,
+      "unit": 2,
+      "text": "Vergleiche mit Adjektiven",
+      "example": "bigger than, as big as, the most exciting",
+      "grammarCodes": [
+        "G4",
+        "G5"
+      ],
+      "vocabSections": [
+        "Station 1"
+      ]
+    },
+    {
+      "id": "k6lg_2_03",
+      "grade": 6,
+      "unit": 2,
+      "text": "Zusatzinfos mit Relativsätzen",
+      "example": "The people who/that … · The city which/that … · The girl whose parents …",
+      "grammarCodes": [
+        "G6"
+      ],
+      "vocabSections": [
+        "Station 2"
+      ]
+    },
+    {
+      "id": "k6lg_2_04",
+      "grade": 6,
+      "unit": 2,
+      "text": "über interessante Fakten sprechen",
+      "example": "It's really interesting that …",
+      "grammarCodes": [],
+      "vocabSections": [
+        "Station 2"
+      ]
+    },
+    {
+      "id": "k6lg_2_05",
+      "grade": 6,
+      "unit": 2,
+      "text": "einen kurzen Vortrag halten (Flyer, Prompt cards)",
+      "example": "Today I'd like to … Let's take a look at …",
+      "grammarCodes": [],
+      "vocabSections": [
+        "Skills",
+        "Unit task"
+      ]
+    },
+    {
+      "id": "k6lg_3_01",
+      "grade": 6,
+      "unit": 3,
+      "text": "Outdoor-Aktivitäten beschreiben",
+      "example": "hiking, ziplining, canoeing, camping",
+      "grammarCodes": [],
+      "vocabSections": [
+        "Check-in",
+        "Station 1"
+      ]
+    },
+    {
+      "id": "k6lg_3_02",
+      "grade": 6,
+      "unit": 3,
+      "text": "sagen, was gerade passierte (past progressive)",
+      "example": "They were eating … when a cat jumped … · He was laughing … while he was walking …",
+      "grammarCodes": [
+        "G7"
+      ],
+      "vocabSections": [
+        "Station 1"
+      ]
+    },
+    {
+      "id": "k6lg_3_03",
+      "grade": 6,
+      "unit": 3,
+      "text": "Ideen verbinden",
+      "example": "although, because, so that, while; If it rains, the mountains are dangerous.",
+      "grammarCodes": [
+        "G8"
+      ],
+      "vocabSections": [
+        "Station 2"
+      ]
+    },
+    {
+      "id": "k6lg_3_04",
+      "grade": 6,
+      "unit": 3,
+      "text": "einen Reisebericht planen und schreiben",
+      "example": "Absätze in zeitlicher Reihenfolge, Gefühle, linking words",
+      "grammarCodes": [],
+      "vocabSections": [
+        "Unit task"
+      ]
+    },
+    {
+      "id": "k6lg_4_01",
+      "grade": 6,
+      "unit": 4,
+      "text": "Wörter für Sport, Gesundheit und Unfälle",
+      "example": "pitch, court, racquet · headache, twisted ankle, prescription",
+      "grammarCodes": [],
+      "vocabSections": [
+        "Check-in",
+        "Station 2"
+      ]
+    },
+    {
+      "id": "k6lg_4_02",
+      "grade": 6,
+      "unit": 4,
+      "text": "über Erfahrungen sprechen (present perfect)",
+      "example": "Have you ever played rugby?",
+      "grammarCodes": [
+        "G9"
+      ],
+      "vocabSections": [
+        "Station 1"
+      ]
+    },
+    {
+      "id": "k6lg_4_03",
+      "grade": 6,
+      "unit": 4,
+      "text": "über Dinge sprechen, die (gerade) passiert sind",
+      "example": "I've hurt my foot!",
+      "grammarCodes": [
+        "G9"
+      ],
+      "vocabSections": [
+        "Station 2"
+      ]
+    },
+    {
+      "id": "k6lg_4_04",
+      "grade": 6,
+      "unit": 4,
+      "text": "just, already, yet verwenden",
+      "example": "I haven't had my dinner yet.",
+      "grammarCodes": [
+        "G9"
+      ],
+      "vocabSections": [
+        "Station 2"
+      ]
+    },
+    {
+      "id": "k6lg_4_05",
+      "grade": 6,
+      "unit": 4,
+      "text": "present perfect vs. simple past",
+      "example": "I've been to London. I was there last year.",
+      "grammarCodes": [
+        "G10"
+      ],
+      "vocabSections": [
+        "Station 3"
+      ]
+    },
+    {
+      "id": "k6lg_4_06",
+      "grade": 6,
+      "unit": 4,
+      "text": "Sprache von Nachrichten-/Radioberichten",
+      "example": "We've just received news of … I couldn't believe my eyes!",
+      "grammarCodes": [],
+      "vocabSections": [
+        "Skills",
+        "Unit task"
+      ]
+    },
+    {
+      "id": "k6lg_4_07",
+      "grade": 6,
+      "unit": 4,
+      "section": "Focus 2",
+      "text": "nach dem Weg fragen und den Weg beschreiben",
+      "example": "Go straight on. Turn left into … It's opposite …",
+      "grammarCodes": [],
+      "vocabSections": [
+        "Focus 2"
+      ]
+    },
+    {
+      "id": "k6lg_4_08",
+      "grade": 6,
+      "unit": 4,
+      "section": "Focus 2",
+      "text": "Fahrpläne verstehen (timetable future)",
+      "example": "The next train leaves at 9.30.",
+      "grammarCodes": [
+        "G11"
+      ],
+      "vocabSections": [
+        "Focus 2"
+      ]
+    },
+    {
+      "id": "k6lg_5_01",
+      "grade": 6,
+      "unit": 5,
+      "text": "über Medien im eigenen Leben sprechen",
+      "example": "I use … to send/receive/post/chat/play/read/look up/take part in …",
+      "grammarCodes": [],
+      "vocabSections": [
+        "Check-in"
+      ]
+    },
+    {
+      "id": "k6lg_5_02",
+      "grade": 6,
+      "unit": 5,
+      "text": "Ideen verbinden",
+      "example": "I do it when/after/before/because …",
+      "grammarCodes": [
+        "G12"
+      ],
+      "vocabSections": [
+        "Station 1"
+      ]
+    },
+    {
+      "id": "k6lg_5_03",
+      "grade": 6,
+      "unit": 5,
+      "text": "jemandem Ratschläge geben",
+      "example": "Why don't you …? You should … You could …",
+      "grammarCodes": [
+        "G14"
+      ],
+      "vocabSections": [
+        "Station 1",
+        "Station 2"
+      ]
+    },
+    {
+      "id": "k6lg_5_04",
+      "grade": 6,
+      "unit": 5,
+      "text": "Ersatzformen für Modalverben",
+      "example": "He wasn't allowed/able to come with us. He had to do his History homework.",
+      "grammarCodes": [
+        "G13"
+      ],
+      "vocabSections": [
+        "Station 2"
+      ]
+    },
+    {
+      "id": "k6lg_5_05",
+      "grade": 6,
+      "unit": 5,
+      "text": "einen Brief und eine Antwort schreiben",
+      "example": "Greeting – problem – ask for advice – thanks – name",
+      "grammarCodes": [],
+      "vocabSections": [
+        "Skills"
+      ]
+    },
+    {
+      "id": "k6lg_6_01",
+      "grade": 6,
+      "unit": 6,
+      "text": "Orte beschreiben, über Reisepläne sprechen",
+      "example": "It's in … It has got … There are … You can … there.",
+      "grammarCodes": [],
+      "vocabSections": [
+        "Check-in",
+        "Station 1"
+      ]
+    },
+    {
+      "id": "k6lg_6_02",
+      "grade": 6,
+      "unit": 6,
+      "text": "sagen, was passieren wird (will future)",
+      "example": "Tomorrow there will be …",
+      "grammarCodes": [
+        "G15",
+        "G16"
+      ],
+      "vocabSections": [
+        "Station 1"
+      ]
+    },
+    {
+      "id": "k6lg_6_03",
+      "grade": 6,
+      "unit": 6,
+      "text": "Bedingungssätze mit if und will",
+      "example": "If you …, you can/will/should …",
+      "grammarCodes": [
+        "G17"
+      ],
+      "vocabSections": [
+        "Station 2"
+      ]
+    },
+    {
+      "id": "k6lg_6_04",
+      "grade": 6,
+      "unit": 6,
+      "text": "Möglichkeiten mit Modalverben",
+      "example": "It could … He might … I may …",
+      "grammarCodes": [
+        "G18"
+      ],
+      "vocabSections": [
+        "Station 2"
+      ]
+    },
+    {
+      "id": "k6lg_6_05",
+      "grade": 6,
+      "unit": 6,
+      "text": "höflich um Informationen bitten (E-Mail)",
+      "example": "Dear Sir or Madam, … Could you please send us …? Best wishes",
+      "grammarCodes": [],
+      "vocabSections": [
+        "Skills"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "code": "S1",
+      "area": "Vocabulary skills",
+      "title": "Vokabelheft",
+      "summary": "Drei Spalten: Englisch – Deutsch – Beispielsatz/Merkhilfe (Bilder, Mindmaps, verwandte Wörter)."
+    },
+    {
+      "code": "S2",
+      "area": "Vocabulary skills",
+      "title": "Vokabelkartei",
+      "summary": "Karteikasten mit 5 Fächern: gewusst → ein Fach weiter; Fach 1 täglich, Fach 2 wöchentlich, Fach 3 alle zwei Wochen …"
+    },
+    {
+      "code": "S3",
+      "area": "Vocabulary skills",
+      "title": "Wörter im Zusammenhang",
+      "summary": "Wörter mit typischen Kombinationen lernen (to read a book, to go shopping), auch Grammatik danach (would like to swim, like swimming) und Präpositionen (on Friday, at seven, in Dover Street)."
+    },
+    {
+      "code": "S4",
+      "area": "Vocabulary skills",
+      "title": "Methoden",
+      "summary": "Klebezettel im Zimmer, Bildwörter, Mindmaps, Pantomime, aufnehmen & anhören, ähnliche Wörter aus anderen Sprachen, Wortpaare (Gegensätze, Wortfamilien)."
+    },
+    {
+      "code": "S5",
+      "area": "Vocabulary skills",
+      "title": "Zweisprachiges Wörterbuch",
+      "summary": "Stichwort, Nummerierung der Bedeutungen, Lautschrift, Wortart, Flexionsformen, Kollokationen; die passende Bedeutung für den Satz auswählen."
+    },
+    {
+      "code": "S6",
+      "area": "Reading skills",
+      "title": "Schnelllesetechniken",
+      "summary": "Skimming = Text überfliegen, um das Wichtigste (gist) zu erfassen. Scanning = gezielt nach Einzelheiten/Schlüsselwörtern (key words) suchen."
+    },
+    {
+      "code": "S7",
+      "area": "Reading skills",
+      "title": "Wichtige Inhalte herausfinden",
+      "summary": "Who? What? When? Where? – dazu: Warum? Wer erzählt? Für wen?"
+    },
+    {
+      "code": "S8",
+      "area": "Reading skills",
+      "title": "Gliederung als Hilfe",
+      "summary": "Text in Abschnitte teilen und jedem eine Überschrift geben → hilft bei Zusammenfassung und Mediation."
+    },
+    {
+      "code": "S9",
+      "area": "Reading skills",
+      "title": "Markieren & Notizen",
+      "summary": "(Auf Kopien) Farben: z. B. Inhalt grün, Personen blau; unbekannte Wörter unterstreichen, Übersetzung an den Rand."
+    },
+    {
+      "code": "S10",
+      "area": "Reading skills",
+      "title": "Umgang mit neuen Wörtern",
+      "summary": "Erschließen über 1. bekannte Wörter (happy → unhappy, guide → travel guide), 2. andere Sprachen (computer, hobby), 3. Zusammenhang/Bilder. Sonst Wörterbuch (S5)."
+    },
+    {
+      "code": "S11",
+      "area": "Writing skills",
+      "title": "Planung des Textes",
+      "summary": "Adressat und Zweck überlegen; Stichwortplan für Einleitung, Hauptteil, Schluss."
+    },
+    {
+      "code": "S12",
+      "area": "Writing skills",
+      "title": "Textsorten",
+      "summary": "E-Mail/Brief/Postkarte/Einladung: Anrede (Dear …), Grußformel (Yours/Love/Best wishes), Höflichkeit; beim Brief Adressen + Datum. Story: passt zum Anfang, Erzählperspektive & Zeit nicht wechseln, meist past tense, abwechslungsreich. Dialogue: echte Sprechsprache (Kurzformen, question tags). Report: sachlich, vollständig, past tense. Prompt cards: nur Stichwörter (Who/What/When/Where). Flyer: gut lesbar, Who/What/When/Where/Why + Slogan. Diary entry: persönlich, Gefühle, nicht für andere."
+    },
+    {
+      "code": "S13",
+      "area": "Writing skills",
+      "title": "Text überarbeiten",
+      "summary": "Checkliste: Rechtschreibung (richtig geschrieben? groß am Satzanfang?), Grammatik (Zeitform, Satzbau, Plural), Inhalt (alles drin? logisch?). Texte mit Partner tauschen."
+    },
+    {
+      "code": "S14",
+      "area": "Writing skills",
+      "title": "Sprachliche Verbesserungen",
+      "summary": "Nomen mit Adjektiven ausschmücken, Verben mit Orts-/Zeitangaben ergänzen (I went to the big pet shop in Greenwich with my sister last Saturday); Sätze mit linking words verbinden (because, but, when, which, so, and)."
+    },
+    {
+      "code": "S15",
+      "area": "Speaking skills",
+      "title": "Sprechen üben",
+      "summary": "Viel Englisch sprechen, auch außerhalb des Unterrichts; Aussprache mit Audio üben; schwierige Laute (th, w vs. v, stimmhaftes d/g am Wortende) mit Zungenbrechern trainieren; Betonung zeigt Gefühle."
+    },
+    {
+      "code": "S16",
+      "area": "Speaking skills",
+      "title": "Gesprochene Sprache",
+      "summary": "Situation beachten (Hi! unter Freunden, Good morning, Mr/Mrs … bei Erwachsenen; I would like / Could I please have statt I want; Kurzantworten Yes, I do.). Pausen und Füllwörter sind normal (Well, er, you know); Gesprächspartner einbeziehen mit feedback phrases und question tags."
+    },
+    {
+      "code": "S17",
+      "area": "Speaking skills",
+      "title": "Mündliche Aufgaben",
+      "summary": "Interview: höflich nachfragen, richtige Zeitform. Asking/showing the way: go down X Street, go straight on, turn left/right, it's on the left/opposite …. Role play: in die Rolle hineinversetzen, Mimik/Gestik. Presentation: gut vorbereiten, prompt cards, frei sprechen, Zeit stoppen."
+    },
+    {
+      "code": "S18",
+      "area": "Speaking skills",
+      "title": "Bildbeschreibung",
+      "summary": "Art des Bildes nennen → Thema (there is/are, you can see, the photo shows) → wo ist was (in the foreground/background, on the left/right, in the middle, in the top right-hand corner, in front of/behind/between) → Handlungen im present progressive → Wirkung/Vermutung. Adjektive und Vergleiche nutzen."
+    },
+    {
+      "code": "S19",
+      "area": "Speaking skills",
+      "title": "Präsentation eines Bildes",
+      "summary": "Wie S18, dazu ausführlich Art/Herkunft des Bildes und Wirkung; Tipps aus S17."
+    },
+    {
+      "code": "S20",
+      "area": "Mediation skills",
+      "title": "Mediation-Aufgaben",
+      "summary": "Keine wörtliche Übersetzung! Nur die Infos weitergeben, die der Adressat für seinen Zweck braucht (z. B. hat das Museum heute offen? – nicht alle Öffnungszeiten). Unbekannte Wörter umschreiben (paraphrasing)."
+    },
+    {
+      "code": "S21",
+      "area": "Listening skills",
+      "title": "Hörverstehen üben",
+      "summary": "Viel echtes Englisch hören (Radio, TV, Hörbücher); nicht jedes Wort muss verstanden werden; Akzente sind unterschiedlich."
+    },
+    {
+      "code": "S22",
+      "area": "Listening skills",
+      "title": "Techniken",
+      "summary": "Listening for gist (Hauptthema, wiederkehrende Wörter) vs. listening for detail (gezielt auf erwartete Infos achten). Tabelle Who/What/When/Where."
+    },
+    {
+      "code": "S23",
+      "area": "Listening skills",
+      "title": "Typische Hörsituationen",
+      "summary": "Textsorte erkennen (Telefonat, Durchsage, Radio …) und Erwartungen bilden; auf Geräusche, Stimme, Tonfall, Bilder achten."
+    },
+    {
+      "code": "S24",
+      "area": "Film/Viewing skills",
+      "title": "Inhalt und Gliederung",
+      "summary": "Worum geht es? Welche Personen? Was passiert wann und wo? Aus wessen Sicht? Für wen gemacht?"
+    },
+    {
+      "code": "S25",
+      "area": "Film/Viewing skills",
+      "title": "Filmische Aspekte",
+      "summary": "Schauspiel (Sprache, Mimik, Gestik, Kleidung), setting, atmosphere (Licht, Farben, Musik), Musik, Kameraeinstellung (close-ups), suspense."
+    },
+    {
+      "code": "S26",
+      "area": "Kooperative Lernformen",
+      "title": "Think – Pair – Share",
+      "summary": "Allein nachdenken → mit Partner besprechen → in der Klasse teilen (Variante: Placemat in Vierergruppen)."
+    },
+    {
+      "code": "S27",
+      "area": "Kooperative Lernformen",
+      "title": "Milling around (Marktplatz)",
+      "summary": "Herumgehen, möglichst viele Mitschüler befragen und Infos sammeln."
+    },
+    {
+      "code": "S28",
+      "area": "Kooperative Lernformen",
+      "title": "Inside outside circle (Kugellager)",
+      "summary": "Zwei Stuhlkreise gegenüber, Fragen stellen/beantworten, dann einen Platz weiterrücken."
+    },
+    {
+      "code": "S29",
+      "area": "Kooperative Lernformen",
+      "title": "Bus stop (Lerntempoduett)",
+      "summary": "Wer fertig ist, wartet am bus stop auf den Nächsten, gemeinsam Ergebnisse vergleichen."
+    },
+    {
+      "code": "S30",
+      "area": "Kooperative Lernformen",
+      "title": "Gallery walk (Museumsgang)",
+      "summary": "Gruppenergebnisse als Poster aufhängen; neue Gruppen gehen herum, jeder stellt sein Ergebnis vor."
+    }
+  ]
+}

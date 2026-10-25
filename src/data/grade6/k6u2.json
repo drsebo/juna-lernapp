@@ -1,0 +1,2998 @@
+{
+  "id": "k6u2",
+  "grade": 6,
+  "unit": 2,
+  "title": "The Sunshine State",
+  "vocab": [
+    {
+      "id": "k6v2_001",
+      "grade": 6,
+      "unit": 2,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Sonnenschein",
+      "en": "sunshine",
+      "example": "Today it isn't raining. I can feel the sunshine on my face."
+    },
+    {
+      "id": "k6v2_002",
+      "grade": 6,
+      "unit": 2,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "pair",
+      "de": "Opa",
+      "en": "grandpa (AE)",
+      "pair": {
+        "ae": "grandpa",
+        "be": "grandad"
+      },
+      "notes": "grandpa (AE) = grandad (BE)"
+    },
+    {
+      "id": "k6v2_003",
+      "grade": 6,
+      "unit": 2,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "lateinamerikanisch",
+      "en": "Latin",
+      "example": "I love Latin music."
+    },
+    {
+      "id": "k6v2_004",
+      "grade": 6,
+      "unit": 2,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "schön; hübsch; wunderbar",
+      "en": "beautiful",
+      "example": "Look at all the beautiful flowers!",
+      "notes": "beautiful ↔ terrible"
+    },
+    {
+      "id": "k6v2_005",
+      "grade": 6,
+      "unit": 2,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Achterbahn",
+      "en": "roller coaster",
+      "example": "Let's go to a theme park and ride a roller coaster!"
+    },
+    {
+      "id": "k6v2_006",
+      "grade": 6,
+      "unit": 2,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "wetten",
+      "en": "to bet",
+      "irregular": true,
+      "example": "I bet you don't know how to ride a horse."
+    },
+    {
+      "id": "k6v2_007",
+      "grade": 6,
+      "unit": 2,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Start; Abheben",
+      "en": "take-off",
+      "example": "Ready for take-off!"
+    },
+    {
+      "id": "k6v2_008",
+      "grade": 6,
+      "unit": 2,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "perfekt; vollkommen",
+      "en": "perfect",
+      "example": "There's a dance school in Greenwich. That's perfect for you, Jay!"
+    },
+    {
+      "id": "k6v2_009",
+      "grade": 6,
+      "unit": 2,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Kubaner/-in; kubanisch",
+      "en": "Cuban",
+      "example": "I love Cuban rhythms."
+    },
+    {
+      "id": "k6v2_010",
+      "grade": 6,
+      "unit": 2,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Musiker/-in",
+      "en": "musician",
+      "example": "Who's your favourite musician?",
+      "notes": "musician → music"
+    },
+    {
+      "id": "k6v2_011",
+      "grade": 6,
+      "unit": 2,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Fahrt; Ritt; Fahrgeschäft",
+      "en": "ride",
+      "example": "The ride on the roller coaster was amazing!",
+      "notes": "ride → to ride"
+    },
+    {
+      "id": "k6v2_012",
+      "grade": 6,
+      "unit": 2,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "töten; umbringen",
+      "en": "to kill",
+      "example": "Alligators kill small animals for food."
+    },
+    {
+      "id": "k6v2_013",
+      "grade": 6,
+      "unit": 2,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Spitzname",
+      "en": "nickname",
+      "example": "My name is Peter, but my friends call me Mr Cool."
+    },
+    {
+      "id": "k6v2_014",
+      "grade": 6,
+      "unit": 2,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Blüte",
+      "en": "blossom",
+      "example": "These flowers have got white blossoms."
+    },
+    {
+      "id": "k6v2_015",
+      "grade": 6,
+      "unit": 2,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Panther; Puma",
+      "en": "panther",
+      "example": "At the zoo I always look at the panthers."
+    },
+    {
+      "id": "k6v2_016",
+      "grade": 6,
+      "unit": 2,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Palme",
+      "en": "palm tree",
+      "example": "There are lots of palm trees on this beach."
+    },
+    {
+      "id": "k6v2_017",
+      "grade": 6,
+      "unit": 2,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "immer ruhig bleiben; auf der faulen Haut liegen",
+      "en": "to take it easy",
+      "irregular": true,
+      "example": "I'm always busy. – Take it easy! Take a break."
+    },
+    {
+      "id": "k6v2_018",
+      "grade": 6,
+      "unit": 2,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "fünfstündig",
+      "en": "five-hour",
+      "example": "We went on a five-hour tour around Kennedy Space Center."
+    },
+    {
+      "id": "k6v2_019",
+      "grade": 6,
+      "unit": 2,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Fahrt; Anfahrt; Autofahrt",
+      "en": "drive",
+      "example": "We were dog-tired after the long drive."
+    },
+    {
+      "id": "k6v2_020",
+      "grade": 6,
+      "unit": 2,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "über Nacht",
+      "en": "overnight",
+      "example": "We looked for a hotel because we wanted to stay overnight."
+    },
+    {
+      "id": "k6v2_021",
+      "grade": 6,
+      "unit": 2,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "phrase",
+      "de": "Das ist in Ordnung für mich.",
+      "en": "That's fine with me.",
+      "example": "Your room is very small. – Don't worry. That's fine with me."
+    },
+    {
+      "id": "k6v2_022",
+      "grade": 6,
+      "unit": 2,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "irgendwo; irgendwohin",
+      "en": "somewhere",
+      "notes": "somewhere → somebody → something"
+    },
+    {
+      "id": "k6v2_023",
+      "grade": 6,
+      "unit": 2,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "phrase",
+      "de": "ich muss",
+      "en": "I gotta (infml)",
+      "notes": "I gotta go = I have to go"
+    },
+    {
+      "id": "k6v2_024",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 1",
+      "sectionTitle": "The most awesome music!",
+      "category": "station-1",
+      "type": "word",
+      "de": "Trommel",
+      "en": "drum",
+      "example": "I've got a guitar and a drum.",
+      "notes": "⚠️ the drums = die Trommeln/das Schlagzeug"
+    },
+    {
+      "id": "k6v2_025",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 1",
+      "sectionTitle": "The most awesome music!",
+      "category": "station-1",
+      "type": "word",
+      "de": "Sänger/-in",
+      "en": "singer",
+      "example": "Elvis Presley was a famous singer.",
+      "notes": "→ to sing"
+    },
+    {
+      "id": "k6v2_026",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 1",
+      "sectionTitle": "The most awesome music!",
+      "category": "station-1",
+      "type": "word",
+      "de": "Instrument",
+      "en": "instrument",
+      "example": "I can play two instruments: the guitar and the sax."
+    },
+    {
+      "id": "k6v2_027",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 1",
+      "sectionTitle": "The most awesome music!",
+      "category": "station-1",
+      "type": "word",
+      "de": "Cajón",
+      "en": "cajón",
+      "example": "A cajón is a kind of drum."
+    },
+    {
+      "id": "k6v2_028",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 1",
+      "sectionTitle": "The most awesome music!",
+      "category": "station-1",
+      "type": "word",
+      "de": "hölzern; aus Holz",
+      "en": "wooden",
+      "example": "There are six wooden chairs in the living room."
+    },
+    {
+      "id": "k6v2_029",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 1",
+      "sectionTitle": "The most awesome music!",
+      "category": "station-1",
+      "type": "word",
+      "de": "weniger",
+      "en": "less",
+      "example": "Please talk less and work more!",
+      "notes": "less ↔ more"
+    },
+    {
+      "id": "k6v2_030",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 1",
+      "sectionTitle": "The most awesome music!",
+      "category": "station-1",
+      "type": "word",
+      "de": "eine/-r/-s",
+      "en": "one, ones (pl)",
+      "example": "This sandwich is big, that one is bigger.",
+      "notes": "⚠️ one/ones ersetzt ein Nomen, das man nicht wiederholen möchte."
+    },
+    {
+      "id": "k6v2_031",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 1",
+      "sectionTitle": "The most awesome music!",
+      "category": "station-1",
+      "type": "word",
+      "de": "Mitglied",
+      "en": "member",
+      "example": "Dave is a member of the Cooking Club."
+    },
+    {
+      "id": "k6v2_032",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 1",
+      "sectionTitle": "The most awesome music!",
+      "category": "station-1",
+      "type": "word",
+      "de": "wenige",
+      "en": "few",
+      "example": "I've got fewer friends than my sister.",
+      "notes": "⚠️ He's got a few friends. = ein paar Freunde · He's got few friends. = wenige Freunde"
+    },
+    {
+      "id": "k6v2_033",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 1",
+      "sectionTitle": "The most awesome music!",
+      "category": "station-1",
+      "type": "word",
+      "de": "würde/-st/-n/-t",
+      "en": "would",
+      "example": "What would you do in this situation?"
+    },
+    {
+      "id": "k6v2_034",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 1",
+      "sectionTitle": "The most awesome music!",
+      "category": "station-1",
+      "type": "word",
+      "de": "zuerst; zunächst",
+      "en": "at first",
+      "example": "At first Luke didn't like Jay very much, but then they became friends."
+    },
+    {
+      "id": "k6v2_035",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 1",
+      "sectionTitle": "The most awesome music!",
+      "category": "station-1",
+      "type": "word",
+      "de": "Rumba-Rasseln",
+      "en": "maracas",
+      "example": "We need drums and maracas for the show."
+    },
+    {
+      "id": "k6v2_036",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 1",
+      "sectionTitle": "The most awesome music!",
+      "category": "station-1",
+      "type": "word",
+      "de": "beitreten; sich anschließen; verbinden",
+      "en": "to join",
+      "example": "Let's join the Computer Club!"
+    },
+    {
+      "id": "k6v2_037",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 1",
+      "sectionTitle": "The most awesome music!",
+      "category": "station-1",
+      "type": "word",
+      "de": "Ursprung; Herkunft; Abstammung",
+      "en": "origin",
+      "example": "The girl is of Cuban origin."
+    },
+    {
+      "id": "k6v2_038",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 1",
+      "sectionTitle": "The most awesome music!",
+      "category": "station-1",
+      "type": "word",
+      "de": "Amerikaner/-in kubanischer Abstammung",
+      "en": "Cuban-American",
+      "example": "He's Cuban-American. His grandparents are from Cuba."
+    },
+    {
+      "id": "k6v2_039",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 1",
+      "sectionTitle": "The most awesome music!",
+      "category": "station-1",
+      "type": "word",
+      "de": "spanisch; Spanisch; Spanier/-in",
+      "en": "Spanish",
+      "example": "People in Cuba speak Spanish."
+    },
+    {
+      "id": "k6v2_040",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 1",
+      "sectionTitle": "The most awesome music!",
+      "category": "station-1",
+      "type": "word",
+      "de": "üblich; gewöhnlich; (weit) verbreitet",
+      "en": "common",
+      "example": "The most common language in the US is English."
+    },
+    {
+      "id": "k6v2_041",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 1",
+      "sectionTitle": "The most awesome music!",
+      "category": "station-1",
+      "type": "word",
+      "de": "fehlend; verschwunden",
+      "en": "missing",
+      "example": "What's the missing word?"
+    },
+    {
+      "id": "k6v2_042",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 1",
+      "sectionTitle": "The most awesome music!",
+      "category": "station-1",
+      "type": "word",
+      "de": "grundlegend; Grund-",
+      "en": "basic",
+      "example": "In the first two years of English you learn a lot of basic words."
+    },
+    {
+      "id": "k6v2_043",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 1",
+      "sectionTitle": "The most awesome music!",
+      "category": "station-1",
+      "type": "word",
+      "de": "Biologie",
+      "en": "biology",
+      "example": "Biology is my favourite subject at school."
+    },
+    {
+      "id": "k6v2_044",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 1",
+      "sectionTitle": "The most awesome music!",
+      "category": "station-1",
+      "type": "word",
+      "de": "Schulfach; Thema",
+      "en": "subject",
+      "example": "What subjects do you like?"
+    },
+    {
+      "id": "k6v2_045",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 1",
+      "sectionTitle": "The most awesome music!",
+      "category": "station-1",
+      "type": "word",
+      "de": "regnerisch",
+      "en": "rainy",
+      "example": "This summer the weather was rainier than last year.",
+      "notes": "rainy ↔ sunny"
+    },
+    {
+      "id": "k6v2_046",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 1",
+      "sectionTitle": "The most awesome music!",
+      "category": "station-1",
+      "type": "word",
+      "de": "Ozean",
+      "en": "ocean",
+      "example": "The three biggest oceans: the Atlantic Ocean, the Pacific Ocean and the Indian Ocean."
+    },
+    {
+      "id": "k6v2_047",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 1",
+      "sectionTitle": "The most awesome music!",
+      "category": "station-1",
+      "type": "word",
+      "de": "Haar; Haare",
+      "en": "hair",
+      "notes": "⚠️ Ihre Haare sind lang. = Her hair is long. (Singular!)"
+    },
+    {
+      "id": "k6v2_048",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 1",
+      "sectionTitle": "The most awesome music!",
+      "category": "station-1",
+      "type": "word",
+      "de": "willkommen heißen",
+      "en": "to welcome",
+      "example": "Let's go and welcome our new classmates."
+    },
+    {
+      "id": "k6v2_049",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 1",
+      "sectionTitle": "The most awesome music!",
+      "category": "station-1",
+      "type": "word",
+      "de": "High School (weiterführende Schule in den USA, Oberstufe)",
+      "en": "high school",
+      "example": "A high school is a school in the USA for people between 15 and 18."
+    },
+    {
+      "id": "k6v2_050",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 1",
+      "sectionTitle": "The most awesome music!",
+      "category": "station-1",
+      "type": "word",
+      "de": "Stil",
+      "en": "style",
+      "example": "She always wears her own style of clothes."
+    },
+    {
+      "id": "k6v2_051",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 1",
+      "sectionTitle": "The most awesome music!",
+      "category": "station-1",
+      "type": "word",
+      "de": "Bühne",
+      "en": "stage",
+      "example": "At a big festival, bands play on more than one stage."
+    },
+    {
+      "id": "k6v2_052",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 2",
+      "sectionTitle": "The people who made Florida",
+      "category": "station-2",
+      "type": "word",
+      "de": "erwähnen",
+      "en": "to mention",
+      "example": "Did I mention that I have a cool new phone?"
+    },
+    {
+      "id": "k6v2_053",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 2",
+      "sectionTitle": "The people who made Florida",
+      "category": "station-2",
+      "type": "pair",
+      "de": "kolonisieren; besiedeln",
+      "en": "to colonize (AE)",
+      "pair": {
+        "ae": "colonize",
+        "be": "colonise"
+      },
+      "example": "Europeans started to colonize North America in the 16th century.",
+      "notes": "AE colonize = BE colonise"
+    },
+    {
+      "id": "k6v2_054",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 2",
+      "sectionTitle": "The people who made Florida",
+      "category": "station-2",
+      "type": "word",
+      "de": "Schaum; Gischt",
+      "en": "foam",
+      "example": "I love the ocean with the waves and the foam."
+    },
+    {
+      "id": "k6v2_055",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 2",
+      "sectionTitle": "The people who made Florida",
+      "category": "station-2",
+      "type": "word",
+      "de": "Sonne",
+      "en": "sun",
+      "example": "Today the weather is great. There's a lot of sun.",
+      "notes": "→ sunny, sunshine"
+    },
+    {
+      "id": "k6v2_056",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 2",
+      "sectionTitle": "The people who made Florida",
+      "category": "station-2",
+      "type": "word",
+      "de": "schmelzen",
+      "en": "to melt",
+      "example": "Ice cream melts in the sun."
+    },
+    {
+      "id": "k6v2_057",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 2",
+      "sectionTitle": "The people who made Florida",
+      "category": "station-2",
+      "type": "word",
+      "de": "Herrschaft",
+      "en": "rule",
+      "example": "Cuba was under Spanish rule for a long time."
+    },
+    {
+      "id": "k6v2_058",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 2",
+      "sectionTitle": "The people who made Florida",
+      "category": "station-2",
+      "type": "phrase",
+      "de": "nicht bevor; erst wenn",
+      "en": "not … until",
+      "example": "He didn't see the car until it was too late."
+    },
+    {
+      "id": "k6v2_059",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 2",
+      "sectionTitle": "The people who made Florida",
+      "category": "station-2",
+      "type": "word",
+      "de": "bauen",
+      "en": "to build",
+      "irregular": true,
+      "notes": "to build → building"
+    },
+    {
+      "id": "k6v2_060",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 2",
+      "sectionTitle": "The people who made Florida",
+      "category": "station-2",
+      "type": "word",
+      "de": "Ausreißer/-in; Entlaufene/-r",
+      "en": "runaway",
+      "example": "She's a runaway and lives on the street."
+    },
+    {
+      "id": "k6v2_061",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 2",
+      "sectionTitle": "The people who made Florida",
+      "category": "station-2",
+      "type": "word",
+      "de": "gründen",
+      "en": "to found",
+      "example": "Europeans founded new cities in America.",
+      "notes": "⚠️ find – found – found (finden) vs. found – founded – founded (gründen)"
+    },
+    {
+      "id": "k6v2_062",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 2",
+      "sectionTitle": "The people who made Florida",
+      "category": "station-2",
+      "type": "word",
+      "de": "geboren werden",
+      "en": "to be born",
+      "irregular": true,
+      "example": "Amrita was born in Cuba. Now she lives in Florida."
+    },
+    {
+      "id": "k6v2_063",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 2",
+      "sectionTitle": "The people who made Florida",
+      "category": "station-2",
+      "type": "word",
+      "de": "Immigrant/-in; Einwanderer/Einwanderin",
+      "en": "immigrant",
+      "example": "Amrita and her family are immigrants from Cuba."
+    },
+    {
+      "id": "k6v2_064",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 2",
+      "sectionTitle": "The people who made Florida",
+      "category": "station-2",
+      "type": "word",
+      "de": "einwandern",
+      "en": "to immigrate",
+      "example": "My family immigrated to the US when I was five.",
+      "notes": "→ an immigrant"
+    },
+    {
+      "id": "k6v2_065",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 2",
+      "sectionTitle": "The people who made Florida",
+      "category": "station-2",
+      "type": "word",
+      "de": "attraktiv",
+      "en": "attractive",
+      "example": "She's an attractive girl. She looks really good."
+    },
+    {
+      "id": "k6v2_066",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 2",
+      "sectionTitle": "The people who made Florida",
+      "category": "station-2",
+      "type": "word",
+      "de": "Sinn",
+      "en": "sense",
+      "example": "Hearing and seeing are two of our five senses."
+    },
+    {
+      "id": "k6v2_067",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 2",
+      "sectionTitle": "The people who made Florida",
+      "category": "station-2",
+      "type": "word",
+      "de": "Hören",
+      "en": "hearing",
+      "example": "Please say it again. I've got problems with my hearing."
+    },
+    {
+      "id": "k6v2_068",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 2",
+      "sectionTitle": "The people who made Florida",
+      "category": "station-2",
+      "type": "word",
+      "de": "Geschmack",
+      "en": "taste",
+      "example": "I love the taste of strawberries."
+    },
+    {
+      "id": "k6v2_069",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 2",
+      "sectionTitle": "The people who made Florida",
+      "category": "station-2",
+      "type": "pair",
+      "de": "Spezialität; Besonderheit",
+      "en": "specialty (AE)",
+      "pair": {
+        "ae": "specialty",
+        "be": "speciality"
+      },
+      "example": "You must try the specialty of this restaurant.",
+      "notes": "AE specialty = BE speciality"
+    },
+    {
+      "id": "k6v2_070",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 2",
+      "sectionTitle": "The people who made Florida",
+      "category": "station-2",
+      "type": "pair",
+      "de": "Chili",
+      "en": "chili",
+      "pair": {
+        "ae": "chili",
+        "be": "chilli"
+      },
+      "example": "Sorry, I can't eat this food. There's too much chili in it.",
+      "notes": "AE chili = BE chilli"
+    },
+    {
+      "id": "k6v2_071",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 2",
+      "sectionTitle": "The people who made Florida",
+      "category": "station-2",
+      "type": "word",
+      "de": "existieren; bestehen",
+      "en": "to exist",
+      "example": "Do you think aliens exist?"
+    },
+    {
+      "id": "k6v2_072",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 2",
+      "sectionTitle": "The people who made Florida",
+      "category": "station-2",
+      "type": "word",
+      "de": "landen",
+      "en": "to land",
+      "example": "After twelve hours our plane landed in Florida."
+    },
+    {
+      "id": "k6v2_073",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 2",
+      "sectionTitle": "The people who made Florida",
+      "category": "station-2",
+      "type": "word",
+      "de": "kochen",
+      "en": "to cook",
+      "example": "Do you know how to cook Cuban food?"
+    },
+    {
+      "id": "k6v2_074",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 2",
+      "sectionTitle": "The people who made Florida",
+      "category": "station-2",
+      "type": "word",
+      "de": "Unterricht",
+      "en": "class",
+      "example": "In our history class we talked about slavery."
+    },
+    {
+      "id": "k6v2_075",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 2",
+      "sectionTitle": "The people who made Florida",
+      "category": "station-2",
+      "type": "word",
+      "de": "schließlich; endlich; zum Schluss",
+      "en": "finally",
+      "example": "First … Then … Finally …"
+    },
+    {
+      "id": "k6v2_076",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 2",
+      "sectionTitle": "The people who made Florida",
+      "category": "station-2",
+      "type": "word",
+      "de": "(sich) fernhalten von; meiden",
+      "en": "to keep away from",
+      "irregular": true,
+      "example": "Keep away from too much chocolate. It isn't healthy."
+    },
+    {
+      "id": "k6v2_077",
+      "grade": 6,
+      "unit": 2,
+      "section": "Station 2",
+      "sectionTitle": "The people who made Florida",
+      "category": "station-2",
+      "type": "word",
+      "de": "halten; behalten; aufbewahren",
+      "en": "to keep",
+      "irregular": true,
+      "example": "You can keep the book. It's a present."
+    },
+    {
+      "id": "k6v2_078",
+      "grade": 6,
+      "unit": 2,
+      "section": "Skills",
+      "sectionTitle": "How to give a good presentation",
+      "category": "skills",
+      "type": "word",
+      "de": "Kontakt",
+      "en": "contact",
+      "example": "Don't just look at your notes. Make eye contact."
+    },
+    {
+      "id": "k6v2_079",
+      "grade": 6,
+      "unit": 2,
+      "section": "Skills",
+      "sectionTitle": "How to give a good presentation",
+      "category": "skills",
+      "type": "word",
+      "de": "Publikum",
+      "en": "audience",
+      "example": "The audience really liked the show."
+    },
+    {
+      "id": "k6v2_080",
+      "grade": 6,
+      "unit": 2,
+      "section": "Skills",
+      "sectionTitle": "How to give a good presentation",
+      "category": "skills",
+      "type": "word",
+      "de": "klar; deutlich",
+      "en": "clearly",
+      "example": "You need to speak clearly to your audience."
+    },
+    {
+      "id": "k6v2_081",
+      "grade": 6,
+      "unit": 2,
+      "section": "Skills",
+      "sectionTitle": "How to give a good presentation",
+      "category": "skills",
+      "type": "word",
+      "de": "pünktlich",
+      "en": "on time",
+      "example": "You're half an hour late! Why are you never on time?"
+    },
+    {
+      "id": "k6v2_082",
+      "grade": 6,
+      "unit": 2,
+      "section": "Skills",
+      "sectionTitle": "How to give a good presentation",
+      "category": "skills",
+      "type": "word",
+      "de": "einige; mehrere; verschiedene",
+      "en": "several",
+      "example": "I've got several embarrassing photos of you.",
+      "notes": "= three or more, but not many"
+    },
+    {
+      "id": "k6v2_083",
+      "grade": 6,
+      "unit": 2,
+      "section": "Skills",
+      "sectionTitle": "How to give a good presentation",
+      "category": "skills",
+      "type": "word",
+      "de": "einen Blick werfen auf",
+      "en": "to take a look at",
+      "irregular": true,
+      "example": "Take a look at the picture and tell me what you can see."
+    },
+    {
+      "id": "k6v2_084",
+      "grade": 6,
+      "unit": 2,
+      "section": "Skills",
+      "sectionTitle": "How to give a good presentation",
+      "category": "skills",
+      "type": "word",
+      "de": "persönlich",
+      "en": "personal",
+      "example": "This question is too personal. I don't want to answer it."
+    },
+    {
+      "id": "k6v2_085",
+      "grade": 6,
+      "unit": 2,
+      "section": "Skills",
+      "sectionTitle": "How to give a good presentation",
+      "category": "skills",
+      "type": "word",
+      "de": "zusammenhängen; in Zusammenhang stehen (mit)",
+      "en": "to be connected (to/with)",
+      "irregular": true,
+      "example": "Your question isn't connected to the topic."
+    },
+    {
+      "id": "k6v2_086",
+      "grade": 6,
+      "unit": 2,
+      "section": "Skills",
+      "sectionTitle": "How to give a good presentation",
+      "category": "skills",
+      "type": "word",
+      "de": "Thema",
+      "en": "topic",
+      "example": "This story is connected with the topic of my presentation."
+    },
+    {
+      "id": "k6v2_087",
+      "grade": 6,
+      "unit": 2,
+      "section": "Skills",
+      "sectionTitle": "How to give a good presentation",
+      "category": "skills",
+      "type": "word",
+      "de": "fantastisch; großartig",
+      "en": "fantastic",
+      "example": "Yesterday I saw a fantastic movie. I loved it."
+    },
+    {
+      "id": "k6v2_088",
+      "grade": 6,
+      "unit": 2,
+      "section": "Unit task",
+      "sectionTitle": "Join our club!",
+      "category": "unit-task",
+      "type": "word",
+      "de": "Vortrag; Rede",
+      "en": "talk",
+      "example": "Please give a short talk on your home town.",
+      "notes": "→ to talk"
+    },
+    {
+      "id": "k6v2_089",
+      "grade": 6,
+      "unit": 2,
+      "section": "Unit task",
+      "sectionTitle": "Join our club!",
+      "category": "unit-task",
+      "type": "word",
+      "de": "Jonglieren",
+      "en": "juggling",
+      "example": "I'm not good at juggling. The balls always fall down."
+    },
+    {
+      "id": "k6v2_090",
+      "grade": 6,
+      "unit": 2,
+      "section": "Unit task",
+      "sectionTitle": "Join our club!",
+      "category": "unit-task",
+      "type": "word",
+      "de": "Fremdsprache",
+      "en": "foreign language",
+      "example": "A lot of British children learn French as their first foreign language."
+    },
+    {
+      "id": "k6v2_091",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "Schatz",
+      "en": "treasure",
+      "example": "Just look and you can find real treasures in the sand on the beach."
+    },
+    {
+      "id": "k6v2_092",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "Jagen; Jagd",
+      "en": "hunting",
+      "notes": "treasure hunting = Schatzsuche"
+    },
+    {
+      "id": "k6v2_093",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "Europa",
+      "en": "Europe",
+      "example": "Britain is in Europe, but the United States is in America.",
+      "notes": "→ European"
+    },
+    {
+      "id": "k6v2_094",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "aufdecken; frei legen",
+      "en": "to uncover",
+      "example": "Storms and waves sometimes uncover treasures."
+    },
+    {
+      "id": "k6v2_095",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "gehören (zu)",
+      "en": "to belong (to)",
+      "example": "Is this your T-shirt? – No, it belongs to my sister."
+    },
+    {
+      "id": "k6v2_096",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "Gegenstand",
+      "en": "object",
+      "example": "Describe a historical object."
+    },
+    {
+      "id": "k6v2_097",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "schwer",
+      "en": "heavy",
+      "example": "Could you please help me with this bag? It's too heavy for me."
+    },
+    {
+      "id": "k6v2_098",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "segeln; umsegeln",
+      "en": "to sail",
+      "example": "Columbus sailed across the ocean.",
+      "notes": "→ sailor"
+    },
+    {
+      "id": "k6v2_099",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "Metall",
+      "en": "metal",
+      "example": "People often use metal detectors for treasure hunting."
+    },
+    {
+      "id": "k6v2_100",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "langsam",
+      "en": "slowly",
+      "example": "He slowly opened the door.",
+      "notes": "→ slow"
+    },
+    {
+      "id": "k6v2_101",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "graben",
+      "en": "to dig",
+      "irregular": true,
+      "example": "Grandpa dug in the sand to find treasure."
+    },
+    {
+      "id": "k6v2_102",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "Himmel",
+      "en": "sky",
+      "example": "You can see some eagles up there in the sky."
+    },
+    {
+      "id": "k6v2_103",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "Wolke",
+      "en": "cloud",
+      "example": "Look at the clouds. It's going to rain soon."
+    },
+    {
+      "id": "k6v2_104",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "üblich",
+      "en": "usual",
+      "example": "That's our usual place for treasure hunting.",
+      "notes": "→ usually"
+    },
+    {
+      "id": "k6v2_105",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "Saison; Jahreszeit",
+      "en": "season",
+      "example": "Summer is the warmest season."
+    },
+    {
+      "id": "k6v2_106",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "Schaufel",
+      "en": "shovel",
+      "example": "He uncovered the treasure with his shovel."
+    },
+    {
+      "id": "k6v2_107",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "vorsichtig; sorgfältig",
+      "en": "carefully",
+      "example": "He carefully opened the box.",
+      "notes": "→ careful"
+    },
+    {
+      "id": "k6v2_108",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "Loch",
+      "en": "hole",
+      "example": "There's a big hole in the garden. I think Sherlock dug it!"
+    },
+    {
+      "id": "k6v2_109",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "Mahlzeit; Essen",
+      "en": "meal",
+      "example": "Breakfast, lunch and dinner are meals."
+    },
+    {
+      "id": "k6v2_110",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "sparen; aufheben",
+      "en": "to save",
+      "example": "I'm saving money for my trip to the US.",
+      "notes": "⚠️ to save time/money = sparen · to save a person's life = retten"
+    },
+    {
+      "id": "k6v2_111",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "Kabine; Kajüte",
+      "en": "cabin",
+      "example": "On a ship you can stay in a cabin or walk around on deck."
+    },
+    {
+      "id": "k6v2_112",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "deshalb",
+      "en": "that's why",
+      "example": "Luke hurt his hand. That's why he didn't do his homework."
+    },
+    {
+      "id": "k6v2_113",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "heißen; genannt werden",
+      "en": "to be called",
+      "irregular": true,
+      "example": "What's your sister called?"
+    },
+    {
+      "id": "k6v2_114",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "liegen",
+      "en": "to lie",
+      "irregular": true,
+      "example": "My phone is lying on the table.",
+      "notes": "⚠️ to lie – lay – lying"
+    },
+    {
+      "id": "k6v2_115",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "sich hinlegen",
+      "en": "to lie down",
+      "irregular": true,
+      "example": "I was tired, so I lay down on the sofa."
+    },
+    {
+      "id": "k6v2_116",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "Nickerchen",
+      "en": "nap",
+      "example": "I'm very tired. I think it's time for an afternoon nap."
+    },
+    {
+      "id": "k6v2_117",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "binden (an); fesseln (an)",
+      "en": "to tie (to)",
+      "example": "If you tie a dog to something, it can't run away."
+    },
+    {
+      "id": "k6v2_118",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "dunkel",
+      "en": "dark",
+      "example": "It's too dark. I can't see anything."
+    },
+    {
+      "id": "k6v2_119",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "aufschlagen; zusammenstoßen",
+      "en": "to crash",
+      "example": "The car crashed into a tree."
+    },
+    {
+      "id": "k6v2_120",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "Bein",
+      "en": "leg",
+      "example": "I hurt my right leg. I can't walk."
+    },
+    {
+      "id": "k6v2_121",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "einschlafen",
+      "en": "to fall asleep",
+      "irregular": true,
+      "example": "Yesterday I was so tired that I fell asleep on the sofa."
+    },
+    {
+      "id": "k6v2_122",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "geheim",
+      "en": "secret",
+      "example": "Don't tell anyone about my secret treasure."
+    },
+    {
+      "id": "k6v2_123",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "bald",
+      "en": "soon",
+      "example": "I'm going to go to New York soon, maybe next week."
+    },
+    {
+      "id": "k6v2_124",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "einschalten",
+      "en": "to turn on",
+      "example": "Please turn the TV on. There's something I want to see."
+    },
+    {
+      "id": "k6v2_125",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "beten",
+      "en": "to pray",
+      "example": "Some people pray before they go to bed."
+    },
+    {
+      "id": "k6v2_126",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "schrecklich; furchtbar",
+      "en": "horrible",
+      "example": "Yesterday there was a horrible hurricane in Florida.",
+      "notes": "→ horrified"
+    },
+    {
+      "id": "k6v2_127",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "(sich) fürchten; Angst haben (vor)",
+      "en": "to be afraid (of)",
+      "irregular": true,
+      "example": "He's afraid of dogs.",
+      "notes": "⚠️ „I'm afraid I can't help you.\" = „leider\" (Bedauern, nicht Angst)"
+    },
+    {
+      "id": "k6v2_128",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "schöpfen; schaufeln",
+      "en": "to scoop",
+      "example": "Scoop up the sand. There could be something interesting."
+    },
+    {
+      "id": "k6v2_129",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "aufwachen; aufwecken",
+      "en": "to wake up",
+      "irregular": true,
+      "example": "I always wake up at 7 o'clock."
+    },
+    {
+      "id": "k6v2_130",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "schlagen; zerschmettern",
+      "en": "to smash",
+      "example": "The waves smashed against the boat."
+    },
+    {
+      "id": "k6v2_131",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "sterben",
+      "en": "to die",
+      "example": "His other grandma died four years ago.",
+      "notes": "to die ↔ to be born"
+    },
+    {
+      "id": "k6v2_132",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "überleben",
+      "en": "to survive",
+      "example": "Our bus crashed into a tree but we all survived."
+    },
+    {
+      "id": "k6v2_133",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "ähnlich",
+      "en": "similar",
+      "example": "My shirt is similar to your shirt. It has the same colours."
+    },
+    {
+      "id": "k6v2_134",
+      "grade": 6,
+      "unit": 2,
+      "section": "Story",
+      "sectionTitle": "A perfect day for treasure hunting",
+      "category": "story",
+      "type": "word",
+      "de": "fahren; reisen",
+      "en": "to travel",
+      "example": "This year I'd like to travel to Florida."
+    },
+    {
+      "id": "k6v2_135",
+      "grade": 6,
+      "unit": 2,
+      "section": "Check-out",
+      "sectionTitle": "",
+      "category": "check-out",
+      "type": "word",
+      "de": "Pflanze",
+      "en": "plant",
+      "example": "Trees and flowers are plants."
+    },
+    {
+      "id": "k6v2_136",
+      "grade": 6,
+      "unit": 2,
+      "section": "Check-out",
+      "sectionTitle": "",
+      "category": "check-out",
+      "type": "word",
+      "de": "warm",
+      "en": "warm",
+      "notes": "warm ↔ cold"
+    },
+    {
+      "id": "k6v2_137",
+      "grade": 6,
+      "unit": 2,
+      "section": "Check-out",
+      "sectionTitle": "",
+      "category": "check-out",
+      "type": "word",
+      "de": "usw. (= und so weiter)",
+      "en": "etc. (= et cetera)",
+      "example": "etc. is short for 'et cetera' (Latin)"
+    },
+    {
+      "id": "k6v2_138",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "wahr",
+      "en": "true",
+      "example": "Dave is from Greenwich, isn't he? Yes, that's true."
+    },
+    {
+      "id": "k6v2_139",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "Licht; Lampe",
+      "en": "light",
+      "example": "At night you need light."
+    },
+    {
+      "id": "k6v2_140",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "Kürbislaterne",
+      "en": "jack-o'-lantern",
+      "example": "(Halloween)"
+    },
+    {
+      "id": "k6v2_141",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "irisch; Irisch",
+      "en": "Irish",
+      "example": "There are lots of nice Irish songs."
+    },
+    {
+      "id": "k6v2_142",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "unheimlich; gruselig; beängstigend",
+      "en": "scary",
+      "example": "I can't fall asleep when I watch a scary movie.",
+      "notes": "→ to be scared"
+    },
+    {
+      "id": "k6v2_143",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "Teufel",
+      "en": "devil",
+      "example": "Some people believe that the devil takes bad people with him when they die."
+    },
+    {
+      "id": "k6v2_144",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "versprechen",
+      "en": "to promise",
+      "example": "Can you promise not to be late?"
+    },
+    {
+      "id": "k6v2_145",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "Seele",
+      "en": "soul",
+      "example": "People say everybody has got a soul."
+    },
+    {
+      "id": "k6v2_146",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "Hölle",
+      "en": "hell",
+      "example": "People say the devil lives in hell."
+    },
+    {
+      "id": "k6v2_147",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "Himmel",
+      "en": "heaven",
+      "example": "A lot of people believe that good people go to heaven when they die.",
+      "notes": "heaven ↔ hell"
+    },
+    {
+      "id": "k6v2_148",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "Versprechen",
+      "en": "promise",
+      "example": "Can you keep your promise?"
+    },
+    {
+      "id": "k6v2_149",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "Feuer; Kamin; Ofen",
+      "en": "fire",
+      "example": "On cold days it's nice to sit by the fire.",
+      "notes": "fire ↔ water"
+    },
+    {
+      "id": "k6v2_150",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "Geist",
+      "en": "ghost",
+      "example": "Sometimes there are stories of ghosts in old houses."
+    },
+    {
+      "id": "k6v2_151",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "Laterne",
+      "en": "lantern",
+      "example": "It's very dark. We need a lantern."
+    },
+    {
+      "id": "k6v2_152",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "vor langer Zeit",
+      "en": "long ago",
+      "example": "Long ago, a lot of people believed in ghosts."
+    },
+    {
+      "id": "k6v2_153",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "tot",
+      "en": "dead",
+      "example": "My grandpa is dead. He died last year."
+    },
+    {
+      "id": "k6v2_154",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "Kürbis",
+      "en": "pumpkin",
+      "example": "At Halloween, people decorate their houses with pumpkins."
+    },
+    {
+      "id": "k6v2_155",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "anziehen; auftragen",
+      "en": "to put on",
+      "irregular": true,
+      "example": "We're going out now. Put your shoes on, please."
+    },
+    {
+      "id": "k6v2_156",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "Süßes oder Saures (Kinder gehen an Halloween von Tür zu Tür und bitten um Süßigkeiten)",
+      "en": "trick-or-treating",
+      "example": "At Halloween, children go from house to house and shout 'Trick or treat!'"
+    },
+    {
+      "id": "k6v2_157",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "Souling (mittelalterlicher Brauch: Brot gegen Rettung der Seele)",
+      "en": "souling",
+      "example": "To save their souls, people gave bread or cakes to poor people who came to their doors."
+    },
+    {
+      "id": "k6v2_158",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "besondere Freude; Belohnung",
+      "en": "treat",
+      "example": "If sb gives you a treat, it's sth special – like sth good to eat."
+    },
+    {
+      "id": "k6v2_159",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "Legende; Sage",
+      "en": "legend",
+      "example": "Legends belong to the traditions of a culture. An old story – maybe true in parts."
+    },
+    {
+      "id": "k6v2_160",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "schneiden; fällen",
+      "en": "to cut",
+      "irregular": true,
+      "example": "I cut my finger with a piece of paper."
+    },
+    {
+      "id": "k6v2_161",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "Axt",
+      "en": "axe",
+      "example": "You use an axe to work with wood."
+    },
+    {
+      "id": "k6v2_162",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "weinen; schreien; rufen",
+      "en": "to cry",
+      "example": "She was so sad she cried all night.",
+      "notes": "to cry ↔ to laugh"
+    },
+    {
+      "id": "k6v2_163",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "Träne",
+      "en": "tear",
+      "example": "I could see she was sad. There were tears in her eyes."
+    },
+    {
+      "id": "k6v2_164",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "Pfad; Weg",
+      "en": "path",
+      "example": "This is the path to the beach."
+    },
+    {
+      "id": "k6v2_165",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "Straße",
+      "en": "road",
+      "example": "I live in King's Road. (road > street > path)"
+    },
+    {
+      "id": "k6v2_166",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "gerade; direkt; geradewegs",
+      "en": "straight",
+      "example": "Go straight to school, you're late."
+    },
+    {
+      "id": "k6v2_167",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "Landschaft",
+      "en": "landscape",
+      "example": "I love this landscape with all the trees and the lakes."
+    },
+    {
+      "id": "k6v2_168",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "Einführung; Einleitung; Vorstellung",
+      "en": "introduction",
+      "example": "The introduction to this text is very interesting.",
+      "notes": "→ to introduce"
+    },
+    {
+      "id": "k6v2_169",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "erfunden",
+      "en": "invented",
+      "example": "Is the story real or invented?",
+      "notes": "an invented character ↔ a real person"
+    },
+    {
+      "id": "k6v2_170",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "Feder",
+      "en": "feather",
+      "example": "Some Native Americans wore eagle feathers."
+    },
+    {
+      "id": "k6v2_171",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "Jäger/-in",
+      "en": "hunter",
+      "example": "I'm a treasure hunter.",
+      "notes": "→ to hunt"
+    },
+    {
+      "id": "k6v2_172",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "die Erde; Erde; Erdboden",
+      "en": "earth",
+      "example": "People and animals live on earth."
+    },
+    {
+      "id": "k6v2_173",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "Führer/-in; Anführer/-in",
+      "en": "leader",
+      "example": "Who is the leader of your group?"
+    },
+    {
+      "id": "k6v2_174",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "kämpfen; (sich) streiten",
+      "en": "to fight",
+      "irregular": true,
+      "example": "My brother and I often fight.",
+      "notes": "→ a fight"
+    },
+    {
+      "id": "k6v2_175",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "Ehemann",
+      "en": "husband",
+      "example": "My dad is my mum's husband."
+    },
+    {
+      "id": "k6v2_176",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "Soldat/-in",
+      "en": "soldier",
+      "example": "A soldier is a person whose job is to fight, usually for his or her country."
+    },
+    {
+      "id": "k6v2_177",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "übertrieben",
+      "en": "exaggerated",
+      "example": "I can't believe that so many people eat fast food. The numbers must be exaggerated."
+    },
+    {
+      "id": "k6v2_178",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "Held",
+      "en": "hero, heroes (pl)",
+      "example": "The most important character in a book or film, usually good and brave."
+    },
+    {
+      "id": "k6v2_179",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "Heldin",
+      "en": "heroine",
+      "example": "Who is your favourite heroine?"
+    },
+    {
+      "id": "k6v2_180",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "Magie; Zauberei",
+      "en": "magic",
+      "example": "How did she do it? Was it magic or just a trick?"
+    },
+    {
+      "id": "k6v2_181",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "wechseln; (sich) ändern; (sich) verwandeln",
+      "en": "to change",
+      "example": "In the legend, the hero changes into an eagle."
+    },
+    {
+      "id": "k6v2_182",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "ehrlich",
+      "en": "honest",
+      "example": "Don't lie. Be honest!"
+    },
+    {
+      "id": "k6v2_183",
+      "grade": 6,
+      "unit": 2,
+      "section": "Across cultures 1",
+      "sectionTitle": "American stories and traditions",
+      "category": "across-cultures-1",
+      "type": "word",
+      "de": "erfinden",
+      "en": "to invent",
+      "example": "If you invent sth, you're the first person who thinks of it.",
+      "notes": "→ invented"
+    }
+  ],
+  "grammarTopics": [
+    {
+      "id": "k6g_G4",
+      "grade": 6,
+      "unit": 2,
+      "code": "G4",
+      "title": "Comparison of adjectives (Steigerung der Adjektive)",
+      "bookPages": "S. 24–25",
+      "explanation": "Einsilbige Adjektive und zweisilbige auf -y bekommen -er (Komparativ) und -est (Superlativ): fast – faster – the fastest. Fast alle anderen zweisilbigen und alle längeren Adjektive bekommen more/most: interesting – more interesting – the most interesting. Schreibregeln: Endkonsonant nach kurzem Vokal verdoppeln (big – bigger), stummes -e fällt weg (nice – nicer), y → i (easy – easier). Unregelmäßig: good – better – the best, bad – worse – the worst.",
+      "examples": [
+        "Do you feel more confident now?",
+        "It was easier than I thought.",
+        "For me it was the most exciting event of the year.",
+        "Your Aunt Amy is the best teacher in the world!",
+        "The wave became bigger and bigger."
+      ],
+      "commonMistakes": [
+        "„more big\" statt „bigger\"",
+        "„the most easy\" statt „the easiest\"",
+        "„gooder/badder\" statt „better/worse\"",
+        "Verdoppeln vergessen: „biger\" statt „bigger\""
+      ]
+    },
+    {
+      "id": "k6g_G5",
+      "grade": 6,
+      "unit": 2,
+      "code": "G5",
+      "title": "Comparisons with adjectives (as … as, than)",
+      "bookPages": "S. 25–26",
+      "explanation": "Gleich: as + Grundform + as („genauso … wie\"). Verschieden: not as + Grundform + as („nicht so … wie\") oder Komparativ + than („…er als\"). Mit less + Grundform + than sagst du „weniger … als\". Nicht verwechseln: than = als, then = dann.",
+      "examples": [
+        "The River Severn is as long as the River Neckar.",
+        "Wales isn't as big as England.",
+        "Wales is bigger than Northern Ireland.",
+        "Is climbing more dangerous than mountainboarding?",
+        "Is climbing less dangerous than mountainboarding?"
+      ],
+      "commonMistakes": [
+        "„then\" statt „than\"",
+        "„as bigger as\" statt „as big as\"",
+        "„bigger as\" statt „bigger than\""
+      ]
+    },
+    {
+      "id": "k6g_G6",
+      "grade": 6,
+      "unit": 2,
+      "code": "G6",
+      "title": "Defining relative clauses (who, which, that, whose; contact clauses)",
+      "bookPages": "S. 27–28",
+      "explanation": "Notwendige Relativsätze beschreiben ein Nomen genauer. who → Personen, which → Sachen, that → Personen oder Sachen, whose → Besitz (dessen/deren). Vor notwendigen Relativsätzen steht KEIN Komma. Ist das Relativpronomen Subjekt, darf es nie wegfallen. Ist es Objekt (danach folgt ein neues Subjekt), kann es wegfallen – das nennt man contact clause. Präpositionen bleiben meist am Ende: the song (which) we talked about.",
+      "examples": [
+        "My presentation is about the people who/that made Florida.",
+        "Do you know the famous film which/that presents a Cuban music project?",
+        "That's the man whose film became famous.",
+        "Gloria Estefan is a singer (who/that) we talked about in Music class."
+      ],
+      "commonMistakes": [
+        "Komma vor dem Relativsatz wie im Deutschen",
+        "which für Personen: „the people which …\"",
+        "Relativpronomen weglassen, obwohl es Subjekt ist: „a musician came from Cuba\"",
+        "who's statt whose"
+      ]
+    }
+  ],
+  "grammarQuestions": [
+    {
+      "id": "k6q_G4_001",
+      "topicId": "k6g_G4",
+      "type": "multipleChoice",
+      "prompt": "Berlin is a big city, but London is ___.",
+      "options": [
+        "bigger",
+        "more big",
+        "biger"
+      ],
+      "answer": "bigger",
+      "explanation": "big ist einsilbig → -er; nach kurzem Vokal wird g verdoppelt: bigger.",
+      "optionHints": {
+        "more big": "Einsilbige Adjektive bekommen -er, nicht more.",
+        "biger": "Nach kurzem Vokal wird der Endkonsonant verdoppelt: bigger."
+      }
+    },
+    {
+      "id": "k6q_G4_002",
+      "topicId": "k6g_G4",
+      "type": "multipleChoice",
+      "prompt": "For me, the barrel race was ___ event of the year.",
+      "options": [
+        "the most exciting",
+        "the excitingest",
+        "the more exciting"
+      ],
+      "answer": "the most exciting",
+      "explanation": "exciting hat drei Silben → Superlativ mit the most.",
+      "optionHints": {
+        "the excitingest": "Lange Adjektive bekommen most, nicht -est.",
+        "the more exciting": "Gemeint ist der Superlativ (das spannendste) → the most."
+      }
+    },
+    {
+      "id": "k6q_G4_003",
+      "topicId": "k6g_G4",
+      "type": "multipleChoice",
+      "prompt": "Was the test hard? – No, it was ___ than I thought.",
+      "options": [
+        "easier",
+        "more easy",
+        "easyer"
+      ],
+      "answer": "easier",
+      "explanation": "Zweisilbig auf -y → -er, und y wird zu i: easier.",
+      "optionHints": {
+        "more easy": "Adjektive auf -y bekommen -er: easier.",
+        "easyer": "Nach Konsonant wird y zu i: easier."
+      }
+    },
+    {
+      "id": "k6q_G4_004",
+      "topicId": "k6g_G4",
+      "type": "multipleChoice",
+      "prompt": "Aunt Amy is ___ teacher in the world!",
+      "options": [
+        "the best",
+        "the goodest",
+        "the better"
+      ],
+      "answer": "the best",
+      "explanation": "good ist unregelmäßig: good – better – the best.",
+      "optionHints": {
+        "the goodest": "good ist unregelmäßig: good – better – the best.",
+        "the better": "Gemeint ist der Superlativ (die beste) → the best."
+      }
+    },
+    {
+      "id": "k6q_G4_005",
+      "topicId": "k6g_G4",
+      "type": "multipleChoice",
+      "prompt": "My cold is ___ today than yesterday. I feel awful.",
+      "options": [
+        "worse",
+        "badder",
+        "more bad"
+      ],
+      "answer": "worse",
+      "explanation": "bad ist unregelmäßig: bad – worse – the worst.",
+      "optionHints": {
+        "badder": "bad ist unregelmäßig: bad – worse – the worst.",
+        "more bad": "bad ist unregelmäßig: worse."
+      }
+    },
+    {
+      "id": "k6q_G4_006",
+      "topicId": "k6g_G4",
+      "type": "multipleChoice",
+      "prompt": "Your new bike is ___ than my old bike.",
+      "options": [
+        "nicer",
+        "nicier",
+        "more nice"
+      ],
+      "answer": "nicer",
+      "explanation": "nice ist einsilbig → -er; stummes -e fällt weg: nicer.",
+      "optionHints": {
+        "nicier": "Es kommt nur -r dazu, weil nice schon auf -e endet: nicer.",
+        "more nice": "Einsilbige Adjektive bekommen -er: nicer."
+      }
+    },
+    {
+      "id": "k6q_G4_007",
+      "topicId": "k6g_G4",
+      "type": "multipleChoice",
+      "prompt": "Die Welle wurde immer größer. = The wave became ___.",
+      "options": [
+        "bigger and bigger",
+        "more and more big",
+        "big and big"
+      ],
+      "answer": "bigger and bigger",
+      "explanation": "„immer größer\" = Komparativ + and + Komparativ: bigger and bigger.",
+      "optionHints": {
+        "more and more big": "big bekommt -er: bigger and bigger.",
+        "big and big": "Du brauchst die Steigerungsform: bigger and bigger."
+      }
+    },
+    {
+      "id": "k6q_G4_008",
+      "topicId": "k6g_G4",
+      "type": "fillBlank",
+      "prompt": "Luke is tall, Holly is taller, but Olivia is ___ (tall).",
+      "answer": "the tallest",
+      "explanation": "Superlativ eines einsilbigen Adjektivs: the + -est → the tallest."
+    },
+    {
+      "id": "k6q_G4_009",
+      "topicId": "k6g_G4",
+      "type": "fillBlank",
+      "prompt": "This hill is ___ (high) than that one.",
+      "answer": "higher",
+      "explanation": "Einsilbig → -er: higher."
+    },
+    {
+      "id": "k6q_G4_010",
+      "topicId": "k6g_G4",
+      "type": "fillBlank",
+      "prompt": "For me, History is ___ (interesting) than Maths.",
+      "answer": "more interesting",
+      "explanation": "interesting hat mehr als zwei Silben → more interesting."
+    },
+    {
+      "id": "k6q_G4_011",
+      "topicId": "k6g_G4",
+      "type": "fillBlank",
+      "prompt": "Tom's joke was ___ (funny) joke of the day.",
+      "answer": "the funniest",
+      "explanation": "Zweisilbig auf -y → -est, y wird zu i: the funniest."
+    },
+    {
+      "id": "k6q_G4_012",
+      "topicId": "k6g_G4",
+      "type": "fillBlank",
+      "prompt": "Florida is ___ (hot) than Iowa in summer.",
+      "answer": "hotter",
+      "explanation": "Kurzer Vokal + t → t wird verdoppelt: hotter."
+    },
+    {
+      "id": "k6q_G4_013",
+      "topicId": "k6g_G4",
+      "type": "fillBlank",
+      "prompt": "This is ___ (awful) song in the world!",
+      "answer": "the most awful",
+      "explanation": "awful bekommt most: the most awful."
+    },
+    {
+      "id": "k6q_G4_014",
+      "topicId": "k6g_G4",
+      "type": "fillBlank",
+      "prompt": "My idea is good, but Dave's idea is ___ (good).",
+      "answer": "better",
+      "explanation": "good – better – the best (unregelmäßig)."
+    },
+    {
+      "id": "k6q_G5_001",
+      "topicId": "k6g_G5",
+      "type": "multipleChoice",
+      "prompt": "Wales isn't ___ England.",
+      "options": [
+        "as big as",
+        "as bigger as",
+        "so big than"
+      ],
+      "answer": "as big as",
+      "explanation": "nicht so groß wie = not as + Grundform + as.",
+      "optionHints": {
+        "as bigger as": "Zwischen as … as steht die Grundform: as big as.",
+        "so big than": "Das Muster heißt (not) as … as."
+      }
+    },
+    {
+      "id": "k6q_G5_002",
+      "topicId": "k6g_G5",
+      "type": "multipleChoice",
+      "prompt": "Wales is bigger ___ Northern Ireland.",
+      "options": [
+        "than",
+        "then",
+        "as"
+      ],
+      "answer": "than",
+      "explanation": "Nach dem Komparativ steht than (als).",
+      "optionHints": {
+        "then": "then heißt „dann\". Als = than.",
+        "as": "Nach dem Komparativ (bigger) steht than, nicht as."
+      }
+    },
+    {
+      "id": "k6q_G5_003",
+      "topicId": "k6g_G5",
+      "type": "multipleChoice",
+      "prompt": "The River Severn is about ___ the River Neckar. (gleich lang)",
+      "options": [
+        "as long as",
+        "longer as",
+        "as longer than"
+      ],
+      "answer": "as long as",
+      "explanation": "Gleich lang = as + Grundform + as.",
+      "optionHints": {
+        "longer as": "Komparativ + than oder as + Grundform + as – nicht gemischt.",
+        "as longer than": "Gleich = as long as."
+      }
+    },
+    {
+      "id": "k6q_G5_004",
+      "topicId": "k6g_G5",
+      "type": "multipleChoice",
+      "prompt": "Is climbing more dangerous ___ mountainboarding?",
+      "options": [
+        "than",
+        "as",
+        "that"
+      ],
+      "answer": "than",
+      "explanation": "more dangerous than = gefährlicher als.",
+      "optionHints": {
+        "as": "Nach more … steht than.",
+        "that": "that ist kein Vergleichswort. Als = than."
+      }
+    },
+    {
+      "id": "k6q_G5_005",
+      "topicId": "k6g_G5",
+      "type": "multipleChoice",
+      "prompt": "Climbing is ___ dangerous than mountainboarding. (weniger)",
+      "options": [
+        "less",
+        "least",
+        "not"
+      ],
+      "answer": "less",
+      "explanation": "weniger … als = less + Grundform + than.",
+      "optionHints": {
+        "least": "least ist der Superlativ (am wenigsten). Mit than: less.",
+        "not": "„not dangerous than\" geht nicht. Weniger … als = less … than."
+      }
+    },
+    {
+      "id": "k6q_G5_006",
+      "topicId": "k6g_G5",
+      "type": "multipleChoice",
+      "prompt": "My cousin is ___ me. (genauso alt wie)",
+      "options": [
+        "as old as",
+        "as old than",
+        "older as"
+      ],
+      "answer": "as old as",
+      "explanation": "genauso … wie = as + Grundform + as.",
+      "optionHints": {
+        "as old than": "Das Muster heißt as … as.",
+        "older as": "Nach dem Komparativ steht than – und gemeint ist „genauso alt\": as old as."
+      }
+    },
+    {
+      "id": "k6q_G5_007",
+      "topicId": "k6g_G5",
+      "type": "multipleChoice",
+      "prompt": "Mount Snowdon isn't ___ Ben Nevis.",
+      "options": [
+        "as high as",
+        "higher as",
+        "as high than"
+      ],
+      "answer": "as high as",
+      "explanation": "nicht so hoch wie = not as high as.",
+      "optionHints": {
+        "higher as": "Nach dem Komparativ steht than, nicht as.",
+        "as high than": "Das Muster heißt as … as."
+      }
+    },
+    {
+      "id": "k6q_G5_008",
+      "topicId": "k6g_G5",
+      "type": "fillBlank",
+      "prompt": "The Danube is longer ___ the Rhine.",
+      "answer": "than",
+      "explanation": "Komparativ + than = …er als."
+    },
+    {
+      "id": "k6q_G5_009",
+      "topicId": "k6g_G5",
+      "type": "fillBlank",
+      "prompt": "The Inn isn't as long ___ the Danube.",
+      "answer": "as",
+      "explanation": "not as … as = nicht so … wie."
+    },
+    {
+      "id": "k6q_G5_010",
+      "topicId": "k6g_G5",
+      "type": "fillBlank",
+      "prompt": "Munich is ___ (big) than Nuremberg.",
+      "answer": "bigger",
+      "explanation": "big → bigger (g verdoppeln) + than."
+    },
+    {
+      "id": "k6q_G5_011",
+      "topicId": "k6g_G5",
+      "type": "fillBlank",
+      "prompt": "Nuremberg isn't as ___ (big) as Munich.",
+      "answer": "big",
+      "explanation": "Zwischen as … as steht immer die Grundform."
+    },
+    {
+      "id": "k6q_G5_012",
+      "topicId": "k6g_G5",
+      "type": "fillBlank",
+      "prompt": "The Zugspitze is ___ (high) than the Großer Arber.",
+      "answer": "higher",
+      "explanation": "Einsilbig → -er + than."
+    },
+    {
+      "id": "k6q_G5_013",
+      "topicId": "k6g_G5",
+      "type": "fillBlank",
+      "prompt": "Saarland is much ___ (small) than Bavaria.",
+      "answer": "smaller",
+      "explanation": "Einsilbig → -er + than."
+    },
+    {
+      "id": "k6q_G6_001",
+      "topicId": "k6g_G6",
+      "type": "multipleChoice",
+      "prompt": "Compay Segundo was a musician ___ came from Cuba.",
+      "options": [
+        "who",
+        "which",
+        "whose"
+      ],
+      "answer": "who",
+      "explanation": "Person (a musician) → who. Es ist hier Subjekt und darf nicht wegfallen.",
+      "optionHints": {
+        "which": "which nimmst du für Sachen. Für Personen: who (oder that).",
+        "whose": "whose zeigt Besitz („dessen\"). Hier: who."
+      }
+    },
+    {
+      "id": "k6q_G6_002",
+      "topicId": "k6g_G6",
+      "type": "multipleChoice",
+      "prompt": "Do you know the film ___ presents a Cuban music project?",
+      "options": [
+        "which",
+        "who",
+        "whose"
+      ],
+      "answer": "which",
+      "explanation": "Sache (the film) → which (oder that).",
+      "optionHints": {
+        "who": "who steht für Personen. Ein Film ist eine Sache → which/that.",
+        "whose": "whose zeigt Besitz. Hier ist der Film selbst gemeint → which."
+      }
+    },
+    {
+      "id": "k6q_G6_003",
+      "topicId": "k6g_G6",
+      "type": "multipleChoice",
+      "prompt": "That's the man ___ film became famous.",
+      "options": [
+        "whose",
+        "who",
+        "which"
+      ],
+      "answer": "whose",
+      "explanation": "Besitz: der Mann, dessen Film … → whose.",
+      "optionHints": {
+        "who": "Es geht um seinen Film (dessen Film) → whose.",
+        "which": "Besitz zeigst du mit whose."
+      }
+    },
+    {
+      "id": "k6q_G6_004",
+      "topicId": "k6g_G6",
+      "type": "multipleChoice",
+      "prompt": "Bei welchem Satz kannst du das Relativpronomen weglassen?",
+      "options": [
+        "The song which Enrique wrote was a big hit.",
+        "The man who came from Cuba was a musician.",
+        "The girl who lives next door is nice."
+      ],
+      "answer": "The song which Enrique wrote was a big hit.",
+      "explanation": "Nach which folgt ein neues Subjekt (Enrique) → which ist Objekt und kann wegfallen (contact clause).",
+      "optionHints": {
+        "The man who came from Cuba was a musician.": "Hier ist who Subjekt (wer kam?) – es darf nicht wegfallen.",
+        "The girl who lives next door is nice.": "Hier ist who Subjekt (wer wohnt?) – es darf nicht wegfallen."
+      }
+    },
+    {
+      "id": "k6q_G6_005",
+      "topicId": "k6g_G6",
+      "type": "multipleChoice",
+      "prompt": "Welcher Satz ist richtig?",
+      "options": [
+        "My presentation is about the people who made Florida.",
+        "My presentation is about the people, who made Florida.",
+        "My presentation is about the people which made Florida."
+      ],
+      "answer": "My presentation is about the people who made Florida.",
+      "explanation": "Personen → who; vor notwendigen Relativsätzen kein Komma.",
+      "optionHints": {
+        "My presentation is about the people, who made Florida.": "Kein Komma vor notwendigen Relativsätzen – anders als im Deutschen!",
+        "My presentation is about the people which made Florida.": "which nur für Sachen; für Personen who/that."
+      }
+    },
+    {
+      "id": "k6q_G6_006",
+      "topicId": "k6g_G6",
+      "type": "multipleChoice",
+      "prompt": "The teacher ___ lessons we like the most is Mrs Jordan.",
+      "options": [
+        "whose",
+        "who",
+        "which"
+      ],
+      "answer": "whose",
+      "explanation": "Die Lehrerin, deren Stunden … → whose.",
+      "optionHints": {
+        "who": "Gemeint ist „deren Stunden\" → whose.",
+        "which": "which steht für Sachen; hier geht es um Besitz → whose."
+      }
+    },
+    {
+      "id": "k6q_G6_007",
+      "topicId": "k6g_G6",
+      "type": "multipleChoice",
+      "prompt": "They're the ghosts of the sailors ___ died many years ago.",
+      "options": [
+        "who",
+        "which",
+        "whose"
+      ],
+      "answer": "who",
+      "explanation": "Personen (the sailors) als Subjekt → who (oder that).",
+      "optionHints": {
+        "which": "Seeleute sind Personen → who/that.",
+        "whose": "Es geht nicht um Besitz → who."
+      }
+    },
+    {
+      "id": "k6q_G6_008",
+      "topicId": "k6g_G6",
+      "type": "fillBlank",
+      "prompt": "Gloria Estefan is a singer ___ we talked about in Music class.",
+      "answer": "who",
+      "acceptedAnswers": [
+        "who",
+        "that",
+        "whom"
+      ],
+      "explanation": "Person → who oder that. Weil danach ein neues Subjekt (we) kommt, könnte man es auch weglassen."
+    },
+    {
+      "id": "k6q_G6_009",
+      "topicId": "k6g_G6",
+      "type": "fillBlank",
+      "prompt": "Lots of children ___ are interested in nature go to Florida.",
+      "answer": "who",
+      "acceptedAnswers": [
+        "who",
+        "that"
+      ],
+      "explanation": "Personen als Subjekt → who oder that (darf nicht wegfallen)."
+    },
+    {
+      "id": "k6q_G6_010",
+      "topicId": "k6g_G6",
+      "type": "fillBlank",
+      "prompt": "Yesterday we went to a waterpark ___ was awesome.",
+      "answer": "which",
+      "acceptedAnswers": [
+        "which",
+        "that"
+      ],
+      "explanation": "Sache als Subjekt → which oder that."
+    },
+    {
+      "id": "k6q_G6_011",
+      "topicId": "k6g_G6",
+      "type": "fillBlank",
+      "prompt": "This is the girl ___ parents have a farm.",
+      "answer": "whose",
+      "explanation": "Das Mädchen, dessen Eltern … → whose."
+    },
+    {
+      "id": "k6q_G6_012",
+      "topicId": "k6g_G6",
+      "type": "fillBlank",
+      "prompt": "The coolest place ___ we visited was the Pirate Museum.",
+      "answer": "which",
+      "acceptedAnswers": [
+        "which",
+        "that"
+      ],
+      "explanation": "Sache → which oder that. Danach kommt ein neues Subjekt (we) – man könnte es also auch weglassen."
+    },
+    {
+      "id": "k6q_G6_013",
+      "topicId": "k6g_G6",
+      "type": "fillBlank",
+      "prompt": "Do you know the people ___ are talking to Grandma?",
+      "answer": "who",
+      "acceptedAnswers": [
+        "who",
+        "that"
+      ],
+      "explanation": "Personen als Subjekt → who oder that."
+    }
+  ],
+  "conversationScenarios": [
+    {
+      "id": "k6c_club_market",
+      "unit": 2,
+      "section": "Unit task",
+      "title": "Mein Club",
+      "level": 3,
+      "goal": "Adjektive steigern, Vergleiche, Relativsätze, Präsentationsphrasen (G4–G6)",
+      "grammarCodes": [
+        "G4",
+        "G5",
+        "G6"
+      ],
+      "situation": "Du stellst auf dem „club market\" deinen Schulclub vor und willst ein neues Mitglied gewinnen. Die neue Schülerin stellt kritische Fragen.",
+      "openingLine": "Hello! I'm new at this school and I'm looking for a club. Why should I join your club and not the Drama Club?",
+      "phrases": [
+        "Our club is more exciting than …",
+        "It's the best club for people who …",
+        "Let me tell you about …",
+        "Join our club!"
+      ],
+      "grade": 6,
+      "startNode": "n1",
+      "nodes": {
+        "n1": {
+          "npcLine": "Hello! I'm new at this school and I'm looking for a club. Why should I join your club and not the Drama Club?",
+          "choices": [
+            {
+              "text": "Our club is more exciting than the Drama Club! We go on trips and play lots of games.",
+              "quality": "good",
+              "feedback": "Überzeugend – mit Vergleich (more exciting than)!",
+              "next": "n2"
+            },
+            {
+              "text": "Because our club is good.",
+              "quality": "ok",
+              "feedback": "Ein Anfang! Mit einem Vergleich überzeugst du mehr: Our club is more exciting than …",
+              "next": "n2"
+            },
+            {
+              "text": "Our club is more good than the Drama Club.",
+              "quality": "wrong",
+              "feedback": "good ist unregelmäßig: better than.",
+              "next": "n2"
+            }
+          ]
+        },
+        "n2": {
+          "npcLine": "Hmm. Who can join your club?",
+          "choices": [
+            {
+              "text": "It's the best club for people who like music and dancing.",
+              "quality": "good",
+              "feedback": "Super – Superlativ und Relativsatz mit who!",
+              "next": "n3"
+            },
+            {
+              "text": "Everybody. Boys and girls.",
+              "quality": "ok",
+              "feedback": "Gut! Mit Relativsatz klingt es besser: It's for everybody who likes …",
+              "next": "n3"
+            },
+            {
+              "text": "It's for people which like music.",
+              "quality": "wrong",
+              "feedback": "Für Personen nimmst du who (oder that), nicht which.",
+              "next": "n3"
+            }
+          ]
+        },
+        "n3": {
+          "npcLine": "Is it expensive? I think the Drama Club is cheaper.",
+          "choices": [
+            {
+              "text": "No, it isn't. Our club is as cheap as the Drama Club – it only costs £2 a month.",
+              "quality": "good",
+              "feedback": "Perfekt – as cheap as für „genauso billig wie\".",
+              "next": "n4"
+            },
+            {
+              "text": "It's not expensive.",
+              "quality": "ok",
+              "feedback": "Gut! Mit Vergleich: It's as cheap as the Drama Club.",
+              "next": "n4"
+            },
+            {
+              "text": "Our club is cheaper then the Drama Club.",
+              "quality": "wrong",
+              "feedback": "Als = than, nicht then: cheaper than.",
+              "next": "n4"
+            }
+          ]
+        },
+        "n4": {
+          "npcLine": "OK, that sounds interesting. When do you meet?",
+          "choices": [
+            {
+              "text": "We meet every Tuesday after school in the room which is next to the library.",
+              "quality": "good",
+              "feedback": "Toll – mit Relativsatz (which)!",
+              "next": "n5"
+            },
+            {
+              "text": "On Tuesday.",
+              "quality": "ok",
+              "feedback": "Richtig! Etwas genauer: We meet every Tuesday after school.",
+              "next": "n5"
+            },
+            {
+              "text": "We meets on Tuesday.",
+              "quality": "wrong",
+              "feedback": "we → meet (ohne -s).",
+              "next": "n5"
+            }
+          ]
+        },
+        "n5": {
+          "npcLine": "Great! I think I'm going to join your club. Thanks!",
+          "choices": []
+        }
+      },
+      "endNodes": [
+        "n5"
+      ]
+    }
+  ]
+}

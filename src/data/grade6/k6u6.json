@@ -1,0 +1,2358 @@
+{
+  "id": "k6u6",
+  "grade": 6,
+  "unit": 6,
+  "title": "Goodbye Greenwich",
+  "vocab": [
+    {
+      "id": "k6v6_001",
+      "grade": 6,
+      "unit": 6,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "mittelalterlich",
+      "en": "medieval",
+      "example": "Is every castle medieval? – No, of course not."
+    },
+    {
+      "id": "k6v6_002",
+      "grade": 6,
+      "unit": 6,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Show, in der historischer Alltag nachgespielt wird",
+      "en": "living history show",
+      "example": "We went to see a living history show with our teacher."
+    },
+    {
+      "id": "k6v6_003",
+      "grade": 6,
+      "unit": 6,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Ponyreiten im Gelände",
+      "en": "pony trekking",
+      "example": "You go pony trekking in the country."
+    },
+    {
+      "id": "k6v6_004",
+      "grade": 6,
+      "unit": 6,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "schottisch",
+      "en": "Scottish",
+      "example": "Edinburgh is the Scottish capital.",
+      "notes": "→ Scotland"
+    },
+    {
+      "id": "k6v6_005",
+      "grade": 6,
+      "unit": 6,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "am Meer",
+      "en": "at the seaside",
+      "notes": "at the seaside = by the sea"
+    },
+    {
+      "id": "k6v6_006",
+      "grade": 6,
+      "unit": 6,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Hafen",
+      "en": "harbour",
+      "example": "The weather is bad, so the boats are staying in the harbour."
+    },
+    {
+      "id": "k6v6_007",
+      "grade": 6,
+      "unit": 6,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "wachsen",
+      "en": "to grow",
+      "irregular": true,
+      "example": "All kinds of flowers grow in our garden."
+    },
+    {
+      "id": "k6v6_008",
+      "grade": 6,
+      "unit": 6,
+      "section": "Station 1",
+      "sectionTitle": "Moving to the middle of nowhere",
+      "category": "station-1",
+      "type": "word",
+      "de": "nirgendwo; nirgendwohin",
+      "en": "nowhere",
+      "example": "Dave doesn't want to move to the middle of nowhere.",
+      "notes": "nowhere → somewhere → everywhere"
+    },
+    {
+      "id": "k6v6_009",
+      "grade": 6,
+      "unit": 6,
+      "section": "Station 1",
+      "sectionTitle": "Moving to the middle of nowhere",
+      "category": "station-1",
+      "type": "word",
+      "de": "aus/in Cornwall; kornisch",
+      "en": "Cornish",
+      "example": "Dave and his parents are going to move to a Cornish town."
+    },
+    {
+      "id": "k6v6_010",
+      "grade": 6,
+      "unit": 6,
+      "section": "Station 1",
+      "sectionTitle": "Moving to the middle of nowhere",
+      "category": "station-1",
+      "type": "word",
+      "de": "vermissen",
+      "en": "to miss",
+      "example": "I miss you. = Du fehlst mir."
+    },
+    {
+      "id": "k6v6_011",
+      "grade": 6,
+      "unit": 6,
+      "section": "Station 1",
+      "sectionTitle": "Moving to the middle of nowhere",
+      "category": "station-1",
+      "type": "word",
+      "de": "übernachten",
+      "en": "to stay",
+      "example": "We stayed at a really nice hotel."
+    },
+    {
+      "id": "k6v6_012",
+      "grade": 6,
+      "unit": 6,
+      "section": "Station 1",
+      "sectionTitle": "Moving to the middle of nowhere",
+      "category": "station-1",
+      "type": "word",
+      "de": "(nicht) mehr; (nicht) länger",
+      "en": "(not) any longer",
+      "example": "I don't want to stay here any longer."
+    },
+    {
+      "id": "k6v6_013",
+      "grade": 6,
+      "unit": 6,
+      "section": "Station 1",
+      "sectionTitle": "Moving to the middle of nowhere",
+      "category": "station-1",
+      "type": "word",
+      "de": "wir alle",
+      "en": "all of us",
+      "example": "All of us are excited about the trip to Cornwall."
+    },
+    {
+      "id": "k6v6_014",
+      "grade": 6,
+      "unit": 6,
+      "section": "Station 1",
+      "sectionTitle": "Moving to the middle of nowhere",
+      "category": "station-1",
+      "type": "word",
+      "de": "Verkehrsmittel; Transport",
+      "en": "transport",
+      "example": "Transport can be expensive."
+    },
+    {
+      "id": "k6v6_015",
+      "grade": 6,
+      "unit": 6,
+      "section": "Station 1",
+      "sectionTitle": "Moving to the middle of nowhere",
+      "category": "station-1",
+      "type": "word",
+      "de": "Vorhersage; Voraussage",
+      "en": "prediction",
+      "example": "\"The weather will be good tomorrow\" is a prediction."
+    },
+    {
+      "id": "k6v6_016",
+      "grade": 6,
+      "unit": 6,
+      "section": "Station 1",
+      "sectionTitle": "Moving to the middle of nowhere",
+      "category": "station-1",
+      "type": "word",
+      "de": "Reaktion",
+      "en": "reaction",
+      "example": "I don't understand your reaction.",
+      "notes": "→ to overreact"
+    },
+    {
+      "id": "k6v6_017",
+      "grade": 6,
+      "unit": 6,
+      "section": "Station 1",
+      "sectionTitle": "Moving to the middle of nowhere",
+      "category": "station-1",
+      "type": "word",
+      "de": "Reisebüro",
+      "en": "travel agent's",
+      "example": "You can get travel information at the travel agent's."
+    },
+    {
+      "id": "k6v6_018",
+      "grade": 6,
+      "unit": 6,
+      "section": "Station 1",
+      "sectionTitle": "Moving to the middle of nowhere",
+      "category": "station-1",
+      "type": "word",
+      "de": "Reise; Fahrt",
+      "en": "journey",
+      "example": "On our journey through England we met a lot of nice people."
+    },
+    {
+      "id": "k6v6_019",
+      "grade": 6,
+      "unit": 6,
+      "section": "Station 1",
+      "sectionTitle": "Moving to the middle of nowhere",
+      "category": "station-1",
+      "type": "word",
+      "de": "abhängen von",
+      "en": "to depend (on)",
+      "example": "The price of the ticket depends on the date."
+    },
+    {
+      "id": "k6v6_020",
+      "grade": 6,
+      "unit": 6,
+      "section": "Station 1",
+      "sectionTitle": "Moving to the middle of nowhere",
+      "category": "station-1",
+      "type": "word",
+      "de": "buchen; reservieren",
+      "en": "to book",
+      "example": "You can book a ticket, a hotel room or a table at a restaurant."
+    },
+    {
+      "id": "k6v6_021",
+      "grade": 6,
+      "unit": 6,
+      "section": "Station 1",
+      "sectionTitle": "Moving to the middle of nowhere",
+      "category": "station-1",
+      "type": "word",
+      "de": "Wettervorhersage",
+      "en": "weather forecast",
+      "example": "It tells you what the weather will be like."
+    },
+    {
+      "id": "k6v6_022",
+      "grade": 6,
+      "unit": 6,
+      "section": "Station 1",
+      "sectionTitle": "Moving to the middle of nowhere",
+      "category": "station-1",
+      "type": "word",
+      "de": "Tourismus",
+      "en": "tourism",
+      "example": "Tourism is important for our region.",
+      "notes": "→ tour, tourist"
+    },
+    {
+      "id": "k6v6_023",
+      "grade": 6,
+      "unit": 6,
+      "section": "Station 1",
+      "sectionTitle": "Moving to the middle of nowhere",
+      "category": "station-1",
+      "type": "word",
+      "de": "Möglichkeit",
+      "en": "possibility",
+      "notes": "possibility → possible"
+    },
+    {
+      "id": "k6v6_024",
+      "grade": 6,
+      "unit": 6,
+      "section": "Station 1",
+      "sectionTitle": "Moving to the middle of nowhere",
+      "category": "station-1",
+      "type": "word",
+      "de": "könnte/n (vielleicht)",
+      "en": "might",
+      "example": "Maybe he'll play well in the match. He might even win it!"
+    },
+    {
+      "id": "k6v6_025",
+      "grade": 6,
+      "unit": 6,
+      "section": "Station 1",
+      "sectionTitle": "Moving to the middle of nowhere",
+      "category": "station-1",
+      "type": "word",
+      "de": "stürmisch",
+      "en": "stormy",
+      "example": "It's stormy today.",
+      "notes": "→ a storm"
+    },
+    {
+      "id": "k6v6_026",
+      "grade": 6,
+      "unit": 6,
+      "section": "Station 1",
+      "sectionTitle": "Moving to the middle of nowhere",
+      "category": "station-1",
+      "type": "word",
+      "de": "versorgen",
+      "en": "to supply",
+      "example": "Shops supply people with the things they need."
+    },
+    {
+      "id": "k6v6_027",
+      "grade": 6,
+      "unit": 6,
+      "section": "Station 1",
+      "sectionTitle": "Moving to the middle of nowhere",
+      "category": "station-1",
+      "type": "word",
+      "de": "herrschen; regieren",
+      "en": "to rule",
+      "example": "A king or queen rules a country."
+    },
+    {
+      "id": "k6v6_028",
+      "grade": 6,
+      "unit": 6,
+      "section": "Skills",
+      "sectionTitle": "Getting information",
+      "category": "skills",
+      "type": "word",
+      "de": "Tourismuszentrale; Tourismusbehörde",
+      "en": "tourist board",
+      "example": "At a tourist board you can get information about a country or region."
+    },
+    {
+      "id": "k6v6_029",
+      "grade": 6,
+      "unit": 6,
+      "section": "Skills",
+      "sectionTitle": "Getting information",
+      "category": "skills",
+      "type": "word",
+      "de": "Material",
+      "en": "material",
+      "example": "I'm looking for material for my poster."
+    },
+    {
+      "id": "k6v6_030",
+      "grade": 6,
+      "unit": 6,
+      "section": "Skills",
+      "sectionTitle": "Getting information",
+      "category": "skills",
+      "type": "word",
+      "de": "abschicken",
+      "en": "to send off",
+      "irregular": true,
+      "example": "Before you send off your e-mail, read it again."
+    },
+    {
+      "id": "k6v6_031",
+      "grade": 6,
+      "unit": 6,
+      "section": "Skills",
+      "sectionTitle": "Getting information",
+      "category": "skills",
+      "type": "word",
+      "de": "Formular",
+      "en": "form",
+      "example": "You often have to fill in forms on the internet."
+    },
+    {
+      "id": "k6v6_032",
+      "grade": 6,
+      "unit": 6,
+      "section": "Skills",
+      "sectionTitle": "Getting information",
+      "category": "skills",
+      "type": "word",
+      "de": "auf höfliche Art",
+      "en": "in a polite way",
+      "example": "If you want something, ask in a polite way."
+    },
+    {
+      "id": "k6v6_033",
+      "grade": 6,
+      "unit": 6,
+      "section": "Skills",
+      "sectionTitle": "Getting information",
+      "category": "skills",
+      "type": "word",
+      "de": "ihr/euch/Sie/sich (selbst); selber",
+      "en": "yourselves",
+      "example": "Did you enjoy yourselves? – Oh yes, the party was really great."
+    },
+    {
+      "id": "k6v6_034",
+      "grade": 6,
+      "unit": 6,
+      "section": "Skills",
+      "sectionTitle": "Getting information",
+      "category": "skills",
+      "type": "word",
+      "de": "Sehr geehrte Dame, sehr geehrter Herr",
+      "en": "Dear Sir or Madam",
+      "example": "You begin a formal letter like this."
+    },
+    {
+      "id": "k6v6_035",
+      "grade": 6,
+      "unit": 6,
+      "section": "Skills",
+      "sectionTitle": "Getting information",
+      "category": "skills",
+      "type": "word",
+      "de": "Gymnasium",
+      "en": "grammar school",
+      "example": "A school (in Britain) that is similar to the German 'Gymnasium'."
+    },
+    {
+      "id": "k6v6_036",
+      "grade": 6,
+      "unit": 6,
+      "section": "Skills",
+      "sectionTitle": "Getting information",
+      "category": "skills",
+      "type": "word",
+      "de": "Viele Grüße; Herzliche Grüße",
+      "en": "Best wishes",
+      "example": "You can finish a formal letter like this."
+    },
+    {
+      "id": "k6v6_037",
+      "grade": 6,
+      "unit": 6,
+      "section": "Station 2",
+      "sectionTitle": "Visit Cornwall – you'll love it!",
+      "category": "station-2",
+      "type": "word",
+      "de": "Küste; Küstenverlauf",
+      "en": "coastline",
+      "example": "Cornwall's coastline is almost 300 miles long."
+    },
+    {
+      "id": "k6v6_038",
+      "grade": 6,
+      "unit": 6,
+      "section": "Station 2",
+      "sectionTitle": "Visit Cornwall – you'll love it!",
+      "category": "station-2",
+      "type": "word",
+      "de": "anbieten",
+      "en": "to offer",
+      "example": "Can I offer you something to drink?"
+    },
+    {
+      "id": "k6v6_039",
+      "grade": 6,
+      "unit": 6,
+      "section": "Station 2",
+      "sectionTitle": "Visit Cornwall – you'll love it!",
+      "category": "station-2",
+      "type": "word",
+      "de": "kennenlernen",
+      "en": "to get to know",
+      "irregular": true,
+      "example": "I would like to get to know your friends."
+    },
+    {
+      "id": "k6v6_040",
+      "grade": 6,
+      "unit": 6,
+      "section": "Station 2",
+      "sectionTitle": "Visit Cornwall – you'll love it!",
+      "category": "station-2",
+      "type": "word",
+      "de": "vorgeschichtlich; prähistorisch",
+      "en": "prehistoric",
+      "example": "Tomorrow we are going to visit some prehistoric monuments."
+    },
+    {
+      "id": "k6v6_041",
+      "grade": 6,
+      "unit": 6,
+      "section": "Station 2",
+      "sectionTitle": "Visit Cornwall – you'll love it!",
+      "category": "station-2",
+      "type": "word",
+      "de": "Umwelt; Umgebung",
+      "en": "environment",
+      "example": "We must protect the environment."
+    },
+    {
+      "id": "k6v6_042",
+      "grade": 6,
+      "unit": 6,
+      "section": "Station 2",
+      "sectionTitle": "Visit Cornwall – you'll love it!",
+      "category": "station-2",
+      "type": "word",
+      "de": "Bergbau",
+      "en": "mining",
+      "example": "Cornwall has a long mining history."
+    },
+    {
+      "id": "k6v6_043",
+      "grade": 6,
+      "unit": 6,
+      "section": "Station 2",
+      "sectionTitle": "Visit Cornwall – you'll love it!",
+      "category": "station-2",
+      "type": "word",
+      "de": "Bronzezeit (ca. 2200–800 v. Chr.)",
+      "en": "Bronze Age",
+      "example": "This monument is from the Bronze Age."
+    },
+    {
+      "id": "k6v6_044",
+      "grade": 6,
+      "unit": 6,
+      "section": "Station 2",
+      "sectionTitle": "Visit Cornwall – you'll love it!",
+      "category": "station-2",
+      "type": "word",
+      "de": "Kreuz",
+      "en": "cross",
+      "example": "In Cornwall you can see lots of Celtic crosses."
+    },
+    {
+      "id": "k6v6_045",
+      "grade": 6,
+      "unit": 6,
+      "section": "Station 2",
+      "sectionTitle": "Visit Cornwall – you'll love it!",
+      "category": "station-2",
+      "type": "word",
+      "de": "neben",
+      "en": "besides",
+      "example": "Do you speak any languages besides German?"
+    },
+    {
+      "id": "k6v6_046",
+      "grade": 6,
+      "unit": 6,
+      "section": "Station 2",
+      "sectionTitle": "Visit Cornwall – you'll love it!",
+      "category": "station-2",
+      "type": "word",
+      "de": "Marmelade; Konfitüre",
+      "en": "jam",
+      "example": "I love my toast with butter and jam."
+    },
+    {
+      "id": "k6v6_047",
+      "grade": 6,
+      "unit": 6,
+      "section": "Station 2",
+      "sectionTitle": "Visit Cornwall – you'll love it!",
+      "category": "station-2",
+      "type": "word",
+      "de": "Geografie; Erdkunde",
+      "en": "geography",
+      "example": "What do you know about the geography of Cornwall?"
+    },
+    {
+      "id": "k6v6_048",
+      "grade": 6,
+      "unit": 6,
+      "section": "Story",
+      "sectionTitle": "Things will get better",
+      "category": "story",
+      "type": "word",
+      "de": "hereinkommen",
+      "en": "to come in",
+      "irregular": true,
+      "example": "Mrs Preston invites the friends to come in."
+    },
+    {
+      "id": "k6v6_049",
+      "grade": 6,
+      "unit": 6,
+      "section": "Story",
+      "sectionTitle": "Things will get better",
+      "category": "story",
+      "type": "word",
+      "de": "Flur; Diele; Korridor",
+      "en": "hall",
+      "example": "We went through the front door and walked through the hall."
+    },
+    {
+      "id": "k6v6_050",
+      "grade": 6,
+      "unit": 6,
+      "section": "Story",
+      "sectionTitle": "Things will get better",
+      "category": "story",
+      "type": "word",
+      "de": "Elektrizität; Strom",
+      "en": "electricity",
+      "example": "If there's no electricity, you can't watch TV."
+    },
+    {
+      "id": "k6v6_051",
+      "grade": 6,
+      "unit": 6,
+      "section": "Story",
+      "sectionTitle": "Things will get better",
+      "category": "story",
+      "type": "phrase",
+      "de": "Was ist los?; Was hast du?",
+      "en": "What's the matter?",
+      "example": "You look sad. What's the matter with you?"
+    },
+    {
+      "id": "k6v6_052",
+      "grade": 6,
+      "unit": 6,
+      "section": "Story",
+      "sectionTitle": "Things will get better",
+      "category": "story",
+      "type": "phrase",
+      "de": "Oje!",
+      "en": "Oh dear!",
+      "example": "I've hurt my leg. – Oh dear!"
+    },
+    {
+      "id": "k6v6_053",
+      "grade": 6,
+      "unit": 6,
+      "section": "Story",
+      "sectionTitle": "Things will get better",
+      "category": "story",
+      "type": "word",
+      "de": "ausgehen; hinausgehen",
+      "en": "to go out",
+      "irregular": true,
+      "example": "Let's go out!",
+      "notes": "to come in ↔ to go out"
+    },
+    {
+      "id": "k6v6_054",
+      "grade": 6,
+      "unit": 6,
+      "section": "Story",
+      "sectionTitle": "Things will get better",
+      "category": "story",
+      "type": "word",
+      "de": "Küstenweg",
+      "en": "coastal path",
+      "example": "Let's walk along the coastal path."
+    },
+    {
+      "id": "k6v6_055",
+      "grade": 6,
+      "unit": 6,
+      "section": "Story",
+      "sectionTitle": "Things will get better",
+      "category": "story",
+      "type": "word",
+      "de": "Mine",
+      "en": "mine",
+      "example": "People don't use this old mine anymore.",
+      "notes": "→ mining"
+    },
+    {
+      "id": "k6v6_056",
+      "grade": 6,
+      "unit": 6,
+      "section": "Story",
+      "sectionTitle": "Things will get better",
+      "category": "story",
+      "type": "word",
+      "de": "Installateur/-in; Klempner/-in",
+      "en": "plumber",
+      "example": "A plumber can fix your water pipes."
+    },
+    {
+      "id": "k6v6_057",
+      "grade": 6,
+      "unit": 6,
+      "section": "Story",
+      "sectionTitle": "Things will get better",
+      "category": "story",
+      "type": "word",
+      "de": "bei; neben; an",
+      "en": "by",
+      "example": "We've got a house by the sea.",
+      "notes": "= next to"
+    },
+    {
+      "id": "k6v6_058",
+      "grade": 6,
+      "unit": 6,
+      "section": "Story",
+      "sectionTitle": "Things will get better",
+      "category": "story",
+      "type": "word",
+      "de": "Kamin; Schornstein",
+      "en": "chimney",
+      "example": "Our house has got a big chimney."
+    },
+    {
+      "id": "k6v6_059",
+      "grade": 6,
+      "unit": 6,
+      "section": "Story",
+      "sectionTitle": "Things will get better",
+      "category": "story",
+      "type": "word",
+      "de": "Dach",
+      "en": "roof",
+      "example": "a roof with a chimney"
+    },
+    {
+      "id": "k6v6_060",
+      "grade": 6,
+      "unit": 6,
+      "section": "Story",
+      "sectionTitle": "Things will get better",
+      "category": "story",
+      "type": "word",
+      "de": "Zinn",
+      "en": "tin",
+      "example": "There's an old tin mine near Dave's house."
+    },
+    {
+      "id": "k6v6_061",
+      "grade": 6,
+      "unit": 6,
+      "section": "Story",
+      "sectionTitle": "Things will get better",
+      "category": "story",
+      "type": "word",
+      "de": "Geocaching",
+      "en": "geocaching",
+      "example": "Geocaching is a kind of treasure hunting."
+    },
+    {
+      "id": "k6v6_062",
+      "grade": 6,
+      "unit": 6,
+      "section": "Story",
+      "sectionTitle": "Things will get better",
+      "category": "story",
+      "type": "word",
+      "de": "aufgeregt; begeistert",
+      "en": "excitedly",
+      "example": "\"We're going to visit Dave in Cornwall,\" Holly said excitedly."
+    },
+    {
+      "id": "k6v6_063",
+      "grade": 6,
+      "unit": 6,
+      "section": "Story",
+      "sectionTitle": "Things will get better",
+      "category": "story",
+      "type": "word",
+      "de": "lösen",
+      "en": "to solve",
+      "example": "Dave and his friends want to solve the puzzle."
+    },
+    {
+      "id": "k6v6_064",
+      "grade": 6,
+      "unit": 6,
+      "section": "Story",
+      "sectionTitle": "Things will get better",
+      "category": "story",
+      "type": "word",
+      "de": "tief",
+      "en": "deep",
+      "example": "You mustn't go into deep water if you can't swim."
+    },
+    {
+      "id": "k6v6_065",
+      "grade": 6,
+      "unit": 6,
+      "section": "Story",
+      "sectionTitle": "Things will get better",
+      "category": "story",
+      "type": "word",
+      "de": "dröhnen",
+      "en": "to boom",
+      "example": "A loud voice booms."
+    },
+    {
+      "id": "k6v6_066",
+      "grade": 6,
+      "unit": 6,
+      "section": "Story",
+      "sectionTitle": "Things will get better",
+      "category": "story",
+      "type": "word",
+      "de": "Rock",
+      "en": "skirt",
+      "example": "I've bought a new pink skirt."
+    },
+    {
+      "id": "k6v6_067",
+      "grade": 6,
+      "unit": 6,
+      "section": "Story",
+      "sectionTitle": "Things will get better",
+      "category": "story",
+      "type": "pair",
+      "de": "Hose",
+      "en": "trousers (pl)",
+      "pair": {
+        "be": "trousers",
+        "ae": "pants"
+      },
+      "example": "Would you like to wear a skirt or trousers?",
+      "notes": "⚠️ immer Plural; trousers (BE) = pants (AE)"
+    },
+    {
+      "id": "k6v6_068",
+      "grade": 6,
+      "unit": 6,
+      "section": "Story",
+      "sectionTitle": "Things will get better",
+      "category": "story",
+      "type": "word",
+      "de": "Speer",
+      "en": "spear",
+      "example": "The warrior's spear is broken."
+    },
+    {
+      "id": "k6v6_069",
+      "grade": 6,
+      "unit": 6,
+      "section": "Story",
+      "sectionTitle": "Things will get better",
+      "category": "story",
+      "type": "word",
+      "de": "örtlich; lokal",
+      "en": "local",
+      "example": "The schools in your area are your local schools."
+    },
+    {
+      "id": "k6v6_070",
+      "grade": 6,
+      "unit": 6,
+      "section": "Story",
+      "sectionTitle": "Things will get better",
+      "category": "story",
+      "type": "word",
+      "de": "Verein; Gesellschaft",
+      "en": "society",
+      "example": "Bob is a member of a local history society."
+    },
+    {
+      "id": "k6v6_071",
+      "grade": 6,
+      "unit": 6,
+      "section": "Story",
+      "sectionTitle": "Things will get better",
+      "category": "story",
+      "type": "phrase",
+      "de": "Nett, dich/Sie/euch kennen zu lernen.",
+      "en": "Nice to meet you.",
+      "example": "You can say this when you meet a person for the first time."
+    },
+    {
+      "id": "k6v6_072",
+      "grade": 6,
+      "unit": 6,
+      "section": "Story",
+      "sectionTitle": "Things will get better",
+      "category": "story",
+      "type": "word",
+      "de": "Ehefrau",
+      "en": "wife, wives (pl)",
+      "example": "Mr and Mrs Preston are husband and wife."
+    },
+    {
+      "id": "k6v6_073",
+      "grade": 6,
+      "unit": 6,
+      "section": "Story",
+      "sectionTitle": "Things will get better",
+      "category": "story",
+      "type": "word",
+      "de": "Zwilling; Zwillings-",
+      "en": "twin",
+      "example": "My birthday and my brother's birthday are on the same day. We're twins."
+    },
+    {
+      "id": "k6v6_074",
+      "grade": 6,
+      "unit": 6,
+      "section": "Story",
+      "sectionTitle": "Things will get better",
+      "category": "story",
+      "type": "word",
+      "de": "Werkzeug; Gerät",
+      "en": "tool",
+      "example": "A plumber needs special tools."
+    },
+    {
+      "id": "k6v6_075",
+      "grade": 6,
+      "unit": 6,
+      "section": "Story",
+      "sectionTitle": "Things will get better",
+      "category": "story",
+      "type": "word",
+      "de": "Elektriker/-in",
+      "en": "electrician",
+      "example": "An electrician can fix the lights in our house."
+    },
+    {
+      "id": "k6v6_076",
+      "grade": 6,
+      "unit": 6,
+      "section": "Story",
+      "sectionTitle": "Things will get better",
+      "category": "story",
+      "type": "word",
+      "de": "Sanitärarbeit",
+      "en": "plumbing",
+      "example": "He's a plumber. He does the plumbing for the whole town."
+    },
+    {
+      "id": "k6v6_077",
+      "grade": 6,
+      "unit": 6,
+      "section": "Story",
+      "sectionTitle": "Things will get better",
+      "category": "story",
+      "type": "word",
+      "de": "Elektrik",
+      "en": "electrics",
+      "example": "An electrician can fix the electrics in your house."
+    },
+    {
+      "id": "k6v6_078",
+      "grade": 6,
+      "unit": 6,
+      "section": "Story",
+      "sectionTitle": "Things will get better",
+      "category": "story",
+      "type": "word",
+      "de": "sich wenden an; sich zuwenden",
+      "en": "to turn to",
+      "example": "I turned to him but he wasn't there any more."
+    },
+    {
+      "id": "k6v6_079",
+      "grade": 6,
+      "unit": 6,
+      "section": "Story",
+      "sectionTitle": "Things will get better",
+      "category": "story",
+      "type": "word",
+      "de": "kreativ",
+      "en": "creative",
+      "example": "In creative writing exercises you can use your own ideas.",
+      "notes": "→ to create"
+    },
+    {
+      "id": "k6v6_080",
+      "grade": 6,
+      "unit": 6,
+      "section": "Story",
+      "sectionTitle": "Things will get better",
+      "category": "story",
+      "type": "word",
+      "de": "Tagebucheintrag",
+      "en": "diary entry",
+      "example": "A diary entry is a personal text in which you write about what happened and what you felt."
+    },
+    {
+      "id": "k6v6_081",
+      "grade": 6,
+      "unit": 6,
+      "section": "Story",
+      "sectionTitle": "Things will get better",
+      "category": "story",
+      "type": "word",
+      "de": "Segelboot",
+      "en": "sailboat",
+      "example": "We saw lots of sailboats in the harbour."
+    },
+    {
+      "id": "k6v6_082",
+      "grade": 6,
+      "unit": 6,
+      "section": "Across cultures 3",
+      "sectionTitle": "British stories and legends",
+      "category": "across-cultures-3",
+      "type": "word",
+      "de": "Zutat",
+      "en": "ingredient",
+      "example": "Something is missing in this cake; what ingredient did I forget?"
+    },
+    {
+      "id": "k6v6_083",
+      "grade": 6,
+      "unit": 6,
+      "section": "Across cultures 3",
+      "sectionTitle": "British stories and legends",
+      "category": "across-cultures-3",
+      "type": "word",
+      "de": "völlig",
+      "en": "completely",
+      "example": "What you're saying isn't completely true!"
+    },
+    {
+      "id": "k6v6_084",
+      "grade": 6,
+      "unit": 6,
+      "section": "Across cultures 3",
+      "sectionTitle": "British stories and legends",
+      "category": "across-cultures-3",
+      "type": "word",
+      "de": "Autor/-in; Schriftsteller/-in",
+      "en": "writer",
+      "example": "William Shakespeare was a very famous writer."
+    },
+    {
+      "id": "k6v6_085",
+      "grade": 6,
+      "unit": 6,
+      "section": "Across cultures 3",
+      "sectionTitle": "British stories and legends",
+      "category": "across-cultures-3",
+      "type": "word",
+      "de": "magisch; Zauber-",
+      "en": "magical",
+      "example": "The world of Harry Potter is a magical world."
+    },
+    {
+      "id": "k6v6_086",
+      "grade": 6,
+      "unit": 6,
+      "section": "Across cultures 3",
+      "sectionTitle": "British stories and legends",
+      "category": "across-cultures-3",
+      "type": "word",
+      "de": "Zauberer",
+      "en": "wizard",
+      "example": "Harry Potter is a wizard."
+    },
+    {
+      "id": "k6v6_087",
+      "grade": 6,
+      "unit": 6,
+      "section": "Across cultures 3",
+      "sectionTitle": "British stories and legends",
+      "category": "across-cultures-3",
+      "type": "word",
+      "de": "Bösewicht",
+      "en": "villain",
+      "example": "In legends there's often a hero and a villain.",
+      "notes": "villain ↔ hero"
+    },
+    {
+      "id": "k6v6_088",
+      "grade": 6,
+      "unit": 6,
+      "section": "Across cultures 3",
+      "sectionTitle": "British stories and legends",
+      "category": "across-cultures-3",
+      "type": "word",
+      "de": "Ritter",
+      "en": "knight",
+      "example": "The knights protected the castle."
+    },
+    {
+      "id": "k6v6_089",
+      "grade": 6,
+      "unit": 6,
+      "section": "Across cultures 3",
+      "sectionTitle": "British stories and legends",
+      "category": "across-cultures-3",
+      "type": "word",
+      "de": "Kriminelle/-r; Verbrecher/-in",
+      "en": "criminal",
+      "example": "The police are looking for criminals.",
+      "notes": "= villain"
+    },
+    {
+      "id": "k6v6_090",
+      "grade": 6,
+      "unit": 6,
+      "section": "Across cultures 3",
+      "sectionTitle": "British stories and legends",
+      "category": "across-cultures-3",
+      "type": "word",
+      "de": "Kraft; Macht; Stärke",
+      "en": "power",
+      "example": "Heroes often have special powers.",
+      "notes": "→ powerful"
+    },
+    {
+      "id": "k6v6_091",
+      "grade": 6,
+      "unit": 6,
+      "section": "Across cultures 3",
+      "sectionTitle": "British stories and legends",
+      "category": "across-cultures-3",
+      "type": "word",
+      "de": "Privatdetektiv/-in",
+      "en": "private detective",
+      "example": "Sherlock Holmes, the famous private detective."
+    },
+    {
+      "id": "k6v6_092",
+      "grade": 6,
+      "unit": 6,
+      "section": "Across cultures 3",
+      "sectionTitle": "British stories and legends",
+      "category": "across-cultures-3",
+      "type": "word",
+      "de": "mysteriös; geheimnisvoll",
+      "en": "mysterious",
+      "example": "The story of the ghost in the castle is mysterious."
+    },
+    {
+      "id": "k6v6_093",
+      "grade": 6,
+      "unit": 6,
+      "section": "Across cultures 3",
+      "sectionTitle": "British stories and legends",
+      "category": "across-cultures-3",
+      "type": "word",
+      "de": "Verbrechen; Kriminalität",
+      "en": "crime",
+      "example": "It's a crime to steal something.",
+      "notes": "→ a criminal"
+    },
+    {
+      "id": "k6v6_094",
+      "grade": 6,
+      "unit": 6,
+      "section": "Across cultures 3",
+      "sectionTitle": "British stories and legends",
+      "category": "across-cultures-3",
+      "type": "word",
+      "de": "Räuber/-in",
+      "en": "robber",
+      "example": "A robber is a criminal."
+    },
+    {
+      "id": "k6v6_095",
+      "grade": 6,
+      "unit": 6,
+      "section": "Across cultures 3",
+      "sectionTitle": "British stories and legends",
+      "category": "across-cultures-3",
+      "type": "word",
+      "de": "Geächtete/-r; Gesetzlose/-r",
+      "en": "outlaw",
+      "example": "Robin Hood was a famous outlaw."
+    },
+    {
+      "id": "k6v6_096",
+      "grade": 6,
+      "unit": 6,
+      "section": "Across cultures 3",
+      "sectionTitle": "British stories and legends",
+      "category": "across-cultures-3",
+      "type": "word",
+      "de": "(sich) verstecken",
+      "en": "to hide",
+      "irregular": true,
+      "example": "My sister sometimes hides my things."
+    },
+    {
+      "id": "k6v6_097",
+      "grade": 6,
+      "unit": 6,
+      "section": "Across cultures 3",
+      "sectionTitle": "British stories and legends",
+      "category": "across-cultures-3",
+      "type": "word",
+      "de": "die Tafelrunde",
+      "en": "the Round Table",
+      "example": "King Arthur and his knights met at the Round Table."
+    },
+    {
+      "id": "k6v6_098",
+      "grade": 6,
+      "unit": 6,
+      "section": "Across cultures 3",
+      "sectionTitle": "British stories and legends",
+      "category": "across-cultures-3",
+      "type": "word",
+      "de": "die Reichen",
+      "en": "the rich",
+      "example": "Robin Hood stole money from the rich."
+    },
+    {
+      "id": "k6v6_099",
+      "grade": 6,
+      "unit": 6,
+      "section": "Across cultures 3",
+      "sectionTitle": "British stories and legends",
+      "category": "across-cultures-3",
+      "type": "word",
+      "de": "die Armen",
+      "en": "the poor",
+      "example": "Robin Hood wanted to help the poor."
+    },
+    {
+      "id": "k6v6_100",
+      "grade": 6,
+      "unit": 6,
+      "section": "Across cultures 3",
+      "sectionTitle": "British stories and legends",
+      "category": "across-cultures-3",
+      "type": "word",
+      "de": "Requisite",
+      "en": "prop",
+      "example": "You need lots of props for a film."
+    },
+    {
+      "id": "k6v6_101",
+      "grade": 6,
+      "unit": 6,
+      "section": "Across cultures 3",
+      "sectionTitle": "British stories and legends",
+      "category": "across-cultures-3",
+      "type": "word",
+      "de": "Krimi; Kriminalgeschichte",
+      "en": "crime story",
+      "example": "I love reading crime stories about private detectives."
+    },
+    {
+      "id": "k6v6_102",
+      "grade": 6,
+      "unit": 6,
+      "section": "Across cultures 3",
+      "sectionTitle": "British stories and legends",
+      "category": "across-cultures-3",
+      "type": "word",
+      "de": "Umgebung; Rahmen",
+      "en": "set",
+      "example": "A film's set shows where the people live, work, etc."
+    }
+  ],
+  "grammarTopics": [
+    {
+      "id": "k6g_G15",
+      "grade": 6,
+      "unit": 6,
+      "code": "G15",
+      "title": "will future (Futur mit will)",
+      "bookPages": "S. 100–102",
+      "explanation": "Das will future benutzt du für spontane Entscheidungen und Versprechen (I'll text you.), für Vorhersagen, die man nicht beeinflussen kann, und für Vermutungen und Hoffnungen, oft nach I think, I hope, I'm sure. Bildung: will + Grundform, für alle Personen gleich; Kurzform 'll, verneint won't. Modalverben in der Zukunft: will be able to, will be allowed to, will have to. Achtung: „Ich will\" = I want; I will = ich werde.",
+      "examples": [
+        "I'll miss you so much!",
+        "I'm sure your mum will be happy there.",
+        "Aunt Frances won't come to Cornwall with them.",
+        "Will your dad find work there? – Yes, he will.",
+        "Holly will have to ask her mum for money."
+      ],
+      "commonMistakes": [
+        "„I will\" für „ich will\" (richtig: I want)",
+        "„willn't\" statt „won't\"",
+        "„will can\" statt „will be able to\"",
+        "to nach will: „It will to rain.\""
+      ]
+    },
+    {
+      "id": "k6g_G16",
+      "grade": 6,
+      "unit": 6,
+      "code": "G16",
+      "title": "going-to future vs. will future vs. timetable future",
+      "bookPages": "S. 102",
+      "explanation": "going-to future: geplantes Vorhaben oder etwas, das sich schon deutlich andeutet (dunkle Wolken). will future: spontaner Entschluss, Versprechen, Vermutung oder Vorhersage, die man nicht beeinflussen kann. simple present (timetable future): fester Zeitplan wie Fahrplan oder Stundenplan.",
+      "examples": [
+        "I'm going to buy a present for Dave.",
+        "I'm sure you'll find something at the charity shop.",
+        "Let's go, the bus leaves in five minutes.",
+        "Look at the sky! It's going to rain."
+      ],
+      "commonMistakes": [
+        "will für einen schon lange gefassten Plan",
+        "going to für eine spontane Entscheidung („Wait, I'm going to help you!\")",
+        "will für Fahrpläne statt simple present"
+      ]
+    },
+    {
+      "id": "k6g_G17",
+      "grade": 6,
+      "unit": 6,
+      "code": "G17",
+      "title": "Conditional sentences type 1 (Bedingungssätze Typ 1)",
+      "bookPages": "S. 104–105",
+      "explanation": "Typ 1 beschreibt, was unter einer erfüllbaren Bedingung passieren wird. if-Satz: simple present (nie will!). Hauptsatz: will future – oder ein Modalverb (can, should) + Grundform oder ein Imperativ. Steht der if-Satz zuerst, folgt ein Komma; steht der Hauptsatz zuerst, kein Komma. Deutsches „wenn\": if = falls (Bedingung), when = sobald/wenn sicher (Zeitpunkt).",
+      "examples": [
+        "If you look at a map, you'll see that Cornwall is on the Atlantic coast.",
+        "If the friends visit Dave in Cornwall, they won't get bored.",
+        "If you aren't into sports, you can go to a museum.",
+        "If you go to Cornwall, try real Cornish food.",
+        "We'll see Dave when he visits his granny in London."
+      ],
+      "commonMistakes": [
+        "will im if-Satz: „If it will rain, …\"",
+        "if und when verwechseln",
+        "Hauptsatz ohne will: „If you go to Cornwall, you like it.\""
+      ]
+    },
+    {
+      "id": "k6g_G18",
+      "grade": 6,
+      "unit": 6,
+      "code": "G18",
+      "title": "can/could, may, might",
+      "bookPages": "S. 106",
+      "explanation": "can/could: Erlaubnis, Fähigkeit, Möglichkeit, Vorschlag; could ist bei Bitten höflicher und bei Möglichkeiten etwas unsicherer als can. may: um Erlaubnis fragen/Erlaubnis geben (May I …? – Yes, you may. / No, you may not.) und Möglichkeit (vielleicht). might: Möglichkeit, aber noch etwas unwahrscheinlicher als may. Danach immer die Grundform.",
+      "examples": [
+        "Could I ask a question? – Yes, of course.",
+        "She can speak three languages.",
+        "May I borrow your pen? – Yes, you may. / No, you may not.",
+        "This story may or may not be true.",
+        "It might not rain the whole day."
+      ],
+      "commonMistakes": [
+        "„mayn't\" statt „may not\"",
+        "to nach dem Modalverb: „It might to rain.\"",
+        "must für eine bloße Möglichkeit"
+      ]
+    }
+  ],
+  "grammarQuestions": [
+    {
+      "id": "k6q_G15_001",
+      "topicId": "k6g_G15",
+      "type": "multipleChoice",
+      "prompt": "I'm sure your mum ___ happy there.",
+      "options": [
+        "will be",
+        "is going be",
+        "will is"
+      ],
+      "answer": "will be",
+      "explanation": "Vermutung nach I'm sure → will + Grundform: will be.",
+      "optionHints": {
+        "is going be": "Hier fehlt to – und nach I'm sure passt das will future.",
+        "will is": "Nach will steht die Grundform: will be."
+      }
+    },
+    {
+      "id": "k6q_G15_002",
+      "topicId": "k6g_G15",
+      "type": "multipleChoice",
+      "prompt": "Aunt Frances ___ come to Cornwall with them.",
+      "options": [
+        "won't",
+        "willn't",
+        "doesn't will"
+      ],
+      "answer": "won't",
+      "explanation": "will not → Kurzform won't.",
+      "optionHints": {
+        "willn't": "Die Kurzform von will not heißt won't.",
+        "doesn't will": "will verneinst du ohne do: won't."
+      }
+    },
+    {
+      "id": "k6q_G15_003",
+      "topicId": "k6g_G15",
+      "type": "multipleChoice",
+      "prompt": "This bag is heavy! – Wait, ___ you.",
+      "options": [
+        "I'll help",
+        "I help",
+        "I'm help"
+      ],
+      "answer": "I'll help",
+      "explanation": "Spontane Entscheidung → will: I'll help you.",
+      "optionHints": {
+        "I help": "Für eine spontane Entscheidung brauchst du will: I'll help.",
+        "I'm help": "I'm + Grundform geht nicht. Spontan: I'll help."
+      }
+    },
+    {
+      "id": "k6q_G15_004",
+      "topicId": "k6g_G15",
+      "type": "multipleChoice",
+      "prompt": "Ich will ein neues Fahrrad. =",
+      "options": [
+        "I want a new bike.",
+        "I will a new bike.",
+        "I will have a new bike."
+      ],
+      "answer": "I want a new bike.",
+      "explanation": "„Ich will\" = I want. I will heißt „ich werde\".",
+      "optionHints": {
+        "I will a new bike.": "Achtung Falle: „ich will\" = I want, nicht I will.",
+        "I will have a new bike.": "Das hieße „Ich werde ein neues Fahrrad haben\". „Ich will\" = I want."
+      }
+    },
+    {
+      "id": "k6q_G15_005",
+      "topicId": "k6g_G15",
+      "type": "multipleChoice",
+      "prompt": "Will your dad find work there? – Yes, he ___.",
+      "options": [
+        "will",
+        "does",
+        "is"
+      ],
+      "answer": "will",
+      "explanation": "Frage mit Will → Kurzantwort: Yes, he will.",
+      "optionHints": {
+        "does": "Die Frage beginnt mit Will → Yes, he will.",
+        "is": "Die Frage beginnt mit Will → Yes, he will."
+      }
+    },
+    {
+      "id": "k6q_G15_006",
+      "topicId": "k6g_G15",
+      "type": "multipleChoice",
+      "prompt": "The friends ___ go to Cornwall without an adult. (werden nicht dürfen)",
+      "options": [
+        "won't be allowed to",
+        "won't can",
+        "will not allowed"
+      ],
+      "answer": "won't be allowed to",
+      "explanation": "Modalverb in der Zukunft → Ersatzform: won't be allowed to.",
+      "optionHints": {
+        "won't can": "will und can gehen nicht zusammen. Ersatzform: won't be allowed to.",
+        "will not allowed": "Es fehlt be … to: won't be allowed to."
+      }
+    },
+    {
+      "id": "k6q_G15_007",
+      "topicId": "k6g_G15",
+      "type": "multipleChoice",
+      "prompt": "Dave hopes his friends ___ find enough money. (werden in der Lage sein)",
+      "options": [
+        "will be able to",
+        "will can",
+        "are going can"
+      ],
+      "answer": "will be able to",
+      "explanation": "can in der Zukunft → will be able to.",
+      "optionHints": {
+        "will can": "will + can geht nicht. Ersatzform: will be able to.",
+        "are going can": "can hat keine going-to-Form. Ersatzform: will be able to."
+      }
+    },
+    {
+      "id": "k6q_G15_008",
+      "topicId": "k6g_G15",
+      "type": "fillBlank",
+      "prompt": "I hope Dave ___ (love) his new school.",
+      "answer": "will love",
+      "acceptedAnswers": [
+        "will love",
+        "'ll love"
+      ],
+      "explanation": "Hoffnung nach I hope → will + Grundform."
+    },
+    {
+      "id": "k6q_G15_009",
+      "topicId": "k6g_G15",
+      "type": "fillBlank",
+      "prompt": "I'm sure the Prestons ___ (visit) Granny Rose soon.",
+      "answer": "will visit",
+      "acceptedAnswers": [
+        "will visit",
+        "'ll visit"
+      ],
+      "explanation": "Vermutung nach I'm sure → will visit."
+    },
+    {
+      "id": "k6q_G15_010",
+      "topicId": "k6g_G15",
+      "type": "fillBlank",
+      "prompt": "What do you think Dave's new school ___ (be) like?",
+      "answer": "will be",
+      "explanation": "Vermutung → will be."
+    },
+    {
+      "id": "k6q_G15_011",
+      "topicId": "k6g_G15",
+      "type": "fillBlank",
+      "prompt": "Holly ___ (have to) ask her mum for money.",
+      "answer": "will have to",
+      "acceptedAnswers": [
+        "will have to",
+        "'ll have to"
+      ],
+      "explanation": "must in der Zukunft → will have to."
+    },
+    {
+      "id": "k6q_G15_012",
+      "topicId": "k6g_G15",
+      "type": "fillBlank",
+      "prompt": "The trip to St Agnes ___ (take) about seven hours.",
+      "answer": "will take",
+      "acceptedAnswers": [
+        "will take",
+        "'ll take"
+      ],
+      "explanation": "Vorhersage → will take."
+    },
+    {
+      "id": "k6q_G15_013",
+      "topicId": "k6g_G15",
+      "type": "fillBlank",
+      "prompt": "I ___ (not forget) your birthday – I promise!",
+      "answer": "won't forget",
+      "acceptedAnswers": [
+        "won't forget",
+        "will not forget"
+      ],
+      "explanation": "Versprechen → will future, verneint: won't forget."
+    },
+    {
+      "id": "k6q_G16_001",
+      "topicId": "k6g_G16",
+      "type": "multipleChoice",
+      "prompt": "Look at the sky! It ___ very soon.",
+      "options": [
+        "is going to rain",
+        "rains",
+        "will raining"
+      ],
+      "answer": "is going to rain",
+      "explanation": "Deutliches Anzeichen (der Himmel) → going-to future.",
+      "optionHints": {
+        "rains": "Das simple present nimmst du nur für Fahrpläne. Anzeichen → going to.",
+        "will raining": "will + -ing geht nicht. Bei Anzeichen: going to."
+      }
+    },
+    {
+      "id": "k6q_G16_002",
+      "topicId": "k6g_G16",
+      "type": "multipleChoice",
+      "prompt": "Our train ___ at 6 o'clock tomorrow morning. Don't be late!",
+      "options": [
+        "leaves",
+        "will leaving",
+        "is going leave"
+      ],
+      "answer": "leaves",
+      "explanation": "Fahrplan → simple present (timetable future).",
+      "optionHints": {
+        "will leaving": "will + -ing geht nicht. Fahrplan: simple present.",
+        "is going leave": "Hier fehlt to – und für Fahrpläne nimmst du das simple present."
+      }
+    },
+    {
+      "id": "k6q_G16_003",
+      "topicId": "k6g_G16",
+      "type": "multipleChoice",
+      "prompt": "The phone is ringing. – OK, ___ answer it!",
+      "options": [
+        "I'll",
+        "I'm going to",
+        "I"
+      ],
+      "answer": "I'll",
+      "explanation": "Spontane Entscheidung → will: I'll answer it.",
+      "optionHints": {
+        "I'm going to": "going to passt für Pläne. Hier entscheidest du spontan → I'll.",
+        "I": "Ohne will fehlt die Zukunft. Spontan: I'll answer it."
+      }
+    },
+    {
+      "id": "k6q_G16_004",
+      "topicId": "k6g_G16",
+      "type": "multipleChoice",
+      "prompt": "I've heard the weather forecast. It ___ this afternoon.",
+      "options": [
+        "won't rain",
+        "doesn't rain",
+        "isn't rain"
+      ],
+      "answer": "won't rain",
+      "explanation": "Wettervorhersage (nicht beeinflussbar) → will future: won't rain.",
+      "optionHints": {
+        "doesn't rain": "Das simple present für die Zukunft geht nur bei Fahrplänen.",
+        "isn't rain": "is + Grundform geht nicht. Vorhersage: won't rain."
+      }
+    },
+    {
+      "id": "k6q_G16_005",
+      "topicId": "k6g_G16",
+      "type": "multipleChoice",
+      "prompt": "„Unser Zug fährt um 15:37 Uhr ab.\" =",
+      "options": [
+        "Our train leaves at 3.37 p.m.",
+        "Our train is leave at 3.37 p.m.",
+        "Our train leaving at 3.37 p.m."
+      ],
+      "answer": "Our train leaves at 3.37 p.m.",
+      "explanation": "Fahrplan → simple present: leaves.",
+      "optionHints": {
+        "Our train is leave at 3.37 p.m.": "is + Grundform geht nicht. Fahrplan: leaves.",
+        "Our train leaving at 3.37 p.m.": "Ohne Hilfsverb geht -ing nicht. Fahrplan: leaves."
+      }
+    },
+    {
+      "id": "k6q_G16_006",
+      "topicId": "k6g_G16",
+      "type": "multipleChoice",
+      "prompt": "I ___ buy a present for Dave. I've already saved some money for it.",
+      "options": [
+        "am going to",
+        "will",
+        "buy"
+      ],
+      "answer": "am going to",
+      "explanation": "Geplantes Vorhaben → going-to future.",
+      "optionHints": {
+        "will": "Es ist schon länger geplant (Geld gespart) → going to.",
+        "buy": "Für einen Plan in der Zukunft brauchst du going to."
+      }
+    },
+    {
+      "id": "k6q_G16_007",
+      "topicId": "k6g_G16",
+      "type": "multipleChoice",
+      "prompt": "Remember to do your homework! – Sure. I ___ it.",
+      "options": [
+        "won't forget",
+        "don't forget",
+        "am not forget"
+      ],
+      "answer": "won't forget",
+      "explanation": "Versprechen → will future: I won't forget it.",
+      "optionHints": {
+        "don't forget": "Für ein Versprechen in der Zukunft: won't forget.",
+        "am not forget": "am + Grundform geht nicht. Versprechen: won't forget."
+      }
+    },
+    {
+      "id": "k6q_G16_008",
+      "topicId": "k6g_G16",
+      "type": "fillBlank",
+      "prompt": "Careful! The books ___ (fall down)! (man sieht es schon)",
+      "answer": "are going to fall down",
+      "acceptedAnswers": [
+        "are going to fall down",
+        "'re going to fall down",
+        "are going to fall"
+      ],
+      "explanation": "Deutliches Anzeichen → going-to future."
+    },
+    {
+      "id": "k6q_G16_009",
+      "topicId": "k6g_G16",
+      "type": "fillBlank",
+      "prompt": "The bus ___ (leave) in five minutes. Let's go!",
+      "answer": "leaves",
+      "explanation": "Fahrplan → simple present: leaves."
+    },
+    {
+      "id": "k6q_G16_010",
+      "topicId": "k6g_G16",
+      "type": "fillBlank",
+      "prompt": "I'm sure you ___ (find) something at the charity shop.",
+      "answer": "will find",
+      "acceptedAnswers": [
+        "will find",
+        "'ll find"
+      ],
+      "explanation": "Vermutung nach I'm sure → will find."
+    },
+    {
+      "id": "k6q_G16_011",
+      "topicId": "k6g_G16",
+      "type": "fillBlank",
+      "prompt": "I ___ (take part) in a talent show next month. I've already practised my song.",
+      "answer": "am going to take part",
+      "acceptedAnswers": [
+        "am going to take part",
+        "'m going to take part"
+      ],
+      "explanation": "Geplantes Vorhaben → going-to future."
+    },
+    {
+      "id": "k6q_G16_012",
+      "topicId": "k6g_G16",
+      "type": "fillBlank",
+      "prompt": "I hope the judges ___ (like) you!",
+      "answer": "will like",
+      "acceptedAnswers": [
+        "will like",
+        "'ll like"
+      ],
+      "explanation": "Hoffnung nach I hope → will like."
+    },
+    {
+      "id": "k6q_G16_013",
+      "topicId": "k6g_G16",
+      "type": "fillBlank",
+      "prompt": "You need to go shopping? Wait, I ___ (come) with you!",
+      "answer": "will come",
+      "acceptedAnswers": [
+        "will come",
+        "'ll come"
+      ],
+      "explanation": "Spontaner Entschluss → will come."
+    },
+    {
+      "id": "k6q_G17_001",
+      "topicId": "k6g_G17",
+      "type": "multipleChoice",
+      "prompt": "If you look at a map, you ___ that Cornwall is on the Atlantic coast.",
+      "options": [
+        "will see",
+        "see",
+        "would see"
+      ],
+      "answer": "will see",
+      "explanation": "Typ 1: Hauptsatz im will future.",
+      "optionHints": {
+        "see": "Es geht um die Zukunft unter einer Bedingung → will see.",
+        "would see": "would gehört zu einem anderen Bedingungssatztyp. Typ 1: will."
+      }
+    },
+    {
+      "id": "k6q_G17_002",
+      "topicId": "k6g_G17",
+      "type": "multipleChoice",
+      "prompt": "If the friends ___ Dave in Cornwall, they won't get bored.",
+      "options": [
+        "visit",
+        "will visit",
+        "visited"
+      ],
+      "answer": "visit",
+      "explanation": "Im if-Satz steht das simple present – nie will.",
+      "optionHints": {
+        "will visit": "Im if-Satz steht nie will! Richtig: If the friends visit …",
+        "visited": "Typ 1: simple present im if-Satz."
+      }
+    },
+    {
+      "id": "k6q_G17_003",
+      "topicId": "k6g_G17",
+      "type": "multipleChoice",
+      "prompt": "If you aren't into sports, you ___ go to a museum.",
+      "options": [
+        "can",
+        "will can",
+        "are"
+      ],
+      "answer": "can",
+      "explanation": "Im Hauptsatz kann auch ein Modalverb + Grundform stehen: you can go.",
+      "optionHints": {
+        "will can": "will und can gehen nicht zusammen. Möglichkeit: can.",
+        "are": "are go geht nicht. Möglichkeit: can go."
+      }
+    },
+    {
+      "id": "k6q_G17_004",
+      "topicId": "k6g_G17",
+      "type": "multipleChoice",
+      "prompt": "If you go to Cornwall, ___ real Cornish food!",
+      "options": [
+        "try",
+        "you try",
+        "tried"
+      ],
+      "answer": "try",
+      "explanation": "Im Hauptsatz kann auch ein Imperativ stehen: try …!",
+      "optionHints": {
+        "you try": "Für einen Rat/eine Aufforderung nimmst du den Imperativ ohne you: try!",
+        "tried": "Es geht um die Zukunft – Aufforderung: try!"
+      }
+    },
+    {
+      "id": "k6q_G17_005",
+      "topicId": "k6g_G17",
+      "type": "multipleChoice",
+      "prompt": "We'll see Dave ___ he visits his granny in London. (Er kommt sicher.)",
+      "options": [
+        "when",
+        "if",
+        "so that"
+      ],
+      "answer": "when",
+      "explanation": "Es passiert sicher, die Frage ist nur wann → when.",
+      "optionHints": {
+        "if": "if = falls (vielleicht). Hier ist der Besuch sicher → when.",
+        "so that": "so that = damit – passt hier nicht."
+      }
+    },
+    {
+      "id": "k6q_G17_006",
+      "topicId": "k6g_G17",
+      "type": "multipleChoice",
+      "prompt": "___ we go on a beach holiday, I'll try surfing. (Vielleicht fahren wir.)",
+      "options": [
+        "If",
+        "When",
+        "While"
+      ],
+      "answer": "If",
+      "explanation": "Bedingung (vielleicht) → if.",
+      "optionHints": {
+        "When": "when = sicher, nur wann? Hier ist es unsicher → if.",
+        "While": "while = während – passt hier nicht."
+      }
+    },
+    {
+      "id": "k6q_G17_007",
+      "topicId": "k6g_G17",
+      "type": "multipleChoice",
+      "prompt": "Welcher Satz ist richtig?",
+      "options": [
+        "If it rains tomorrow, we'll stay at home.",
+        "If it will rain tomorrow, we'll stay at home.",
+        "If it rained tomorrow, we'll stay at home."
+      ],
+      "answer": "If it rains tomorrow, we'll stay at home.",
+      "explanation": "if-Satz: simple present; Hauptsatz: will future.",
+      "optionHints": {
+        "If it will rain tomorrow, we'll stay at home.": "Im if-Satz steht nie will.",
+        "If it rained tomorrow, we'll stay at home.": "Typ 1: simple present im if-Satz (rains)."
+      }
+    },
+    {
+      "id": "k6q_G17_008",
+      "topicId": "k6g_G17",
+      "type": "multipleChoice",
+      "prompt": "If you want to learn about the environment, you ___ visit the Eden Project. (Rat)",
+      "options": [
+        "should",
+        "will can",
+        "must to"
+      ],
+      "answer": "should",
+      "explanation": "Ratschlag im Hauptsatz → should + Grundform.",
+      "optionHints": {
+        "will can": "will und can gehen nicht zusammen. Rat: should.",
+        "must to": "Nach Modalverben kein to – und für einen Rat: should."
+      }
+    },
+    {
+      "id": "k6q_G17_009",
+      "topicId": "k6g_G17",
+      "type": "fillBlank",
+      "prompt": "If you ___ (like) beaches, you'll love Cornwall.",
+      "answer": "like",
+      "explanation": "if-Satz → simple present: like."
+    },
+    {
+      "id": "k6q_G17_010",
+      "topicId": "k6g_G17",
+      "type": "fillBlank",
+      "prompt": "If my team wins the game tonight, I ___ (be) very happy.",
+      "answer": "will be",
+      "acceptedAnswers": [
+        "will be",
+        "'ll be"
+      ],
+      "explanation": "Hauptsatz → will future: will be."
+    },
+    {
+      "id": "k6q_G17_011",
+      "topicId": "k6g_G17",
+      "type": "fillBlank",
+      "prompt": "If I ___ (not feel) well tomorrow, I'll stay in bed.",
+      "answer": "don't feel",
+      "acceptedAnswers": [
+        "don't feel",
+        "do not feel"
+      ],
+      "explanation": "if-Satz → simple present, verneint: don't feel."
+    },
+    {
+      "id": "k6q_G17_012",
+      "topicId": "k6g_G17",
+      "type": "fillBlank",
+      "prompt": "If it's sunny this afternoon, we ___ (go) to the beach.",
+      "answer": "will go",
+      "acceptedAnswers": [
+        "will go",
+        "'ll go"
+      ],
+      "explanation": "Hauptsatz → will future: will go."
+    },
+    {
+      "id": "k6q_G17_013",
+      "topicId": "k6g_G17",
+      "type": "fillBlank",
+      "prompt": "You'll understand ___ you're older. (Das kommt sicher.)",
+      "answer": "when",
+      "explanation": "Es passiert sicher, nur wann → when."
+    },
+    {
+      "id": "k6q_G17_014",
+      "topicId": "k6g_G17",
+      "type": "fillBlank",
+      "prompt": "___ I say yes, will it cost a lot? (vielleicht)",
+      "answer": "If",
+      "explanation": "Bedingung (vielleicht) → If."
+    },
+    {
+      "id": "k6q_G18_001",
+      "topicId": "k6g_G18",
+      "type": "multipleChoice",
+      "prompt": "___ I ask a question, please? (höflich)",
+      "options": [
+        "Could",
+        "Might",
+        "Must"
+      ],
+      "answer": "Could",
+      "explanation": "Höfliche Bitte um Erlaubnis → Could I …?",
+      "optionHints": {
+        "Might": "might drückt eine Möglichkeit aus, keine Bitte. Höflich fragen: Could I …?",
+        "Must": "must = müssen – passt nicht zu einer Bitte."
+      }
+    },
+    {
+      "id": "k6q_G18_002",
+      "topicId": "k6g_G18",
+      "type": "multipleChoice",
+      "prompt": "May I borrow your pen? – No, you ___.",
+      "options": [
+        "may not",
+        "mayn't",
+        "don't may"
+      ],
+      "answer": "may not",
+      "explanation": "Kurzantwort: No, you may not.",
+      "optionHints": {
+        "mayn't": "Die Kurzform mayn't benutzt man nicht – sag may not.",
+        "don't may": "Modalverben verneinst du ohne do: may not."
+      }
+    },
+    {
+      "id": "k6q_G18_003",
+      "topicId": "k6g_G18",
+      "type": "multipleChoice",
+      "prompt": "She ___ speak three languages. (Fähigkeit)",
+      "options": [
+        "can",
+        "may",
+        "might"
+      ],
+      "answer": "can",
+      "explanation": "Fähigkeit → can.",
+      "optionHints": {
+        "may": "may drückt Erlaubnis oder Möglichkeit aus, keine Fähigkeit.",
+        "might": "might = vielleicht (Möglichkeit). Fähigkeit: can."
+      }
+    },
+    {
+      "id": "k6q_G18_004",
+      "topicId": "k6g_G18",
+      "type": "multipleChoice",
+      "prompt": "This story ___ or may not be true.",
+      "options": [
+        "may",
+        "can",
+        "must"
+      ],
+      "answer": "may",
+      "explanation": "Möglichkeit: may or may not = kann sein oder auch nicht.",
+      "optionHints": {
+        "can": "Die feste Wendung heißt may or may not.",
+        "must": "must = muss – passt nicht zu einer Möglichkeit."
+      }
+    },
+    {
+      "id": "k6q_G18_005",
+      "topicId": "k6g_G18",
+      "type": "multipleChoice",
+      "prompt": "Take your rain jacket. It ___ rain later.",
+      "options": [
+        "might",
+        "can't",
+        "mustn't"
+      ],
+      "answer": "might",
+      "explanation": "Möglichkeit → might (oder may).",
+      "optionHints": {
+        "can't": "can't heißt „kann nicht\" – dann bräuchtest du keine Jacke.",
+        "mustn't": "mustn't = darf nicht – passt nicht zum Wetter."
+      }
+    },
+    {
+      "id": "k6q_G18_006",
+      "topicId": "k6g_G18",
+      "type": "multipleChoice",
+      "prompt": "Where's my English book? – ___ it be in your locker?",
+      "options": [
+        "Could",
+        "Must",
+        "Should"
+      ],
+      "answer": "Could",
+      "explanation": "Vermutete Möglichkeit als Frage → Could it be …?",
+      "optionHints": {
+        "Must": "must passt nicht zu einer unsicheren Vermutung.",
+        "Should": "should = sollte (Rat). Möglichkeit: could."
+      }
+    },
+    {
+      "id": "k6q_G18_007",
+      "topicId": "k6g_G18",
+      "type": "multipleChoice",
+      "prompt": "Welches Wort drückt die geringste Wahrscheinlichkeit aus?",
+      "options": [
+        "might",
+        "may",
+        "will"
+      ],
+      "answer": "might",
+      "explanation": "might ist noch etwas unwahrscheinlicher als may; will ist sicher.",
+      "optionHints": {
+        "may": "may ist etwas wahrscheinlicher als might.",
+        "will": "will drückt aus, dass etwas (ziemlich) sicher passiert."
+      }
+    },
+    {
+      "id": "k6q_G18_008",
+      "topicId": "k6g_G18",
+      "type": "fillBlank",
+      "prompt": "You never know, it ___ be sunny in Cornwall.",
+      "answer": "might",
+      "acceptedAnswers": [
+        "might",
+        "may",
+        "could"
+      ],
+      "explanation": "Möglichkeit → might (oder may/could)."
+    },
+    {
+      "id": "k6q_G18_009",
+      "topicId": "k6g_G18",
+      "type": "fillBlank",
+      "prompt": "I ___ make you a sandwich if you want one. (Angebot)",
+      "answer": "could",
+      "acceptedAnswers": [
+        "could",
+        "can",
+        "will",
+        "'ll"
+      ],
+      "explanation": "Angebot/Vorschlag → could (oder can/will)."
+    },
+    {
+      "id": "k6q_G18_010",
+      "topicId": "k6g_G18",
+      "type": "fillBlank",
+      "prompt": "Oh, Sherlock … he ___ be in the garden. (Vermutung)",
+      "answer": "may",
+      "acceptedAnswers": [
+        "may",
+        "might",
+        "could"
+      ],
+      "explanation": "Möglichkeit → may (oder might/could)."
+    },
+    {
+      "id": "k6q_G18_011",
+      "topicId": "k6g_G18",
+      "type": "fillBlank",
+      "prompt": "___ I go to Gwen's sleepover, Mum? (um Erlaubnis fragen)",
+      "answer": "Can",
+      "acceptedAnswers": [
+        "can",
+        "could",
+        "may"
+      ],
+      "explanation": "Um Erlaubnis fragen → Can/Could/May I …?"
+    },
+    {
+      "id": "k6q_G18_012",
+      "topicId": "k6g_G18",
+      "type": "fillBlank",
+      "prompt": "We ___ go outside and play with the dog. (Vorschlag)",
+      "answer": "could",
+      "acceptedAnswers": [
+        "could",
+        "can"
+      ],
+      "explanation": "Vorschlag → could (oder can)."
+    },
+    {
+      "id": "k6q_G18_013",
+      "topicId": "k6g_G18",
+      "type": "fillBlank",
+      "prompt": "The book may not be too boring – it ___ even be fun!",
+      "answer": "might",
+      "acceptedAnswers": [
+        "might",
+        "may",
+        "could"
+      ],
+      "explanation": "Möglichkeit → might (oder may/could)."
+    }
+  ],
+  "conversationScenarios": [
+    {
+      "id": "k6c_goodbye_dave",
+      "unit": 6,
+      "title": "Abschied von Dave",
+      "level": 2,
+      "goal": "will future, Versprechen, Vermutungen (G15–G16)",
+      "grammarCodes": [
+        "G15",
+        "G16"
+      ],
+      "situation": "Dave muss nach Cornwall ziehen und ist traurig. Du tröstest ihn und planst einen Besuch.",
+      "openingLine": "I can't believe we're moving to the middle of nowhere. I'll miss you all so much!",
+      "phrases": [
+        "Don't worry, you'll make new friends.",
+        "I'll text you every day.",
+        "We'll visit you!",
+        "I'm sure it will be great."
+      ],
+      "grade": 6,
+      "startNode": "n1",
+      "nodes": {
+        "n1": {
+          "npcLine": "I can't believe we're moving to the middle of nowhere. I'll miss you all so much!",
+          "choices": [
+            {
+              "text": "I'll miss you too, Dave. But don't worry, you'll make new friends.",
+              "quality": "good",
+              "feedback": "Lieb getröstet – mit will future!",
+              "next": "n2"
+            },
+            {
+              "text": "Oh no! That's sad.",
+              "quality": "ok",
+              "feedback": "Mitfühlend! Tröste ihn noch: Don't worry, you'll make new friends.",
+              "next": "n2"
+            },
+            {
+              "text": "Don't worry, you make new friends.",
+              "quality": "wrong",
+              "feedback": "Vermutung über die Zukunft → will: you'll make new friends.",
+              "next": "n2"
+            }
+          ]
+        },
+        "n2": {
+          "npcLine": "But what if nobody at my new school likes me?",
+          "choices": [
+            {
+              "text": "I'm sure they will like you. You're funny and nice!",
+              "quality": "good",
+              "feedback": "Super – Vermutung nach I'm sure mit will.",
+              "next": "n3"
+            },
+            {
+              "text": "They like you.",
+              "quality": "ok",
+              "feedback": "Lieb! Für eine Vermutung: I'm sure they'll like you.",
+              "next": "n3"
+            },
+            {
+              "text": "I'm sure they are going to liking you.",
+              "quality": "wrong",
+              "feedback": "Nach I'm sure: will + Grundform → they'll like you.",
+              "next": "n3"
+            }
+          ]
+        },
+        "n3": {
+          "npcLine": "Thanks. Will you text me?",
+          "choices": [
+            {
+              "text": "Yes, I will. I'll text you every day!",
+              "quality": "good",
+              "feedback": "Kurzantwort und ein Versprechen mit will.",
+              "next": "n4"
+            },
+            {
+              "text": "Yes, of course.",
+              "quality": "ok",
+              "feedback": "Schön! Mit Kurzantwort: Yes, I will.",
+              "next": "n4"
+            },
+            {
+              "text": "Yes, I do.",
+              "quality": "wrong",
+              "feedback": "Die Frage beginnt mit Will → Yes, I will.",
+              "next": "n4"
+            }
+          ]
+        },
+        "n4": {
+          "npcLine": "Cornwall is really far away. Do you think you'll be able to visit me?",
+          "choices": [
+            {
+              "text": "Yes! We'll visit you in the summer holidays. I promise!",
+              "quality": "good",
+              "feedback": "Ein echtes Versprechen – Dave freut sich!",
+              "next": "n5"
+            },
+            {
+              "text": "Maybe.",
+              "quality": "ok",
+              "feedback": "Ehrlich! Ein Versprechen macht Dave glücklicher: We'll visit you!",
+              "next": "n5"
+            },
+            {
+              "text": "We will can visit you.",
+              "quality": "wrong",
+              "feedback": "will + can geht nicht: We'll be able to visit you.",
+              "next": "n5"
+            }
+          ]
+        },
+        "n5": {
+          "npcLine": "That would be awesome! OK, I feel a bit better now. Thanks!",
+          "choices": []
+        }
+      },
+      "endNodes": [
+        "n5"
+      ]
+    },
+    {
+      "id": "k6c_cornwall_holiday",
+      "unit": 6,
+      "title": "Urlaub in Cornwall",
+      "level": 3,
+      "goal": "Bedingungssätze Typ 1, may/might/could (G17–G18), Orte beschreiben",
+      "grammarCodes": [
+        "G17",
+        "G18"
+      ],
+      "situation": "Du fragst in der Touristeninformation in St Agnes, was man in Cornwall machen kann.",
+      "openingLine": "Welcome to Cornwall! How can I help you today?",
+      "phrases": [
+        "If you like water sports, you'll love …",
+        "If you go to …, you should try …",
+        "It might rain tomorrow, so …",
+        "What can I do if …?"
+      ],
+      "grade": 6,
+      "startNode": "n1",
+      "nodes": {
+        "n1": {
+          "npcLine": "Welcome to Cornwall! How can I help you today?",
+          "choices": [
+            {
+              "text": "Hello! Could you tell me what I can do in St Agnes, please?",
+              "quality": "good",
+              "feedback": "Sehr höflich mit Could you …, please?",
+              "next": "n2"
+            },
+            {
+              "text": "What can I do here?",
+              "quality": "ok",
+              "feedback": "Gut! Noch höflicher: Could you tell me what I can do here, please?",
+              "next": "n2"
+            },
+            {
+              "text": "Tell me what to do.",
+              "quality": "wrong",
+              "feedback": "Zu direkt. Höflicher: Could you tell me …, please?",
+              "next": "n2"
+            }
+          ]
+        },
+        "n2": {
+          "npcLine": "Of course! What do you like doing?",
+          "choices": [
+            {
+              "text": "I like water sports and animals.",
+              "quality": "good",
+              "feedback": "Klar und hilfreich!",
+              "next": "n3"
+            },
+            {
+              "text": "Swimming.",
+              "quality": "ok",
+              "feedback": "Okay! Als Satz: I like swimming.",
+              "next": "n3"
+            },
+            {
+              "text": "I am like water sports.",
+              "quality": "wrong",
+              "feedback": "like ist ein Vollverb: I like water sports.",
+              "next": "n3"
+            }
+          ]
+        },
+        "n3": {
+          "npcLine": "Well, if you like water sports, you'll love our beaches. You can go surfing at Trevaunance Cove.",
+          "choices": [
+            {
+              "text": "Great! What can I do if it rains?",
+              "quality": "good",
+              "feedback": "Kluge Frage – und im if-Satz steht richtig das simple present.",
+              "next": "n4"
+            },
+            {
+              "text": "Is surfing dangerous?",
+              "quality": "ok",
+              "feedback": "Gute Frage! Auch wichtig: What can I do if it rains?",
+              "next": "n4"
+            },
+            {
+              "text": "What can I do if it will rain?",
+              "quality": "wrong",
+              "feedback": "Im if-Satz kein will: What can I do if it rains?",
+              "next": "n4"
+            }
+          ]
+        },
+        "n4": {
+          "npcLine": "It might rain tomorrow, so you could visit the Eden Project. If you go there, you'll learn a lot about plants.",
+          "choices": [
+            {
+              "text": "That sounds interesting. If it rains tomorrow, I'll go to the Eden Project.",
+              "quality": "good",
+              "feedback": "Perfekter Bedingungssatz Typ 1!",
+              "next": "n5"
+            },
+            {
+              "text": "OK, maybe.",
+              "quality": "ok",
+              "feedback": "Gut! Mit Bedingungssatz: If it rains, I'll go there.",
+              "next": "n5"
+            },
+            {
+              "text": "If it will rain, I go there.",
+              "quality": "wrong",
+              "feedback": "Typ 1: If it rains, I'll go there.",
+              "next": "n5"
+            }
+          ]
+        },
+        "n5": {
+          "npcLine": "Perfect! Here's a map. Enjoy your holiday in Cornwall!",
+          "choices": []
+        }
+      },
+      "endNodes": [
+        "n5"
+      ]
+    }
+  ]
+}

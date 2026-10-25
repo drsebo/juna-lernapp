@@ -1,0 +1,889 @@
+{
+  "grade": 6,
+  "irregularVerbs": [
+    {
+      "id": "k6iv_001",
+      "infinitive": "be",
+      "simplePast": "was / were",
+      "pastParticiple": "been",
+      "de": "sein",
+      "introducedIn": 5,
+      "grade5Id": "iv_001",
+      "vocabIds": [
+        "k6v1_067",
+        "k6v1_083",
+        "k6v2_062",
+        "k6v2_085",
+        "k6v2_113",
+        "k6v2_127",
+        "k6v4_026",
+        "k6v4_087",
+        "k6v5_034",
+        "k6v5_043",
+        "k6v5_068"
+      ]
+    },
+    {
+      "id": "k6iv_002",
+      "infinitive": "become",
+      "simplePast": "became",
+      "pastParticiple": "become",
+      "de": "werden",
+      "introducedIn": 5,
+      "grade5Id": "iv_002"
+    },
+    {
+      "id": "k6iv_003",
+      "infinitive": "begin",
+      "simplePast": "began",
+      "pastParticiple": "begun",
+      "de": "beginnen, anfangen",
+      "introducedIn": 6,
+      "vocabIds": [
+        "k6v1_121"
+      ]
+    },
+    {
+      "id": "k6iv_004",
+      "infinitive": "bet",
+      "simplePast": "bet",
+      "pastParticiple": "bet",
+      "de": "wetten",
+      "introducedIn": 6,
+      "vocabIds": [
+        "k6v2_006"
+      ]
+    },
+    {
+      "id": "k6iv_005",
+      "infinitive": "bite",
+      "simplePast": "bit",
+      "pastParticiple": "bitten",
+      "de": "beißen, stechen",
+      "introducedIn": 6,
+      "vocabIds": [
+        "k6v3_068"
+      ]
+    },
+    {
+      "id": "k6iv_006",
+      "infinitive": "blow (out)",
+      "simplePast": "blew",
+      "pastParticiple": "blown (out)",
+      "de": "(aus)blasen, (aus)pusten",
+      "introducedIn": 5,
+      "grade5Id": "iv_003"
+    },
+    {
+      "id": "k6iv_007",
+      "infinitive": "break",
+      "simplePast": "broke",
+      "pastParticiple": "broken",
+      "de": "(zer)brechen, kaputt machen",
+      "introducedIn": 5,
+      "grade5Id": "iv_004"
+    },
+    {
+      "id": "k6iv_008",
+      "infinitive": "bring",
+      "simplePast": "brought",
+      "pastParticiple": "brought",
+      "de": "(mit)bringen",
+      "introducedIn": 5,
+      "grade5Id": "iv_005"
+    },
+    {
+      "id": "k6iv_009",
+      "infinitive": "build",
+      "simplePast": "built",
+      "pastParticiple": "built",
+      "de": "bauen",
+      "introducedIn": 6,
+      "vocabIds": [
+        "k6v2_059"
+      ]
+    },
+    {
+      "id": "k6iv_010",
+      "infinitive": "burn",
+      "simplePast": "burnt / burned",
+      "pastParticiple": "burnt / burned",
+      "de": "(ab)brennen",
+      "introducedIn": 6,
+      "vocabIds": [
+        "k6v5_117"
+      ]
+    },
+    {
+      "id": "k6iv_011",
+      "infinitive": "buy",
+      "simplePast": "bought",
+      "pastParticiple": "bought",
+      "de": "kaufen",
+      "introducedIn": 5,
+      "grade5Id": "iv_006"
+    },
+    {
+      "id": "k6iv_012",
+      "infinitive": "catch",
+      "simplePast": "caught",
+      "pastParticiple": "caught",
+      "de": "fangen",
+      "introducedIn": 6,
+      "vocabIds": [
+        "k6v4_013"
+      ]
+    },
+    {
+      "id": "k6iv_013",
+      "infinitive": "choose",
+      "simplePast": "chose",
+      "pastParticiple": "chosen",
+      "de": "(aus)wählen",
+      "introducedIn": 5,
+      "grade5Id": "iv_007"
+    },
+    {
+      "id": "k6iv_014",
+      "infinitive": "come",
+      "simplePast": "came",
+      "pastParticiple": "come",
+      "de": "kommen",
+      "introducedIn": 5,
+      "grade5Id": "iv_008",
+      "vocabIds": [
+        "k6v6_048"
+      ]
+    },
+    {
+      "id": "k6iv_015",
+      "infinitive": "cost",
+      "simplePast": "cost",
+      "pastParticiple": "cost",
+      "de": "kosten",
+      "introducedIn": 5,
+      "grade5Id": "iv_009"
+    },
+    {
+      "id": "k6iv_016",
+      "infinitive": "cut",
+      "simplePast": "cut",
+      "pastParticiple": "cut",
+      "de": "schneiden, fällen",
+      "introducedIn": 6,
+      "vocabIds": [
+        "k6v2_160"
+      ]
+    },
+    {
+      "id": "k6iv_017",
+      "infinitive": "dig",
+      "simplePast": "dug",
+      "pastParticiple": "dug",
+      "de": "graben",
+      "introducedIn": 6,
+      "vocabIds": [
+        "k6v2_101"
+      ]
+    },
+    {
+      "id": "k6iv_018",
+      "infinitive": "do",
+      "simplePast": "did",
+      "pastParticiple": "done",
+      "de": "machen, tun",
+      "introducedIn": 5,
+      "grade5Id": "iv_010"
+    },
+    {
+      "id": "k6iv_019",
+      "infinitive": "draw",
+      "simplePast": "drew",
+      "pastParticiple": "drawn",
+      "de": "zeichnen",
+      "introducedIn": 5,
+      "grade5Id": "iv_011"
+    },
+    {
+      "id": "k6iv_020",
+      "infinitive": "drink",
+      "simplePast": "drank",
+      "pastParticiple": "drunk",
+      "de": "trinken",
+      "introducedIn": 5,
+      "grade5Id": "iv_012"
+    },
+    {
+      "id": "k6iv_021",
+      "infinitive": "eat",
+      "simplePast": "ate",
+      "pastParticiple": "eaten",
+      "de": "essen",
+      "introducedIn": 5,
+      "grade5Id": "iv_013"
+    },
+    {
+      "id": "k6iv_022",
+      "infinitive": "fall",
+      "simplePast": "fell",
+      "pastParticiple": "fallen",
+      "de": "fallen",
+      "introducedIn": 5,
+      "grade5Id": "iv_014",
+      "vocabIds": [
+        "k6v1_058",
+        "k6v2_121"
+      ]
+    },
+    {
+      "id": "k6iv_023",
+      "infinitive": "feel",
+      "simplePast": "felt",
+      "pastParticiple": "felt",
+      "de": "fühlen",
+      "introducedIn": 5,
+      "grade5Id": "iv_015",
+      "vocabIds": [
+        "k6v1_080",
+        "k6v4_045",
+        "k6v5_095"
+      ]
+    },
+    {
+      "id": "k6iv_024",
+      "infinitive": "fight",
+      "simplePast": "fought",
+      "pastParticiple": "fought",
+      "de": "kämpfen, (sich) streiten",
+      "introducedIn": 6,
+      "vocabIds": [
+        "k6v2_174"
+      ]
+    },
+    {
+      "id": "k6iv_025",
+      "infinitive": "find",
+      "simplePast": "found",
+      "pastParticiple": "found",
+      "de": "finden",
+      "introducedIn": 5,
+      "grade5Id": "iv_016"
+    },
+    {
+      "id": "k6iv_026",
+      "infinitive": "fly",
+      "simplePast": "flew",
+      "pastParticiple": "flown",
+      "de": "fliegen",
+      "introducedIn": 6,
+      "vocabIds": [
+        "k6v1_144"
+      ]
+    },
+    {
+      "id": "k6iv_027",
+      "infinitive": "forget",
+      "simplePast": "forgot",
+      "pastParticiple": "forgotten",
+      "de": "vergessen",
+      "introducedIn": 5,
+      "grade5Id": "iv_017"
+    },
+    {
+      "id": "k6iv_028",
+      "infinitive": "forgive",
+      "simplePast": "forgave",
+      "pastParticiple": "forgiven",
+      "de": "vergeben, verzeihen",
+      "introducedIn": 6,
+      "vocabIds": [
+        "k6v4_094"
+      ]
+    },
+    {
+      "id": "k6iv_029",
+      "infinitive": "get",
+      "simplePast": "got",
+      "pastParticiple": "got",
+      "de": "bekommen, hinkommen, werden",
+      "introducedIn": 5,
+      "grade5Id": "iv_018",
+      "vocabIds": [
+        "k6v1_057",
+        "k6v4_040",
+        "k6v4_057",
+        "k6v4_082",
+        "k6v5_071",
+        "k6v6_039"
+      ]
+    },
+    {
+      "id": "k6iv_030",
+      "infinitive": "give",
+      "simplePast": "gave",
+      "pastParticiple": "given",
+      "de": "geben",
+      "introducedIn": 5,
+      "grade5Id": "iv_019"
+    },
+    {
+      "id": "k6iv_031",
+      "infinitive": "go",
+      "simplePast": "went",
+      "pastParticiple": "gone",
+      "de": "gehen, fahren",
+      "introducedIn": 5,
+      "grade5Id": "iv_020",
+      "vocabIds": [
+        "k6v3_035",
+        "k6v3_097",
+        "k6v3_105",
+        "k6v3_117",
+        "k6v4_138",
+        "k6v5_035",
+        "k6v5_038",
+        "k6v5_080",
+        "k6v6_053"
+      ]
+    },
+    {
+      "id": "k6iv_032",
+      "infinitive": "grow",
+      "simplePast": "grew",
+      "pastParticiple": "grown",
+      "de": "wachsen, anbauen",
+      "introducedIn": 5,
+      "grade5Id": "iv_021",
+      "vocabIds": [
+        "k6v1_048",
+        "k6v6_007"
+      ]
+    },
+    {
+      "id": "k6iv_033",
+      "infinitive": "hang",
+      "simplePast": "hung",
+      "pastParticiple": "hung",
+      "de": "hängen (hang out: rumhängen; hang on: warten)",
+      "introducedIn": 6,
+      "vocabIds": [
+        "k6v1_016",
+        "k6v3_032"
+      ]
+    },
+    {
+      "id": "k6iv_034",
+      "infinitive": "have",
+      "simplePast": "had",
+      "pastParticiple": "had",
+      "de": "haben",
+      "introducedIn": 5,
+      "grade5Id": "iv_022",
+      "vocabIds": [
+        "k6v1_044",
+        "k6v4_037"
+      ]
+    },
+    {
+      "id": "k6iv_035",
+      "infinitive": "hear",
+      "simplePast": "heard",
+      "pastParticiple": "heard",
+      "de": "hören",
+      "introducedIn": 5,
+      "grade5Id": "iv_023"
+    },
+    {
+      "id": "k6iv_036",
+      "infinitive": "hide",
+      "simplePast": "hid",
+      "pastParticiple": "hidden",
+      "de": "(sich) verstecken",
+      "introducedIn": 6,
+      "vocabIds": [
+        "k6v6_096"
+      ]
+    },
+    {
+      "id": "k6iv_037",
+      "infinitive": "hit",
+      "simplePast": "hit",
+      "pastParticiple": "hit",
+      "de": "schlagen, treffen",
+      "introducedIn": 5,
+      "grade5Id": "iv_024"
+    },
+    {
+      "id": "k6iv_038",
+      "infinitive": "hold",
+      "simplePast": "held",
+      "pastParticiple": "held",
+      "de": "halten",
+      "introducedIn": 5,
+      "grade5Id": "iv_025",
+      "vocabIds": [
+        "k6v3_058"
+      ]
+    },
+    {
+      "id": "k6iv_039",
+      "infinitive": "hurt",
+      "simplePast": "hurt",
+      "pastParticiple": "hurt",
+      "de": "verletzen, weh tun",
+      "introducedIn": 5,
+      "grade5Id": "iv_026"
+    },
+    {
+      "id": "k6iv_040",
+      "infinitive": "keep",
+      "simplePast": "kept",
+      "pastParticiple": "kept",
+      "de": "(auf)bewahren, behalten",
+      "introducedIn": 5,
+      "grade5Id": "iv_027",
+      "vocabIds": [
+        "k6v2_076",
+        "k6v2_077",
+        "k6v4_080"
+      ]
+    },
+    {
+      "id": "k6iv_041",
+      "infinitive": "know",
+      "simplePast": "knew",
+      "pastParticiple": "known",
+      "de": "kennen, wissen",
+      "introducedIn": 5,
+      "grade5Id": "iv_028"
+    },
+    {
+      "id": "k6iv_042",
+      "infinitive": "learn",
+      "simplePast": "learned / learnt",
+      "pastParticiple": "learned / learnt",
+      "de": "lernen",
+      "introducedIn": 5,
+      "grade5Id": "iv_029"
+    },
+    {
+      "id": "k6iv_043",
+      "infinitive": "leave",
+      "simplePast": "left",
+      "pastParticiple": "left",
+      "de": "(ver)lassen",
+      "introducedIn": 5,
+      "grade5Id": "iv_030",
+      "vocabIds": [
+        "k6v1_093",
+        "k6v5_094"
+      ]
+    },
+    {
+      "id": "k6iv_044",
+      "infinitive": "let",
+      "simplePast": "let",
+      "pastParticiple": "let",
+      "de": "lassen",
+      "introducedIn": 5,
+      "grade5Id": "iv_031",
+      "vocabIds": [
+        "k6v4_077"
+      ]
+    },
+    {
+      "id": "k6iv_045",
+      "infinitive": "lie",
+      "simplePast": "lay",
+      "pastParticiple": "lain",
+      "de": "liegen",
+      "introducedIn": 6,
+      "vocabIds": [
+        "k6v2_114",
+        "k6v2_115"
+      ]
+    },
+    {
+      "id": "k6iv_046",
+      "infinitive": "lose",
+      "simplePast": "lost",
+      "pastParticiple": "lost",
+      "de": "verlieren",
+      "introducedIn": 6,
+      "vocabIds": [
+        "k6v4_011"
+      ]
+    },
+    {
+      "id": "k6iv_047",
+      "infinitive": "make",
+      "simplePast": "made",
+      "pastParticiple": "made",
+      "de": "machen, tun",
+      "introducedIn": 5,
+      "grade5Id": "iv_032",
+      "vocabIds": [
+        "k6v3_125"
+      ]
+    },
+    {
+      "id": "k6iv_048",
+      "infinitive": "mean",
+      "simplePast": "meant",
+      "pastParticiple": "meant",
+      "de": "bedeuten",
+      "introducedIn": 5,
+      "grade5Id": "iv_033"
+    },
+    {
+      "id": "k6iv_049",
+      "infinitive": "meet",
+      "simplePast": "met",
+      "pastParticiple": "met",
+      "de": "treffen",
+      "introducedIn": 5,
+      "grade5Id": "iv_034"
+    },
+    {
+      "id": "k6iv_050",
+      "infinitive": "pay",
+      "simplePast": "paid",
+      "pastParticiple": "paid",
+      "de": "(be)zahlen",
+      "introducedIn": 5,
+      "grade5Id": "iv_035"
+    },
+    {
+      "id": "k6iv_051",
+      "infinitive": "put",
+      "simplePast": "put",
+      "pastParticiple": "put",
+      "de": "legen, setzen, stellen",
+      "introducedIn": 5,
+      "grade5Id": "iv_036",
+      "vocabIds": [
+        "k6v2_155"
+      ]
+    },
+    {
+      "id": "k6iv_052",
+      "infinitive": "read",
+      "simplePast": "read (gespr. \"red\")",
+      "pastParticiple": "read (gespr. \"red\")",
+      "de": "lesen",
+      "introducedIn": 5,
+      "grade5Id": "iv_037"
+    },
+    {
+      "id": "k6iv_053",
+      "infinitive": "retell",
+      "simplePast": "retold",
+      "pastParticiple": "retold",
+      "de": "nacherzählen",
+      "introducedIn": 5,
+      "grade5Id": "iv_038"
+    },
+    {
+      "id": "k6iv_054",
+      "infinitive": "ride",
+      "simplePast": "rode",
+      "pastParticiple": "ridden",
+      "de": "reiten, fahren",
+      "introducedIn": 5,
+      "grade5Id": "iv_039"
+    },
+    {
+      "id": "k6iv_055",
+      "infinitive": "ring",
+      "simplePast": "rang",
+      "pastParticiple": "rung",
+      "de": "klingeln, läuten",
+      "introducedIn": 5,
+      "grade5Id": "iv_040"
+    },
+    {
+      "id": "k6iv_056",
+      "infinitive": "run",
+      "simplePast": "ran",
+      "pastParticiple": "run",
+      "de": "laufen, rennen",
+      "introducedIn": 5,
+      "grade5Id": "iv_041"
+    },
+    {
+      "id": "k6iv_057",
+      "infinitive": "say",
+      "simplePast": "said",
+      "pastParticiple": "said",
+      "de": "sagen",
+      "introducedIn": 5,
+      "grade5Id": "iv_042"
+    },
+    {
+      "id": "k6iv_058",
+      "infinitive": "see",
+      "simplePast": "saw",
+      "pastParticiple": "seen",
+      "de": "sehen",
+      "introducedIn": 5,
+      "grade5Id": "iv_043"
+    },
+    {
+      "id": "k6iv_059",
+      "infinitive": "sell",
+      "simplePast": "sold",
+      "pastParticiple": "sold",
+      "de": "verkaufen",
+      "introducedIn": 5,
+      "grade5Id": "iv_044"
+    },
+    {
+      "id": "k6iv_060",
+      "infinitive": "send",
+      "simplePast": "sent",
+      "pastParticiple": "sent",
+      "de": "senden, verschicken",
+      "introducedIn": 5,
+      "grade5Id": "iv_045",
+      "vocabIds": [
+        "k6v6_030"
+      ]
+    },
+    {
+      "id": "k6iv_061",
+      "infinitive": "set up",
+      "simplePast": "set up",
+      "pastParticiple": "set up",
+      "de": "erbauen, errichten",
+      "introducedIn": 5,
+      "grade5Id": "iv_046"
+    },
+    {
+      "id": "k6iv_062",
+      "infinitive": "shine",
+      "simplePast": "shone",
+      "pastParticiple": "shone",
+      "de": "scheinen, glänzen",
+      "introducedIn": 6,
+      "vocabIds": [
+        "k6v3_053"
+      ]
+    },
+    {
+      "id": "k6iv_063",
+      "infinitive": "show",
+      "simplePast": "showed",
+      "pastParticiple": "shown",
+      "de": "zeigen",
+      "introducedIn": 5,
+      "grade5Id": "iv_047",
+      "vocabIds": [
+        "k6v5_088"
+      ]
+    },
+    {
+      "id": "k6iv_064",
+      "infinitive": "sing",
+      "simplePast": "sang",
+      "pastParticiple": "sung",
+      "de": "singen",
+      "introducedIn": 5,
+      "grade5Id": "iv_048"
+    },
+    {
+      "id": "k6iv_065",
+      "infinitive": "sit",
+      "simplePast": "sat",
+      "pastParticiple": "sat",
+      "de": "sitzen",
+      "introducedIn": 5,
+      "grade5Id": "iv_049"
+    },
+    {
+      "id": "k6iv_066",
+      "infinitive": "sleep",
+      "simplePast": "slept",
+      "pastParticiple": "slept",
+      "de": "schlafen",
+      "introducedIn": 5,
+      "grade5Id": "iv_050"
+    },
+    {
+      "id": "k6iv_067",
+      "infinitive": "smell",
+      "simplePast": "smelt / smelled",
+      "pastParticiple": "smelt / smelled",
+      "de": "riechen, duften",
+      "introducedIn": 6,
+      "vocabIds": [
+        "k6v3_077"
+      ]
+    },
+    {
+      "id": "k6iv_068",
+      "infinitive": "speak",
+      "simplePast": "spoke",
+      "pastParticiple": "spoken",
+      "de": "sprechen",
+      "introducedIn": 5,
+      "grade5Id": "iv_051"
+    },
+    {
+      "id": "k6iv_069",
+      "infinitive": "spell",
+      "simplePast": "spelt",
+      "pastParticiple": "spelt",
+      "de": "buchstabieren",
+      "introducedIn": 5,
+      "grade5Id": "iv_052"
+    },
+    {
+      "id": "k6iv_070",
+      "infinitive": "spend",
+      "simplePast": "spent",
+      "pastParticiple": "spent",
+      "de": "ausgeben, verbringen",
+      "introducedIn": 5,
+      "grade5Id": "iv_053",
+      "vocabIds": [
+        "k6v3_051"
+      ]
+    },
+    {
+      "id": "k6iv_071",
+      "infinitive": "stand (up)",
+      "simplePast": "stood (up)",
+      "pastParticiple": "stood (up)",
+      "de": "(auf)stehen",
+      "introducedIn": 5,
+      "grade5Id": "iv_054"
+    },
+    {
+      "id": "k6iv_072",
+      "infinitive": "steal",
+      "simplePast": "stole",
+      "pastParticiple": "stolen",
+      "de": "stehlen",
+      "introducedIn": 6,
+      "vocabIds": [
+        "k6v1_101"
+      ]
+    },
+    {
+      "id": "k6iv_073",
+      "infinitive": "swim",
+      "simplePast": "swam",
+      "pastParticiple": "swum",
+      "de": "schwimmen",
+      "introducedIn": 5,
+      "grade5Id": "iv_055"
+    },
+    {
+      "id": "k6iv_074",
+      "infinitive": "take",
+      "simplePast": "took",
+      "pastParticiple": "taken",
+      "de": "nehmen",
+      "introducedIn": 5,
+      "grade5Id": "iv_056",
+      "vocabIds": [
+        "k6v1_110",
+        "k6v1_161",
+        "k6v2_017",
+        "k6v2_083",
+        "k6v4_081",
+        "k6v5_014",
+        "k6v5_076"
+      ]
+    },
+    {
+      "id": "k6iv_075",
+      "infinitive": "teach",
+      "simplePast": "taught",
+      "pastParticiple": "taught",
+      "de": "unterrichten, beibringen",
+      "introducedIn": 6,
+      "vocabIds": [
+        "k6v1_030"
+      ]
+    },
+    {
+      "id": "k6iv_076",
+      "infinitive": "tell",
+      "simplePast": "told",
+      "pastParticiple": "told",
+      "de": "erzählen",
+      "introducedIn": 5,
+      "grade5Id": "iv_057",
+      "vocabIds": [
+        "k6v1_045",
+        "k6v3_103"
+      ]
+    },
+    {
+      "id": "k6iv_077",
+      "infinitive": "think",
+      "simplePast": "thought",
+      "pastParticiple": "thought",
+      "de": "(nach)denken, glauben",
+      "introducedIn": 5,
+      "grade5Id": "iv_058"
+    },
+    {
+      "id": "k6iv_078",
+      "infinitive": "throw",
+      "simplePast": "threw",
+      "pastParticiple": "thrown",
+      "de": "werfen",
+      "introducedIn": 5,
+      "grade5Id": "iv_059"
+    },
+    {
+      "id": "k6iv_079",
+      "infinitive": "understand",
+      "simplePast": "understood",
+      "pastParticiple": "understood",
+      "de": "verstehen",
+      "introducedIn": 5,
+      "grade5Id": "iv_060"
+    },
+    {
+      "id": "k6iv_080",
+      "infinitive": "wake (up)",
+      "simplePast": "woke (up)",
+      "pastParticiple": "woken (up)",
+      "de": "aufwachen, aufwecken",
+      "introducedIn": 6,
+      "vocabIds": [
+        "k6v2_129"
+      ]
+    },
+    {
+      "id": "k6iv_081",
+      "infinitive": "wear",
+      "simplePast": "wore",
+      "pastParticiple": "worn",
+      "de": "anhaben, tragen",
+      "introducedIn": 5,
+      "grade5Id": "iv_061"
+    },
+    {
+      "id": "k6iv_082",
+      "infinitive": "win",
+      "simplePast": "won",
+      "pastParticiple": "won",
+      "de": "gewinnen, siegen",
+      "introducedIn": 5,
+      "grade5Id": "iv_062"
+    },
+    {
+      "id": "k6iv_083",
+      "infinitive": "write",
+      "simplePast": "wrote",
+      "pastParticiple": "written",
+      "de": "schreiben",
+      "introducedIn": 5,
+      "grade5Id": "iv_063"
+    }
+  ]
+}

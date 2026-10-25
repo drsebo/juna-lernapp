@@ -1,0 +1,2531 @@
+{
+  "id": "k6u3",
+  "grade": 6,
+  "unit": 3,
+  "title": "Off to the Rockies!",
+  "vocab": [
+    {
+      "id": "k6v3_001",
+      "grade": 6,
+      "unit": 3,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "auf nach",
+      "en": "off to",
+      "example": "Off to New York! I'm so excited."
+    },
+    {
+      "id": "k6v3_002",
+      "grade": 6,
+      "unit": 3,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Bergkette",
+      "en": "mountain range",
+      "example": "The Rocky Mountains are a mountain range."
+    },
+    {
+      "id": "k6v3_003",
+      "grade": 6,
+      "unit": 3,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Elch",
+      "en": "moose, moose (pl)",
+      "example": "If you're lucky, you can see a moose in the Rockies."
+    },
+    {
+      "id": "k6v3_004",
+      "grade": 6,
+      "unit": 3,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "pair",
+      "de": "Kilometer",
+      "en": "kilometer (km) (AE)",
+      "pair": {
+        "be": "kilometre",
+        "ae": "kilometer"
+      },
+      "example": "The Rocky Mountains are more than 4,800 kilometres (3,000 miles) long.",
+      "notes": "⚠️ kilometre (BE) = kilometer (AE)"
+    },
+    {
+      "id": "k6v3_005",
+      "grade": 6,
+      "unit": 3,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Gipfel; Spitze",
+      "en": "peak",
+      "example": "Mont Blanc is the highest peak in Europe."
+    },
+    {
+      "id": "k6v3_006",
+      "grade": 6,
+      "unit": 3,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Entdecker/-in; Forscher/-in",
+      "en": "explorer",
+      "example": "Explorers go to new places.",
+      "notes": "→ to explore"
+    },
+    {
+      "id": "k6v3_007",
+      "grade": 6,
+      "unit": 3,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Wildnis",
+      "en": "wilderness",
+      "example": "We spent a week in the wilderness of the Rocky Mountains."
+    },
+    {
+      "id": "k6v3_008",
+      "grade": 6,
+      "unit": 3,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "wandern",
+      "en": "to hike",
+      "example": "We hiked all the way up to the peak.",
+      "notes": "→ hiking"
+    },
+    {
+      "id": "k6v3_009",
+      "grade": 6,
+      "unit": 3,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "jemand anderes",
+      "en": "anyone else",
+      "example": "Don't tell the story to anyone else."
+    },
+    {
+      "id": "k6v3_010",
+      "grade": 6,
+      "unit": 3,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "wild",
+      "en": "wild",
+      "example": "pets – farm animals – wild animals",
+      "notes": "⚠️ Aussprache: wild [aɪ] – wilderness [ɪ]"
+    },
+    {
+      "id": "k6v3_011",
+      "grade": 6,
+      "unit": 3,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Dickhornschaf",
+      "en": "bighorn sheep",
+      "example": "In the Rockies, you can see moose and bighorn sheep."
+    },
+    {
+      "id": "k6v3_012",
+      "grade": 6,
+      "unit": 3,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Glück",
+      "en": "luck",
+      "example": "Oh no, I can't find my keys. I haven't got any luck today."
+    },
+    {
+      "id": "k6v3_013",
+      "grade": 6,
+      "unit": 3,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Puma; Berglöwe",
+      "en": "cougar",
+      "example": "Don't move! There's a cougar on that tree."
+    },
+    {
+      "id": "k6v3_014",
+      "grade": 6,
+      "unit": 3,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "die freie Natur",
+      "en": "the great outdoors",
+      "example": "I love to enjoy the great outdoors. That's why I always go camping."
+    },
+    {
+      "id": "k6v3_015",
+      "grade": 6,
+      "unit": 3,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Abenteuer",
+      "en": "adventure",
+      "example": "A week in the wilderness is a big adventure."
+    },
+    {
+      "id": "k6v3_016",
+      "grade": 6,
+      "unit": 3,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Klettern; Bergsteigen",
+      "en": "climbing",
+      "example": "Let's go climbing in the mountains.",
+      "notes": "⚠️ Das „b\" wird nicht gesprochen. (→ to climb)"
+    },
+    {
+      "id": "k6v3_017",
+      "grade": 6,
+      "unit": 3,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Herausforderung",
+      "en": "challenge",
+      "example": "A challenge is sth that isn't easy and needs a lot of work and/or skill."
+    },
+    {
+      "id": "k6v3_018",
+      "grade": 6,
+      "unit": 3,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Teenager; Jugendliche/-r",
+      "en": "teen",
+      "example": "This hiking tour is especially for teens.",
+      "notes": "= teenager"
+    },
+    {
+      "id": "k6v3_019",
+      "grade": 6,
+      "unit": 3,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Wandern; Rucksackreisen",
+      "en": "backpacking",
+      "example": "Backpacking is great. You see lots of different places."
+    },
+    {
+      "id": "k6v3_020",
+      "grade": 6,
+      "unit": 3,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "folgen; hinterhergehen; befolgen",
+      "en": "to follow",
+      "example": "We followed our group leader to the top of the mountain."
+    },
+    {
+      "id": "k6v3_021",
+      "grade": 6,
+      "unit": 3,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Weg; Pfad; Spur",
+      "en": "trail",
+      "example": "On walking trails you can only go on foot."
+    },
+    {
+      "id": "k6v3_022",
+      "grade": 6,
+      "unit": 3,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Ausschau halten nach; Acht nehmen vor; aufpassen auf",
+      "en": "to look out for",
+      "example": "Look out for bears! They can be dangerous."
+    },
+    {
+      "id": "k6v3_023",
+      "grade": 6,
+      "unit": 3,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "fast; annähernd",
+      "en": "nearly",
+      "example": "It's nearly five o'clock. Let's go back!",
+      "notes": "= almost"
+    },
+    {
+      "id": "k6v3_024",
+      "grade": 6,
+      "unit": 3,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Mountainboardfahren",
+      "en": "mountainboarding",
+      "example": "I tried mountainboarding once, but I fell."
+    },
+    {
+      "id": "k6v3_025",
+      "grade": 6,
+      "unit": 3,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Seilrutsche",
+      "en": "zipline",
+      "example": "I don't want to use the zipline. It's too high for me!"
+    },
+    {
+      "id": "k6v3_026",
+      "grade": 6,
+      "unit": 3,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "traditionell",
+      "en": "traditional",
+      "example": "What's your country's traditional food?",
+      "notes": "→ tradition"
+    },
+    {
+      "id": "k6v3_027",
+      "grade": 6,
+      "unit": 3,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Lagerfeuer",
+      "en": "campfire",
+      "example": "It's fun to sit around a campfire, play the guitar and sing songs."
+    },
+    {
+      "id": "k6v3_028",
+      "grade": 6,
+      "unit": 3,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "sich freuen auf",
+      "en": "to look forward to (+ noun or -ing)",
+      "example": "I'm looking forward to my grandma's visit. I'm looking forward to seeing her."
+    },
+    {
+      "id": "k6v3_029",
+      "grade": 6,
+      "unit": 3,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Jugendliche/-r; Kind",
+      "en": "kid",
+      "example": "When I was a little kid, I loved playing with my toy cars.",
+      "notes": "= child"
+    },
+    {
+      "id": "k6v3_030",
+      "grade": 6,
+      "unit": 3,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Blockhütte",
+      "en": "log cabin",
+      "example": "Are we going to sleep in a log cabin?"
+    },
+    {
+      "id": "k6v3_031",
+      "grade": 6,
+      "unit": 3,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "pair",
+      "de": "Mobiltelefon; Handy",
+      "en": "cell phone (AE)",
+      "pair": {
+        "ae": "cell phone",
+        "be": "mobile (phone)"
+      },
+      "example": "Your cell phone is ringing."
+    },
+    {
+      "id": "k6v3_032",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 1",
+      "sectionTitle": "The Rockies are full of surprises!",
+      "category": "station-1",
+      "type": "word",
+      "de": "(einen Augenblick) warten",
+      "en": "to hang on",
+      "irregular": true,
+      "example": "Hang on. I need to ask my parents."
+    },
+    {
+      "id": "k6v3_033",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 1",
+      "sectionTitle": "The Rockies are full of surprises!",
+      "category": "station-1",
+      "type": "phrase",
+      "de": "Es dauerte ewig.",
+      "en": "It took ages.",
+      "example": "It took ages to climb the mountain."
+    },
+    {
+      "id": "k6v3_034",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 1",
+      "sectionTitle": "The Rockies are full of surprises!",
+      "category": "station-1",
+      "type": "word",
+      "de": "Alter; Zeitalter",
+      "en": "age",
+      "example": "What's your age? – I'm twelve."
+    },
+    {
+      "id": "k6v3_035",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 1",
+      "sectionTitle": "The Rockies are full of surprises!",
+      "category": "station-1",
+      "type": "word",
+      "de": "geschehen",
+      "en": "to go on",
+      "irregular": true,
+      "example": "You are too loud. What's going on here?"
+    },
+    {
+      "id": "k6v3_036",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 1",
+      "sectionTitle": "The Rockies are full of surprises!",
+      "category": "station-1",
+      "type": "word",
+      "de": "Trampolin",
+      "en": "trampoline",
+      "example": "I can jump very high on my trampoline."
+    },
+    {
+      "id": "k6v3_037",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 1",
+      "sectionTitle": "The Rockies are full of surprises!",
+      "category": "station-1",
+      "type": "word",
+      "de": "grinsen",
+      "en": "to grin",
+      "example": "Why are you grinning like that?",
+      "notes": "= to smile with a big smile"
+    },
+    {
+      "id": "k6v3_038",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 1",
+      "sectionTitle": "The Rockies are full of surprises!",
+      "category": "station-1",
+      "type": "word",
+      "de": "Plattform; Bahnsteig",
+      "en": "platform",
+      "example": "I jumped into the water from a high platform."
+    },
+    {
+      "id": "k6v3_039",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 1",
+      "sectionTitle": "The Rockies are full of surprises!",
+      "category": "station-1",
+      "type": "word",
+      "de": "Kanu",
+      "en": "canoe",
+      "example": "Let's take a canoe and go down the river."
+    },
+    {
+      "id": "k6v3_040",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 1",
+      "sectionTitle": "The Rockies are full of surprises!",
+      "category": "station-1",
+      "type": "word",
+      "de": "drehen; (sich) umdrehen",
+      "en": "to turn",
+      "example": "I turned to look for my dog."
+    },
+    {
+      "id": "k6v3_041",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 1",
+      "sectionTitle": "The Rockies are full of surprises!",
+      "category": "station-1",
+      "type": "word",
+      "de": "umdrehen; umkippen",
+      "en": "to turn over",
+      "example": "My canoe turned over and I fell into the water."
+    },
+    {
+      "id": "k6v3_042",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 1",
+      "sectionTitle": "The Rockies are full of surprises!",
+      "category": "station-1",
+      "type": "word",
+      "de": "nass",
+      "en": "wet",
+      "example": "We all got really wet in the storm."
+    },
+    {
+      "id": "k6v3_043",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 1",
+      "sectionTitle": "The Rockies are full of surprises!",
+      "category": "station-1",
+      "type": "word",
+      "de": "schwierig",
+      "en": "difficult",
+      "example": "I couldn't climb the mountain. It was too difficult for me.",
+      "notes": "difficult ↔ easy"
+    },
+    {
+      "id": "k6v3_044",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 1",
+      "sectionTitle": "The Rockies are full of surprises!",
+      "category": "station-1",
+      "type": "word",
+      "de": "Baumstachler",
+      "en": "porcupine",
+      "example": "Look, there's a porcupine in the tree!"
+    },
+    {
+      "id": "k6v3_045",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 1",
+      "sectionTitle": "The Rockies are full of surprises!",
+      "category": "station-1",
+      "type": "word",
+      "de": "Lärm; Geräusch",
+      "en": "noise",
+      "example": "What's all the noise? I can't sleep!"
+    },
+    {
+      "id": "k6v3_046",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 1",
+      "sectionTitle": "The Rockies are full of surprises!",
+      "category": "station-1",
+      "type": "word",
+      "de": "andere/-r/-s; sonst noch",
+      "en": "else",
+      "example": "I don't think we need anything else."
+    },
+    {
+      "id": "k6v3_047",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 1",
+      "sectionTitle": "The Rockies are full of surprises!",
+      "category": "station-1",
+      "type": "word",
+      "de": "direkt; ohne Umwege",
+      "en": "directly",
+      "example": "After our day in the mountains I went directly to bed."
+    },
+    {
+      "id": "k6v3_048",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 1",
+      "sectionTitle": "The Rockies are full of surprises!",
+      "category": "station-1",
+      "type": "word",
+      "de": "mit der Seilrutsche fahren",
+      "en": "to zipline",
+      "example": "Everyone was watching when I was ziplining across the river."
+    },
+    {
+      "id": "k6v3_049",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 1",
+      "sectionTitle": "The Rockies are full of surprises!",
+      "category": "station-1",
+      "type": "word",
+      "de": "Ecke",
+      "en": "corner",
+      "example": "Most rooms have four corners."
+    },
+    {
+      "id": "k6v3_050",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 1",
+      "sectionTitle": "The Rockies are full of surprises!",
+      "category": "station-1",
+      "type": "word",
+      "de": "(das) Reisen; Reise",
+      "en": "travel",
+      "example": "Tell me everything about your travels to India."
+    },
+    {
+      "id": "k6v3_051",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 1",
+      "sectionTitle": "The Rockies are full of surprises!",
+      "category": "station-1",
+      "type": "word",
+      "de": "verbringen (Zeit)",
+      "en": "to spend",
+      "irregular": true,
+      "example": "She spends all her free time with her dog.",
+      "notes": "⚠️ to spend ≠ spenden"
+    },
+    {
+      "id": "k6v3_052",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 1",
+      "sectionTitle": "The Rockies are full of surprises!",
+      "category": "station-1",
+      "type": "word",
+      "de": "Wanderung",
+      "en": "hike",
+      "example": "You can go on beautiful hikes in the Rocky Mountains."
+    },
+    {
+      "id": "k6v3_053",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 1",
+      "sectionTitle": "The Rockies are full of surprises!",
+      "category": "station-1",
+      "type": "word",
+      "de": "scheinen; glänzen",
+      "en": "to shine",
+      "irregular": true,
+      "example": "The sun is shining, let's go swimming."
+    },
+    {
+      "id": "k6v3_054",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 1",
+      "sectionTitle": "The Rockies are full of surprises!",
+      "category": "station-1",
+      "type": "word",
+      "de": "psst",
+      "en": "shhh",
+      "example": "Shhh! Don't make a noise."
+    },
+    {
+      "id": "k6v3_055",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 1",
+      "sectionTitle": "The Rockies are full of surprises!",
+      "category": "station-1",
+      "type": "word",
+      "de": "Seite",
+      "en": "side",
+      "example": "Let's go across the bridge to get to the other side of the river."
+    },
+    {
+      "id": "k6v3_056",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 1",
+      "sectionTitle": "The Rockies are full of surprises!",
+      "category": "station-1",
+      "type": "word",
+      "de": "Schlucht; Canyon",
+      "en": "canyon",
+      "example": "This landscape has mountains and canyons."
+    },
+    {
+      "id": "k6v3_057",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 1",
+      "sectionTitle": "The Rockies are full of surprises!",
+      "category": "station-1",
+      "type": "word",
+      "de": "golden; Gold-",
+      "en": "golden",
+      "example": "I've got a golden bracelet."
+    },
+    {
+      "id": "k6v3_058",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 1",
+      "sectionTitle": "The Rockies are full of surprises!",
+      "category": "station-1",
+      "type": "word",
+      "de": "den Atem anhalten",
+      "en": "to hold your breath",
+      "irregular": true,
+      "example": "How long can you hold your breath?"
+    },
+    {
+      "id": "k6v3_059",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 1",
+      "sectionTitle": "The Rockies are full of surprises!",
+      "category": "station-1",
+      "type": "word",
+      "de": "entlang",
+      "en": "along",
+      "example": "I love walking along the river."
+    },
+    {
+      "id": "k6v3_060",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 1",
+      "sectionTitle": "The Rockies are full of surprises!",
+      "category": "station-1",
+      "type": "word",
+      "de": "Kojote; Präriewolf",
+      "en": "coyote",
+      "example": "On our hike, we saw a coyote."
+    },
+    {
+      "id": "k6v3_061",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 1",
+      "sectionTitle": "The Rockies are full of surprises!",
+      "category": "station-1",
+      "type": "word",
+      "de": "damit; sodass",
+      "en": "so (that)",
+      "example": "He saved some money so that he could buy a nice present."
+    },
+    {
+      "id": "k6v3_062",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 1",
+      "sectionTitle": "The Rockies are full of surprises!",
+      "category": "station-1",
+      "type": "word",
+      "de": "jeder; alle",
+      "en": "everybody",
+      "example": "Everybody has to tidy their log cabins.",
+      "notes": "= everyone = all the people"
+    },
+    {
+      "id": "k6v3_063",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 1",
+      "sectionTitle": "The Rockies are full of surprises!",
+      "category": "station-1",
+      "type": "word",
+      "de": "einschließen; beinhalten",
+      "en": "to include",
+      "example": "The trip is expensive, but the price includes all our meals."
+    },
+    {
+      "id": "k6v3_064",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 2",
+      "sectionTitle": "Rules for campers at Green Moose Camp",
+      "category": "station-2",
+      "type": "word",
+      "de": "Stiefel",
+      "en": "boot",
+      "example": "You wear boots in winter because they're warmer than shoes."
+    },
+    {
+      "id": "k6v3_065",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 2",
+      "sectionTitle": "Rules for campers at Green Moose Camp",
+      "category": "station-2",
+      "type": "pair",
+      "de": "Hosen",
+      "en": "pants (pl) (AE)",
+      "pair": {
+        "ae": "pants",
+        "be": "trousers"
+      },
+      "example": "Should I wear long pants or shorts today?"
+    },
+    {
+      "id": "k6v3_066",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 2",
+      "sectionTitle": "Rules for campers at Green Moose Camp",
+      "category": "station-2",
+      "type": "word",
+      "de": "Ärmel",
+      "en": "sleeve",
+      "example": "In summer you wear shirts with short sleeves."
+    },
+    {
+      "id": "k6v3_067",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 2",
+      "sectionTitle": "Rules for campers at Green Moose Camp",
+      "category": "station-2",
+      "type": "word",
+      "de": "Insekt",
+      "en": "insect",
+      "example": "In humid regions there are often lots of insects."
+    },
+    {
+      "id": "k6v3_068",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 2",
+      "sectionTitle": "Rules for campers at Green Moose Camp",
+      "category": "station-2",
+      "type": "word",
+      "de": "beißen; stechen",
+      "en": "to bite",
+      "irregular": true,
+      "example": "Does your dog bite?"
+    },
+    {
+      "id": "k6v3_069",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 2",
+      "sectionTitle": "Rules for campers at Green Moose Camp",
+      "category": "station-2",
+      "type": "word",
+      "de": "tragen",
+      "en": "to carry",
+      "example": "Can you carry this box for me, please?"
+    },
+    {
+      "id": "k6v3_070",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 2",
+      "sectionTitle": "Rules for campers at Green Moose Camp",
+      "category": "station-2",
+      "type": "word",
+      "de": "Sonnencreme",
+      "en": "sunscreen",
+      "example": "The sun is shining. Don't forget to put on sunscreen."
+    },
+    {
+      "id": "k6v3_071",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 2",
+      "sectionTitle": "Rules for campers at Green Moose Camp",
+      "category": "station-2",
+      "type": "word",
+      "de": "Regen",
+      "en": "rain",
+      "example": "Today there's a lot of rain and no sun.",
+      "notes": "→ to rain → rainy"
+    },
+    {
+      "id": "k6v3_072",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 2",
+      "sectionTitle": "Rules for campers at Green Moose Camp",
+      "category": "station-2",
+      "type": "word",
+      "de": "Jacke",
+      "en": "jacket",
+      "example": "In summer you don't need a jacket."
+    },
+    {
+      "id": "k6v3_073",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 2",
+      "sectionTitle": "Rules for campers at Green Moose Camp",
+      "category": "station-2",
+      "type": "word",
+      "de": "Wanderer/Wanderin",
+      "en": "hiker",
+      "example": "There are a lot of hikers in the mountains."
+    },
+    {
+      "id": "k6v3_074",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 2",
+      "sectionTitle": "Rules for campers at Green Moose Camp",
+      "category": "station-2",
+      "type": "word",
+      "de": "aufheben; abholen",
+      "en": "to pick up",
+      "example": "There's paper on the floor. Please pick it up."
+    },
+    {
+      "id": "k6v3_075",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 2",
+      "sectionTitle": "Rules for campers at Green Moose Camp",
+      "category": "station-2",
+      "type": "pair",
+      "de": "Abfall; Müll",
+      "en": "trash (AE)",
+      "pair": {
+        "ae": "trash",
+        "be": "rubbish"
+      },
+      "example": "Don't throw your trash on the floor!",
+      "notes": "trash AE = rubbish BE"
+    },
+    {
+      "id": "k6v3_076",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 2",
+      "sectionTitle": "Rules for campers at Green Moose Camp",
+      "category": "station-2",
+      "type": "word",
+      "de": "Boden; Erdboden",
+      "en": "ground",
+      "example": "My phone fell onto the ground and broke."
+    },
+    {
+      "id": "k6v3_077",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 2",
+      "sectionTitle": "Rules for campers at Green Moose Camp",
+      "category": "station-2",
+      "type": "word",
+      "de": "riechen; duften",
+      "en": "to smell",
+      "irregular": true,
+      "example": "The flowers smell wonderful."
+    },
+    {
+      "id": "k6v3_078",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 2",
+      "sectionTitle": "Rules for campers at Green Moose Camp",
+      "category": "station-2",
+      "type": "word",
+      "de": "berühren; antippen",
+      "en": "to touch",
+      "example": "Don't touch this dog. It could bite."
+    },
+    {
+      "id": "k6v3_079",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 2",
+      "sectionTitle": "Rules for campers at Green Moose Camp",
+      "category": "station-2",
+      "type": "word",
+      "de": "sicher; ungefährlich",
+      "en": "safe",
+      "example": "This bridge is too old. It isn't safe to use it.",
+      "notes": "safe ↔ dangerous"
+    },
+    {
+      "id": "k6v3_080",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 2",
+      "sectionTitle": "Rules for campers at Green Moose Camp",
+      "category": "station-2",
+      "type": "phrase",
+      "de": "Finde das Element, das nicht in die Gruppe passt!",
+      "en": "Find the odd one out!",
+      "example": "cougar – canyon – bear – coyote"
+    },
+    {
+      "id": "k6v3_081",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 2",
+      "sectionTitle": "Rules for campers at Green Moose Camp",
+      "category": "station-2",
+      "type": "word",
+      "de": "Gegenteil",
+      "en": "opposite",
+      "example": "What's the opposite of 'happy'? – 'unhappy'."
+    },
+    {
+      "id": "k6v3_082",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 2",
+      "sectionTitle": "Rules for campers at Green Moose Camp",
+      "category": "station-2",
+      "type": "word",
+      "de": "erneut spielen; erneut abspielen",
+      "en": "to replay",
+      "example": "Could you replay the dialogue, please?"
+    },
+    {
+      "id": "k6v3_083",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 2",
+      "sectionTitle": "Rules for campers at Green Moose Camp",
+      "category": "station-2",
+      "type": "word",
+      "de": "sauber; ordentlich",
+      "en": "tidy",
+      "example": "Your room is always very tidy."
+    },
+    {
+      "id": "k6v3_084",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 2",
+      "sectionTitle": "Rules for campers at Green Moose Camp",
+      "category": "station-2",
+      "type": "word",
+      "de": "anprobieren",
+      "en": "to try on",
+      "example": "That's a nice shirt. Why don't you try it on?"
+    },
+    {
+      "id": "k6v3_085",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 2",
+      "sectionTitle": "Rules for campers at Green Moose Camp",
+      "category": "station-2",
+      "type": "word",
+      "de": "Umkleidekabine",
+      "en": "fitting room",
+      "example": "Where are the fitting rooms?"
+    },
+    {
+      "id": "k6v3_086",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 2",
+      "sectionTitle": "Rules for campers at Green Moose Camp",
+      "category": "station-2",
+      "type": "word",
+      "de": "passen",
+      "en": "to fit",
+      "example": "These pants don't fit. They're too short."
+    },
+    {
+      "id": "k6v3_087",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 2",
+      "sectionTitle": "Rules for campers at Green Moose Camp",
+      "category": "station-2",
+      "type": "word",
+      "de": "perfekt",
+      "en": "perfectly",
+      "example": "This T-shirt fits perfectly."
+    },
+    {
+      "id": "k6v3_088",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 2",
+      "sectionTitle": "Rules for campers at Green Moose Camp",
+      "category": "station-2",
+      "type": "word",
+      "de": "Socke",
+      "en": "sock",
+      "example": "You can't wear these socks in those shoes."
+    },
+    {
+      "id": "k6v3_089",
+      "grade": 6,
+      "unit": 3,
+      "section": "Station 2",
+      "sectionTitle": "Rules for campers at Green Moose Camp",
+      "category": "station-2",
+      "type": "word",
+      "de": "Assistent/-in; Verkäufer/-in",
+      "en": "assistant",
+      "example": "Where's the shop assistant?"
+    },
+    {
+      "id": "k6v3_090",
+      "grade": 6,
+      "unit": 3,
+      "section": "Skills",
+      "sectionTitle": "How to find information on the internet",
+      "category": "skills",
+      "type": "word",
+      "de": "Attraktion; Sehenswürdigkeit",
+      "en": "attraction",
+      "example": "The blob is only one of Green Moose Camp's attractions."
+    },
+    {
+      "id": "k6v3_091",
+      "grade": 6,
+      "unit": 3,
+      "section": "Skills",
+      "sectionTitle": "How to find information on the internet",
+      "category": "skills",
+      "type": "word",
+      "de": "Vorführung; Ausstellung; Anzeige",
+      "en": "display",
+      "example": "At a flower show you can see a wonderful display of flowers."
+    },
+    {
+      "id": "k6v3_092",
+      "grade": 6,
+      "unit": 3,
+      "section": "Unit task",
+      "sectionTitle": "Our travel report",
+      "category": "unit-task",
+      "type": "word",
+      "de": "paddeln",
+      "en": "to paddle",
+      "example": "Let's paddle across the lake."
+    },
+    {
+      "id": "k6v3_093",
+      "grade": 6,
+      "unit": 3,
+      "section": "Unit task",
+      "sectionTitle": "Our travel report",
+      "category": "unit-task",
+      "type": "word",
+      "de": "Strömung",
+      "en": "current",
+      "example": "Don't go swimming here. The currents are dangerous."
+    },
+    {
+      "id": "k6v3_094",
+      "grade": 6,
+      "unit": 3,
+      "section": "Unit task",
+      "sectionTitle": "Our travel report",
+      "category": "unit-task",
+      "type": "word",
+      "de": "kentern",
+      "en": "to capsize",
+      "example": "Oh no! Our boat is going to capsize!"
+    },
+    {
+      "id": "k6v3_095",
+      "grade": 6,
+      "unit": 3,
+      "section": "Unit task",
+      "sectionTitle": "Our travel report",
+      "category": "unit-task",
+      "type": "word",
+      "de": "Planet",
+      "en": "planet",
+      "example": "Aliens come from a different planet."
+    },
+    {
+      "id": "k6v3_096",
+      "grade": 6,
+      "unit": 3,
+      "section": "Unit task",
+      "sectionTitle": "Our travel report",
+      "category": "unit-task",
+      "type": "word",
+      "de": "Raumschiff",
+      "en": "spaceship",
+      "example": "In science-fiction stories people travel through space in spaceships."
+    },
+    {
+      "id": "k6v3_097",
+      "grade": 6,
+      "unit": 3,
+      "section": "Unit task",
+      "sectionTitle": "Our travel report",
+      "category": "unit-task",
+      "type": "word",
+      "de": "eine Besichtigungstour machen",
+      "en": "to go sightseeing",
+      "irregular": true,
+      "example": "Let's go sightseeing in Chicago!"
+    },
+    {
+      "id": "k6v3_098",
+      "grade": 6,
+      "unit": 3,
+      "section": "Unit task",
+      "sectionTitle": "Our travel report",
+      "category": "unit-task",
+      "type": "word",
+      "de": "Jugendherberge",
+      "en": "youth hostel",
+      "example": "A youth hostel is a cheap place where young people can stay."
+    },
+    {
+      "id": "k6v3_099",
+      "grade": 6,
+      "unit": 3,
+      "section": "Unit task",
+      "sectionTitle": "Our travel report",
+      "category": "unit-task",
+      "type": "word",
+      "de": "besonders wichtig",
+      "en": "key",
+      "example": "What were the key points of his presentation?"
+    },
+    {
+      "id": "k6v3_100",
+      "grade": 6,
+      "unit": 3,
+      "section": "Story",
+      "sectionTitle": "You wanted an outdoor adventure!",
+      "category": "story",
+      "type": "word",
+      "de": "Land; Landschaft",
+      "en": "countryside",
+      "example": "We took a trip to the countryside.",
+      "notes": "⚠️ in the countryside = auf dem Land"
+    },
+    {
+      "id": "k6v3_101",
+      "grade": 6,
+      "unit": 3,
+      "section": "Story",
+      "sectionTitle": "You wanted an outdoor adventure!",
+      "category": "story",
+      "type": "word",
+      "de": "Spur; Fährte; Pfad; Bahn",
+      "en": "track",
+      "example": "Do you see these tracks? They are of a cougar."
+    },
+    {
+      "id": "k6v3_102",
+      "grade": 6,
+      "unit": 3,
+      "section": "Story",
+      "sectionTitle": "You wanted an outdoor adventure!",
+      "category": "story",
+      "type": "word",
+      "de": "gähnen",
+      "en": "to yawn",
+      "example": "Please try not to yawn all the time."
+    },
+    {
+      "id": "k6v3_103",
+      "grade": 6,
+      "unit": 3,
+      "section": "Story",
+      "sectionTitle": "You wanted an outdoor adventure!",
+      "category": "story",
+      "type": "word",
+      "de": "jmdm. sagen, was er tun soll",
+      "en": "to tell sb to do sth",
+      "irregular": true,
+      "example": "Our teacher told us to read our texts again."
+    },
+    {
+      "id": "k6v3_104",
+      "grade": 6,
+      "unit": 3,
+      "section": "Story",
+      "sectionTitle": "You wanted an outdoor adventure!",
+      "category": "story",
+      "type": "word",
+      "de": "Zelt",
+      "en": "tent",
+      "example": "I don't want to sleep in a tent."
+    },
+    {
+      "id": "k6v3_105",
+      "grade": 6,
+      "unit": 3,
+      "section": "Story",
+      "sectionTitle": "You wanted an outdoor adventure!",
+      "category": "story",
+      "type": "word",
+      "de": "spazieren gehen",
+      "en": "to go for a walk",
+      "irregular": true,
+      "example": "It's nice today. Let's go for a walk."
+    },
+    {
+      "id": "k6v3_106",
+      "grade": 6,
+      "unit": 3,
+      "section": "Story",
+      "sectionTitle": "You wanted an outdoor adventure!",
+      "category": "story",
+      "type": "word",
+      "de": "gegen",
+      "en": "against",
+      "example": "It was against the rules to leave the camp at night."
+    },
+    {
+      "id": "k6v3_107",
+      "grade": 6,
+      "unit": 3,
+      "section": "Story",
+      "sectionTitle": "You wanted an outdoor adventure!",
+      "category": "story",
+      "type": "word",
+      "de": "greifen; ergreifen; schnappen",
+      "en": "to grab",
+      "example": "Holly grabbed her bag and left the house."
+    },
+    {
+      "id": "k6v3_108",
+      "grade": 6,
+      "unit": 3,
+      "section": "Story",
+      "sectionTitle": "You wanted an outdoor adventure!",
+      "category": "story",
+      "type": "pair",
+      "de": "Taschenlampe",
+      "en": "flashlight (AE)",
+      "pair": {
+        "ae": "flashlight",
+        "be": "torch"
+      },
+      "example": "It's dark outside. We need flashlights."
+    },
+    {
+      "id": "k6v3_109",
+      "grade": 6,
+      "unit": 3,
+      "section": "Story",
+      "sectionTitle": "You wanted an outdoor adventure!",
+      "category": "story",
+      "type": "word",
+      "de": "ziemlich; ganz schön",
+      "en": "pretty",
+      "example": "I think that's a pretty silly idea."
+    },
+    {
+      "id": "k6v3_110",
+      "grade": 6,
+      "unit": 3,
+      "section": "Story",
+      "sectionTitle": "You wanted an outdoor adventure!",
+      "category": "story",
+      "type": "word",
+      "de": "auf Zehenspitzen gehen",
+      "en": "to tiptoe",
+      "example": "Shhh, you must tiptoe. Don't make any noise!"
+    },
+    {
+      "id": "k6v3_111",
+      "grade": 6,
+      "unit": 3,
+      "section": "Story",
+      "sectionTitle": "You wanted an outdoor adventure!",
+      "category": "story",
+      "type": "word",
+      "de": "in Richtung",
+      "en": "towards",
+      "example": "They walked towards the river."
+    },
+    {
+      "id": "k6v3_112",
+      "grade": 6,
+      "unit": 3,
+      "section": "Story",
+      "sectionTitle": "You wanted an outdoor adventure!",
+      "category": "story",
+      "type": "word",
+      "de": "sehr",
+      "en": "much",
+      "example": "A small flashlight doesn't help much."
+    },
+    {
+      "id": "k6v3_113",
+      "grade": 6,
+      "unit": 3,
+      "section": "Story",
+      "sectionTitle": "You wanted an outdoor adventure!",
+      "category": "story",
+      "type": "word",
+      "de": "vorgeben; vortäuschen; so tun, als ob",
+      "en": "to pretend",
+      "example": "Let's pretend we aren't scared."
+    },
+    {
+      "id": "k6v3_114",
+      "grade": 6,
+      "unit": 3,
+      "section": "Story",
+      "sectionTitle": "You wanted an outdoor adventure!",
+      "category": "story",
+      "type": "word",
+      "de": "grunzen",
+      "en": "to grunt",
+      "example": "Shhh! I think I heard an animal grunt."
+    },
+    {
+      "id": "k6v3_115",
+      "grade": 6,
+      "unit": 3,
+      "section": "Story",
+      "sectionTitle": "You wanted an outdoor adventure!",
+      "category": "story",
+      "type": "word",
+      "de": "weit; breit; ausgedehnt",
+      "en": "wide",
+      "example": "This trail isn't wide enough."
+    },
+    {
+      "id": "k6v3_116",
+      "grade": 6,
+      "unit": 3,
+      "section": "Story",
+      "sectionTitle": "You wanted an outdoor adventure!",
+      "category": "story",
+      "type": "word",
+      "de": "ruhig; friedlich",
+      "en": "calm",
+      "example": "Stay calm and don't move!",
+      "notes": "calm ↔ nervous"
+    },
+    {
+      "id": "k6v3_117",
+      "grade": 6,
+      "unit": 3,
+      "section": "Story",
+      "sectionTitle": "You wanted an outdoor adventure!",
+      "category": "story",
+      "type": "word",
+      "de": "weitergehen; weitermachen; fortfahren",
+      "en": "to go on",
+      "irregular": true,
+      "example": "Don't tell me how the story goes on."
+    },
+    {
+      "id": "k6v3_118",
+      "grade": 6,
+      "unit": 3,
+      "section": "Story",
+      "sectionTitle": "You wanted an outdoor adventure!",
+      "category": "story",
+      "type": "word",
+      "de": "spritzen; platschen; planschen",
+      "en": "to splash",
+      "example": "A huge bear was splashing through the water."
+    },
+    {
+      "id": "k6v3_119",
+      "grade": 6,
+      "unit": 3,
+      "section": "Story",
+      "sectionTitle": "You wanted an outdoor adventure!",
+      "category": "story",
+      "type": "word",
+      "de": "rückwärts",
+      "en": "backwards",
+      "example": "We had to walk backwards to get out of the cave."
+    },
+    {
+      "id": "k6v3_120",
+      "grade": 6,
+      "unit": 3,
+      "section": "Story",
+      "sectionTitle": "You wanted an outdoor adventure!",
+      "category": "story",
+      "type": "word",
+      "de": "angreifen",
+      "en": "to attack",
+      "example": "A bear attacked the hikers, but a ranger saved them."
+    },
+    {
+      "id": "k6v3_121",
+      "grade": 6,
+      "unit": 3,
+      "section": "Story",
+      "sectionTitle": "You wanted an outdoor adventure!",
+      "category": "story",
+      "type": "word",
+      "de": "Statue; Standbild",
+      "en": "statue",
+      "example": "Oh look, that's not a statue, it's a man!"
+    },
+    {
+      "id": "k6v3_122",
+      "grade": 6,
+      "unit": 3,
+      "section": "Story",
+      "sectionTitle": "You wanted an outdoor adventure!",
+      "category": "story",
+      "type": "word",
+      "de": "heben; anheben; sich heben",
+      "en": "to lift",
+      "example": "Could you help me to lift this heavy rock?"
+    },
+    {
+      "id": "k6v3_123",
+      "grade": 6,
+      "unit": 3,
+      "section": "Story",
+      "sectionTitle": "You wanted an outdoor adventure!",
+      "category": "story",
+      "type": "word",
+      "de": "Stein",
+      "en": "stone",
+      "example": "Look out! There are big stones on the trail."
+    },
+    {
+      "id": "k6v3_124",
+      "grade": 6,
+      "unit": 3,
+      "section": "Story",
+      "sectionTitle": "You wanted an outdoor adventure!",
+      "category": "story",
+      "type": "word",
+      "de": "kein Wunder",
+      "en": "no wonder",
+      "example": "He only sleeps five hours a night. No wonder he's tired."
+    },
+    {
+      "id": "k6v3_125",
+      "grade": 6,
+      "unit": 3,
+      "section": "Story",
+      "sectionTitle": "You wanted an outdoor adventure!",
+      "category": "story",
+      "type": "word",
+      "de": "jmdn. veranlassen etw. zu tun",
+      "en": "to make sb do sth",
+      "irregular": true,
+      "example": "They made us tidy our cabin every day."
+    },
+    {
+      "id": "k6v3_126",
+      "grade": 6,
+      "unit": 3,
+      "section": "Story",
+      "sectionTitle": "You wanted an outdoor adventure!",
+      "category": "story",
+      "type": "word",
+      "de": "schrecklich; schlimm; furchtbar",
+      "en": "terrible",
+      "example": "Our youth hostel was terrible. It was very loud and dirty."
+    },
+    {
+      "id": "k6v3_127",
+      "grade": 6,
+      "unit": 3,
+      "section": "Story",
+      "sectionTitle": "You wanted an outdoor adventure!",
+      "category": "story",
+      "type": "word",
+      "de": "realistisch",
+      "en": "realistic",
+      "example": "Are your plans realistic?",
+      "notes": "→ real"
+    },
+    {
+      "id": "k6v3_128",
+      "grade": 6,
+      "unit": 3,
+      "section": "Across cultures 2",
+      "sectionTitle": "Living together",
+      "category": "across-cultures-2",
+      "type": "word",
+      "de": "Fähigkeit; Begabung",
+      "en": "ability",
+      "example": "He's got lots of different abilities."
+    },
+    {
+      "id": "k6v3_129",
+      "grade": 6,
+      "unit": 3,
+      "section": "Across cultures 2",
+      "sectionTitle": "Living together",
+      "category": "across-cultures-2",
+      "type": "word",
+      "de": "gut",
+      "en": "well",
+      "example": "She loves singing but she can't sing very well."
+    },
+    {
+      "id": "k6v3_130",
+      "grade": 6,
+      "unit": 3,
+      "section": "Across cultures 2",
+      "sectionTitle": "Living together",
+      "category": "across-cultures-2",
+      "type": "word",
+      "de": "Aussage; Behauptung; Erklärung",
+      "en": "statement",
+      "notes": "to make a statement = to say something"
+    },
+    {
+      "id": "k6v3_131",
+      "grade": 6,
+      "unit": 3,
+      "section": "Across cultures 2",
+      "sectionTitle": "Living together",
+      "category": "across-cultures-2",
+      "type": "word",
+      "de": "Rat; Ratschlag",
+      "en": "advice (no pl)",
+      "example": "He gave me two good pieces of advice.",
+      "notes": "⚠️ nie: advices"
+    },
+    {
+      "id": "k6v3_132",
+      "grade": 6,
+      "unit": 3,
+      "section": "Across cultures 2",
+      "sectionTitle": "Living together",
+      "category": "across-cultures-2",
+      "type": "word",
+      "de": "Behinderung; Unfähigkeit",
+      "en": "disability",
+      "example": "At our school there are some students with disabilities.",
+      "notes": "ability ↔ disability"
+    },
+    {
+      "id": "k6v3_133",
+      "grade": 6,
+      "unit": 3,
+      "section": "Across cultures 2",
+      "sectionTitle": "Living together",
+      "category": "across-cultures-2",
+      "type": "word",
+      "de": "physisch; körperlich",
+      "en": "physical",
+      "example": "I'm in a wheelchair because I've got a physical disability."
+    },
+    {
+      "id": "k6v3_134",
+      "grade": 6,
+      "unit": 3,
+      "section": "Across cultures 2",
+      "sectionTitle": "Living together",
+      "category": "across-cultures-2",
+      "type": "word",
+      "de": "intellektuell; geistig",
+      "en": "intellectual",
+      "example": "I sometimes play intellectual games on my phone."
+    },
+    {
+      "id": "k6v3_135",
+      "grade": 6,
+      "unit": 3,
+      "section": "Across cultures 2",
+      "sectionTitle": "Living together",
+      "category": "across-cultures-2",
+      "type": "word",
+      "de": "Zeichen; Schild",
+      "en": "sign",
+      "example": "My brother can't hear. So we talk to him in sign language."
+    },
+    {
+      "id": "k6v3_136",
+      "grade": 6,
+      "unit": 3,
+      "section": "Across cultures 2",
+      "sectionTitle": "Living together",
+      "category": "across-cultures-2",
+      "type": "word",
+      "de": "Blindenhund",
+      "en": "guide dog",
+      "example": "A guide dog is a dog that helps people who can't see."
+    },
+    {
+      "id": "k6v3_137",
+      "grade": 6,
+      "unit": 3,
+      "section": "Across cultures 2",
+      "sectionTitle": "Living together",
+      "category": "across-cultures-2",
+      "type": "word",
+      "de": "Inklusion; Einbeziehung",
+      "en": "inclusion",
+      "example": "At our school, we believe in the idea of inclusion."
+    },
+    {
+      "id": "k6v3_138",
+      "grade": 6,
+      "unit": 3,
+      "section": "Across cultures 2",
+      "sectionTitle": "Living together",
+      "category": "across-cultures-2",
+      "type": "word",
+      "de": "inklusiv; einschließlich; umfassend",
+      "en": "inclusive",
+      "example": "Now he is in an inclusive class at my school."
+    },
+    {
+      "id": "k6v3_139",
+      "grade": 6,
+      "unit": 3,
+      "section": "Across cultures 2",
+      "sectionTitle": "Living together",
+      "category": "across-cultures-2",
+      "type": "word",
+      "de": "Schulbildung",
+      "en": "schooling",
+      "example": "Inclusive schooling is for children with and without disabilities."
+    },
+    {
+      "id": "k6v3_140",
+      "grade": 6,
+      "unit": 3,
+      "section": "Across cultures 2",
+      "sectionTitle": "Living together",
+      "category": "across-cultures-2",
+      "type": "word",
+      "de": "System",
+      "en": "system",
+      "example": "What are the differences between the American and the German school systems?"
+    },
+    {
+      "id": "k6v3_141",
+      "grade": 6,
+      "unit": 3,
+      "section": "Across cultures 2",
+      "sectionTitle": "Living together",
+      "category": "across-cultures-2",
+      "type": "word",
+      "de": "unterzeichnen; unterschreiben",
+      "en": "to sign",
+      "example": "Please sign the letter before you send it."
+    },
+    {
+      "id": "k6v3_142",
+      "grade": 6,
+      "unit": 3,
+      "section": "Across cultures 2",
+      "sectionTitle": "Living together",
+      "category": "across-cultures-2",
+      "type": "word",
+      "de": "Recht",
+      "en": "right",
+      "example": "Men and women have the same rights."
+    },
+    {
+      "id": "k6v3_143",
+      "grade": 6,
+      "unit": 3,
+      "section": "Across cultures 2",
+      "sectionTitle": "Living together",
+      "category": "across-cultures-2",
+      "type": "word",
+      "de": "Erfolg",
+      "en": "success",
+      "example": "The movie was a big success."
+    },
+    {
+      "id": "k6v3_144",
+      "grade": 6,
+      "unit": 3,
+      "section": "Across cultures 2",
+      "sectionTitle": "Living together",
+      "category": "across-cultures-2",
+      "type": "word",
+      "de": "Artikel; Bericht",
+      "en": "article",
+      "example": "On the TTS website there are lots of articles about clubs."
+    },
+    {
+      "id": "k6v3_145",
+      "grade": 6,
+      "unit": 3,
+      "section": "Across cultures 2",
+      "sectionTitle": "Living together",
+      "category": "across-cultures-2",
+      "type": "word",
+      "de": "Kaktus",
+      "en": "cactus, cacti (pl)",
+      "example": "A plant that doesn't need much water."
+    },
+    {
+      "id": "k6v3_146",
+      "grade": 6,
+      "unit": 3,
+      "section": "Across cultures 2",
+      "sectionTitle": "Living together",
+      "category": "across-cultures-2",
+      "type": "word",
+      "de": "Organisation",
+      "en": "organisation",
+      "example": "Betty works for an organisation that helps children.",
+      "notes": "→ to organise"
+    },
+    {
+      "id": "k6v3_147",
+      "grade": 6,
+      "unit": 3,
+      "section": "Across cultures 2",
+      "sectionTitle": "Living together",
+      "category": "across-cultures-2",
+      "type": "word",
+      "de": "Bedürfnis",
+      "en": "need",
+      "example": "People with disabilities have special needs."
+    },
+    {
+      "id": "k6v3_148",
+      "grade": 6,
+      "unit": 3,
+      "section": "Across cultures 2",
+      "sectionTitle": "Living together",
+      "category": "across-cultures-2",
+      "type": "word",
+      "de": "sehbehindert; teilsichtig",
+      "en": "partially sighted",
+      "example": "The new girl in our class is partially sighted."
+    },
+    {
+      "id": "k6v3_149",
+      "grade": 6,
+      "unit": 3,
+      "section": "Across cultures 2",
+      "sectionTitle": "Living together",
+      "category": "across-cultures-2",
+      "type": "word",
+      "de": "gehörlos; taub; schwerhörig",
+      "en": "deaf",
+      "example": "Some people are so deaf that they can't hear anything at all."
+    },
+    {
+      "id": "k6v3_150",
+      "grade": 6,
+      "unit": 3,
+      "section": "Across cultures 2",
+      "sectionTitle": "Living together",
+      "category": "across-cultures-2",
+      "type": "word",
+      "de": "(sich) konzentrieren",
+      "en": "to concentrate",
+      "example": "Holly concentrated on what her teacher said."
+    },
+    {
+      "id": "k6v3_151",
+      "grade": 6,
+      "unit": 3,
+      "section": "Across cultures 2",
+      "sectionTitle": "Living together",
+      "category": "across-cultures-2",
+      "type": "word",
+      "de": "Hörgerät",
+      "en": "hearing aid",
+      "example": "Some deaf people can hear with a hearing aid."
+    },
+    {
+      "id": "k6v3_152",
+      "grade": 6,
+      "unit": 3,
+      "section": "Across cultures 2",
+      "sectionTitle": "Living together",
+      "category": "across-cultures-2",
+      "type": "word",
+      "de": "Brille",
+      "en": "glasses (pl)",
+      "example": "I can't read without my glasses.",
+      "notes": "⚠️ immer Plural: My glasses are broken."
+    }
+  ],
+  "grammarTopics": [
+    {
+      "id": "k6g_G7",
+      "grade": 6,
+      "unit": 3,
+      "code": "G7",
+      "title": "Past progressive (Verlaufsform der Vergangenheit)",
+      "bookPages": "S. 44–47",
+      "explanation": "Das past progressive beschreibt, was zu einem bestimmten Zeitpunkt in der Vergangenheit gerade im Gange war. Bildung: was/were + -ing-Form. Typisch: Eine Handlung läuft (past progressive), als etwas Neues passiert (simple past): She was riding when her hat fell off. Zwei Handlungen gleichzeitig: While …, … were … ing. Im Deutschen sagt man dafür „gerade\".",
+      "examples": [
+        "At 10 o'clock yesterday Emily and Dave were having a video chat.",
+        "Emily was riding around the last barrel when her hat fell off.",
+        "While Emily and Ryan were looking at photos, their dad was preparing dinner.",
+        "Was Mike ziplining when he fell into the water? – No, he wasn't."
+      ],
+      "commonMistakes": [
+        "Das neue, kurze Ereignis auch in der Verlaufsform: „when her hat was falling off\"",
+        "was/were verwechseln: „they was\"",
+        "-ing vergessen: „She was ride\""
+      ]
+    },
+    {
+      "id": "k6g_G8",
+      "grade": 6,
+      "unit": 3,
+      "code": "G8",
+      "title": "Adverbial clauses; conditional sentences type 0",
+      "bookPages": "S. 48–49",
+      "explanation": "Adverbialsätze geben genauere Umstände an (before, when, because, although, so that, while, if). Die Satzstellung ist in Haupt- und Nebensatz gleich (S – V – O). Komma: Nebensatz zuerst → Komma; Hauptsatz zuerst → kein Komma. Bedingungssatz Typ 0: Für Dinge, die immer so sind, steht im if-Satz und im Hauptsatz das simple present.",
+      "examples": [
+        "You have to think of so many things before you go on a hiking trip.",
+        "When it rains, the trails are wet and dangerous.",
+        "Animals come if they smell food.",
+        "They often bite if they are scared."
+      ],
+      "commonMistakes": [
+        "Komma, obwohl der Hauptsatz zuerst steht: „The trails are wet, when it rains.\"",
+        "will im if-Satz bei Typ 0",
+        "although und because verwechseln"
+      ]
+    }
+  ],
+  "grammarQuestions": [
+    {
+      "id": "k6q_G7_001",
+      "topicId": "k6g_G7",
+      "type": "multipleChoice",
+      "prompt": "At 10 o'clock yesterday Emily and Dave ___ a video chat.",
+      "options": [
+        "were having",
+        "was having",
+        "had having"
+      ],
+      "answer": "were having",
+      "explanation": "Zu einem Zeitpunkt im Verlauf → past progressive; Emily and Dave = they → were.",
+      "optionHints": {
+        "was having": "Emily and Dave sind zwei Personen → were.",
+        "had having": "Bildung: was/were + -ing."
+      }
+    },
+    {
+      "id": "k6q_G7_002",
+      "topicId": "k6g_G7",
+      "type": "multipleChoice",
+      "prompt": "Emily was riding around the last barrel when her hat ___ off.",
+      "options": [
+        "fell",
+        "was falling",
+        "falls"
+      ],
+      "answer": "fell",
+      "explanation": "Das Neue, das plötzlich passiert, steht im simple past: fell.",
+      "optionHints": {
+        "was falling": "Die Handlung im Verlauf ist „was riding\". Das plötzliche Ereignis steht im simple past: fell.",
+        "falls": "Die Geschichte spielt in der Vergangenheit → fell."
+      }
+    },
+    {
+      "id": "k6q_G7_003",
+      "topicId": "k6g_G7",
+      "type": "multipleChoice",
+      "prompt": "While Emily and Ryan were looking at photos, their dad ___ dinner.",
+      "options": [
+        "was preparing",
+        "were preparing",
+        "is preparing"
+      ],
+      "answer": "was preparing",
+      "explanation": "Zwei Handlungen gleichzeitig im Verlauf → past progressive; their dad = he → was.",
+      "optionHints": {
+        "were preparing": "their dad ist eine Person → was.",
+        "is preparing": "Es geht um die Vergangenheit → was preparing."
+      }
+    },
+    {
+      "id": "k6q_G7_004",
+      "topicId": "k6g_G7",
+      "type": "multipleChoice",
+      "prompt": "What ___ Mike doing when his canoe turned over?",
+      "options": [
+        "was",
+        "were",
+        "did"
+      ],
+      "answer": "was",
+      "explanation": "Frage im past progressive: was/were + Subjekt + -ing. Mike = he → was.",
+      "optionHints": {
+        "were": "Mike ist eine Person → was.",
+        "did": "Mit -ing (doing) brauchst du was/were, nicht did."
+      }
+    },
+    {
+      "id": "k6q_G7_005",
+      "topicId": "k6g_G7",
+      "type": "multipleChoice",
+      "prompt": "Was Mike ziplining when he fell into the water? – No, he ___.",
+      "options": [
+        "wasn't",
+        "didn't",
+        "weren't"
+      ],
+      "answer": "wasn't",
+      "explanation": "Die Frage beginnt mit Was → Kurzantwort: No, he wasn't.",
+      "optionHints": {
+        "didn't": "Die Frage beginnt mit Was, nicht mit Did → he wasn't.",
+        "weren't": "he → wasn't."
+      }
+    },
+    {
+      "id": "k6q_G7_006",
+      "topicId": "k6g_G7",
+      "type": "multipleChoice",
+      "prompt": "Grace and Ava ___ playing around in the water. (verneint)",
+      "options": [
+        "weren't",
+        "wasn't",
+        "didn't"
+      ],
+      "answer": "weren't",
+      "explanation": "Verneinung: weren't + -ing; Grace and Ava = they.",
+      "optionHints": {
+        "wasn't": "Zwei Personen → weren't.",
+        "didn't": "Mit -ing verneinst du mit was/were: weren't."
+      }
+    },
+    {
+      "id": "k6q_G7_007",
+      "topicId": "k6g_G7",
+      "type": "multipleChoice",
+      "prompt": "We were watching a film ___ Mum came home.",
+      "options": [
+        "when",
+        "while",
+        "during"
+      ],
+      "answer": "when",
+      "explanation": "Ein kurzes, neues Ereignis unterbricht die Handlung → when + simple past.",
+      "optionHints": {
+        "while": "while steht meist vor der langen Handlung im Verlauf. Für das kurze Ereignis: when.",
+        "during": "during steht vor einem Nomen (during the film), nicht vor einem Satz."
+      }
+    },
+    {
+      "id": "k6q_G7_008",
+      "topicId": "k6g_G7",
+      "type": "multipleChoice",
+      "prompt": "I read a whole magazine ___ I was waiting for the bus.",
+      "options": [
+        "while",
+        "during",
+        "then"
+      ],
+      "answer": "while",
+      "explanation": "while + past progressive = während (die Handlung lief).",
+      "optionHints": {
+        "during": "during + Nomen (during the trip). Vor einem Satz: while.",
+        "then": "then heißt „dann\" – hier brauchst du „während\": while."
+      }
+    },
+    {
+      "id": "k6q_G7_009",
+      "topicId": "k6g_G7",
+      "type": "fillBlank",
+      "prompt": "Jada ___ (take) photos when Mike's canoe turned over.",
+      "answer": "was taking",
+      "explanation": "Handlung im Verlauf → was + -ing: was taking."
+    },
+    {
+      "id": "k6q_G7_010",
+      "topicId": "k6g_G7",
+      "type": "fillBlank",
+      "prompt": "At 4 p.m. yesterday Luke ___ (play) football with his friends.",
+      "answer": "was playing",
+      "explanation": "Zu einem bestimmten Zeitpunkt im Verlauf → was playing."
+    },
+    {
+      "id": "k6q_G7_011",
+      "topicId": "k6g_G7",
+      "type": "fillBlank",
+      "prompt": "___ you sleeping when the bear came into the camp?",
+      "answer": "Were",
+      "explanation": "Frage im past progressive mit you → Were you …?"
+    },
+    {
+      "id": "k6q_G7_012",
+      "topicId": "k6g_G7",
+      "type": "fillBlank",
+      "prompt": "While my dog ___ (sleep), my cat stole his dinner!",
+      "answer": "was sleeping",
+      "explanation": "Die lange Handlung nach while → past progressive: was sleeping."
+    },
+    {
+      "id": "k6q_G7_013",
+      "topicId": "k6g_G7",
+      "type": "fillBlank",
+      "prompt": "Amber was preparing a presentation when her phone ___ (ring).",
+      "answer": "rang",
+      "explanation": "Das neue Ereignis → simple past. ring – rang – rung."
+    },
+    {
+      "id": "k6q_G8_001",
+      "topicId": "k6g_G8",
+      "type": "multipleChoice",
+      "prompt": "Animals come if they ___ food.",
+      "options": [
+        "smell",
+        "will smell",
+        "smelled"
+      ],
+      "answer": "smell",
+      "explanation": "Typ 0 (das ist immer so): simple present im if-Satz und im Hauptsatz.",
+      "optionHints": {
+        "will smell": "Bei Typ 0 steht in beiden Satzteilen das simple present – kein will.",
+        "smelled": "Es geht um etwas, das immer gilt → simple present."
+      }
+    },
+    {
+      "id": "k6q_G8_002",
+      "topicId": "k6g_G8",
+      "type": "multipleChoice",
+      "prompt": "When it ___, the trails are wet and dangerous.",
+      "options": [
+        "rains",
+        "will rain",
+        "is raining"
+      ],
+      "answer": "rains",
+      "explanation": "Erfahrungsgemäß immer so → simple present: When it rains, …",
+      "optionHints": {
+        "will rain": "Typ 0: kein will, sondern simple present.",
+        "is raining": "Für Dinge, die immer gelten, nimmst du das simple present."
+      }
+    },
+    {
+      "id": "k6q_G8_003",
+      "topicId": "k6g_G8",
+      "type": "multipleChoice",
+      "prompt": "Welcher Satz hat das Komma richtig?",
+      "options": [
+        "When it rains, the trails are wet.",
+        "The trails are wet, when it rains.",
+        "When it rains the trails, are wet."
+      ],
+      "answer": "When it rains, the trails are wet.",
+      "explanation": "Nebensatz zuerst → Komma zwischen Neben- und Hauptsatz.",
+      "optionHints": {
+        "The trails are wet, when it rains.": "Hauptsatz zuerst → kein Komma.",
+        "When it rains the trails, are wet.": "Das Komma gehört ans Ende des Nebensatzes: When it rains, …"
+      }
+    },
+    {
+      "id": "k6q_G8_004",
+      "topicId": "k6g_G8",
+      "type": "multipleChoice",
+      "prompt": "Take a map with you ___ you can find the way.",
+      "options": [
+        "so that",
+        "although",
+        "because of"
+      ],
+      "answer": "so that",
+      "explanation": "so that = damit (Zweck).",
+      "optionHints": {
+        "although": "although heißt „obwohl\" – das passt hier nicht.",
+        "because of": "because of steht vor einem Nomen, nicht vor einem Satz."
+      }
+    },
+    {
+      "id": "k6q_G8_005",
+      "topicId": "k6g_G8",
+      "type": "multipleChoice",
+      "prompt": "___ it gets hot in the Rockies in summer, some lakes are really cold.",
+      "options": [
+        "Although",
+        "Because",
+        "So that"
+      ],
+      "answer": "Although",
+      "explanation": "Gegensatz: Obwohl es heiß wird, sind manche Seen kalt → although.",
+      "optionHints": {
+        "Because": "Die Seen sind nicht kalt, WEIL es heiß wird – es ist ein Gegensatz → although.",
+        "So that": "so that zeigt einen Zweck („damit\") – hier geht es um einen Gegensatz."
+      }
+    },
+    {
+      "id": "k6q_G8_006",
+      "topicId": "k6g_G8",
+      "type": "multipleChoice",
+      "prompt": "Don't forget your camera ___ you can sometimes see wild animals.",
+      "options": [
+        "because",
+        "although",
+        "until"
+      ],
+      "answer": "because",
+      "explanation": "Grund: weil man manchmal Tiere sieht → because.",
+      "optionHints": {
+        "although": "although = obwohl. Hier ist es ein Grund → because.",
+        "until": "until = bis. Hier ist es ein Grund → because."
+      }
+    },
+    {
+      "id": "k6q_G8_007",
+      "topicId": "k6g_G8",
+      "type": "multipleChoice",
+      "prompt": "They often bite if they ___ scared.",
+      "options": [
+        "are",
+        "will be",
+        "were"
+      ],
+      "answer": "are",
+      "explanation": "Typ 0: simple present im if-Satz.",
+      "optionHints": {
+        "will be": "Kein will im if-Satz.",
+        "were": "Es geht um etwas, das immer gilt → simple present: are."
+      }
+    },
+    {
+      "id": "k6q_G8_008",
+      "topicId": "k6g_G8",
+      "type": "fillBlank",
+      "prompt": "It's easy to go the wrong way ___ you leave the trail.",
+      "answer": "if",
+      "acceptedAnswers": [
+        "if",
+        "when"
+      ],
+      "explanation": "Bedingung: wenn (falls) du den Weg verlässt → if."
+    },
+    {
+      "id": "k6q_G8_009",
+      "topicId": "k6g_G8",
+      "type": "fillBlank",
+      "prompt": "If you don't drink enough water, you ___ (get) tired.",
+      "answer": "get",
+      "explanation": "Typ 0 (immer so): simple present auch im Hauptsatz → get."
+    },
+    {
+      "id": "k6q_G8_010",
+      "topicId": "k6g_G8",
+      "type": "fillBlank",
+      "prompt": "You have to think of many things ___ you go on a hiking trip.",
+      "answer": "before",
+      "explanation": "before = bevor."
+    },
+    {
+      "id": "k6q_G8_011",
+      "topicId": "k6g_G8",
+      "type": "fillBlank",
+      "prompt": "If it ___ (rain), the streets get wet.",
+      "answer": "rains",
+      "explanation": "Typ 0: simple present im if-Satz. it → rains."
+    },
+    {
+      "id": "k6q_G8_012",
+      "topicId": "k6g_G8",
+      "type": "fillBlank",
+      "prompt": "___ you are hiking in the Rockies, you must drink lots of water.",
+      "answer": "While",
+      "acceptedAnswers": [
+        "while",
+        "when"
+      ],
+      "explanation": "while = während (die Handlung läuft)."
+    },
+    {
+      "id": "k6q_G8_013",
+      "topicId": "k6g_G8",
+      "type": "fillBlank",
+      "prompt": "Bears come into the camp ___ they smell food.",
+      "answer": "if",
+      "acceptedAnswers": [
+        "if",
+        "when",
+        "whenever"
+      ],
+      "explanation": "Bedingung (Typ 0) → if (oder when)."
+    }
+  ],
+  "conversationScenarios": [
+    {
+      "id": "k6c_camp_shopping",
+      "unit": 3,
+      "title": "Kleidung fürs Camp kaufen",
+      "level": 2,
+      "goal": "Einkaufen, Größen, Anprobieren",
+      "grammarCodes": [],
+      "situation": "Du brauchst Kleidung für das Green Moose Camp und hast $60. Die Person im Laden hilft dir.",
+      "openingLine": "Hi there! Welcome to Rocky Outdoor Shop. Can I help you?",
+      "phrases": [
+        "I need … for camp.",
+        "Can I try it on?",
+        "Where are the fitting rooms?",
+        "It doesn't fit. Have you got a bigger/smaller size?",
+        "How much is it?"
+      ],
+      "grade": 6,
+      "startNode": "n1",
+      "nodes": {
+        "n1": {
+          "npcLine": "Hi there! Welcome to Rocky Outdoor Shop. Can I help you?",
+          "choices": [
+            {
+              "text": "Yes, please. I need some clothes for camp. I'm looking for a rain jacket.",
+              "quality": "good",
+              "feedback": "Höflich und klar!",
+              "next": "n2"
+            },
+            {
+              "text": "I need a jacket.",
+              "quality": "ok",
+              "feedback": "Verständlich! Höflicher: Yes, please. I'm looking for a jacket.",
+              "next": "n2"
+            },
+            {
+              "text": "Give me a jacket.",
+              "quality": "wrong",
+              "feedback": "Das klingt zu direkt. Besser: I'm looking for a jacket, please.",
+              "next": "n2"
+            }
+          ]
+        },
+        "n2": {
+          "npcLine": "Sure. The jackets are over here. What size do you need?",
+          "choices": [
+            {
+              "text": "I think I need small. Can I try it on?",
+              "quality": "good",
+              "feedback": "Super – und try it on ist genau richtig gebaut.",
+              "next": "n3"
+            },
+            {
+              "text": "Small.",
+              "quality": "ok",
+              "feedback": "Richtig! Als Satz: I need small, please.",
+              "next": "n3"
+            },
+            {
+              "text": "Small. Can I try on it?",
+              "quality": "wrong",
+              "feedback": "Bei Pronomen steht es in der Mitte: Can I try it on?",
+              "next": "n3"
+            }
+          ]
+        },
+        "n3": {
+          "npcLine": "Of course. The fitting rooms are over there. … So, how is it?",
+          "choices": [
+            {
+              "text": "Oh dear, it doesn't fit. It's too big. Have you got a smaller size?",
+              "quality": "good",
+              "feedback": "Perfekt – du beschreibst das Problem und fragst nach.",
+              "next": "n4"
+            },
+            {
+              "text": "Too big.",
+              "quality": "ok",
+              "feedback": "Gut! Frag gleich nach: Have you got a smaller size?",
+              "next": "n4"
+            },
+            {
+              "text": "It don't fit.",
+              "quality": "wrong",
+              "feedback": "it → doesn't: It doesn't fit.",
+              "next": "n4"
+            }
+          ]
+        },
+        "n4": {
+          "npcLine": "Let me check. … Yes, here you go. This one is $45. And this week we have a special offer: socks for $5 a pair.",
+          "choices": [
+            {
+              "text": "This one fits! I'd like the jacket and two pairs of socks, please.",
+              "quality": "good",
+              "feedback": "Super – höflich mit I'd like, und mit $55 bleibst du im Budget!",
+              "next": "n5"
+            },
+            {
+              "text": "How much is the jacket?",
+              "quality": "ok",
+              "feedback": "Gute Frage – der Preis wurde gerade genannt: $45. Hör genau hin!",
+              "next": "n5"
+            },
+            {
+              "text": "I want all the socks.",
+              "quality": "wrong",
+              "feedback": "Klingt unhöflich und sprengt das Budget. Besser: I'd like two pairs of socks, please.",
+              "next": "n5"
+            }
+          ]
+        },
+        "n5": {
+          "npcLine": "Here you are. That's $55, please. Have fun at camp!",
+          "choices": []
+        }
+      },
+      "endNodes": [
+        "n5"
+      ]
+    },
+    {
+      "id": "k6c_what_happened",
+      "unit": 3,
+      "title": "Was ist passiert?",
+      "level": 3,
+      "goal": "simple past vs. past progressive, when/while (G7–G8)",
+      "grammarCodes": [
+        "G7",
+        "G8"
+      ],
+      "situation": "Ein Gruppenleiter im Camp fragt dich, was gestern Abend im Wald los war.",
+      "openingLine": "Good morning! Somebody told me you left the camp last night. What were you doing when you heard that noise?",
+      "phrases": [
+        "I was walking along the trail when …",
+        "While we were …, we …",
+        "It was so dark that …",
+        "I was scared because …"
+      ],
+      "grade": 6,
+      "startNode": "n1",
+      "nodes": {
+        "n1": {
+          "npcLine": "Good morning! Somebody told me you left the camp last night. What were you doing when you heard that noise?",
+          "choices": [
+            {
+              "text": "I was walking to the bathroom when I heard a strange noise.",
+              "quality": "good",
+              "feedback": "Perfekt – past progressive für die Handlung im Verlauf, simple past für das Neue.",
+              "next": "n2"
+            },
+            {
+              "text": "I walked to the bathroom.",
+              "quality": "ok",
+              "feedback": "Verständlich! Für eine Handlung im Verlauf: I was walking …",
+              "next": "n2"
+            },
+            {
+              "text": "I was walk to the bathroom.",
+              "quality": "wrong",
+              "feedback": "past progressive: was + -ing → I was walking.",
+              "next": "n2"
+            }
+          ]
+        },
+        "n2": {
+          "npcLine": "I see. And what did you do then?",
+          "choices": [
+            {
+              "text": "I took my flashlight and followed the noise to the trees.",
+              "quality": "good",
+              "feedback": "Gut erzählt – neue Handlungen im simple past.",
+              "next": "n3"
+            },
+            {
+              "text": "I go to the trees.",
+              "quality": "ok",
+              "feedback": "Die Geschichte spielt gestern → simple past: I went to the trees.",
+              "next": "n3"
+            },
+            {
+              "text": "I was taking my flashlight when I was following.",
+              "quality": "wrong",
+              "feedback": "Zu kompliziert. Neue, kurze Handlungen stehen im simple past: I took my flashlight …",
+              "next": "n3"
+            }
+          ]
+        },
+        "n3": {
+          "npcLine": "At night? Weren't you scared?",
+          "choices": [
+            {
+              "text": "Yes, I was. It was so dark that I couldn't see much.",
+              "quality": "good",
+              "feedback": "Super – Kurzantwort mit was und eine anschauliche Beschreibung.",
+              "next": "n4"
+            },
+            {
+              "text": "Yes, a bit.",
+              "quality": "ok",
+              "feedback": "Gut! Mit Kurzantwort: Yes, I was. I was a bit scared.",
+              "next": "n4"
+            },
+            {
+              "text": "Yes, I did.",
+              "quality": "wrong",
+              "feedback": "Die Frage beginnt mit Weren't → Antwort mit was: Yes, I was.",
+              "next": "n4"
+            }
+          ]
+        },
+        "n4": {
+          "npcLine": "So what was making the noise?",
+          "choices": [
+            {
+              "text": "While I was looking around, I saw a moose. It was eating leaves!",
+              "quality": "good",
+              "feedback": "Spannend erzählt – while + past progressive!",
+              "next": "n5"
+            },
+            {
+              "text": "A moose.",
+              "quality": "ok",
+              "feedback": "Spannend! Erzähl mehr im past progressive: It was eating …",
+              "next": "n5"
+            },
+            {
+              "text": "A moose was eat leaves.",
+              "quality": "wrong",
+              "feedback": "past progressive: was eating.",
+              "next": "n5"
+            }
+          ]
+        },
+        "n5": {
+          "npcLine": "A moose! Wow. But next time, please stay in your tent and tell me, OK?",
+          "choices": []
+        }
+      },
+      "endNodes": [
+        "n5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2900 @@
+{
+  "id": "k6u4",
+  "grade": 6,
+  "unit": 4,
+  "title": "Sport is good for you!",
+  "vocab": [
+    {
+      "id": "k6v4_001",
+      "grade": 6,
+      "unit": 4,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Kamelrennen",
+      "en": "camel racing",
+      "example": "In some countries camel racing is more popular than horse racing."
+    },
+    {
+      "id": "k6v4_002",
+      "grade": 6,
+      "unit": 4,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Marathon",
+      "en": "marathon",
+      "example": "My uncle ran in a marathon last year."
+    },
+    {
+      "id": "k6v4_003",
+      "grade": 6,
+      "unit": 4,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Gesundheit",
+      "en": "health",
+      "example": "Sport is good for your health.",
+      "notes": "→ healthy"
+    },
+    {
+      "id": "k6v4_004",
+      "grade": 6,
+      "unit": 4,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Unfall",
+      "en": "accident",
+      "example": "My sister had a bike accident yesterday."
+    },
+    {
+      "id": "k6v4_005",
+      "grade": 6,
+      "unit": 4,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Radio",
+      "en": "radio",
+      "example": "In the morning, I always listen to the radio."
+    },
+    {
+      "id": "k6v4_006",
+      "grade": 6,
+      "unit": 4,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Programm; Sendung",
+      "en": "programme",
+      "example": "There's an interesting programme about camel racing on TV."
+    },
+    {
+      "id": "k6v4_007",
+      "grade": 6,
+      "unit": 4,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Läufer/-in",
+      "en": "runner",
+      "example": "More than 30,000 runners run in the London Marathon."
+    },
+    {
+      "id": "k6v4_008",
+      "grade": 6,
+      "unit": 4,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Netz",
+      "en": "net",
+      "example": "For tennis, you need a net."
+    },
+    {
+      "id": "k6v4_009",
+      "grade": 6,
+      "unit": 4,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Schläger",
+      "en": "racquet",
+      "example": "Oh no, I haven't got my racquet."
+    },
+    {
+      "id": "k6v4_010",
+      "grade": 6,
+      "unit": 4,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Punktestand; Spielstand",
+      "en": "score",
+      "example": "At the end of the match the score was 2–2."
+    },
+    {
+      "id": "k6v4_011",
+      "grade": 6,
+      "unit": 4,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "verlieren",
+      "en": "to lose",
+      "irregular": true,
+      "example": "Our team lost again. What a shame!",
+      "notes": "to lose ↔ to win"
+    },
+    {
+      "id": "k6v4_012",
+      "grade": 6,
+      "unit": 4,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Spielfeld",
+      "en": "court",
+      "example": "The two players are on the court now."
+    },
+    {
+      "id": "k6v4_013",
+      "grade": 6,
+      "unit": 4,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "fangen",
+      "en": "to catch",
+      "irregular": true,
+      "example": "I threw the ball and he caught it.",
+      "notes": "to catch ↔ to throw"
+    },
+    {
+      "id": "k6v4_014",
+      "grade": 6,
+      "unit": 4,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "zupassen; zuspielen",
+      "en": "to pass",
+      "example": "The football player passes the ball to his team member."
+    },
+    {
+      "id": "k6v4_015",
+      "grade": 6,
+      "unit": 4,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "schießen; treten",
+      "en": "to kick",
+      "example": "'Pass' means to throw or kick the ball to another player in the same team."
+    },
+    {
+      "id": "k6v4_016",
+      "grade": 6,
+      "unit": 4,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Spielfeld; Platz",
+      "en": "pitch",
+      "example": "You play football on a pitch or field.",
+      "notes": "⚠️ a tennis court – a football pitch/field"
+    },
+    {
+      "id": "k6v4_017",
+      "grade": 6,
+      "unit": 4,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "phrase",
+      "de": "je … desto … + Komparativ",
+      "en": "the … the … + comparative",
+      "example": "The quicker you are with your homework, the earlier you can meet your friends."
+    },
+    {
+      "id": "k6v4_018",
+      "grade": 6,
+      "unit": 4,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "Ausrüstung; Ausstattung",
+      "en": "equipment",
+      "example": "You need lots of equipment to play American football."
+    },
+    {
+      "id": "k6v4_019",
+      "grade": 6,
+      "unit": 4,
+      "section": "Check-in",
+      "sectionTitle": "",
+      "category": "check-in",
+      "type": "word",
+      "de": "individuell; einzeln",
+      "en": "individual",
+      "example": "Do you do an individual sport or a team sport?"
+    },
+    {
+      "id": "k6v4_020",
+      "grade": 6,
+      "unit": 4,
+      "section": "Station 1",
+      "sectionTitle": "Have you ever run in a marathon?",
+      "category": "station-1",
+      "type": "word",
+      "de": "jemals; überhaupt",
+      "en": "ever",
+      "example": "It was our funniest project ever!"
+    },
+    {
+      "id": "k6v4_021",
+      "grade": 6,
+      "unit": 4,
+      "section": "Station 1",
+      "sectionTitle": "Have you ever run in a marathon?",
+      "category": "station-1",
+      "type": "word",
+      "de": "genau hier",
+      "en": "right here",
+      "example": "The marathon starts right here."
+    },
+    {
+      "id": "k6v4_022",
+      "grade": 6,
+      "unit": 4,
+      "section": "Station 1",
+      "sectionTitle": "Have you ever run in a marathon?",
+      "category": "station-1",
+      "type": "word",
+      "de": "11-Jährige/-r",
+      "en": "11-year-old",
+      "example": "The mini marathon is for 11 to 18-year-olds."
+    },
+    {
+      "id": "k6v4_023",
+      "grade": 6,
+      "unit": 4,
+      "section": "Station 1",
+      "sectionTitle": "Have you ever run in a marathon?",
+      "category": "station-1",
+      "type": "word",
+      "de": "Laufen; Rennen",
+      "en": "running",
+      "example": "Gwen loves running. It's her favourite sport."
+    },
+    {
+      "id": "k6v4_024",
+      "grade": 6,
+      "unit": 4,
+      "section": "Station 1",
+      "sectionTitle": "Have you ever run in a marathon?",
+      "category": "station-1",
+      "type": "word",
+      "de": "Qualifikation",
+      "en": "trial",
+      "example": "There are trials in sports to find the best runners or players."
+    },
+    {
+      "id": "k6v4_025",
+      "grade": 6,
+      "unit": 4,
+      "section": "Station 1",
+      "sectionTitle": "Have you ever run in a marathon?",
+      "category": "station-1",
+      "type": "phrase",
+      "de": "Wer macht mit?; Wer ist dabei?",
+      "en": "Who's in?",
+      "example": "Let's join the football team. Who's in?"
+    },
+    {
+      "id": "k6v4_026",
+      "grade": 6,
+      "unit": 4,
+      "section": "Station 1",
+      "sectionTitle": "Have you ever run in a marathon?",
+      "category": "station-1",
+      "type": "word",
+      "de": "dabei sein; mitmachen",
+      "en": "to be in",
+      "irregular": true,
+      "example": "Are you going to run? Well, I'm in, and I hope you are too!"
+    },
+    {
+      "id": "k6v4_027",
+      "grade": 6,
+      "unit": 4,
+      "section": "Station 1",
+      "sectionTitle": "Have you ever run in a marathon?",
+      "category": "station-1",
+      "type": "word",
+      "de": "Rennen; Lauf",
+      "en": "run",
+      "example": "A marathon is a long run.",
+      "notes": "a run → to run → runner"
+    },
+    {
+      "id": "k6v4_028",
+      "grade": 6,
+      "unit": 4,
+      "section": "Station 1",
+      "sectionTitle": "Have you ever run in a marathon?",
+      "category": "station-1",
+      "type": "word",
+      "de": "Geld sammeln",
+      "en": "to raise money",
+      "example": "Charities raise money to help people."
+    },
+    {
+      "id": "k6v4_029",
+      "grade": 6,
+      "unit": 4,
+      "section": "Station 1",
+      "sectionTitle": "Have you ever run in a marathon?",
+      "category": "station-1",
+      "type": "word",
+      "de": "schon einmal; vorher; zuvor",
+      "en": "before",
+      "example": "Have you been here before? Or is this your first trip?"
+    },
+    {
+      "id": "k6v4_030",
+      "grade": 6,
+      "unit": 4,
+      "section": "Station 2",
+      "sectionTitle": "Have you been to the doctor's yet?",
+      "category": "station-2",
+      "type": "word",
+      "de": "Arzt/Ärztin",
+      "en": "doctor",
+      "example": "I've hurt my foot. I need to see a doctor.",
+      "notes": "⚠️ Have you seen the doctor yet? / Have you been to the doctor's yet? (doctor's = doctor's surgery = Arztpraxis)"
+    },
+    {
+      "id": "k6v4_031",
+      "grade": 6,
+      "unit": 4,
+      "section": "Station 2",
+      "sectionTitle": "Have you been to the doctor's yet?",
+      "category": "station-2",
+      "type": "word",
+      "de": "schon; noch",
+      "en": "yet",
+      "example": "Have you asked your parents about the party yet?"
+    },
+    {
+      "id": "k6v4_032",
+      "grade": 6,
+      "unit": 4,
+      "section": "Station 2",
+      "sectionTitle": "Have you been to the doctor's yet?",
+      "category": "station-2",
+      "type": "phrase",
+      "de": "noch nicht",
+      "en": "not … yet",
+      "example": "The friends haven't left for the marathon yet."
+    },
+    {
+      "id": "k6v4_033",
+      "grade": 6,
+      "unit": 4,
+      "section": "Station 2",
+      "sectionTitle": "Have you been to the doctor's yet?",
+      "category": "station-2",
+      "type": "word",
+      "de": "sich den Knöchel verrenken",
+      "en": "to twist your ankle",
+      "example": "I've twisted my ankle. It hurts a lot."
+    },
+    {
+      "id": "k6v4_034",
+      "grade": 6,
+      "unit": 4,
+      "section": "Station 2",
+      "sectionTitle": "Have you been to the doctor's yet?",
+      "category": "station-2",
+      "type": "word",
+      "de": "Schmerz",
+      "en": "pain",
+      "example": "I've got a really bad pain in my left foot."
+    },
+    {
+      "id": "k6v4_035",
+      "grade": 6,
+      "unit": 4,
+      "section": "Station 2",
+      "sectionTitle": "Have you been to the doctor's yet?",
+      "category": "station-2",
+      "type": "word",
+      "de": "Sprechgesang",
+      "en": "chant",
+      "example": "During a football match there are loud chants."
+    },
+    {
+      "id": "k6v4_036",
+      "grade": 6,
+      "unit": 4,
+      "section": "Station 2",
+      "sectionTitle": "Have you been to the doctor's yet?",
+      "category": "station-2",
+      "type": "word",
+      "de": "anfeuern; jubeln; zujubeln",
+      "en": "to cheer",
+      "example": "Jay is writing a chant to cheer the runners in the marathon."
+    },
+    {
+      "id": "k6v4_037",
+      "grade": 6,
+      "unit": 4,
+      "section": "Station 2",
+      "sectionTitle": "Have you been to the doctor's yet?",
+      "category": "station-2",
+      "type": "word",
+      "de": "anschauen",
+      "en": "to have a look (at)",
+      "irregular": true,
+      "example": "Let me have a look at your ankle."
+    },
+    {
+      "id": "k6v4_038",
+      "grade": 6,
+      "unit": 4,
+      "section": "Station 2",
+      "sectionTitle": "Have you been to the doctor's yet?",
+      "category": "station-2",
+      "type": "word",
+      "de": "Rezept (für Arzneimittel)",
+      "en": "prescription",
+      "example": "The doctor gave me a prescription."
+    },
+    {
+      "id": "k6v4_039",
+      "grade": 6,
+      "unit": 4,
+      "section": "Station 2",
+      "sectionTitle": "Have you been to the doctor's yet?",
+      "category": "station-2",
+      "type": "word",
+      "de": "Salbe",
+      "en": "ointment",
+      "example": "The doctor gave Olivia a prescription for an ointment."
+    },
+    {
+      "id": "k6v4_040",
+      "grade": 6,
+      "unit": 4,
+      "section": "Station 2",
+      "sectionTitle": "Have you been to the doctor's yet?",
+      "category": "station-2",
+      "type": "word",
+      "de": "gesund werden",
+      "en": "to get well",
+      "irregular": true,
+      "example": "Get well soon! = Gute Besserung!"
+    },
+    {
+      "id": "k6v4_041",
+      "grade": 6,
+      "unit": 4,
+      "section": "Station 2",
+      "sectionTitle": "Have you been to the doctor's yet?",
+      "category": "station-2",
+      "type": "word",
+      "de": "Schulter",
+      "en": "shoulder",
+      "example": "I can't play tennis because my shoulder hurts."
+    },
+    {
+      "id": "k6v4_042",
+      "grade": 6,
+      "unit": 4,
+      "section": "Station 2",
+      "sectionTitle": "Have you been to the doctor's yet?",
+      "category": "station-2",
+      "type": "word",
+      "de": "Kopfschmerzen; Kopfweh",
+      "en": "headache (no pl)",
+      "example": "When I watch too much TV, I get a headache.",
+      "notes": "⚠️ immer Singular: I've got a bad headache."
+    },
+    {
+      "id": "k6v4_043",
+      "grade": 6,
+      "unit": 4,
+      "section": "Station 2",
+      "sectionTitle": "Have you been to the doctor's yet?",
+      "category": "station-2",
+      "type": "word",
+      "de": "Rückenschmerzen; Rückenweh",
+      "en": "backache",
+      "example": "I lifted a heavy bag and now I've got terrible backache."
+    },
+    {
+      "id": "k6v4_044",
+      "grade": 6,
+      "unit": 4,
+      "section": "Station 2",
+      "sectionTitle": "Have you been to the doctor's yet?",
+      "category": "station-2",
+      "type": "word",
+      "de": "Bauchschmerzen; Bauchweh",
+      "en": "stomachache",
+      "example": "I've got stomachache because I've eaten too much."
+    },
+    {
+      "id": "k6v4_045",
+      "grade": 6,
+      "unit": 4,
+      "section": "Station 2",
+      "sectionTitle": "Have you been to the doctor's yet?",
+      "category": "station-2",
+      "type": "word",
+      "de": "Übelkeit verspüren; sich schlecht fühlen",
+      "en": "to feel sick",
+      "irregular": true,
+      "notes": "⚠️ I feel sick. = Mir ist schlecht/übel. · I am sick. = Ich bin krank."
+    },
+    {
+      "id": "k6v4_046",
+      "grade": 6,
+      "unit": 4,
+      "section": "Station 2",
+      "sectionTitle": "Have you been to the doctor's yet?",
+      "category": "station-2",
+      "type": "word",
+      "de": "Erkältung",
+      "en": "cold",
+      "example": "I can't go to school today because I've got a bad cold."
+    },
+    {
+      "id": "k6v4_047",
+      "grade": 6,
+      "unit": 4,
+      "section": "Station 2",
+      "sectionTitle": "Have you been to the doctor's yet?",
+      "category": "station-2",
+      "type": "word",
+      "de": "Husten",
+      "en": "cough",
+      "example": "Have you got a cough?"
+    },
+    {
+      "id": "k6v4_048",
+      "grade": 6,
+      "unit": 4,
+      "section": "Station 2",
+      "sectionTitle": "Have you been to the doctor's yet?",
+      "category": "station-2",
+      "type": "word",
+      "de": "Fieber",
+      "en": "fever",
+      "example": "People with a cold often have a cough and a fever."
+    },
+    {
+      "id": "k6v4_049",
+      "grade": 6,
+      "unit": 4,
+      "section": "Station 2",
+      "sectionTitle": "Have you been to the doctor's yet?",
+      "category": "station-2",
+      "type": "word",
+      "de": "Pille; Tablette",
+      "en": "pill",
+      "example": "The doctor wrote a prescription for some pills."
+    },
+    {
+      "id": "k6v4_050",
+      "grade": 6,
+      "unit": 4,
+      "section": "Station 3",
+      "sectionTitle": "An interview with Ayla",
+      "category": "station-3",
+      "type": "word",
+      "de": "Krampf",
+      "en": "cramp",
+      "example": "I couldn't finish the race because I had a bad cramp."
+    },
+    {
+      "id": "k6v4_051",
+      "grade": 6,
+      "unit": 4,
+      "section": "Station 3",
+      "sectionTitle": "An interview with Ayla",
+      "category": "station-3",
+      "type": "word",
+      "de": "Auszeichnung; Preis",
+      "en": "award",
+      "example": "Ayla has won a Maths award but no sports award."
+    },
+    {
+      "id": "k6v4_052",
+      "grade": 6,
+      "unit": 4,
+      "section": "Station 3",
+      "sectionTitle": "An interview with Ayla",
+      "category": "station-3",
+      "type": "word",
+      "de": "wie das ist",
+      "en": "what it's like",
+      "example": "Do you know what it's like when you break something?"
+    },
+    {
+      "id": "k6v4_053",
+      "grade": 6,
+      "unit": 4,
+      "section": "Station 3",
+      "sectionTitle": "An interview with Ayla",
+      "category": "station-3",
+      "type": "word",
+      "de": "Fotoapparat; Kamera",
+      "en": "camera",
+      "example": "When you go on a trip, don't forget your camera."
+    },
+    {
+      "id": "k6v4_054",
+      "grade": 6,
+      "unit": 4,
+      "section": "Station 3",
+      "sectionTitle": "An interview with Ayla",
+      "category": "station-3",
+      "type": "word",
+      "de": "Spieler/-in; Mitspieler/-in",
+      "en": "player",
+      "notes": "player → to play"
+    },
+    {
+      "id": "k6v4_055",
+      "grade": 6,
+      "unit": 4,
+      "section": "Station 3",
+      "sectionTitle": "An interview with Ayla",
+      "category": "station-3",
+      "type": "word",
+      "de": "Menschenmenge",
+      "en": "crowd",
+      "example": "A lot of people all together in one place."
+    },
+    {
+      "id": "k6v4_056",
+      "grade": 6,
+      "unit": 4,
+      "section": "Skills",
+      "sectionTitle": "How to understand news reports and take notes",
+      "category": "skills",
+      "type": "word",
+      "de": "Rettung",
+      "en": "rescue",
+      "example": "Here is a report about a rescue in the mountains."
+    },
+    {
+      "id": "k6v4_057",
+      "grade": 6,
+      "unit": 4,
+      "section": "Skills",
+      "sectionTitle": "How to understand news reports and take notes",
+      "category": "skills",
+      "type": "word",
+      "de": "verletzt werden",
+      "en": "to get hurt",
+      "irregular": true,
+      "example": "He got hurt in a car accident last week."
+    },
+    {
+      "id": "k6v4_058",
+      "grade": 6,
+      "unit": 4,
+      "section": "Skills",
+      "sectionTitle": "How to understand news reports and take notes",
+      "category": "skills",
+      "type": "word",
+      "de": "Verletzung",
+      "en": "injury",
+      "example": "His injuries were pretty bad."
+    },
+    {
+      "id": "k6v4_059",
+      "grade": 6,
+      "unit": 4,
+      "section": "Skills",
+      "sectionTitle": "How to understand news reports and take notes",
+      "category": "skills",
+      "type": "word",
+      "de": "Hospital; Krankenhaus",
+      "en": "hospital",
+      "example": "After the accident, he spent two weeks in hospital."
+    },
+    {
+      "id": "k6v4_060",
+      "grade": 6,
+      "unit": 4,
+      "section": "Skills",
+      "sectionTitle": "How to understand news reports and take notes",
+      "category": "skills",
+      "type": "word",
+      "de": "Helikopter; Hubschrauber",
+      "en": "helicopter",
+      "example": "They took him to hospital in a helicopter."
+    },
+    {
+      "id": "k6v4_061",
+      "grade": 6,
+      "unit": 4,
+      "section": "Skills",
+      "sectionTitle": "How to understand news reports and take notes",
+      "category": "skills",
+      "type": "word",
+      "de": "Moderator/-in",
+      "en": "presenter",
+      "notes": "presenter → to present → presentation"
+    },
+    {
+      "id": "k6v4_062",
+      "grade": 6,
+      "unit": 4,
+      "section": "Skills",
+      "sectionTitle": "How to understand news reports and take notes",
+      "category": "skills",
+      "type": "word",
+      "de": "Reporter/-in",
+      "en": "reporter",
+      "example": "My brother works as a radio reporter."
+    },
+    {
+      "id": "k6v4_063",
+      "grade": 6,
+      "unit": 4,
+      "section": "Skills",
+      "sectionTitle": "How to understand news reports and take notes",
+      "category": "skills",
+      "type": "word",
+      "de": "Zeuge/Zeugin",
+      "en": "witness",
+      "example": "The police is looking for witnesses of the accident."
+    },
+    {
+      "id": "k6v4_064",
+      "grade": 6,
+      "unit": 4,
+      "section": "Skills",
+      "sectionTitle": "How to understand news reports and take notes",
+      "category": "skills",
+      "type": "word",
+      "de": "Augenzeuge/Augenzeugin",
+      "en": "eyewitness",
+      "example": "The reporter is talking to an eyewitness."
+    },
+    {
+      "id": "k6v4_065",
+      "grade": 6,
+      "unit": 4,
+      "section": "Skills",
+      "sectionTitle": "How to understand news reports and take notes",
+      "category": "skills",
+      "type": "word",
+      "de": "dramatisch",
+      "en": "dramatic",
+      "example": "The witness has seen the dramatic accident.",
+      "notes": "→ a drama"
+    },
+    {
+      "id": "k6v4_066",
+      "grade": 6,
+      "unit": 4,
+      "section": "Skills",
+      "sectionTitle": "How to understand news reports and take notes",
+      "category": "skills",
+      "type": "word",
+      "de": "Sender",
+      "en": "station",
+      "example": "What's your favourite radio station?"
+    },
+    {
+      "id": "k6v4_067",
+      "grade": 6,
+      "unit": 4,
+      "section": "Skills",
+      "sectionTitle": "How to understand news reports and take notes",
+      "category": "skills",
+      "type": "word",
+      "de": "empfangen; erhalten; bekommen",
+      "en": "to receive",
+      "example": "Have you received my letter? (formal word for 'to get')"
+    },
+    {
+      "id": "k6v4_068",
+      "grade": 6,
+      "unit": 4,
+      "section": "Skills",
+      "sectionTitle": "How to understand news reports and take notes",
+      "category": "skills",
+      "type": "word",
+      "de": "Schauplatz",
+      "en": "scene",
+      "example": "The reporter was trying to get to the scene of the accident."
+    },
+    {
+      "id": "k6v4_069",
+      "grade": 6,
+      "unit": 4,
+      "section": "Skills",
+      "sectionTitle": "How to understand news reports and take notes",
+      "category": "skills",
+      "type": "phrase",
+      "de": "Ich traute meinen Augen nicht.",
+      "en": "I couldn't believe my eyes.",
+      "example": "I couldn't believe my eyes when I saw the spaceship."
+    },
+    {
+      "id": "k6v4_070",
+      "grade": 6,
+      "unit": 4,
+      "section": "Unit task",
+      "sectionTitle": "The aliens have landed!",
+      "category": "unit-task",
+      "type": "word",
+      "de": "aufnehmen; aufzeichnen",
+      "en": "to record",
+      "example": "Let's record the scene with a camera."
+    },
+    {
+      "id": "k6v4_071",
+      "grade": 6,
+      "unit": 4,
+      "section": "Unit task",
+      "sectionTitle": "The aliens have landed!",
+      "category": "unit-task",
+      "type": "word",
+      "de": "vorüber; vorbei",
+      "en": "over",
+      "example": "School is over at 3:15."
+    },
+    {
+      "id": "k6v4_072",
+      "grade": 6,
+      "unit": 4,
+      "section": "Unit task",
+      "sectionTitle": "The aliens have landed!",
+      "category": "unit-task",
+      "type": "word",
+      "de": "Änderung; Veränderung; Wechsel",
+      "en": "change",
+      "example": "Are there any changes to our plan?",
+      "notes": "→ to change"
+    },
+    {
+      "id": "k6v4_073",
+      "grade": 6,
+      "unit": 4,
+      "section": "Unit task",
+      "sectionTitle": "The aliens have landed!",
+      "category": "unit-task",
+      "type": "word",
+      "de": "nötig; notwendig; erforderlich",
+      "en": "necessary",
+      "example": "It's necessary to wear a hat because of the sun."
+    },
+    {
+      "id": "k6v4_074",
+      "grade": 6,
+      "unit": 4,
+      "section": "Story",
+      "sectionTitle": "Hey, don't call *me* silly!",
+      "category": "story",
+      "type": "word",
+      "de": "Dummkopf",
+      "en": "silly",
+      "example": "I'm angry at my little sister because she called me silly."
+    },
+    {
+      "id": "k6v4_075",
+      "grade": 6,
+      "unit": 4,
+      "section": "Story",
+      "sectionTitle": "Hey, don't call *me* silly!",
+      "category": "story",
+      "type": "word",
+      "de": "Herz",
+      "en": "heart",
+      "example": "I always listen to my heart.",
+      "notes": "the heart of London = the centre of London"
+    },
+    {
+      "id": "k6v4_076",
+      "grade": 6,
+      "unit": 4,
+      "section": "Story",
+      "sectionTitle": "Hey, don't call *me* silly!",
+      "category": "story",
+      "type": "word",
+      "de": "jedenfalls; trotzdem; sowieso",
+      "en": "anyway",
+      "example": "She twisted her ankle, but she won the race anyway."
+    },
+    {
+      "id": "k6v4_077",
+      "grade": 6,
+      "unit": 4,
+      "section": "Story",
+      "sectionTitle": "Hey, don't call *me* silly!",
+      "category": "story",
+      "type": "word",
+      "de": "loslassen",
+      "en": "to let go (of)",
+      "irregular": true,
+      "example": "Don't let go of my hand, Gwen!"
+    },
+    {
+      "id": "k6v4_078",
+      "grade": 6,
+      "unit": 4,
+      "section": "Story",
+      "sectionTitle": "Hey, don't call *me* silly!",
+      "category": "story",
+      "type": "word",
+      "de": "Verkleidung; Kostüm",
+      "en": "fancy dress",
+      "example": "I'm looking for a fancy dress for the party.",
+      "notes": "= costume"
+    },
+    {
+      "id": "k6v4_079",
+      "grade": 6,
+      "unit": 4,
+      "section": "Story",
+      "sectionTitle": "Hey, don't call *me* silly!",
+      "category": "story",
+      "type": "word",
+      "de": "atmen",
+      "en": "to breathe",
+      "example": "I've got a bad cold. I can't breathe well.",
+      "notes": "⚠️ to breathe [iː] – breath [e]"
+    },
+    {
+      "id": "k6v4_080",
+      "grade": 6,
+      "unit": 4,
+      "section": "Story",
+      "sectionTitle": "Hey, don't call *me* silly!",
+      "category": "story",
+      "type": "word",
+      "de": "mithalten (mit); Schritt halten (mit)",
+      "en": "to keep up (with)",
+      "irregular": true,
+      "example": "Can Luke keep up with Gwen?"
+    },
+    {
+      "id": "k6v4_081",
+      "grade": 6,
+      "unit": 4,
+      "section": "Story",
+      "sectionTitle": "Hey, don't call *me* silly!",
+      "category": "story",
+      "type": "word",
+      "de": "ernst nehmen",
+      "en": "to take sth seriously",
+      "irregular": true,
+      "example": "I'm taking this race very seriously. I want to win!",
+      "notes": "→ serious"
+    },
+    {
+      "id": "k6v4_082",
+      "grade": 6,
+      "unit": 4,
+      "section": "Story",
+      "sectionTitle": "Hey, don't call *me* silly!",
+      "category": "story",
+      "type": "word",
+      "de": "stören; im Weg stehen",
+      "en": "to get in the way",
+      "irregular": true,
+      "example": "The people in the costumes shouldn't get in the way of the runners."
+    },
+    {
+      "id": "k6v4_083",
+      "grade": 6,
+      "unit": 4,
+      "section": "Story",
+      "sectionTitle": "Hey, don't call *me* silly!",
+      "category": "story",
+      "type": "word",
+      "de": "Magen; Bauch",
+      "en": "stomach",
+      "example": "I've got a strong pain in my stomach.",
+      "notes": "→ stomachache"
+    },
+    {
+      "id": "k6v4_084",
+      "grade": 6,
+      "unit": 4,
+      "section": "Story",
+      "sectionTitle": "Hey, don't call *me* silly!",
+      "category": "story",
+      "type": "word",
+      "de": "weit",
+      "en": "far",
+      "example": "How far can you run?"
+    },
+    {
+      "id": "k6v4_085",
+      "grade": 6,
+      "unit": 4,
+      "section": "Story",
+      "sectionTitle": "Hey, don't call *me* silly!",
+      "category": "story",
+      "type": "word",
+      "de": "Ziellinie",
+      "en": "finish line",
+      "example": "At the end of a race there's always a finish line."
+    },
+    {
+      "id": "k6v4_086",
+      "grade": 6,
+      "unit": 4,
+      "section": "Story",
+      "sectionTitle": "Hey, don't call *me* silly!",
+      "category": "story",
+      "type": "word",
+      "de": "dumm; blöd",
+      "en": "stupid",
+      "example": "The stupid cat and dog almost made Gwen and Luke fall over.",
+      "notes": "stupid ↔ clever"
+    },
+    {
+      "id": "k6v4_087",
+      "grade": 6,
+      "unit": 4,
+      "section": "Story",
+      "sectionTitle": "Hey, don't call *me* silly!",
+      "category": "story",
+      "type": "word",
+      "de": "verschwunden sein; weg sein",
+      "en": "to be gone",
+      "irregular": true,
+      "example": "Near the end of the race Gwen's cramp was gone."
+    },
+    {
+      "id": "k6v4_088",
+      "grade": 6,
+      "unit": 4,
+      "section": "Story",
+      "sectionTitle": "Hey, don't call *me* silly!",
+      "category": "story",
+      "type": "phrase",
+      "de": "Wir haben es geschafft!",
+      "en": "We did it!",
+      "example": "Luke and Gwen did it! What a success!"
+    },
+    {
+      "id": "k6v4_089",
+      "grade": 6,
+      "unit": 4,
+      "section": "Story",
+      "sectionTitle": "Hey, don't call *me* silly!",
+      "category": "story",
+      "type": "word",
+      "de": "ruinieren; zerstören",
+      "en": "to ruin",
+      "example": "Jay and Dave almost ruined the race for Luke and Gwen."
+    },
+    {
+      "id": "k6v4_090",
+      "grade": 6,
+      "unit": 4,
+      "section": "Story",
+      "sectionTitle": "Hey, don't call *me* silly!",
+      "category": "story",
+      "type": "word",
+      "de": "Schiedsrichter/-in",
+      "en": "official",
+      "example": "In a race there are always officials."
+    },
+    {
+      "id": "k6v4_091",
+      "grade": 6,
+      "unit": 4,
+      "section": "Story",
+      "sectionTitle": "Hey, don't call *me* silly!",
+      "category": "story",
+      "type": "word",
+      "de": "überraschen",
+      "en": "to surprise",
+      "example": "My friends surprised me with a party.",
+      "notes": "→ a surprise → to be surprised"
+    },
+    {
+      "id": "k6v4_092",
+      "grade": 6,
+      "unit": 4,
+      "section": "Story",
+      "sectionTitle": "Hey, don't call *me* silly!",
+      "category": "story",
+      "type": "word",
+      "de": "heimlich",
+      "en": "in secret",
+      "example": "Jay and Dave trained in secret. No one knew about it."
+    },
+    {
+      "id": "k6v4_093",
+      "grade": 6,
+      "unit": 4,
+      "section": "Story",
+      "sectionTitle": "Hey, don't call *me* silly!",
+      "category": "story",
+      "type": "word",
+      "de": "hart; schwer; schwierig",
+      "en": "hard",
+      "example": "German is a language that is hard to learn."
+    },
+    {
+      "id": "k6v4_094",
+      "grade": 6,
+      "unit": 4,
+      "section": "Story",
+      "sectionTitle": "Hey, don't call *me* silly!",
+      "category": "story",
+      "type": "word",
+      "de": "vergeben; verzeihen",
+      "en": "to forgive",
+      "irregular": true,
+      "example": "Can Gwen forgive them?"
+    },
+    {
+      "id": "k6v4_095",
+      "grade": 6,
+      "unit": 4,
+      "section": "Story",
+      "sectionTitle": "Hey, don't call *me* silly!",
+      "category": "story",
+      "type": "word",
+      "de": "Grund",
+      "en": "reason",
+      "example": "Why did you do it? What was the reason?"
+    },
+    {
+      "id": "k6v4_096",
+      "grade": 6,
+      "unit": 4,
+      "section": "Story",
+      "sectionTitle": "Hey, don't call *me* silly!",
+      "category": "story",
+      "type": "word",
+      "de": "verursachen",
+      "en": "to cause",
+      "example": "What or who caused the accident?",
+      "notes": "→ because"
+    },
+    {
+      "id": "k6v4_097",
+      "grade": 6,
+      "unit": 4,
+      "section": "Story",
+      "sectionTitle": "Hey, don't call *me* silly!",
+      "category": "story",
+      "type": "word",
+      "de": "Hoffnung",
+      "en": "hope",
+      "example": "I haven't got any hope of winning the race.",
+      "notes": "→ to hope"
+    },
+    {
+      "id": "k6v4_098",
+      "grade": 6,
+      "unit": 4,
+      "section": "Story",
+      "sectionTitle": "Hey, don't call *me* silly!",
+      "category": "story",
+      "type": "word",
+      "de": "Angst; Furcht; Befürchtung",
+      "en": "fear",
+      "example": "The feeling you have when you are scared."
+    },
+    {
+      "id": "k6v4_099",
+      "grade": 6,
+      "unit": 4,
+      "section": "Story",
+      "sectionTitle": "Hey, don't call *me* silly!",
+      "category": "story",
+      "type": "word",
+      "de": "Beziehung",
+      "en": "relationship",
+      "example": "Is the relationship between you and your neighbours a good one?"
+    },
+    {
+      "id": "k6v4_100",
+      "grade": 6,
+      "unit": 4,
+      "section": "Story",
+      "sectionTitle": "Hey, don't call *me* silly!",
+      "category": "story",
+      "type": "phrase",
+      "de": "Einerseits …, (aber) andererseits …",
+      "en": "On the one hand …, (but) on the other hand …",
+      "example": "On the one hand he'd like to be a better runner, but on the other hand he doesn't want to train very hard."
+    },
+    {
+      "id": "k6v4_101",
+      "grade": 6,
+      "unit": 4,
+      "section": "Story",
+      "sectionTitle": "Hey, don't call *me* silly!",
+      "category": "story",
+      "type": "word",
+      "de": "Standpunkt; Ansicht; Perspektive",
+      "en": "point of view",
+      "example": "Who's right and who's wrong from your point of view?"
+    },
+    {
+      "id": "k6v4_102",
+      "grade": 6,
+      "unit": 4,
+      "section": "Check-out",
+      "sectionTitle": "",
+      "category": "check-out",
+      "type": "word",
+      "de": "Fahrradmotocross",
+      "en": "bicycle motocross",
+      "example": "On the one hand bicycle motocross is a dangerous sport, but on the other hand it's so much fun."
+    },
+    {
+      "id": "k6v4_103",
+      "grade": 6,
+      "unit": 4,
+      "section": "Check-out",
+      "sectionTitle": "",
+      "category": "check-out",
+      "type": "word",
+      "de": "Fahrrad",
+      "en": "bicycle",
+      "example": "I go to school by bicycle. ('bike' is short for 'bicycle')"
+    },
+    {
+      "id": "k6v4_104",
+      "grade": 6,
+      "unit": 4,
+      "section": "Check-out",
+      "sectionTitle": "",
+      "category": "check-out",
+      "type": "word",
+      "de": "Schlamm",
+      "en": "mud",
+      "example": "My clothes are dirty because I fell into the mud."
+    },
+    {
+      "id": "k6v4_105",
+      "grade": 6,
+      "unit": 4,
+      "section": "Check-out",
+      "sectionTitle": "",
+      "category": "check-out",
+      "type": "word",
+      "de": "Gesellschaft; Firma; Unternehmen",
+      "en": "company",
+      "example": "My dad works for an American company."
+    },
+    {
+      "id": "k6v4_106",
+      "grade": 6,
+      "unit": 4,
+      "section": "Check-out",
+      "sectionTitle": "",
+      "category": "check-out",
+      "type": "word",
+      "de": "entdecken",
+      "en": "to discover",
+      "example": "When I was 11, I discovered that I was a good runner."
+    },
+    {
+      "id": "k6v4_107",
+      "grade": 6,
+      "unit": 4,
+      "section": "Check-out",
+      "sectionTitle": "",
+      "category": "check-out",
+      "type": "word",
+      "de": "Reiten",
+      "en": "riding",
+      "example": "I love riding, but I haven't got a horse."
+    },
+    {
+      "id": "k6v4_108",
+      "grade": 6,
+      "unit": 4,
+      "section": "Focus 2",
+      "sectionTitle": "Getting around",
+      "category": "focus-2",
+      "type": "word",
+      "de": "ankommen",
+      "en": "to arrive",
+      "example": "We arrived at the airport at 6.30 a.m."
+    },
+    {
+      "id": "k6v4_109",
+      "grade": 6,
+      "unit": 4,
+      "section": "Focus 2",
+      "sectionTitle": "Getting around",
+      "category": "focus-2",
+      "type": "word",
+      "de": "Schalter",
+      "en": "desk",
+      "example": "We went to the information desk to ask how to get to our hotel."
+    },
+    {
+      "id": "k6v4_110",
+      "grade": 6,
+      "unit": 4,
+      "section": "Focus 2",
+      "sectionTitle": "Getting around",
+      "category": "focus-2",
+      "type": "word",
+      "de": "zentral; Zentral-",
+      "en": "central",
+      "example": "Our hotel is in central London.",
+      "notes": "→ a centre"
+    },
+    {
+      "id": "k6v4_111",
+      "grade": 6,
+      "unit": 4,
+      "section": "Focus 2",
+      "sectionTitle": "Getting around",
+      "category": "focus-2",
+      "type": "word",
+      "de": "U-Bahn",
+      "en": "the Tube",
+      "example": "It's too far to walk. Let's take the Tube.",
+      "notes": "= London Underground"
+    },
+    {
+      "id": "k6v4_112",
+      "grade": 6,
+      "unit": 4,
+      "section": "Focus 2",
+      "sectionTitle": "Getting around",
+      "category": "focus-2",
+      "type": "word",
+      "de": "umsteigen; wechseln",
+      "en": "to change",
+      "example": "To get to Buckingham Palace from here, you change onto the Victoria line."
+    },
+    {
+      "id": "k6v4_113",
+      "grade": 6,
+      "unit": 4,
+      "section": "Focus 2",
+      "sectionTitle": "Getting around",
+      "category": "focus-2",
+      "type": "word",
+      "de": "Eilzug",
+      "en": "express",
+      "example": "An express train is a fast train that doesn't stop very often."
+    },
+    {
+      "id": "k6v4_114",
+      "grade": 6,
+      "unit": 4,
+      "section": "Focus 2",
+      "sectionTitle": "Getting around",
+      "category": "focus-2",
+      "type": "word",
+      "de": "Haltestelle; Halt",
+      "en": "stop",
+      "example": "The next stop is Elephant & Castle.",
+      "notes": "→ to stop"
+    },
+    {
+      "id": "k6v4_115",
+      "grade": 6,
+      "unit": 4,
+      "section": "Focus 2",
+      "sectionTitle": "Getting around",
+      "category": "focus-2",
+      "type": "word",
+      "de": "Fahrschein",
+      "en": "ticket",
+      "example": "Have you already bought our train tickets?"
+    },
+    {
+      "id": "k6v4_116",
+      "grade": 6,
+      "unit": 4,
+      "section": "Focus 2",
+      "sectionTitle": "Getting around",
+      "category": "focus-2",
+      "type": "word",
+      "de": "wahrscheinlich",
+      "en": "probably",
+      "example": "The next train probably leaves in ten minutes, but I'm not sure."
+    },
+    {
+      "id": "k6v4_117",
+      "grade": 6,
+      "unit": 4,
+      "section": "Focus 2",
+      "sectionTitle": "Getting around",
+      "category": "focus-2",
+      "type": "word",
+      "de": "einfache Fahrkarte",
+      "en": "single",
+      "example": "Would you like a single or a return ticket?"
+    },
+    {
+      "id": "k6v4_118",
+      "grade": 6,
+      "unit": 4,
+      "section": "Focus 2",
+      "sectionTitle": "Getting around",
+      "category": "focus-2",
+      "type": "word",
+      "de": "Hin- und Rückfahrkarte",
+      "en": "return",
+      "example": "One ticket to Paddington, please. – Single or return?"
+    },
+    {
+      "id": "k6v4_119",
+      "grade": 6,
+      "unit": 4,
+      "section": "Focus 2",
+      "sectionTitle": "Getting around",
+      "category": "focus-2",
+      "type": "word",
+      "de": "Erwachsene/-r",
+      "en": "adult",
+      "example": "I need three tickets – two adults and one child.",
+      "notes": "adult ↔ child"
+    },
+    {
+      "id": "k6v4_120",
+      "grade": 6,
+      "unit": 4,
+      "section": "Focus 2",
+      "sectionTitle": "Getting around",
+      "category": "focus-2",
+      "type": "word",
+      "de": "Bargeld",
+      "en": "cash",
+      "example": "I never have a lot of cash with me."
+    },
+    {
+      "id": "k6v4_121",
+      "grade": 6,
+      "unit": 4,
+      "section": "Focus 2",
+      "sectionTitle": "Getting around",
+      "category": "focus-2",
+      "type": "word",
+      "de": "Kreditkarte",
+      "en": "credit card",
+      "example": "I'd like to pay for these things with my credit card."
+    },
+    {
+      "id": "k6v4_122",
+      "grade": 6,
+      "unit": 4,
+      "section": "Focus 2",
+      "sectionTitle": "Getting around",
+      "category": "focus-2",
+      "type": "word",
+      "de": "Lift; Fahrstuhl",
+      "en": "lift",
+      "example": "I don't want to walk. Is there a lift?"
+    },
+    {
+      "id": "k6v4_123",
+      "grade": 6,
+      "unit": 4,
+      "section": "Focus 2",
+      "sectionTitle": "Getting around",
+      "category": "focus-2",
+      "type": "word",
+      "de": "Gepäck",
+      "en": "luggage (no pl)",
+      "example": "Can I help you with your luggage?"
+    },
+    {
+      "id": "k6v4_124",
+      "grade": 6,
+      "unit": 4,
+      "section": "Focus 2",
+      "sectionTitle": "Getting around",
+      "category": "focus-2",
+      "type": "word",
+      "de": "Aufenthalt",
+      "en": "stay",
+      "example": "Enjoy your stay in Greenwich!",
+      "notes": "→ to stay"
+    },
+    {
+      "id": "k6v4_125",
+      "grade": 6,
+      "unit": 4,
+      "section": "Focus 2",
+      "sectionTitle": "Getting around",
+      "category": "focus-2",
+      "type": "word",
+      "de": "Alternative",
+      "en": "alternative",
+      "example": "I don't want to take the train. Are there any alternatives?"
+    },
+    {
+      "id": "k6v4_126",
+      "grade": 6,
+      "unit": 4,
+      "section": "Focus 2",
+      "sectionTitle": "Getting around",
+      "category": "focus-2",
+      "type": "word",
+      "de": "Reisebus",
+      "en": "coach",
+      "example": "We could go by train or by coach. (a big bus for holidays or long trips)"
+    },
+    {
+      "id": "k6v4_127",
+      "grade": 6,
+      "unit": 4,
+      "section": "Focus 2",
+      "sectionTitle": "Getting around",
+      "category": "focus-2",
+      "type": "word",
+      "de": "Umstieg",
+      "en": "change",
+      "example": "How many changes are there? – Only one at Liverpool."
+    },
+    {
+      "id": "k6v4_128",
+      "grade": 6,
+      "unit": 4,
+      "section": "Focus 2",
+      "sectionTitle": "Getting around",
+      "category": "focus-2",
+      "type": "word",
+      "de": "Ankündigung; Durchsage",
+      "en": "announcement",
+      "example": "I never understand the announcements at the station."
+    },
+    {
+      "id": "k6v4_129",
+      "grade": 6,
+      "unit": 4,
+      "section": "Focus 2",
+      "sectionTitle": "Getting around",
+      "category": "focus-2",
+      "type": "word",
+      "de": "Flug",
+      "en": "flight",
+      "example": "I'm late for my flight.",
+      "notes": "→ to fly"
+    },
+    {
+      "id": "k6v4_130",
+      "grade": 6,
+      "unit": 4,
+      "section": "Focus 2",
+      "sectionTitle": "Getting around",
+      "category": "focus-2",
+      "type": "word",
+      "de": "Flugzeug",
+      "en": "plane",
+      "example": "Our plane leaves in two hours."
+    },
+    {
+      "id": "k6v4_131",
+      "grade": 6,
+      "unit": 4,
+      "section": "Focus 2",
+      "sectionTitle": "Getting around",
+      "category": "focus-2",
+      "type": "word",
+      "de": "verspätet; verzögert",
+      "en": "delayed",
+      "example": "If there's bad weather, flights are often delayed."
+    },
+    {
+      "id": "k6v4_132",
+      "grade": 6,
+      "unit": 4,
+      "section": "Focus 2",
+      "sectionTitle": "Getting around",
+      "category": "focus-2",
+      "type": "word",
+      "de": "an Bord gehen; besteigen",
+      "en": "to board",
+      "example": "Your plane is now ready for boarding."
+    },
+    {
+      "id": "k6v4_133",
+      "grade": 6,
+      "unit": 4,
+      "section": "Focus 2",
+      "sectionTitle": "Getting around",
+      "category": "focus-2",
+      "type": "word",
+      "de": "abfahren; abfliegen",
+      "en": "to depart",
+      "example": "When does the train depart?",
+      "notes": "= to leave"
+    },
+    {
+      "id": "k6v4_134",
+      "grade": 6,
+      "unit": 4,
+      "section": "Focus 2",
+      "sectionTitle": "Getting around",
+      "category": "focus-2",
+      "type": "word",
+      "de": "Passagier/-in; Fahrgast",
+      "en": "passenger",
+      "example": "All passengers must board the plane now."
+    },
+    {
+      "id": "k6v4_135",
+      "grade": 6,
+      "unit": 4,
+      "section": "Focus 2",
+      "sectionTitle": "Getting around",
+      "category": "focus-2",
+      "type": "word",
+      "de": "Gate; Flugsteig; Ausgang",
+      "en": "gate",
+      "example": "Our plane leaves from Gate 9."
+    },
+    {
+      "id": "k6v4_136",
+      "grade": 6,
+      "unit": 4,
+      "section": "Focus 2",
+      "sectionTitle": "Getting around",
+      "category": "focus-2",
+      "type": "word",
+      "de": "unbeaufsichtigt",
+      "en": "unattended",
+      "example": "Don't leave your luggage unattended."
+    },
+    {
+      "id": "k6v4_137",
+      "grade": 6,
+      "unit": 4,
+      "section": "Focus 2",
+      "sectionTitle": "Getting around",
+      "category": "focus-2",
+      "type": "word",
+      "de": "Ausweis; Pass",
+      "en": "pass",
+      "example": "Please show me your boarding pass."
+    },
+    {
+      "id": "k6v4_138",
+      "grade": 6,
+      "unit": 4,
+      "section": "Focus 2",
+      "sectionTitle": "Getting around",
+      "category": "focus-2",
+      "type": "word",
+      "de": "hinuntergehen; entlanggehen",
+      "en": "to go down",
+      "irregular": true,
+      "example": "The tourist information centre? Go down Main Street. It's on the right."
+    },
+    {
+      "id": "k6v4_139",
+      "grade": 6,
+      "unit": 4,
+      "section": "Focus 2",
+      "sectionTitle": "Getting around",
+      "category": "focus-2",
+      "type": "word",
+      "de": "vorbei (an); vorüber (an)",
+      "en": "past",
+      "example": "Walk past the tourist information centre."
+    },
+    {
+      "id": "k6v4_140",
+      "grade": 6,
+      "unit": 4,
+      "section": "Focus 2",
+      "sectionTitle": "Getting around",
+      "category": "focus-2",
+      "type": "word",
+      "de": "geradeaus",
+      "en": "straight on",
+      "example": "No, just go straight on here and it's the next street on the left."
+    },
+    {
+      "id": "k6v4_141",
+      "grade": 6,
+      "unit": 4,
+      "section": "Focus 2",
+      "sectionTitle": "Getting around",
+      "category": "focus-2",
+      "type": "word",
+      "de": "überqueren; kreuzen",
+      "en": "to cross",
+      "example": "You need to cross the street to get to the music shop."
+    },
+    {
+      "id": "k6v4_142",
+      "grade": 6,
+      "unit": 4,
+      "section": "Focus 2",
+      "sectionTitle": "Getting around",
+      "category": "focus-2",
+      "type": "word",
+      "de": "einbiegen; abbiegen",
+      "en": "to turn",
+      "example": "Turn right after the museum."
+    },
+    {
+      "id": "k6v4_143",
+      "grade": 6,
+      "unit": 4,
+      "section": "Focus 2",
+      "sectionTitle": "Getting around",
+      "category": "focus-2",
+      "type": "word",
+      "de": "gegenüber; gegenüberliegend",
+      "en": "opposite",
+      "example": "Their house is on the opposite side of the hill."
+    }
+  ],
+  "grammarTopics": [
+    {
+      "id": "k6g_G9",
+      "grade": 6,
+      "unit": 4,
+      "code": "G9",
+      "title": "Present perfect simple",
+      "bookPages": "S. 62–65",
+      "explanation": "Das present perfect verbindet Vergangenheit und Gegenwart. Du benutzt es, wenn es darum geht, OB etwas (schon einmal) passiert ist (Have you ever …?), ob etwas schon/gerade/noch nicht erledigt ist (already, just, not … yet) oder wenn das Ergebnis jetzt noch zu sehen ist. Bildung: have/has + past participle (regelmäßig -ed, unregelmäßig: 3. Spalte der Verbliste). Immer mit have/has – nie mit „sein\" wie im Deutschen. never, ever, already, just stehen direkt nach have/has; yet steht am Satzende.",
+      "examples": [
+        "Have you ever seen the London Marathon? – Of course I have.",
+        "Olivia has already prepared for the trials.",
+        "Gwen has just had an idea.",
+        "The girls haven't left for school yet.",
+        "I've hurt my foot. It hurts when I walk."
+      ],
+      "commonMistakes": [
+        "„sein\" aus dem Deutschen: „I'm left\" statt „I've left\"",
+        "simple past statt past participle: „I have went\" statt „I have gone\"",
+        "has/have verwechseln: „He have …\"",
+        "Wortstellung wie im Deutschen: „I have my foot hurt\""
+      ]
+    },
+    {
+      "id": "k6g_G10",
+      "grade": 6,
+      "unit": 4,
+      "code": "G10",
+      "title": "Present perfect simple vs. simple past",
+      "bookPages": "S. 66–67",
+      "explanation": "Present perfect: Es geht darum, DASS etwas passiert ist (ohne genaue Zeit, Ergebnis zählt; ever, never, already, just, yet). Simple past: Du berichtest genau, WANN etwas passiert ist. Mit genauen Zeitangaben wie yesterday, last week, three weeks ago, in 2019, when I was young steht nie das present perfect, sondern immer das simple past. Im Süddeutschen benutzt man fast nur das Perfekt – deshalb aufpassen!",
+      "examples": [
+        "Have you seen Aunt Amy's new horse yet? – Yes, I have. She bought it last week.",
+        "I've already run in a marathon.",
+        "My dad ran in a marathon when he was 20.",
+        "I've been to London. I was there last year."
+      ],
+      "commonMistakes": [
+        "present perfect mit genauer Zeitangabe: „I have seen it yesterday.\"",
+        "simple past bei ever/never/yet: „Did you ever play rugby?\" (britisch: „Have you ever played …?\")",
+        "Die Zeiten beliebig austauschen wie im Deutschen"
+      ]
+    },
+    {
+      "id": "k6g_G11",
+      "grade": 6,
+      "unit": 4,
+      "code": "G11",
+      "title": "Timetable future (simple present mit Zukunftsbedeutung)",
+      "bookPages": "S. 76–77 (Focus 2)",
+      "explanation": "Für feste Fahrpläne, Stundenpläne und Programme benutzt man auch für die Zukunft das simple present: The next bus leaves in twelve minutes. Das gilt nur für konkrete, festgelegte Zeiten (Abfahrt, Ankunft, Beginn eines Konzerts, Unterricht). he/she/it bekommt wie immer -s.",
+      "examples": [
+        "The next bus leaves in twelve minutes.",
+        "Our train leaves at 9.15 a.m. from Platform 5.",
+        "The plane from New York arrives at 7 o'clock in the morning.",
+        "The concert starts tomorrow at 8 p.m."
+      ],
+      "commonMistakes": [
+        "-s vergessen: „The train leave at 9.\"",
+        "Timetable future für persönliche Pläne: „I visit my granny tomorrow.\" (besser: I'm going to visit …)"
+      ]
+    }
+  ],
+  "grammarQuestions": [
+    {
+      "id": "k6q_G9_001",
+      "topicId": "k6g_G9",
+      "type": "multipleChoice",
+      "prompt": "Have you ever seen the London Marathon? – Of course I ___.",
+      "options": [
+        "have",
+        "did",
+        "am"
+      ],
+      "answer": "have",
+      "explanation": "Frage im present perfect → Kurzantwort mit have.",
+      "optionHints": {
+        "did": "Die Frage beginnt mit Have → Antwort mit have.",
+        "am": "Das present perfect bildest du mit have/has, nicht mit be."
+      }
+    },
+    {
+      "id": "k6q_G9_002",
+      "topicId": "k6g_G9",
+      "type": "multipleChoice",
+      "prompt": "Olivia has ___ prepared for the trials.",
+      "options": [
+        "already",
+        "yet",
+        "ago"
+      ],
+      "answer": "already",
+      "explanation": "already = schon/bereits; steht direkt nach has.",
+      "optionHints": {
+        "yet": "yet steht in Fragen und Verneinungen am Satzende.",
+        "ago": "ago gehört zum simple past (two days ago)."
+      }
+    },
+    {
+      "id": "k6q_G9_003",
+      "topicId": "k6g_G9",
+      "type": "multipleChoice",
+      "prompt": "The girls haven't left for school ___.",
+      "options": [
+        "yet",
+        "already",
+        "just"
+      ],
+      "answer": "yet",
+      "explanation": "not … yet = noch nicht; yet steht am Satzende.",
+      "optionHints": {
+        "already": "In verneinten Sätzen heißt „noch nicht\" not … yet.",
+        "just": "just steht direkt nach have/has, nicht am Satzende."
+      }
+    },
+    {
+      "id": "k6q_G9_004",
+      "topicId": "k6g_G9",
+      "type": "multipleChoice",
+      "prompt": "I've ___ my foot. It hurts when I walk.",
+      "options": [
+        "hurt",
+        "hurted",
+        "hurts"
+      ],
+      "answer": "hurt",
+      "explanation": "hurt ist unregelmäßig: hurt – hurt – hurt.",
+      "optionHints": {
+        "hurted": "hurt ist unregelmäßig: hurt – hurt – hurt.",
+        "hurts": "Nach have/has steht das past participle: hurt."
+      }
+    },
+    {
+      "id": "k6q_G9_005",
+      "topicId": "k6g_G9",
+      "type": "multipleChoice",
+      "prompt": "Jay ___ never run one mile.",
+      "options": [
+        "has",
+        "have",
+        "is"
+      ],
+      "answer": "has",
+      "explanation": "Jay = he → has + past participle.",
+      "optionHints": {
+        "have": "he/she/it → has.",
+        "is": "Das present perfect bildest du immer mit have/has – nie mit „sein\"."
+      }
+    },
+    {
+      "id": "k6q_G9_006",
+      "topicId": "k6g_G9",
+      "type": "multipleChoice",
+      "prompt": "Ich habe mir den Fuß verletzt. =",
+      "options": [
+        "I've hurt my foot.",
+        "I'm hurt my foot.",
+        "I've my foot hurt."
+      ],
+      "answer": "I've hurt my foot.",
+      "explanation": "have + past participle; das Objekt steht nach dem Verb (S – V – O).",
+      "optionHints": {
+        "I'm hurt my foot.": "Das present perfect bildest du mit have, nicht mit be.",
+        "I've my foot hurt.": "Englische Satzstellung: S – V – O. Das Objekt kommt nach hurt."
+      }
+    },
+    {
+      "id": "k6q_G9_007",
+      "topicId": "k6g_G9",
+      "type": "multipleChoice",
+      "prompt": "Ich bin noch nicht losgegangen. =",
+      "options": [
+        "I haven't left yet.",
+        "I'm not left yet.",
+        "I haven't yet leave."
+      ],
+      "answer": "I haven't left yet.",
+      "explanation": "Immer have/has (nie „sein\"), past participle left, yet am Ende.",
+      "optionHints": {
+        "I'm not left yet.": "Auch wenn es im Deutschen „bin\" heißt: im Englischen immer have/has.",
+        "I haven't yet leave.": "Du brauchst das past participle (left) und yet steht am Ende."
+      }
+    },
+    {
+      "id": "k6q_G9_008",
+      "topicId": "k6g_G9",
+      "type": "multipleChoice",
+      "prompt": "Has Dave ever run in a race? – No, he ___.",
+      "options": [
+        "hasn't",
+        "didn't",
+        "isn't"
+      ],
+      "answer": "hasn't",
+      "explanation": "Frage mit Has → Kurzantwort: No, he hasn't.",
+      "optionHints": {
+        "didn't": "Die Frage beginnt mit Has → hasn't.",
+        "isn't": "Kurzantwort mit has: hasn't."
+      }
+    },
+    {
+      "id": "k6q_G9_009",
+      "topicId": "k6g_G9",
+      "type": "fillBlank",
+      "prompt": "Gwen has just ___ (have) an idea.",
+      "answer": "had",
+      "explanation": "have – had – had. Nach has: past participle had."
+    },
+    {
+      "id": "k6q_G9_010",
+      "topicId": "k6g_G9",
+      "type": "fillBlank",
+      "prompt": "Olivia ___ (buy) new running shoes. They're still clean.",
+      "answer": "has bought",
+      "acceptedAnswers": [
+        "has bought",
+        "'s bought"
+      ],
+      "explanation": "Ergebnis jetzt noch sichtbar → present perfect: has bought (buy – bought – bought)."
+    },
+    {
+      "id": "k6q_G9_011",
+      "topicId": "k6g_G9",
+      "type": "fillBlank",
+      "prompt": "Have you ___ (write) an e-mail to last year's winners yet?",
+      "answer": "written",
+      "explanation": "write – wrote – written."
+    },
+    {
+      "id": "k6q_G9_012",
+      "topicId": "k6g_G9",
+      "type": "fillBlank",
+      "prompt": "We ___ (watch) the London Marathon three times.",
+      "answer": "have watched",
+      "acceptedAnswers": [
+        "have watched",
+        "'ve watched"
+      ],
+      "explanation": "Wie oft schon? → present perfect: have watched."
+    },
+    {
+      "id": "k6q_G9_013",
+      "topicId": "k6g_G9",
+      "type": "fillBlank",
+      "prompt": "I ___ (never hear) of them.",
+      "answer": "have never heard",
+      "acceptedAnswers": [
+        "have never heard",
+        "'ve never heard"
+      ],
+      "explanation": "never steht direkt nach have: have never heard (hear – heard – heard)."
+    },
+    {
+      "id": "k6q_G9_014",
+      "topicId": "k6g_G9",
+      "type": "fillBlank",
+      "prompt": "Lena ___ (not win) a race yet.",
+      "answer": "hasn't won",
+      "acceptedAnswers": [
+        "hasn't won",
+        "has not won"
+      ],
+      "explanation": "Verneinung: hasn't + past participle (win – won – won)."
+    },
+    {
+      "id": "k6q_G10_001",
+      "topicId": "k6g_G10",
+      "type": "multipleChoice",
+      "prompt": "My dad ___ in a marathon when he was 20.",
+      "options": [
+        "ran",
+        "has run",
+        "runs"
+      ],
+      "answer": "ran",
+      "explanation": "„when he was 20\" ist eine genaue Zeitangabe → simple past.",
+      "optionHints": {
+        "has run": "Mit genauer Zeitangabe (when he was 20) nie present perfect.",
+        "runs": "Es geht um die Vergangenheit → ran."
+      }
+    },
+    {
+      "id": "k6q_G10_002",
+      "topicId": "k6g_G10",
+      "type": "multipleChoice",
+      "prompt": "Have you seen Aunt Amy's new horse yet? – Yes, I have. She ___ it last week.",
+      "options": [
+        "bought",
+        "has bought",
+        "buys"
+      ],
+      "answer": "bought",
+      "explanation": "„last week\" = genaue Zeitangabe → simple past.",
+      "optionHints": {
+        "has bought": "last week ist eine genaue Zeitangabe → simple past: bought.",
+        "buys": "Es geht um letzte Woche → bought."
+      }
+    },
+    {
+      "id": "k6q_G10_003",
+      "topicId": "k6g_G10",
+      "type": "multipleChoice",
+      "prompt": "I ___ to London. I was there last year.",
+      "options": [
+        "have been",
+        "was been",
+        "have be"
+      ],
+      "answer": "have been",
+      "explanation": "Erfahrung ohne Zeitangabe → present perfect (have been). Mit „last year\" folgt das simple past.",
+      "optionHints": {
+        "was been": "Present perfect immer mit have/has + past participle: have been.",
+        "have be": "Nach have steht das past participle: been."
+      }
+    },
+    {
+      "id": "k6q_G10_004",
+      "topicId": "k6g_G10",
+      "type": "multipleChoice",
+      "prompt": "We ___ to Florida last summer.",
+      "options": [
+        "went",
+        "have gone",
+        "have been"
+      ],
+      "answer": "went",
+      "explanation": "„last summer\" = genaue Zeitangabe → simple past.",
+      "optionHints": {
+        "have gone": "Mit last summer steht das simple past: went.",
+        "have been": "Mit last summer steht das simple past: went."
+      }
+    },
+    {
+      "id": "k6q_G10_005",
+      "topicId": "k6g_G10",
+      "type": "multipleChoice",
+      "prompt": "Welcher Satz ist richtig?",
+      "options": [
+        "I saw that film yesterday.",
+        "I have seen that film yesterday.",
+        "I have saw that film yesterday."
+      ],
+      "answer": "I saw that film yesterday.",
+      "explanation": "„yesterday\" → simple past.",
+      "optionHints": {
+        "I have seen that film yesterday.": "Mit yesterday nie present perfect!",
+        "I have saw that film yesterday.": "Mit yesterday → simple past; außerdem wäre das past participle seen."
+      }
+    },
+    {
+      "id": "k6q_G10_006",
+      "topicId": "k6g_G10",
+      "type": "multipleChoice",
+      "prompt": "___ you ever ___ rugby?",
+      "options": [
+        "Have … played",
+        "Did … play",
+        "Do … play"
+      ],
+      "answer": "Have … played",
+      "explanation": "ever ohne Zeitangabe → present perfect: Have you ever played …?",
+      "optionHints": {
+        "Did … play": "Bei Have you ever …? fragst du nach Erfahrung ohne Zeitangabe → present perfect.",
+        "Do … play": "ever + Erfahrung → present perfect."
+      }
+    },
+    {
+      "id": "k6q_G10_007",
+      "topicId": "k6g_G10",
+      "type": "multipleChoice",
+      "prompt": "Three weeks ago, Luke ___ his arm.",
+      "options": [
+        "broke",
+        "has broken",
+        "breaks"
+      ],
+      "answer": "broke",
+      "explanation": "„three weeks ago\" → simple past.",
+      "optionHints": {
+        "has broken": "Mit ago steht immer das simple past.",
+        "breaks": "Es geht um die Vergangenheit → broke."
+      }
+    },
+    {
+      "id": "k6q_G10_008",
+      "topicId": "k6g_G10",
+      "type": "multipleChoice",
+      "prompt": "Jay ___ us the plan yet.",
+      "options": [
+        "hasn't told",
+        "didn't tell",
+        "doesn't tell"
+      ],
+      "answer": "hasn't told",
+      "explanation": "not … yet → present perfect: hasn't told.",
+      "optionHints": {
+        "didn't tell": "Mit yet nimmst du das present perfect.",
+        "doesn't tell": "yet = noch nicht (bis jetzt) → present perfect."
+      }
+    },
+    {
+      "id": "k6q_G10_009",
+      "topicId": "k6g_G10",
+      "type": "fillBlank",
+      "prompt": "My dad ___ (buy) the tickets as a present for me and two friends.",
+      "answer": "has bought",
+      "acceptedAnswers": [
+        "has bought",
+        "bought",
+        "'s bought"
+      ],
+      "explanation": "Ohne Zeitangabe, das Ergebnis zählt (er hat sie jetzt) → has bought. Auch bought ist hier möglich."
+    },
+    {
+      "id": "k6q_G10_010",
+      "topicId": "k6g_G10",
+      "type": "fillBlank",
+      "prompt": "I ___ (want) to tell you yesterday, but I didn't see you after school.",
+      "answer": "wanted",
+      "explanation": "„yesterday\" → simple past: wanted."
+    },
+    {
+      "id": "k6q_G10_011",
+      "topicId": "k6g_G10",
+      "type": "fillBlank",
+      "prompt": "What did Luke say when you ___ (tell) him?",
+      "answer": "told",
+      "explanation": "Genaue Situation in der Vergangenheit (when …) → simple past: told."
+    },
+    {
+      "id": "k6q_G10_012",
+      "topicId": "k6g_G10",
+      "type": "fillBlank",
+      "prompt": "My mum ___ (just give) me some extra pocket money.",
+      "answer": "has just given",
+      "acceptedAnswers": [
+        "has just given",
+        "'s just given"
+      ],
+      "explanation": "just → present perfect: has just given (give – gave – given)."
+    },
+    {
+      "id": "k6q_G10_013",
+      "topicId": "k6g_G10",
+      "type": "fillBlank",
+      "prompt": "They ___ (not ask) us to come to their party last weekend.",
+      "answer": "didn't ask",
+      "acceptedAnswers": [
+        "didn't ask",
+        "did not ask"
+      ],
+      "explanation": "„last weekend\" → simple past: didn't ask."
+    },
+    {
+      "id": "k6q_G10_014",
+      "topicId": "k6g_G10",
+      "type": "fillBlank",
+      "prompt": "___ (you / already / tell) Luke?",
+      "answer": "Have you already told",
+      "explanation": "already in der Frage → present perfect: Have you already told …?"
+    },
+    {
+      "id": "k6q_G11_001",
+      "topicId": "k6g_G11",
+      "type": "multipleChoice",
+      "prompt": "Hurry up! The next bus ___ in twelve minutes.",
+      "options": [
+        "leaves",
+        "will leaving",
+        "leave"
+      ],
+      "answer": "leaves",
+      "explanation": "Fahrplan → simple present; the bus = it → leaves.",
+      "optionHints": {
+        "will leaving": "will + -ing gibt es so nicht. Fahrplan: simple present.",
+        "leave": "the bus = it → -s: leaves."
+      }
+    },
+    {
+      "id": "k6q_G11_002",
+      "topicId": "k6g_G11",
+      "type": "multipleChoice",
+      "prompt": "The plane from New York ___ at 7 o'clock in the morning.",
+      "options": [
+        "arrives",
+        "arrive",
+        "arriving"
+      ],
+      "answer": "arrives",
+      "explanation": "Flugplan → simple present: arrives.",
+      "optionHints": {
+        "arrive": "the plane = it → arrives.",
+        "arriving": "Ohne Hilfsverb geht -ing nicht. Fahrplan: arrives."
+      }
+    },
+    {
+      "id": "k6q_G11_003",
+      "topicId": "k6g_G11",
+      "type": "multipleChoice",
+      "prompt": "When ___ the concert start tomorrow?",
+      "options": [
+        "does",
+        "do",
+        "is"
+      ],
+      "answer": "does",
+      "explanation": "Frage im simple present mit it → does.",
+      "optionHints": {
+        "do": "the concert = it → does.",
+        "is": "Mit start (Grundform) brauchst du does."
+      }
+    },
+    {
+      "id": "k6q_G11_004",
+      "topicId": "k6g_G11",
+      "type": "multipleChoice",
+      "prompt": "Welcher Satz ist ein timetable future?",
+      "options": [
+        "Our train leaves at 9.15 a.m.",
+        "I think it will rain.",
+        "I'm going to buy a present."
+      ],
+      "answer": "Our train leaves at 9.15 a.m.",
+      "explanation": "Fester Fahrplan + simple present = timetable future.",
+      "optionHints": {
+        "I think it will rain.": "Das ist eine Vermutung → will future.",
+        "I'm going to buy a present.": "Das ist ein Plan → going-to future."
+      }
+    },
+    {
+      "id": "k6q_G11_005",
+      "topicId": "k6g_G11",
+      "type": "multipleChoice",
+      "prompt": "The film ___ at 8 p.m. tonight. Let's not be late!",
+      "options": [
+        "starts",
+        "start",
+        "is start"
+      ],
+      "answer": "starts",
+      "explanation": "Kinoprogramm → simple present: starts.",
+      "optionHints": {
+        "start": "the film = it → starts.",
+        "is start": "is + Grundform geht nicht. Simple present: starts."
+      }
+    },
+    {
+      "id": "k6q_G11_006",
+      "topicId": "k6g_G11",
+      "type": "multipleChoice",
+      "prompt": "The concert ___ place in the park tomorrow.",
+      "options": [
+        "takes",
+        "take",
+        "took"
+      ],
+      "answer": "takes",
+      "explanation": "Festes Programm → simple present: takes place.",
+      "optionHints": {
+        "take": "the concert = it → takes.",
+        "took": "Es geht um morgen – took ist Vergangenheit."
+      }
+    },
+    {
+      "id": "k6q_G11_007",
+      "topicId": "k6g_G11",
+      "type": "multipleChoice",
+      "prompt": "When ___ the train to Edinburgh arrive?",
+      "options": [
+        "does",
+        "do",
+        "did"
+      ],
+      "answer": "does",
+      "explanation": "Fahrplan-Frage im simple present: When does … arrive?",
+      "optionHints": {
+        "do": "the train = it → does.",
+        "did": "Es geht um die Zukunft (Fahrplan) → does."
+      }
+    },
+    {
+      "id": "k6q_G11_008",
+      "topicId": "k6g_G11",
+      "type": "fillBlank",
+      "prompt": "Our train ___ (leave) London King's Cross at 3 p.m. tomorrow.",
+      "answer": "leaves",
+      "explanation": "Fahrplan → simple present: leaves."
+    },
+    {
+      "id": "k6q_G11_009",
+      "topicId": "k6g_G11",
+      "type": "fillBlank",
+      "prompt": "The plane ___ (depart) from Munich at 9.20 a.m.",
+      "answer": "departs",
+      "acceptedAnswers": [
+        "departs",
+        "leaves"
+      ],
+      "explanation": "Flugplan → simple present: departs."
+    },
+    {
+      "id": "k6q_G11_010",
+      "topicId": "k6g_G11",
+      "type": "fillBlank",
+      "prompt": "It ___ (arrive) at London Heathrow at 10.25 a.m.",
+      "answer": "arrives",
+      "explanation": "it → arrives."
+    },
+    {
+      "id": "k6q_G11_011",
+      "topicId": "k6g_G11",
+      "type": "fillBlank",
+      "prompt": "Our Maths lesson ___ (begin) at 8 o'clock tomorrow.",
+      "answer": "begins",
+      "acceptedAnswers": [
+        "begins",
+        "starts"
+      ],
+      "explanation": "Stundenplan → simple present: begins."
+    },
+    {
+      "id": "k6q_G11_012",
+      "topicId": "k6g_G11",
+      "type": "fillBlank",
+      "prompt": "The shop ___ (not open) until 10 o'clock on Sunday.",
+      "answer": "doesn't open",
+      "acceptedAnswers": [
+        "doesn't open",
+        "does not open"
+      ],
+      "explanation": "Feste Öffnungszeit → simple present, verneint: doesn't open."
+    },
+    {
+      "id": "k6q_G11_013",
+      "topicId": "k6g_G11",
+      "type": "fillBlank",
+      "prompt": "When ___ the next bus leave?",
+      "answer": "does",
+      "explanation": "Frage im simple present: When does …?"
+    }
+  ],
+  "conversationScenarios": [
+    {
+      "id": "k6c_doctor",
+      "unit": 4,
+      "title": "Beim Arzt",
+      "level": 2,
+      "goal": "Gesundheitsvokabeln, present perfect",
+      "grammarCodes": [
+        "G9"
+      ],
+      "situation": "Du hast dich beim Training verletzt. Doctor Barnett untersucht dich.",
+      "openingLine": "Hello! Come in and sit down. So, what's the problem today?",
+      "phrases": [
+        "I've hurt my …",
+        "I think I've twisted my ankle.",
+        "I've got a headache/a cold/a fever.",
+        "Can I go to school?",
+        "You should stay in bed.",
+        "Here's a prescription.",
+        "Get well soon!"
+      ],
+      "grade": 6,
+      "startNode": "n1",
+      "nodes": {
+        "n1": {
+          "npcLine": "Hello! Come in and sit down. So, what's the problem today?",
+          "choices": [
+            {
+              "text": "I've hurt my ankle. I think I've twisted it at football training.",
+              "quality": "good",
+              "feedback": "Perfekt – present perfect, weil das Ergebnis jetzt noch zu spüren ist.",
+              "next": "n2"
+            },
+            {
+              "text": "My foot hurts.",
+              "quality": "ok",
+              "feedback": "Verständlich! Mit present perfect: I've hurt my foot.",
+              "next": "n2"
+            },
+            {
+              "text": "I have hurted my foot.",
+              "quality": "wrong",
+              "feedback": "hurt ist unregelmäßig: I've hurt my foot.",
+              "next": "n2"
+            }
+          ]
+        },
+        "n2": {
+          "npcLine": "Oh dear. Let me have a look. Does it hurt when I touch it here?",
+          "choices": [
+            {
+              "text": "Yes, it does. It really hurts.",
+              "quality": "good",
+              "feedback": "Richtige Kurzantwort mit does!",
+              "next": "n3"
+            },
+            {
+              "text": "Yes!",
+              "quality": "ok",
+              "feedback": "Klar! Mit Kurzantwort: Yes, it does.",
+              "next": "n3"
+            },
+            {
+              "text": "Yes, it is.",
+              "quality": "wrong",
+              "feedback": "Die Frage beginnt mit Does → Yes, it does.",
+              "next": "n3"
+            }
+          ]
+        },
+        "n3": {
+          "npcLine": "Have you taken anything for the pain yet?",
+          "choices": [
+            {
+              "text": "No, I haven't. I haven't taken anything yet.",
+              "quality": "good",
+              "feedback": "Super – present perfect mit not … yet.",
+              "next": "n4"
+            },
+            {
+              "text": "No.",
+              "quality": "ok",
+              "feedback": "Mit Kurzantwort: No, I haven't.",
+              "next": "n4"
+            },
+            {
+              "text": "No, I didn't take yet.",
+              "quality": "wrong",
+              "feedback": "Mit yet → present perfect: No, I haven't taken anything yet.",
+              "next": "n4"
+            }
+          ]
+        },
+        "n4": {
+          "npcLine": "OK. It isn't broken – you've just twisted your ankle. You should stay at home for two days and put ice on it. Here's a prescription.",
+          "choices": [
+            {
+              "text": "Thank you, Doctor. Can I go to school on Monday?",
+              "quality": "good",
+              "feedback": "Höflich bedankt und gut nachgefragt!",
+              "next": "n5"
+            },
+            {
+              "text": "OK, thanks.",
+              "quality": "ok",
+              "feedback": "Höflich! Du kannst auch nachfragen: Can I go to school on Monday?",
+              "next": "n5"
+            },
+            {
+              "text": "I must play football tomorrow!",
+              "quality": "wrong",
+              "feedback": "Der Arzt rät zur Ruhe. Frag lieber: When can I play football again?",
+              "next": "n5"
+            }
+          ]
+        },
+        "n5": {
+          "npcLine": "Yes, I think you can. Get well soon!",
+          "choices": []
+        }
+      },
+      "endNodes": [
+        "n5"
+      ]
+    },
+    {
+      "id": "k6c_interview_ayla",
+      "unit": 4,
+      "title": "Have you ever …? – Interview",
+      "level": 3,
+      "goal": "present perfect vs. simple past, ever/never/already/yet (G9–G10)",
+      "grammarCodes": [
+        "G9",
+        "G10"
+      ],
+      "situation": "Du interviewst Ayla, die beste Läuferin der TTS, für die Schülerzeitung.",
+      "openingLine": "Hi! Thanks for the interview. What would you like to know?",
+      "phrases": [
+        "Have you ever won …?",
+        "When did you start …?",
+        "I've never …",
+        "Two years ago I …",
+        "Have you already …?"
+      ],
+      "grade": 6,
+      "startNode": "n1",
+      "nodes": {
+        "n1": {
+          "npcLine": "Hi! Thanks for the interview. What would you like to know?",
+          "choices": [
+            {
+              "text": "Have you ever won a big race?",
+              "quality": "good",
+              "feedback": "Perfekte Interviewfrage mit Have you ever …?",
+              "next": "n2"
+            },
+            {
+              "text": "Do you win races?",
+              "quality": "ok",
+              "feedback": "Verständlich! Für Erfahrungen fragt man: Have you ever won a race?",
+              "next": "n2"
+            },
+            {
+              "text": "Have you ever win a race?",
+              "quality": "wrong",
+              "feedback": "Nach have steht das past participle: Have you ever won …?",
+              "next": "n2"
+            }
+          ]
+        },
+        "n2": {
+          "npcLine": "Yes, I have. I've won three races. My first win was in the London Mini Marathon.",
+          "choices": [
+            {
+              "text": "Wow! When did you win the Mini Marathon?",
+              "quality": "good",
+              "feedback": "Genau – nach einem genauen Zeitpunkt fragst du im simple past.",
+              "next": "n3"
+            },
+            {
+              "text": "That's amazing!",
+              "quality": "ok",
+              "feedback": "Schönes Feedback! Frag gern noch nach: When did you win it?",
+              "next": "n3"
+            },
+            {
+              "text": "When have you won the Mini Marathon?",
+              "quality": "wrong",
+              "feedback": "Mit when (genauer Zeitpunkt) nimmst du das simple past: When did you win …?",
+              "next": "n3"
+            }
+          ]
+        },
+        "n3": {
+          "npcLine": "I won it two years ago, when I was eleven. I was so proud!",
+          "choices": [
+            {
+              "text": "Have you already started training for this year's race?",
+              "quality": "good",
+              "feedback": "Super – already → present perfect.",
+              "next": "n4"
+            },
+            {
+              "text": "Do you train every day?",
+              "quality": "ok",
+              "feedback": "Gute Frage! Auch möglich: Have you already started training?",
+              "next": "n4"
+            },
+            {
+              "text": "Did you already start training yet?",
+              "quality": "wrong",
+              "feedback": "Mit already/yet → present perfect: Have you already started training?",
+              "next": "n4"
+            }
+          ]
+        },
+        "n4": {
+          "npcLine": "Yes, I have. I've already run 100 miles this month! But I haven't bought new running shoes yet.",
+          "choices": [
+            {
+              "text": "Thank you very much for the interview, Ayla. Good luck!",
+              "quality": "good",
+              "feedback": "Ein höflicher, runder Abschluss.",
+              "next": "n5"
+            },
+            {
+              "text": "OK, bye.",
+              "quality": "ok",
+              "feedback": "Etwas höflicher zum Abschluss: Thank you for the interview!",
+              "next": "n5"
+            },
+            {
+              "text": "I have seen you in a race last year.",
+              "quality": "wrong",
+              "feedback": "last year → simple past: I saw you in a race last year.",
+              "next": "n5"
+            }
+          ]
+        },
+        "n5": {
+          "npcLine": "You're welcome! See you at the race!",
+          "choices": []
+        }
+      },
+      "endNodes": [
+        "n5"
+      ]
+    },
+    {
+      "id": "k6c_aliens_report",
+      "unit": 4,
+      "section": "Unit task",
+      "title": "Radio-Reporter",
+      "level": 3,
+      "goal": "Sprache von Nachrichtenberichten, present perfect, past progressive",
+      "grammarCodes": [
+        "G7",
+        "G9"
+      ],
+      "situation": "Aliens sind im Greenwich Park gelandet! Du bist Reporterin beim Radio und interviewst einen aufgeregten Augenzeugen.",
+      "openingLine": "Oh, hello! Are you from the radio? I've just seen something really strange in the park!",
+      "phrases": [
+        "What were you doing when …?",
+        "What have you seen?",
+        "I couldn't believe my eyes!",
+        "I've never seen anything like it!"
+      ],
+      "grade": 6,
+      "startNode": "n1",
+      "nodes": {
+        "n1": {
+          "npcLine": "Oh, hello! Are you from the radio? I've just seen something really strange in the park!",
+          "choices": [
+            {
+              "text": "Yes, I'm from Radio Greenwich. What have you seen?",
+              "quality": "good",
+              "feedback": "Profi-Reporterin – mit present perfect!",
+              "next": "n2"
+            },
+            {
+              "text": "Yes. What?",
+              "quality": "ok",
+              "feedback": "Kurz, aber okay! Als Reporterin besser: What have you seen?",
+              "next": "n2"
+            },
+            {
+              "text": "What you have seen?",
+              "quality": "wrong",
+              "feedback": "In der Frage steht have vor dem Subjekt: What have you seen?",
+              "next": "n2"
+            }
+          ]
+        },
+        "n2": {
+          "npcLine": "A spaceship! It has landed right next to the lake!",
+          "choices": [
+            {
+              "text": "What were you doing when the spaceship landed?",
+              "quality": "good",
+              "feedback": "Super – past progressive + simple past.",
+              "next": "n3"
+            },
+            {
+              "text": "Really? A spaceship?",
+              "quality": "ok",
+              "feedback": "Gute Reaktion! Frag weiter: What were you doing when it landed?",
+              "next": "n3"
+            },
+            {
+              "text": "What did you doing when it landed?",
+              "quality": "wrong",
+              "feedback": "past progressive: What were you doing …?",
+              "next": "n3"
+            }
+          ]
+        },
+        "n3": {
+          "npcLine": "I was walking my dog when there was a big flash. I couldn't believe my eyes!",
+          "choices": [
+            {
+              "text": "Have the aliens come out of the spaceship yet?",
+              "quality": "good",
+              "feedback": "Klasse Frage mit present perfect und yet!",
+              "next": "n4"
+            },
+            {
+              "text": "Did you see aliens?",
+              "quality": "ok",
+              "feedback": "Gute Frage! Als Reporterin auch: Have the aliens come out yet?",
+              "next": "n4"
+            },
+            {
+              "text": "Have the aliens came out yet?",
+              "quality": "wrong",
+              "feedback": "come – came – come → Have the aliens come out yet?",
+              "next": "n4"
+            }
+          ]
+        },
+        "n4": {
+          "npcLine": "Yes! Three little green aliens have just walked to the ice cream van. I've never seen anything like it!",
+          "choices": [
+            {
+              "text": "Thank you. This is Juna for Radio Greenwich. Back to the studio!",
+              "quality": "good",
+              "feedback": "Ein echter Radio-Abschluss!",
+              "next": "n5"
+            },
+            {
+              "text": "Wow. Thanks.",
+              "quality": "ok",
+              "feedback": "Ein Radiobericht braucht einen Abschluss: This is … for Radio Greenwich.",
+              "next": "n5"
+            },
+            {
+              "text": "I am never see anything like it!",
+              "quality": "wrong",
+              "feedback": "present perfect: I've never seen anything like it!",
+              "next": "n5"
+            }
+          ]
+        },
+        "n5": {
+          "npcLine": "Oh look – they're buying ice cream! Aliens love ice cream!",
+          "choices": []
+        }
+      },
+      "endNodes": [
+        "n5"
+      ]
+    },
+    {
+      "id": "k6c_london_directions",
+      "unit": 4,
+      "section": "Focus 2",
+      "title": "Nach dem Weg fragen in London",
+      "level": 2,
+      "goal": "Wegbeschreibung, Fahrkarten, timetable future (G11)",
+      "grammarCodes": [
+        "G11"
+      ],
+      "situation": "Du stehst an der Victoria Station und fragst eine Passantin nach dem Weg zu Buckingham Palace und zum London Eye.",
+      "openingLine": "You look a bit lost. Can I help you?",
+      "phrases": [
+        "Excuse me, how do I get to …?",
+        "Go straight on.",
+        "Turn left/right into …",
+        "It's opposite …",
+        "A single/return ticket, please.",
+        "When does the next train leave?"
+      ],
+      "grade": 6,
+      "startNode": "n1",
+      "nodes": {
+        "n1": {
+          "npcLine": "You look a bit lost. Can I help you?",
+          "choices": [
+            {
+              "text": "Yes, please. Excuse me, how do I get to Buckingham Palace?",
+              "quality": "good",
+              "feedback": "Höflich und genau richtig gefragt!",
+              "next": "n2"
+            },
+            {
+              "text": "Buckingham Palace?",
+              "quality": "ok",
+              "feedback": "Verständlich! Höflicher: Excuse me, how do I get to Buckingham Palace?",
+              "next": "n2"
+            },
+            {
+              "text": "Where is Buckingham Palace? Tell me.",
+              "quality": "wrong",
+              "feedback": "Das klingt zu direkt. Besser: Excuse me, how do I get to …?",
+              "next": "n2"
+            }
+          ]
+        },
+        "n2": {
+          "npcLine": "Sure. Go out of the station and turn right. Then go straight on. The palace is at the end of the road. It's about ten minutes on foot.",
+          "choices": [
+            {
+              "text": "So I turn right and then go straight on. Thank you!",
+              "quality": "good",
+              "feedback": "Super – du wiederholst den Weg zur Kontrolle.",
+              "next": "n3"
+            },
+            {
+              "text": "Ten minutes? OK.",
+              "quality": "ok",
+              "feedback": "Gut! Zur Sicherheit kannst du den Weg wiederholen: So I turn right …",
+              "next": "n3"
+            },
+            {
+              "text": "So I turn left and go straight on.",
+              "quality": "wrong",
+              "feedback": "Hör noch mal genau hin: turn right.",
+              "next": "n3"
+            }
+          ]
+        },
+        "n3": {
+          "npcLine": "You're welcome. Are you going to see the London Eye too?",
+          "choices": [
+            {
+              "text": "Yes, I am. When does the next train to Waterloo leave?",
+              "quality": "good",
+              "feedback": "Perfekt – Kurzantwort und Frage im timetable future.",
+              "next": "n4"
+            },
+            {
+              "text": "Yes.",
+              "quality": "ok",
+              "feedback": "Mit Kurzantwort: Yes, I am.",
+              "next": "n4"
+            },
+            {
+              "text": "Yes, I do.",
+              "quality": "wrong",
+              "feedback": "Die Frage beginnt mit Are → Yes, I am.",
+              "next": "n4"
+            }
+          ]
+        },
+        "n4": {
+          "npcLine": "The next train leaves at 2.15 from Platform 3. You can buy a ticket at the ticket machine over there.",
+          "choices": [
+            {
+              "text": "Thank you! Is a return ticket cheaper than two single tickets?",
+              "quality": "good",
+              "feedback": "Kluge Frage mit Vergleich (cheaper than)!",
+              "next": "n5"
+            },
+            {
+              "text": "OK. Bye.",
+              "quality": "ok",
+              "feedback": "Ein Dankeschön ist höflicher: Thank you very much!",
+              "next": "n5"
+            },
+            {
+              "text": "The next train leave at 2.15?",
+              "quality": "wrong",
+              "feedback": "train = it → leaves: The next train leaves at 2.15.",
+              "next": "n5"
+            }
+          ]
+        },
+        "n5": {
+          "npcLine": "Yes, a return ticket is usually cheaper. Enjoy London!",
+          "choices": []
+        }
+      },
+      "endNodes": [
+        "n5"
+      ]
+    }
+  ]
+}
