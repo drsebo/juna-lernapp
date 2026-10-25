@@ -74,7 +74,9 @@ export async function loadContent({ grade } = {}) {
     conversationScenarios: units.flatMap((u) => u.conversationScenarios || []),
     irregularVerbs: byKind('irregularVerbs').flatMap((f) => f.irregularVerbs || []),
     learningGoals: goalFiles.flatMap((f) => f.learningGoals || []),
-    skills: goalFiles.flatMap((f) => f.skills || [])
+    skills: goalFiles.flatMap((f) => f.skills || []),
+    // per unit: story summary, reading questions, mediation tasks (mock exams)
+    examTasks: byKind('examTasks').flatMap((f) => f.units || [])
   };
   gradeCache.set(wanted, content);
   return content;

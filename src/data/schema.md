@@ -122,6 +122,11 @@ every grade 6 id carries a `k6` prefix to stay unique next to the grade 5 ids.
   `pastParticiple`, `introducedIn` (5 | 6), `grade5Id` / `vocabIds` links.
 - `learningGoals6.json`: `learningGoals` ("Can you …" per unit, with `grammarCodes` and
   `vocabSections`) and `skills` (S1–S30).
+- `examTasks6.json` (mock exams): per unit a `story` (`title`, English summary `text`),
+  `reading` (≥ 6 questions, `multipleChoice` or `trueFalse`, `answer` ∈ `options`) and
+  `mediation` (≥ 2 tasks: `direction` "de-en" | "en-de", `situation`, `material`, `task`,
+  `keyPoints` = 1 point each for the self-check, `modelAnswer`; `source` "practice-pool" or
+  "eigene").
 
 ## Content index (`contentIndex.json`)
 

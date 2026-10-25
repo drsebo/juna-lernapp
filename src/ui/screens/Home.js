@@ -3,6 +3,7 @@ import { navigate } from '../../router.js';
 import { loadContent, availableGrades, unitRangeLabel } from '../../data/contentStore.js';
 import { computeVocabTargetProgress, computeGrammarTargetProgress, resolveReferenceIndex } from '../../engine/progress.js';
 import { examCompletionPct } from '../../engine/examPrep.js';
+import { activeExamFor, countdownLabel, examCompletionPct6, EXAM_KINDS } from '../../engine/examPrep6.js';
 import { logOut } from '../../auth/authGate.js';
 import { getXp, levelInfo, streakStatus, boxCounts } from '../../engine/motivation.js';
 
@@ -34,7 +35,8 @@ export async function renderHome(root) {
   function draw() {
     const state = db.load();
     const streak = state.streak.count;
-    const hasActiveExam = Boolean(state.activeExamId);
+    const activeExam = activeExamFor(state, content.grade);
+    const hasActiveExam = Boolean(activeExam);
     const { progressReference } = gradeState(state, content.grade);
 
     const vocabRefIndex = resolveReferenceIndex(content.vocab, progressReference.vocabularyWordId);
@@ -82,7 +84,7 @@ export async function renderHome(root) {
         ${card('grammar', 'Grammar', `${content.grammarTopics.length} topics · ${units}`, ICONS.grammar)}
         ${card('vocabulary', 'Vocabulary', `${boxes[4]} of ${totalWords} words mastered`, ICONS.vocabulary)}
         ${card('conversations', 'Conversations', `${content.conversationScenarios.length} roleplays · ${units}`, ICONS.conversations)}
-        ${card('exam-prep', 'Exam Prep', hasActiveExam ? 'Active exam in progress' : 'Tap to set up an exam', ICONS.exam, !hasActiveExam)}
+        ${card('exam-prep', 'Exam Prep', examCardSub(activeExam), ICONS.exam, !hasActiveExam)}
       </div>
 
       <button class="weak-points-btn" id="weak-points-btn">
@@ -90,7 +92,7 @@ export async function renderHome(root) {
         <span>›</span>
       </button>
 
-      ${examBar(state)}
+      ${examBar(activeExam)}
 
       <div class="section-title">Your word boxes</div>
       <div class="boxes">
@@ -227,15 +229,22 @@ function findGrammarByCode(grammarTopics, text) {
 // Shown only while an exam is active — covers just the topics that exam needs
 // (not the whole book). Without an exam the greyed-out Exam Prep card already
 // says everything, so a second empty bar would only be noise.
-function examBar(state) {
-  const activeExam = state.exams.find((e) => e.id === state.activeExamId);
+function examCardSub(exam) {
+  if (!exam) return 'Tap to set up an exam';
+  if (!exam.kind) return 'Active exam in progress';
+  return `${EXAM_KINDS[exam.kind]}: ${countdownLabel(exam)}`;
+}
+
+function examBar(activeExam) {
   if (!activeExam) return '';
-  const pct = examCompletionPct(activeExam);
+  // grade 6 exams have a type and date: show the countdown
+  const pct = activeExam.kind ? examCompletionPct6(activeExam) : examCompletionPct(activeExam);
+  const title = activeExam.kind ? `📋 ${EXAM_KINDS[activeExam.kind]} · ${countdownLabel(activeExam)}` : '📋 Exam Prep';
 
   return `
     <div class="progress-wrap exam-bar" id="exam-bar">
       <div class="progress-label">
-        <span class="progress-title">📋 Exam Prep</span>
+        <span class="progress-title">${title}</span>
         <span>${pct}% ready</span>
       </div>
       <div class="progress-bar"><div class="progress-bar-fill" style="width:${pct}%"></div></div>

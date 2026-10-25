@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'juna-lernapp-v8';
+const CACHE_VERSION = 'juna-lernapp-v9';
 
 const APP_SHELL = [
   './',
@@ -29,8 +29,10 @@ const APP_SHELL = [
   './src/data/grade6/k6u6.json',
   './src/data/grade6/irregularVerbs6.json',
   './src/data/grade6/learningGoals6.json',
+  './src/data/grade6/examTasks6.json',
   './src/engine/conversationEngine.js',
   './src/engine/examPrep.js',
+  './src/engine/examPrep6.js',
   './src/engine/grammarExercises.js',
   './src/engine/leitner.js',
   './src/engine/motivation.js',
@@ -46,6 +48,8 @@ const APP_SHELL = [
   './src/ui/screens/ConversationSession.js',
   './src/ui/screens/ConversationsSetup.js',
   './src/ui/screens/ExamPrep.js',
+  './src/ui/screens/ExamPrep6.js',
+  './src/ui/screens/MockExam.js',
   './src/ui/screens/GrammarSession.js',
   './src/ui/screens/GrammarSetup.js',
   './src/ui/screens/Home.js',

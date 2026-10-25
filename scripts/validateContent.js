@@ -263,6 +263,30 @@ function main() {
     err(goalsFile, 'Datei fehlt');
   }
 
+  const tasksFile = 'grade6/examTasks6.json';
+  if (fs.existsSync(path.join(DATA_DIR, tasksFile))) {
+    const tasks = load(tasksFile);
+    for (const u of (tasks && tasks.units) || []) {
+      if (!grade6Sections.has(u.unit)) err(tasksFile, `Unit ${u.unit} gibt es nicht`);
+      if (!u.story || isBlank(u.story.title) || isBlank(u.story.text)) err(tasksFile, `Unit ${u.unit}: story fehlt`);
+      if ((u.reading || []).length < 6) err(tasksFile, `Unit ${u.unit}: nur ${(u.reading || []).length} Lesefragen (mindestens 6)`);
+      if ((u.mediation || []).length < 2) err(tasksFile, `Unit ${u.unit}: nur ${(u.mediation || []).length} Mediationsaufgaben (mindestens 2)`);
+      for (const q of u.reading || []) {
+        registerId(tasksFile, q.id, 'Lesefrage');
+        if (isBlank(q.question)) err(tasksFile, `${q.id}: question fehlt`);
+        if (!Array.isArray(q.options) || !q.options.includes(q.answer)) err(tasksFile, `${q.id}: answer "${q.answer}" ist nicht in options`);
+      }
+      for (const m of u.mediation || []) {
+        registerId(tasksFile, m.id, 'Mediationsaufgabe');
+        for (const field of ['title', 'situation', 'material', 'task', 'modelAnswer']) if (isBlank(m[field])) err(tasksFile, `${m.id}: ${field} fehlt`);
+        if (!['de-en', 'en-de'].includes(m.direction)) err(tasksFile, `${m.id}: direction "${m.direction}"`);
+        if (!Array.isArray(m.keyPoints) || m.keyPoints.length === 0 || m.keyPoints.some(isBlank)) err(tasksFile, `${m.id}: keyPoints fehlen`);
+      }
+    }
+  } else {
+    err(tasksFile, 'Datei fehlt');
+  }
+
   for (const f of listJson('grade6')) {
     if (!/\/(k6u\d+|irregularVerbs6|learningGoals6|examTasks6)\.json$/.test(f)) warn(f, 'unbekannte Datei – wird nicht geprüft');
   }

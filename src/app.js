@@ -11,6 +11,7 @@ import { renderAiConversation } from './ui/screens/AiConversation.js';
 import { renderSessionResults } from './ui/screens/SessionResults.js';
 import { renderWeakPoints } from './ui/screens/WeakPoints.js';
 import { renderExamPrep } from './ui/screens/ExamPrep.js';
+import { renderMockExam } from './ui/screens/MockExam.js';
 import { waitForInitialUser, renderLogin } from './auth/authGate.js';
 import { db } from './storage/db.js';
 
@@ -25,6 +26,7 @@ registerRoute('/conversations', renderConversationsSetup);
 registerRoute('/conversations/session', renderConversationSession);
 registerRoute('/conversations/ai', renderAiConversation);
 registerRoute('/exam-prep', renderExamPrep);
+registerRoute('/exam-prep/mock', renderMockExam);
 registerRoute('/weak-points', renderWeakPoints);
 
 const appRoot = document.getElementById('app');

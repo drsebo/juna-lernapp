@@ -69,6 +69,12 @@
       "grade": 6,
       "kind": "learningGoals",
       "file": "grade6/learningGoals6.json"
+    },
+    {
+      "id": "examTasks6",
+      "grade": 6,
+      "kind": "examTasks",
+      "file": "grade6/examTasks6.json"
     }
   ]
 }

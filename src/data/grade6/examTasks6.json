@@ -1,0 +1,677 @@
+{
+  "grade": 6,
+  "units": [
+    {
+      "unit": 1,
+      "story": {
+        "title": "What a wonderful world",
+        "text": "Holly tells her friends about a poster competition. The title is 'What a wonderful world', and the prize is a day at the Natural History Museum. Luke wants to work with Jay, but Jay wants to win alone. Luke has an idea: a manga world where every character has a job that makes the world better – Rokuro recycles things, Tomoko plants trees. Luke can't draw very well, but his names are clever. The next day Jay sees Luke's drawings in his exercise book. Later Jay talks about mangas too, and Luke thinks that Jay has stolen his idea. They have a fight, and Jay pushes Luke. Dave stops them. In the end Jay says sorry: he always wanted to draw mangas, but he never had a good idea. The two boys show each other their drawings and decide to make the poster together."
+      },
+      "reading": [
+        {
+          "id": "k6r1_01",
+          "type": "multipleChoice",
+          "question": "What is the prize in the competition?",
+          "options": [
+            "a day at the Natural History Museum",
+            "a new manga book",
+            "a trip to New York"
+          ],
+          "answer": "a day at the Natural History Museum"
+        },
+        {
+          "id": "k6r1_02",
+          "type": "trueFalse",
+          "question": "Jay wants to work with Luke from the beginning.",
+          "options": [
+            "true",
+            "false"
+          ],
+          "answer": "false"
+        },
+        {
+          "id": "k6r1_03",
+          "type": "multipleChoice",
+          "question": "What is special about Luke's manga characters?",
+          "options": [
+            "Every character has a job that makes the world better.",
+            "They are all animals.",
+            "They all live in Greenwich."
+          ],
+          "answer": "Every character has a job that makes the world better."
+        },
+        {
+          "id": "k6r1_04",
+          "type": "multipleChoice",
+          "question": "Why is Luke angry with Jay?",
+          "options": [
+            "He thinks Jay has stolen his idea.",
+            "Jay has broken his pencil case.",
+            "Jay laughed at his drawings."
+          ],
+          "answer": "He thinks Jay has stolen his idea."
+        },
+        {
+          "id": "k6r1_05",
+          "type": "trueFalse",
+          "question": "Luke draws better than Jay.",
+          "options": [
+            "true",
+            "false"
+          ],
+          "answer": "false"
+        },
+        {
+          "id": "k6r1_06",
+          "type": "multipleChoice",
+          "question": "How does the story end?",
+          "options": [
+            "Luke and Jay make the poster together.",
+            "Dave wins the competition.",
+            "Luke and Jay stop being friends."
+          ],
+          "answer": "Luke and Jay make the poster together."
+        }
+      ],
+      "mediation": [
+        {
+          "id": "k6m1_1",
+          "title": "A trip to the Midwest",
+          "source": "practice-pool",
+          "ref": "Practice pool Unit 1, ▲4",
+          "direction": "en-de",
+          "situation": "Du besuchst mit deinen Eltern und deinem kleinen Bruder deine Tante in den USA. Sie schlägt einen zweitägigen Ausflug vor und schickt drei Flyer.",
+          "material": "1) Explore Chicago: Bike tour along the lake front, Navy Pier, North Avenue Beach and Lincoln Park Zoo. All sights are free. The group must stay together. Price: adults $100, under 16 $49 (incl. 1 night in the Biker's Hostel, food and bike). Free Wi-Fi everywhere in the city.\n2) Indiana Dunes: 15 miles of beach on Lake Michigan. Free activities for kids and teens: outdoor programme, fishing school, hiking tours. Camping (summer only): $30 per night per group. Full board: $30 per person per day. High-speed internet: $5 per day. Parking: $6 per car.\n3) Great Galena Balloon Race: balloon race, night glow shows, kids' programme (8–14). Entry $10. All-you-can-eat buffet $50. Galena Bed and Breakfast: $70 double room, $50 single room, free Wi-Fi.",
+          "task": "Deine Eltern bitten dich, ihnen auf Deutsch zu sagen, welcher Ausflug am besten passt und warum. Bedingungen: 5 Personen zusammen unter 400 $ (Übernachtung, Essen, Eintritt); Programm für dich und deinen Bruder, damit die Eltern Zeit mit der Tante haben; Internet muss es geben.",
+          "keyPoints": [
+            "Empfehlung: Indiana Dunes",
+            "Kosten unter 400 $ (Camping 30 $ pro Nacht, Vollpension 30 $ pro Person und Tag – zusammen ca. 350 $)",
+            "Kostenloses Programm für Kinder und Jugendliche (Angelschule, Wandertouren …) – die Eltern haben Zeit mit der Tante",
+            "Internet gibt es (5 $ pro Tag)",
+            "Chicago passt nicht, weil die Gruppe zusammenbleiben muss; Galena ist zu teuer"
+          ],
+          "modelAnswer": "Ich finde, Indiana Dunes passt am besten. Camping kostet 30 $ pro Nacht für die ganze Gruppe und Vollpension 30 $ pro Person und Tag – zusammen sind wir bei ungefähr 350 $, also unter 400 $. Für Kinder und Jugendliche gibt es ein kostenloses Programm, z. B. eine Angelschule und Wandertouren, dann habt ihr Zeit für die Tante. Highspeed-Internet gibt es für 5 $ am Tag. Bei der Radtour in Chicago muss die Gruppe zusammenbleiben, und Galena wird mit Buffet und Zimmern zu teuer.",
+          "points": 5
+        },
+        {
+          "id": "k6m1_2",
+          "title": "A weekend in my home town",
+          "source": "eigene",
+          "direction": "de-en",
+          "situation": "Emily aus Decorah besucht dich bald. Sie schreibt: \"What can we do on Saturday and Sunday? I love being outdoors, but I haven't got much money.\"",
+          "material": "Stadtmagazin – Wochenende: Samstag: Kinderflohmarkt im Stadtpark, 9–13 Uhr, Eintritt frei. Freibad am Fluss, 10–19 Uhr, Jugendliche 2 €. Sonntag: Kletterhalle „Bergwerk\", 11–18 Uhr, Eintritt 8 €, Ausrüstung leihen 4 €. Open-Air-Kino im Schlosshof, 21 Uhr, 6 €.",
+          "task": "Schreib Emily eine kurze E-Mail auf Englisch mit Vorschlägen für Samstag und Sonntag und den Preisen.",
+          "keyPoints": [
+            "Saturday: flea market in the park (9 a.m. – 1 p.m.), free",
+            "Saturday: outdoor pool by the river, 2 euros",
+            "Sunday: climbing centre, 8 euros + 4 euros for the equipment (or open-air cinema at 9 p.m., 6 euros)",
+            "Plans with going to / suggestions (We're going to …, We could …)",
+            "E-mail form: greeting and ending (Hi Emily, … See you soon!)"
+          ],
+          "modelAnswer": "Hi Emily, I've got some great ideas for your visit! On Saturday morning we're going to go to the flea market in the park – it's free. In the afternoon we could go to the outdoor pool by the river. It's only 2 euros for teenagers. On Sunday we can go climbing at a climbing centre. It costs 8 euros, and you can get the equipment for 4 euros. In the evening there's an open-air cinema at 9 p.m. for 6 euros. See you soon! Juna",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "story": {
+        "title": "A perfect day for treasure hunting",
+        "text": "The story has two parts. In 1715, Antonio, a fifteen-year-old Spanish cabin boy, leaves Havana with twelve treasure ships full of silver and gold. He wants to be a good sailor and have his own ship one day. After a week of good weather, a hurricane comes. The ships hit a coral reef near Florida. Antonio wakes up on the beach: eleven of the twelve ships are broken, and more than 1,000 men are dead. The treasure is now at the bottom of the sea. Today, after a storm, Emily and Ryan go to the beach at Fort Pierce with their grandparents and a metal detector. Grandpa finds only a drinks can. After the picnic the grandparents fall asleep, and the children go off with the metal detector alone. A wave comes, and Ryan quickly digs in the sand. In his hand he feels something round – maybe a coin?"
+      },
+      "reading": [
+        {
+          "id": "k6r2_01",
+          "type": "multipleChoice",
+          "question": "When does Antonio's story take place?",
+          "options": [
+            "in 1715",
+            "in 1865",
+            "today"
+          ],
+          "answer": "in 1715"
+        },
+        {
+          "id": "k6r2_02",
+          "type": "trueFalse",
+          "question": "The ships carry silver and gold.",
+          "options": [
+            "true",
+            "false"
+          ],
+          "answer": "true"
+        },
+        {
+          "id": "k6r2_03",
+          "type": "multipleChoice",
+          "question": "What destroys the ships?",
+          "options": [
+            "a hurricane",
+            "pirates",
+            "a fire"
+          ],
+          "answer": "a hurricane"
+        },
+        {
+          "id": "k6r2_04",
+          "type": "trueFalse",
+          "question": "All the ships arrive in Spain.",
+          "options": [
+            "true",
+            "false"
+          ],
+          "answer": "false"
+        },
+        {
+          "id": "k6r2_05",
+          "type": "multipleChoice",
+          "question": "What does Grandpa find with the metal detector?",
+          "options": [
+            "a drinks can",
+            "a gold coin",
+            "an old ship"
+          ],
+          "answer": "a drinks can"
+        },
+        {
+          "id": "k6r2_06",
+          "type": "multipleChoice",
+          "question": "What does Ryan feel in his hand at the end?",
+          "options": [
+            "something round, maybe a coin",
+            "a map",
+            "a bottle with a letter"
+          ],
+          "answer": "something round, maybe a coin"
+        }
+      ],
+      "mediation": [
+        {
+          "id": "k6m2_1",
+          "title": "Florida history",
+          "source": "practice-pool",
+          "ref": "Practice pool Unit 2, ▲11",
+          "direction": "de-en",
+          "situation": "Emily fragt per E-Mail: \"Where did the first Europeans arrive in Florida, why did they come, and how did Florida get its name?\"",
+          "material": "Der spanische Seefahrer Juan Ponce de León kam am 27. März 1513 – zu Ostern („Pascua Florida\") – mit drei Schiffen in der Nähe von Cape Canaveral an. Er dachte, er hätte eine große Insel entdeckt, und nannte sie Florida, weil er an Ostern ankam. Die Spanier suchten eigentlich den sagenhaften Jungbrunnen, eine Quelle, die wieder jung macht. St. Augustine gilt als älteste europäische Siedlung in den USA; sie wurde 1565 gegründet.",
+          "task": "Beantworte Emilys Fragen in einer kurzen E-Mail auf Englisch.",
+          "keyPoints": [
+            "Juan Ponce de León, a Spanish sailor, arrived near Cape Canaveral on 27th March 1513",
+            "The Spanish were looking for the Fountain of Youth (water that makes you young again)",
+            "He called it Florida because he arrived at Easter ('Pascua Florida')",
+            "St. Augustine is the oldest European town in the USA (1565)",
+            "E-mail form: greeting and ending"
+          ],
+          "modelAnswer": "Hi Emily, the first Europeans in Florida were Spanish. Juan Ponce de León, a Spanish sailor, arrived near Cape Canaveral on 27th March 1513 with three ships. They were looking for the Fountain of Youth – water which makes you young again. He thought Florida was a big island and called it Florida because he arrived at Easter, 'Pascua Florida' in Spanish. St. Augustine is the oldest European town in the USA. It was founded in 1565. Love, Juna",
+          "points": 5
+        },
+        {
+          "id": "k6m2_2",
+          "title": "Kennedy Space Center",
+          "source": "eigene",
+          "ref": "nach Practice pool Unit 2, ▲1",
+          "direction": "en-de",
+          "situation": "Ihr seid im Urlaub in Florida. Dein kleiner Cousin kann kein Englisch und fragt: „Was kann man im Kennedy Space Center machen?\"",
+          "material": "Welcome to the Kennedy Space Center on Merritt Island, Florida! Meet real astronauts and see a space shuttle up close. Watch our 3D film about the blue planet. Try the Shuttle Launch Experience: hear the countdown – 3, 2, 1 – and feel what it's like to fly at 17,500 miles per hour! And if you're lucky, you can watch a real rocket take off.",
+          "task": "Erkläre deinem Cousin auf Deutsch, was man dort alles machen kann.",
+          "keyPoints": [
+            "Man kann echte Astronauten treffen",
+            "Man sieht ein Space Shuttle aus der Nähe",
+            "Es gibt einen 3D-Film über die Erde („den blauen Planeten\")",
+            "Shuttle Launch Experience: Man erlebt einen Raketenstart mit Countdown (17.500 Meilen pro Stunde)",
+            "Mit Glück sieht man einen echten Raketenstart"
+          ],
+          "modelAnswer": "Im Kennedy Space Center kannst du echte Astronauten treffen und ein Space Shuttle ganz aus der Nähe anschauen. Es gibt einen 3D-Film über die Erde. Bei der „Shuttle Launch Experience\" erlebst du einen Raketenstart mit Countdown – so, als würdest du mit 17.500 Meilen pro Stunde fliegen. Und wenn wir Glück haben, sehen wir sogar einen echten Raketenstart!",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "story": {
+        "title": "You wanted an outdoor adventure!",
+        "text": "Ryan remembers the last evening of a three-day hike in the wild mountains of Colorado with his group from Green Moose Camp. Jeff, a city kid from San Francisco, wants to go for a walk on the trail at night. That's against the rules, but Ryan goes with him so that Jeff isn't alone. It is very dark because the moon is behind a cloud. Suddenly they hear noises and then a loud grunt from the lake. Something big and black is splashing in the water. Jeff shouts 'Bear!' and wants to run away, but Ryan holds him: 'Stand still! Bears attack people who run.' They shout and clap their hands. When the moon comes out, they can see antlers – it's a moose! It drinks some water and walks away. Back in the tent Jeff says, 'Let's tell everyone it was really a bear.'"
+      },
+      "reading": [
+        {
+          "id": "k6r3_01",
+          "type": "multipleChoice",
+          "question": "Where does the story take place?",
+          "options": [
+            "in the mountains of Colorado",
+            "in a city park in San Francisco",
+            "on a beach in Florida"
+          ],
+          "answer": "in the mountains of Colorado"
+        },
+        {
+          "id": "k6r3_02",
+          "type": "trueFalse",
+          "question": "It's OK to leave the camp at night.",
+          "options": [
+            "true",
+            "false"
+          ],
+          "answer": "false"
+        },
+        {
+          "id": "k6r3_03",
+          "type": "multipleChoice",
+          "question": "Why does Ryan go with Jeff?",
+          "options": [
+            "so that Jeff isn't alone",
+            "because he wants to see a bear",
+            "because a leader tells him to"
+          ],
+          "answer": "so that Jeff isn't alone"
+        },
+        {
+          "id": "k6r3_04",
+          "type": "multipleChoice",
+          "question": "What does Ryan tell Jeff to do?",
+          "options": [
+            "stand still",
+            "run away",
+            "climb a tree"
+          ],
+          "answer": "stand still"
+        },
+        {
+          "id": "k6r3_05",
+          "type": "trueFalse",
+          "question": "The animal in the lake is a bear.",
+          "options": [
+            "true",
+            "false"
+          ],
+          "answer": "false"
+        },
+        {
+          "id": "k6r3_06",
+          "type": "multipleChoice",
+          "question": "What does Jeff want to tell the others?",
+          "options": [
+            "that it was a bear",
+            "that they got lost",
+            "nothing at all"
+          ],
+          "answer": "that it was a bear"
+        }
+      ],
+      "mediation": [
+        {
+          "id": "k6m3_1",
+          "title": "Abenteuerzeltlager",
+          "source": "practice-pool",
+          "ref": "Practice pool Unit 3, △9",
+          "direction": "de-en",
+          "situation": "Dein Austauschpartner Jacob fragt: \"How much does it cost? Which activities can we do? What do I have to bring? Can I bring my mobile phone?\"",
+          "material": "Abenteuerzeltlager in der Fränkischen Schweiz – für Jugendliche von 10 bis 14 Jahren. Preis: 260 € pro Person inkl. Busfahrt vom Bahnhof; 250 € bei eigener An- und Abreise. Programm: Burg Pottenstein, Kanufahrt, Klettern im Naturpark, Schwimmen, Nachtwanderung mit Lagerfeuer, Abschlussparty. Termine: jeweils die zweite Woche der Oster-, Pfingst- und Sommerferien. Mitbringen: wetterfeste Kleidung, Sonnencreme, feste Schuhe, etwas Taschengeld, gute Laune. Handys bitte zu Hause lassen – im Naturpark gibt es sowieso keinen Empfang.",
+          "task": "Beantworte Jacobs Fragen in einer E-Mail auf Englisch.",
+          "keyPoints": [
+            "It costs 260 euros with the bus from the station (250 euros if you travel there yourself)",
+            "Activities: e.g. canoeing, climbing, swimming, a night walk with a campfire, a party (at least three)",
+            "Bring clothes for bad weather, sun cream, strong shoes and some pocket money",
+            "Leave your phone at home – there's no signal in the park anyway",
+            "Dates: second week of the Easter, Whitsun and summer holidays"
+          ],
+          "modelAnswer": "Hi Jacob, the camp costs 260 euros with the bus from the station, or 250 euros if your parents take you there. We can go canoeing, climbing and swimming, visit a castle, and there's a night walk with a campfire and a party at the end. You have to bring clothes for bad weather, sun cream, strong shoes and some pocket money. Please leave your mobile at home – there's no signal in the park anyway. The camp is in the second week of the Easter, Whitsun and summer holidays. See you soon!",
+          "points": 5
+        },
+        {
+          "id": "k6m3_2",
+          "title": "Rules at Green Moose Camp",
+          "source": "eigene",
+          "direction": "en-de",
+          "situation": "Deine Freundin Mia fährt mit dir ins Green Moose Camp. Sie fragt: „Was ist da verboten – und darf ich mein Handy benutzen?\"",
+          "material": "Green Moose Camp – Rules for campers: Never leave the camp without a leader. Lights out at 10 p.m. Keep all food in the bear boxes – never in your tent! Don't feed the animals. You can use your phone from 6 to 7 p.m. only. Always wear a life jacket in the canoe.",
+          "task": "Erkläre Mia die wichtigsten Regeln auf Deutsch.",
+          "keyPoints": [
+            "Man darf das Camp nie ohne Betreuer verlassen",
+            "Essen gehört in die Bärenboxen, nie ins Zelt; Tiere nicht füttern",
+            "Das Handy darf man nur von 18 bis 19 Uhr benutzen",
+            "Um 22 Uhr ist Licht aus",
+            "Im Kanu muss man immer eine Schwimmweste tragen"
+          ],
+          "modelAnswer": "Wir dürfen das Camp nie ohne Betreuer verlassen. Essen müssen wir in die Bärenboxen tun, auf keinen Fall ins Zelt, und Tiere dürfen wir nicht füttern. Um 22 Uhr ist Licht aus. Im Kanu müssen wir immer eine Schwimmweste tragen. Dein Handy darfst du nur zwischen 18 und 19 Uhr benutzen.",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "story": {
+        "title": "Hey, don't call me silly!",
+        "text": "It's the day of the mini marathon in Greenwich. Olivia can't run because of her ankle, but she is there to cheer for her friends. Gwen can't see very well, so she runs hand in hand with Luke for her charity 'See with your Heart'. Luke is nervous. In front of them, two runners in silly animal costumes – a dog and a cat – get in the way. Gwen gets a pain in her side, but she doesn't stop. Near the finish line the dog and the cat stop to take a selfie, and a boy falls over. The race officials take the two costumes out of the race. Gwen and Luke finish the race. Later they find out who the dog and the cat were: Dave and Jay! They trained in secret for a pet charity and wanted to surprise their friends. Gwen forgives them, but they have to say sorry to the boy who fell. At the end they all take a photo for the yearbook."
+      },
+      "reading": [
+        {
+          "id": "k6r4_01",
+          "type": "multipleChoice",
+          "question": "Why can't Olivia run?",
+          "options": [
+            "She has hurt her ankle.",
+            "She is ill.",
+            "She is on holiday."
+          ],
+          "answer": "She has hurt her ankle."
+        },
+        {
+          "id": "k6r4_02",
+          "type": "multipleChoice",
+          "question": "Why does Gwen run with Luke?",
+          "options": [
+            "She can't see very well.",
+            "She is too slow.",
+            "Luke is her brother."
+          ],
+          "answer": "She can't see very well."
+        },
+        {
+          "id": "k6r4_03",
+          "type": "trueFalse",
+          "question": "The runners in costumes help Gwen and Luke.",
+          "options": [
+            "true",
+            "false"
+          ],
+          "answer": "false"
+        },
+        {
+          "id": "k6r4_04",
+          "type": "multipleChoice",
+          "question": "What happens near the finish line?",
+          "options": [
+            "A boy falls over because of the selfie.",
+            "It starts to rain.",
+            "Luke loses his shoe."
+          ],
+          "answer": "A boy falls over because of the selfie."
+        },
+        {
+          "id": "k6r4_05",
+          "type": "trueFalse",
+          "question": "Dave and Jay were the dog and the cat.",
+          "options": [
+            "true",
+            "false"
+          ],
+          "answer": "true"
+        },
+        {
+          "id": "k6r4_06",
+          "type": "multipleChoice",
+          "question": "What do Dave and Jay have to do?",
+          "options": [
+            "say sorry to the boy who fell",
+            "run the race again",
+            "pay some money"
+          ],
+          "answer": "say sorry to the boy who fell"
+        }
+      ],
+      "mediation": [
+        {
+          "id": "k6m4_1",
+          "title": "Our charity run",
+          "source": "eigene",
+          "direction": "de-en",
+          "situation": "Olivia aus Greenwich schreibt: \"What happened at your school's charity run? How much money did you raise and what is it for?\"",
+          "material": "Spendenlauf am Gymnasium: 450 Schülerinnen und Schüler liefen am Freitag Runden im Stadtpark. Für jede Runde zahlten Eltern und Sponsoren Geld. Insgesamt kamen 6.300 € zusammen – das Geld geht an ein Kinderkrankenhaus. Schnellste Läuferin war Lena (12) mit 21 Runden. Leider hat sich ein Lehrer am Knöchel verletzt.",
+          "task": "Antworte Olivia in einer kurzen E-Mail auf Englisch.",
+          "keyPoints": [
+            "450 students ran laps in the park on Friday",
+            "Parents and sponsors paid money for every lap",
+            "We've raised 6,300 euros for a children's hospital",
+            "The fastest runner was Lena (12) with 21 laps",
+            "A teacher hurt his ankle"
+          ],
+          "modelAnswer": "Hi Olivia, our charity run was great! 450 students ran laps in the park on Friday. For every lap our parents and sponsors paid some money, and we've raised 6,300 euros! The money is for a children's hospital. The fastest runner was Lena – she's twelve and ran 21 laps. Unfortunately one of our teachers hurt his ankle. Bye for now, Juna",
+          "points": 5
+        },
+        {
+          "id": "k6m4_2",
+          "title": "A twisted ankle",
+          "source": "eigene",
+          "direction": "en-de",
+          "situation": "Du hast dir beim Training in London den Knöchel verdreht. Deine Oma ruft an und fragt auf Deutsch, was der Arzt gesagt hat.",
+          "material": "Twisted ankle – what to do: Rest – don't walk on it for two days. Put ice on it for 20 minutes every two to three hours. Keep your foot up. Take the tablets on your prescription after meals. No sport for three weeks. Call the doctor if it still hurts after a week.",
+          "task": "Erkläre deiner Oma auf Deutsch, was du jetzt tun musst.",
+          "keyPoints": [
+            "Zwei Tage nicht auf dem Fuß laufen / schonen",
+            "Alle zwei bis drei Stunden 20 Minuten kühlen (Eis)",
+            "Den Fuß hochlegen",
+            "Die Tabletten vom Rezept nach dem Essen nehmen",
+            "Drei Wochen kein Sport; wenn es nach einer Woche noch wehtut, zum Arzt"
+          ],
+          "modelAnswer": "Ich soll zwei Tage lang nicht auf dem Fuß laufen und ihn hochlegen. Alle zwei bis drei Stunden soll ich ihn 20 Minuten mit Eis kühlen. Die Tabletten vom Rezept nehme ich nach dem Essen. Drei Wochen darf ich keinen Sport machen, und wenn es nach einer Woche noch wehtut, muss ich wieder zum Arzt.",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "story": {
+        "title": "It's a disaster!",
+        "text": "Dave's dad, Frank, comes home during a storm. All the lights are on, but the house is quiet. The girls are watching a music video, Jay is sitting in a corner with his tablet and headphones, and Dave and Luke are playing video games upstairs. Nobody notices Frank. Olivia is planning a party and only wants to invite people she knows. But Jay takes her laptop and wants to post the invitation for everyone online. At that moment there's a loud bang – the electricity goes off. Everybody is offline. Frank brings candles, and they eat dinner together and talk. Frank tells them what life was like when he was young. Jay is quiet – did he send the message to everyone? When the lights come back, the girls show him over 50 answers from strangers. Jay is shocked – but then Holly and Olivia laugh: the message never went out. They just wanted to teach Jay a lesson."
+      },
+      "reading": [
+        {
+          "id": "k6r5_01",
+          "type": "trueFalse",
+          "question": "Frank comes home on a sunny afternoon.",
+          "options": [
+            "true",
+            "false"
+          ],
+          "answer": "false"
+        },
+        {
+          "id": "k6r5_02",
+          "type": "multipleChoice",
+          "question": "What are the friends doing when Frank arrives?",
+          "options": [
+            "They are all using media.",
+            "They are cooking dinner.",
+            "They are doing their homework."
+          ],
+          "answer": "They are all using media."
+        },
+        {
+          "id": "k6r5_03",
+          "type": "multipleChoice",
+          "question": "Who does Olivia want to invite to her party?",
+          "options": [
+            "only people she knows",
+            "everyone on the internet",
+            "only her family"
+          ],
+          "answer": "only people she knows"
+        },
+        {
+          "id": "k6r5_04",
+          "type": "multipleChoice",
+          "question": "What happens when Jay wants to post the invitation?",
+          "options": [
+            "The electricity goes off.",
+            "Frank takes the laptop away.",
+            "The laptop breaks."
+          ],
+          "answer": "The electricity goes off."
+        },
+        {
+          "id": "k6r5_05",
+          "type": "trueFalse",
+          "question": "Frank tells them what life was like when he was young.",
+          "options": [
+            "true",
+            "false"
+          ],
+          "answer": "true"
+        },
+        {
+          "id": "k6r5_06",
+          "type": "multipleChoice",
+          "question": "Why do Holly and Olivia laugh at the end?",
+          "options": [
+            "They wanted to teach Jay a lesson.",
+            "They like the answers from strangers.",
+            "Jay has fallen over."
+          ],
+          "answer": "They wanted to teach Jay a lesson."
+        }
+      ],
+      "mediation": [
+        {
+          "id": "k6m5_1",
+          "title": "Digital detox",
+          "source": "practice-pool",
+          "ref": "Practice pool Unit 5, △8",
+          "direction": "en-de",
+          "situation": "Jannik fragt in einem Blog auf Deutsch: „Wie ging es Abby während der digitalen Auszeit? Würde sie sie weiterempfehlen?\"",
+          "material": "Digital detox week – by Abby: Our school had a 'digital detox week': no phones, laptops, tablets, consoles or TV. At first it was really hard. I was bored because suddenly I had so much time. About 25 % of the students gave up – but I didn't, because I wanted to show that I'm strong enough. After a few days I enjoyed not checking my phone all the time. I read a book, went cycling, took my dog for long walks and spent more time with my friends. The difficult part: we had to call everyone at home or plan everything at school. Now I use media again, but differently. It was a great experience and I think everyone should try it!",
+          "task": "Schreib Jannik einen Kommentar auf Deutsch.",
+          "keyPoints": [
+            "Am Anfang war es schwer, sie hat sich gelangweilt",
+            "Sie hat nicht aufgegeben (etwa ein Viertel der Schüler schon)",
+            "Später hat sie es genossen: gelesen, Rad gefahren, mit dem Hund spazieren, Zeit mit Freunden",
+            "Schwierig war es, Treffen zu verabreden",
+            "Sie empfiehlt es: Jeder sollte es ausprobieren"
+          ],
+          "modelAnswer": "Hallo Jannik, am Anfang war es für Abby ziemlich schwer, sie hat sich gelangweilt. Etwa ein Viertel der Schüler hat aufgegeben, sie aber nicht. Nach ein paar Tagen fand sie es schön, nicht dauernd aufs Handy zu schauen: Sie hat gelesen, ist Rad gefahren, mit dem Hund spazieren gegangen und hat mehr Zeit mit Freunden verbracht. Schwierig war nur, Treffen zu verabreden. Sie findet, jeder sollte so eine Woche einmal ausprobieren.",
+          "points": 5
+        },
+        {
+          "id": "k6m5_2",
+          "title": "Phones at our school",
+          "source": "eigene",
+          "direction": "de-en",
+          "situation": "Eine Austauschschülerin aus England kommt in deine Klasse (Klasse 6). Sie fragt: \"Am I allowed to use my phone at your school?\"",
+          "material": "Schulordnung: Handys bleiben während des Unterrichts ausgeschaltet in der Tasche. In der Pause dürfen Schülerinnen und Schüler ab Klasse 8 ihr Handy im Pausenhof benutzen. Fotos und Videos von anderen Personen sind verboten. Im Notfall darf man im Sekretariat telefonieren. Wer gegen die Regeln verstößt, muss das Handy bis Schulschluss abgeben.",
+          "task": "Erkläre ihr die Regeln auf Englisch.",
+          "keyPoints": [
+            "In lessons your phone must be off and in your bag",
+            "You aren't allowed to use it in the break – only students from Year 8 are",
+            "You mustn't take photos or videos of other people",
+            "In an emergency you can phone from the school office",
+            "If you break the rules, you have to give your phone to the teacher until the end of school"
+          ],
+          "modelAnswer": "In lessons your phone has to be off and in your bag. In the break only students from Year 8 are allowed to use their phones in the playground, so we aren't allowed to use them. You mustn't take photos or videos of other people. In an emergency you can phone from the school office. If you break the rules, you have to give your phone to the teacher and you get it back at the end of school.",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "unit": 6,
+      "story": {
+        "title": "Things will get better",
+        "text": "The friends visit Dave in his big old house by the sea in Cornwall. Dave isn't happy: there's no electricity yet, his dad is in London, his cat Sid has run away and he misses Greenwich. Granny Rose says, 'Things will get better.' Then the water is brown, too. The friends walk up the coast path to an old tin mine because Luke wants to go geocaching. Suddenly a deep voice shouts, 'Keep away from MY treasure!' A big man with wild hair and a spear stands in front of them – he looks like a Celtic warrior. The children are scared, but then the man laughs. It's Bob, the new neighbour, on his way to a costume party. At Bob's house they meet his wife Helen, an electrician, and the twins Jago and Tamara. Bob is a plumber – and out of his tool bag comes a cat: Sid! Later everybody sits in the garden with tea and cake. Things are getting better."
+      },
+      "reading": [
+        {
+          "id": "k6r6_01",
+          "type": "multipleChoice",
+          "question": "Why isn't Dave happy at the beginning?",
+          "options": [
+            "He misses Greenwich and his cat has run away.",
+            "He has lost his phone.",
+            "He has a bad cold."
+          ],
+          "answer": "He misses Greenwich and his cat has run away."
+        },
+        {
+          "id": "k6r6_02",
+          "type": "trueFalse",
+          "question": "Granny Rose thinks things will get better.",
+          "options": [
+            "true",
+            "false"
+          ],
+          "answer": "true"
+        },
+        {
+          "id": "k6r6_03",
+          "type": "multipleChoice",
+          "question": "Where do the friends go?",
+          "options": [
+            "to an old tin mine",
+            "to a castle",
+            "to a museum"
+          ],
+          "answer": "to an old tin mine"
+        },
+        {
+          "id": "k6r6_04",
+          "type": "multipleChoice",
+          "question": "Who is the 'Celtic warrior'?",
+          "options": [
+            "Bob, the new neighbour",
+            "a real ghost",
+            "Dave's dad"
+          ],
+          "answer": "Bob, the new neighbour"
+        },
+        {
+          "id": "k6r6_05",
+          "type": "trueFalse",
+          "question": "Bob's wife Helen is a plumber.",
+          "options": [
+            "true",
+            "false"
+          ],
+          "answer": "false"
+        },
+        {
+          "id": "k6r6_06",
+          "type": "multipleChoice",
+          "question": "What comes out of Bob's tool bag?",
+          "options": [
+            "Sid, the cat",
+            "a treasure map",
+            "a spear"
+          ],
+          "answer": "Sid, the cat"
+        }
+      ],
+      "mediation": [
+        {
+          "id": "k6m6_1",
+          "title": "A trip to Frankfurt",
+          "source": "practice-pool",
+          "ref": "Practice pool Unit 6, ▲2",
+          "direction": "de-en",
+          "situation": "Eine spanische Familie (2 Erwachsene, 2 Kinder, 1 Hund) will von Würzburg einen Tagesausflug nach Frankfurt machen. Sie fragen auf Englisch: \"How long does it take? How expensive is it? Are dogs allowed? Can we come back when we want?\"",
+          "material": "Zug Würzburg Hbf – Frankfurt Hbf: Fahrzeit 1 h 51 min, 1× umsteigen. Preis 44 € für eine Person, jede weitere Person + 8 €. Gültig ab 9 Uhr für beliebig viele Fahrten am Tag, ohne Zugbindung. Haustiere kostenlos, Hunde und Katzen in einer Box. — Bus Würzburg Hbf – Frankfurt Hbf: Hinfahrt 7:55 → 9:35, Rückfahrt 17:45 → 19:25. Gesamtpreis 46 € (2 Erwachsene + 2 Kinder), kein Umstieg, WLAN. Keine Tiere erlaubt. Ticket gilt nur für die gebuchten Busse.",
+          "task": "Erkläre der Familie auf Englisch die beiden Möglichkeiten.",
+          "keyPoints": [
+            "The train takes 1 hour 51 minutes (one change), the bus 1 hour 40 minutes",
+            "The train costs 68 euros for four people, the bus 46 euros",
+            "Dogs: in a box on the train; no animals on the bus",
+            "The train ticket is valid all day from 9 a.m. (come back whenever you want); the bus only at the booked times",
+            "Recommendation: the train, because of the dog"
+          ],
+          "modelAnswer": "You can go by train or by bus. The train takes 1 hour 51 minutes and you have to change once. The bus takes 1 hour 40 minutes. The train costs 68 euros for the four of you, the bus 46 euros. But dogs aren't allowed on the bus. On the train your dog can travel for free in a box. With the train ticket you can travel all day from 9 a.m. and come back when you want; the bus ticket is only for the bus at 7.55 and the bus back at 17.45. So I think you should take the train.",
+          "points": 5
+        },
+        {
+          "id": "k6m6_2",
+          "title": "A weekend in St Agnes",
+          "source": "eigene",
+          "direction": "en-de",
+          "situation": "Du bist mit deinen Eltern in Cornwall. Sie fragen dich: „Was steht in der Broschüre – was können wir am Wochenende machen und wie wird das Wetter?\"",
+          "material": "Weekend in St Agnes: Saturday will be sunny and warm (22 °C) – a perfect day for the beach. Surf school: lessons at 10 a.m. and 2 p.m., £25 per person, wetsuits included. On Sunday it might rain in the afternoon, so why not visit the Eden Project? Open 9.30 a.m. – 6 p.m., family ticket £80. If you like history, you'll love the old tin mines – free guided walks at 11 a.m.",
+          "task": "Erkläre deinen Eltern auf Deutsch die wichtigsten Infos.",
+          "keyPoints": [
+            "Samstag wird es sonnig und warm (22 Grad) – Strandtag",
+            "Surfkurs um 10 oder 14 Uhr, 25 Pfund pro Person, Neoprenanzug inklusive",
+            "Sonntag könnte es nachmittags regnen",
+            "Dann Eden Project: 9:30–18 Uhr, Familienkarte 80 Pfund",
+            "Kostenlose Führungen durch die alten Zinnminen um 11 Uhr"
+          ],
+          "modelAnswer": "Am Samstag wird es sonnig und warm, 22 Grad – perfekt für den Strand. Es gibt einen Surfkurs um 10 oder um 14 Uhr, der kostet 25 Pfund pro Person, Neoprenanzüge sind dabei. Am Sonntag könnte es nachmittags regnen. Dann können wir ins Eden Project gehen, das hat von 9:30 bis 18 Uhr offen, eine Familienkarte kostet 80 Pfund. Und um 11 Uhr gibt es kostenlose Führungen durch die alten Zinnminen.",
+          "points": 5
+        }
+      ]
+    }
+  ]
+}

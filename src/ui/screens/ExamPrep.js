@@ -3,10 +3,17 @@ import { db } from '../../storage/db.js';
 import { navigate } from '../../router.js';
 import { recognizeText, terminateOcr } from '../../ocr/ocrService.js';
 import { matchOcrTextToTopics, createExam, examCompletionPct } from '../../engine/examPrep.js';
+import { examsOfGrade } from '../../engine/examPrep6.js';
+import { renderExamPrep6 } from './ExamPrep6.js';
 
 export async function renderExamPrep(root) {
   root.innerHTML = `<div class="placeholder-note">Loading…</div>`;
   const content = await loadContent();
+  // Grade 6 on: exams with type, date, study plan and mock exam
+  if (content.grade !== 5) {
+    renderExamPrep6(root, content);
+    return;
+  }
   const state = db.load();
 
   const activeExam = state.exams.find((e) => e.id === state.activeExamId);
@@ -25,7 +32,7 @@ export async function renderExamPrep(root) {
       <p class="subgreeting">Photograph a machine-printed exam prep sheet from school and we'll match its topics against ${unitRangeLabel(content).replace('&', '&amp;')} — fully offline, nothing leaves this device.</p>
       <label class="primary-btn" for="photo-input" style="display:block;text-align:center;">📷 Take or choose a photo</label>
       <input type="file" id="photo-input" accept="image/*" capture="environment" style="display:none;" />
-      ${state.exams.length > 0 ? `<p class="setup-label" style="margin-top:24px;">Past exams</p>${pastExamsList(state.exams)}` : ''}
+      ${examsOfGrade(state, 5).length > 0 ? `<p class="setup-label" style="margin-top:24px;">Past exams</p>${pastExamsList(examsOfGrade(state, 5))}` : ''}
     `;
     root.querySelector('#back-btn').addEventListener('click', () => navigate('/'));
     root.querySelector('#photo-input').addEventListener('change', (e) => {

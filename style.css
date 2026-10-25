@@ -1540,3 +1540,209 @@ button { font-family: inherit; }
 }
 
 .exercise-input.transform-input { text-align: left; font-size: 1rem; }
+
+/* ---------- Exam prep, grade 6 ---------- */
+
+.exam-card { width: 100%; font: inherit; color: inherit; }
+
+.date-input { text-align: left; max-width: 220px; }
+
+.upto-row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 12px 0;
+  font-size: 0.9rem;
+}
+
+.upto-row select {
+  margin-left: 6px;
+  padding: 8px 10px;
+  border-radius: var(--radius-sm);
+  border: 2px solid var(--color-border);
+  background: var(--color-surface);
+  color: var(--color-text);
+  font: inherit;
+}
+
+.exam-countdown {
+  margin: 4px 0 14px;
+  padding: 16px;
+  border-radius: var(--radius);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  text-align: center;
+}
+
+.exam-countdown-days { font-family: var(--font-display); font-size: 1.8rem; font-weight: 800; }
+.exam-countdown-date { font-size: 0.85rem; opacity: 0.9; }
+
+.plan-list { display: flex; flex-direction: column; gap: 8px; }
+
+.plan-day {
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  background: var(--color-surface);
+  border: 2px solid var(--color-border);
+}
+
+.plan-day.today { border-color: var(--color-primary); }
+
+.plan-day-head {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  margin-bottom: 4px;
+  color: var(--color-text-muted);
+}
+
+.plan-day-head strong { color: var(--color-text); }
+
+.plan-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 4px 0;
+  font-size: 0.88rem;
+}
+
+.plan-item.muted { color: var(--color-text-muted); }
+.plan-item label { display: flex; gap: 8px; align-items: center; }
+
+.plan-practise {
+  flex: none;
+  padding: 4px 12px;
+  border-radius: 999px;
+  border: 2px solid var(--color-primary);
+  background: var(--color-primary-light);
+  color: var(--color-primary);
+  font: inherit;
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.goal-list { display: flex; flex-direction: column; gap: 6px; }
+
+.goal-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  background: var(--color-surface);
+}
+
+.goal-text { display: flex; flex-direction: column; font-size: 0.88rem; }
+.goal-text small { color: var(--color-text-muted); font-style: italic; }
+
+.goal-rating { display: flex; gap: 4px; flex: none; }
+
+.rating-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  background: var(--color-surface-2);
+  font-size: 1rem;
+  opacity: 0.45;
+  cursor: pointer;
+}
+
+.rating-btn.active { opacity: 1; border-color: var(--color-text); }
+
+.mock-timer { font-variant-numeric: tabular-nums; font-weight: 800; }
+
+.mock-card { text-align: left; }
+.mock-parts { margin: 8px 0 16px 20px; }
+.mock-instruction { font-weight: 700; }
+.mock-instruction small, .mock-hint { font-weight: 500; color: var(--color-text-muted); font-size: 0.8rem; }
+
+.mock-item {
+  display: flex;
+  gap: 10px;
+  padding: 10px 0;
+  border-top: 1px solid var(--color-border);
+}
+
+.mock-num {
+  flex: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--color-surface-2);
+  font-size: 0.75rem;
+  font-weight: 800;
+  display: grid;
+  place-items: center;
+}
+
+.mock-body { flex: 1; font-size: 0.92rem; }
+.mock-input { margin: 6px 0 0; text-align: left; font-size: 0.95rem; padding: 10px 12px; }
+
+.mock-choices { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+
+.mock-choice {
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+  border: 2px solid var(--color-border);
+  background: var(--color-surface);
+  color: var(--color-text);
+  font: inherit;
+  font-size: 0.85rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.mock-choice.active { border-color: var(--color-primary); background: var(--color-primary-light); }
+
+.mock-story {
+  margin: 10px 0;
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: var(--color-surface-2);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.mock-textarea { min-height: 160px; text-align: left; font-size: 0.95rem; resize: vertical; }
+
+.mock-grade {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 8px 0 12px;
+  padding: 14px 16px;
+  border-radius: var(--radius);
+  background: var(--color-surface);
+}
+
+.mock-grade div { display: flex; flex-direction: column; }
+.mock-grade small { color: var(--color-text-muted); font-size: 0.78rem; }
+
+.mock-grade-num {
+  font-family: var(--font-display);
+  font-size: 2.6rem;
+  font-weight: 800;
+  color: var(--color-primary);
+}
+
+.mock-parts-result { display: grid; grid-template-columns: repeat(2, 1fr); gap: 6px; }
+
+.mock-parts-result div {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+  background: var(--color-surface);
+  font-size: 0.88rem;
+}
+
+.mock-model { margin: 12px 0; font-size: 0.9rem; }
+.mock-model summary { cursor: pointer; font-weight: 700; color: var(--color-primary); }
+
+.mock-solution { font-size: 0.85rem; padding: 2px 0; }
+.mock-solution.ok { color: var(--color-success); }
+.mock-solution.wrong { color: var(--color-danger); }
