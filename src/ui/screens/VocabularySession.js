@@ -2,7 +2,10 @@ import { loadContent } from '../../data/contentStore.js';
 import { db } from '../../storage/db.js';
 import { navigate } from '../../router.js';
 import { takeSessionConfig, setSessionResults } from '../sessionContext.js';
-import { buildVocabSession, buildWeakPointsSession, checkVocabAnswer, MAX_ATTEMPTS } from '../../engine/vocabExercises.js';
+import {
+  buildVocabSession, buildWeakPointsSession, buildMixedVocabSession, checkVocabAnswer, checkGermanAnswer,
+  withDirections, GRADE6_SHARES, MAX_ATTEMPTS
+} from '../../engine/vocabExercises.js';
 import { recordAnswer, isNewWord } from '../../engine/leitner.js';
 import { createTimer } from '../../engine/session.js';
 import { logTimerExtension, logWordCountExtension } from '../../engine/progress.js';
@@ -24,17 +27,43 @@ export async function renderVocabularySession(root) {
   const state = db.load();
 
   // Phrases (e.g. "I'd like …") aren't fair typed-recall targets — restrict this
-  // strict DE->EN drill to single/multi-word vocab; phrases get their own mode later.
-  const wordPool = content.vocab.filter((w) => w.type === 'word');
+  // strict drill to single/multi-word vocab; phrases get their own mode later.
+  // Grade 6 also quizzes BE/AE words ("movie theater (AE)") as normal words.
+  const quizTypes = content.grade === 5 ? ['word'] : ['word', 'pair'];
+  const wordPool = content.vocab.filter((w) => quizTypes.includes(w.type));
+  // Grade 6 extras: example sentence and ⚠️ notes after each answer.
+  const showDetails = content.grade !== 5;
 
-  const queue = config.weakPoints
-    ? buildWeakPointsSession(wordPool, state, config.count)
-    : buildVocabSession(
-        wordPool,
-        state,
-        config.currentUnit,
-        config.mode === 'count' ? config.count : Math.min(wordPool.length, TIME_MODE_POOL_SIZE)
-      );
+  // Grade 6 setup sends the chosen book sections: those words (~60 %), earlier
+  // grade 6 words (~30 %) and grade 5 words as review (~10 %).
+  const parts = config.sections ? await grade6Parts() : null;
+  const size = config.mode === 'count' ? config.count : TIME_MODE_POOL_SIZE;
+
+  let words;
+  if (config.weakPoints) words = buildWeakPointsSession(wordPool, state, config.count);
+  else if (parts) words = buildMixedVocabSession(parts, state, Math.min(size, parts.reduce((n, p) => n + p.pool.length, 0)));
+  else words = buildVocabSession(wordPool, state, config.currentUnit, Math.min(wordPool.length, size));
+  const queue = withDirections(words, config.direction || 'de-en');
+
+  async function grade6Parts() {
+    const keys = new Set(config.sections);
+    const inSelection = (w) => keys.has(`${w.unit}|${w.section}`);
+    const selected = wordPool.filter(inSelection);
+    const position = new Map(content.vocab.map((w, i) => [w.id, i]));
+    const lastSelected = Math.max(...selected.map((w) => position.get(w.id)));
+    const earlier = wordPool.filter((w) => !inSelection(w) && position.get(w.id) < lastSelected);
+    let review = [];
+    try {
+      review = (await loadContent({ grade: 5 })).vocab.filter((w) => w.type === 'word');
+    } catch (err) {
+      console.warn('Grade 5 review words unavailable', err);
+    }
+    return [
+      { pool: selected, share: GRADE6_SHARES.selected },
+      { pool: earlier, share: GRADE6_SHARES.earlier },
+      { pool: review, share: GRADE6_SHARES.review }
+    ];
+  }
 
   const session = {
     queue,
@@ -64,8 +93,34 @@ export async function renderVocabularySession(root) {
 
   drawQuestion();
 
-  function currentWord() {
+  function currentItem() {
     return session.queue[session.index];
+  }
+
+  function currentWord() {
+    return currentItem().word;
+  }
+
+  // The answer to type and the language it's in, for the current direction.
+  function expected(item) {
+    return item.direction === 'en-de'
+      ? { shown: item.word.en, answer: item.word.de, check: checkGermanAnswer, task: 'Translate to German', placeholder: 'Type the German word…' }
+      : { shown: item.word.de, answer: item.word.en, check: checkVocabAnswer, task: 'Translate to English', placeholder: 'Type the English word…' };
+  }
+
+  function hasDetails(word) {
+    return showDetails && Boolean(word.example || word.notes);
+  }
+
+  function detailsHtml(word) {
+    const notes = (word.notes || '').split(' · ').filter(Boolean);
+    return `
+      <div class="word-details">
+        <div class="word-details-pair"><strong>${word.en}</strong> – ${word.de}</div>
+        ${word.example ? `<div class="word-details-example">“${word.example}”</div>` : ''}
+        ${notes.map((n) => `<div class="word-details-note${n.startsWith('⚠️') ? ' warn' : ''}">${n.startsWith('⚠️') ? n : `💡 ${n}`}</div>`).join('')}
+      </div>
+    `;
   }
 
   function drawQuestion() {
@@ -78,6 +133,7 @@ export async function renderVocabularySession(root) {
       return;
     }
     const word = currentWord();
+    const exp = expected(currentItem());
 
     if (!session.introShown && isNewWord(db.load(), word.id)) {
       drawIntroCard(word);
@@ -94,12 +150,13 @@ export async function renderVocabularySession(root) {
         <span id="timer-display">${config.mode === 'time' ? '0:00' : ''}</span>
       </div>
       <div class="exercise-card">
-        <div class="exercise-prompt">${word.de}</div>
-        <div class="exercise-ipa">Translate to English</div>
+        ${showDetails && !word.grade ? '<div class="review-tag">Klasse 5 review</div>' : ''}
+        <div class="exercise-prompt">${exp.shown}</div>
+        <div class="exercise-ipa">${exp.task}</div>
         <div class="attempt-dots">
           ${Array.from({ length: MAX_ATTEMPTS }, (_, i) => `<span class="attempt-dot${i < session.attempts ? ' used' : ''}"></span>`).join('')}
         </div>
-        <input class="exercise-input" id="answer-input" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Type the English word…" />
+        <input class="exercise-input" id="answer-input" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="${exp.placeholder}" />
         <div class="feedback-text" id="feedback"></div>
         <button class="primary-btn" id="submit-btn">Check</button>
       </div>
@@ -153,9 +210,11 @@ export async function renderVocabularySession(root) {
   // the requested word count is done, offer to keep going instead of forcing a
   // brand-new session setup for one more round.
   function drawCountComplete() {
-    const usedIds = new Set(session.queue.map((w) => w.id));
+    const usedIds = new Set(session.queue.map((item) => item.word.id));
     const remainingPool = wordPool.filter((w) => !usedIds.has(w.id));
-    const addCount = Math.min(WORDS_PER_EXTENSION, remainingPool.length);
+    const remainingParts = parts && parts.map((p) => ({ ...p, pool: p.pool.filter((w) => !usedIds.has(w.id)) }));
+    const remainingCount = remainingParts ? remainingParts.reduce((n, p) => n + p.pool.length, 0) : remainingPool.length;
+    const addCount = Math.min(WORDS_PER_EXTENSION, remainingCount);
 
     root.innerHTML = `
       <div class="screen-header">
@@ -178,10 +237,11 @@ export async function renderVocabularySession(root) {
     if (learnMoreBtn) {
       learnMoreBtn.addEventListener('click', () => {
         const freshState = db.load();
-        const extra = config.weakPoints
-          ? buildWeakPointsSession(remainingPool, freshState, addCount)
-          : buildVocabSession(remainingPool, freshState, config.currentUnit, addCount);
-        session.queue = [...session.queue, ...extra];
+        let extra;
+        if (config.weakPoints) extra = buildWeakPointsSession(remainingPool, freshState, addCount);
+        else if (remainingParts) extra = buildMixedVocabSession(remainingParts, freshState, addCount);
+        else extra = buildVocabSession(remainingPool, freshState, config.currentUnit, addCount);
+        session.queue = [...session.queue, ...withDirections(extra, config.direction || 'de-en')];
         const now = new Date().toISOString();
         session.wordExtensions.push({ amount: extra.length, unit: 'words' });
         db.update((s) => logWordCountExtension(s, 'vocabulary', extra.length, now));
@@ -194,7 +254,8 @@ export async function renderVocabularySession(root) {
     const input = root.querySelector('#answer-input');
     const feedback = root.querySelector('#feedback');
     const word = currentWord();
-    const correct = checkVocabAnswer(input.value, word.en);
+    const exp = expected(currentItem());
+    const correct = exp.check(input.value, exp.answer);
 
     if (correct) {
       input.classList.remove('wrong');
@@ -202,7 +263,12 @@ export async function renderVocabularySession(root) {
       feedback.textContent = '✓ Correct!';
       feedback.className = 'feedback-text correct';
       resolveWord(true);
-      setTimeout(nextWord, 700);
+      if (hasDetails(word)) {
+        input.disabled = true;
+        showDetailsAndNext(word);
+      } else {
+        setTimeout(nextWord, 700);
+      }
       return;
     }
 
@@ -220,17 +286,38 @@ export async function renderVocabularySession(root) {
       feedback.className = 'feedback-text wrong';
       root.querySelector('.exercise-card').insertAdjacentHTML(
         'beforeend',
-        `<div class="reveal-answer">${word.en}</div><button class="primary-btn" id="next-btn">Next word</button>`
+        `<div class="reveal-answer">${exp.answer}</div>${hasDetails(word) ? detailsHtml(word) : ''}<button class="primary-btn" id="next-btn">Next word</button>`
       );
       root.querySelector('#submit-btn').remove();
       input.disabled = true;
       resolveWord(false);
-      root.querySelector('#next-btn').addEventListener('click', nextWord);
+      const nextBtn = root.querySelector('#next-btn');
+      nextBtn.addEventListener('click', nextWord);
+      focusLater(nextBtn);
     } else {
       feedback.textContent = `Not quite — try again (attempt ${session.attempts + 1}/${MAX_ATTEMPTS})`;
       feedback.className = 'feedback-text wrong';
       input.focus();
     }
+  }
+
+  // Right answer with an example/notes to show: keep them on screen until the
+  // learner taps "Next" (Enter works too — the button gets focus).
+  function showDetailsAndNext(word) {
+    root.querySelector('#submit-btn').remove();
+    root.querySelector('.exercise-card').insertAdjacentHTML(
+      'beforeend',
+      `${detailsHtml(word)}<button class="primary-btn" id="next-btn">Next word</button>`
+    );
+    const nextBtn = root.querySelector('#next-btn');
+    nextBtn.addEventListener('click', nextWord);
+    focusLater(nextBtn);
+  }
+
+  // Focus a moment later so the Enter press that submitted the answer doesn't
+  // also "click" the freshly focused Next button.
+  function focusLater(el) {
+    setTimeout(() => el.focus(), 250);
   }
 
   function drawAttemptDots() {

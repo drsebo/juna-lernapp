@@ -1,8 +1,17 @@
 export const MIN_BOX = 1;
 export const MAX_BOX = 4;
 
-export function getEntry(state, vocabId) {
-  return state.leitner[vocabId] || { box: MIN_BOX, lastSeen: null, timesCorrect: 0, timesWrong: 0 };
+// Each drill keeps its own set of boxes in the progress state: "leitner" for
+// words (the default everywhere), "verbLeitner" for the irregular-verb trainer
+// and "pairLeitner" for British vs. American English — knowing "go" as a word
+// says nothing about knowing "went – gone".
+function boxesOf(state, store) {
+  if (!state[store]) state[store] = {};
+  return state[store];
+}
+
+export function getEntry(state, vocabId, store = 'leitner') {
+  return (state[store] || {})[vocabId] || { box: MIN_BOX, lastSeen: null, timesCorrect: 0, timesWrong: 0 };
 }
 
 // True only for a word never seen before — distinct from "box 1" in general,
@@ -12,19 +21,20 @@ export function isNewWord(state, vocabId) {
   return !state.leitner[vocabId];
 }
 
-export function recordAnswer(state, vocabId, correct, now) {
-  const entry = getEntry(state, vocabId);
+export function recordAnswer(state, vocabId, correct, now, store = 'leitner') {
+  const entry = getEntry(state, vocabId, store);
   const nextBox = correct
     ? Math.min(MAX_BOX, entry.box + 1)
     : Math.max(MIN_BOX, entry.box - 1);
 
-  state.leitner[vocabId] = {
+  const boxes = boxesOf(state, store);
+  boxes[vocabId] = {
     box: nextBox,
     lastSeen: now,
     timesCorrect: entry.timesCorrect + (correct ? 1 : 0),
     timesWrong: entry.timesWrong + (correct ? 0 : 1)
   };
-  return state.leitner[vocabId];
+  return boxes[vocabId];
 }
 
 // Higher weight = asked more often. Box 1 most often, box 4 rarely.
@@ -34,8 +44,8 @@ export function weightForBox(box) {
   return BOX_WEIGHT[box] || BOX_WEIGHT[MIN_BOX];
 }
 
-export function pickWeighted(vocabIds, state, count) {
-  const pool = vocabIds.map((id) => ({ id, weight: weightForBox(getEntry(state, id).box) }));
+export function pickWeighted(vocabIds, state, count, store = 'leitner') {
+  const pool = vocabIds.map((id) => ({ id, weight: weightForBox(getEntry(state, id, store).box) }));
   const picked = [];
   const remaining = [...pool];
 

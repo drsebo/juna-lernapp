@@ -37,6 +37,10 @@ function defaultState() {
     leitner: {
       // vocabId -> { box: 1-4, lastSeen: ISO string, timesCorrect: n, timesWrong: n }
     },
+    // Own boxes for the grade 6 drills (see engine/leitner.js): irregular
+    // verbs (k6iv_… ids) and British vs. American pairs (vocab ids).
+    verbLeitner: {},
+    pairLeitner: {},
     grammarProgress: {
       // topicId -> { timesCorrect: n, timesWrong: n, lastSeen: ISO string }
     },
