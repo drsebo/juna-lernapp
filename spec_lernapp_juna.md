@@ -21,6 +21,8 @@ A Progressive Web App (PWA) for practising English, usable offline on iPad/iPhon
 
 Style: **playful but mature** — clean minimalist icons, not cartoonish. Card-based layout.
 
+> **Binding design (from Grade 6 on):** see `../F_Design/DESIGN.md` (German, with screenshots) — colour tokens, components, motivation system (XP/levels/daily goal) and rules for every new screen. Source of truth in code: `style.css`, `src/engine/motivation.js`, `src/ui/illustrations.js`.
+
 - Top: **streak counter** + **overall progress bar**
 - Four main cards:
   1. **Grammar**

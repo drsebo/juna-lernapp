@@ -40,7 +40,7 @@ export async function renderConversationsSetup(root) {
       <button class="convo-mode-banner convo-mode-speak" id="ai-voice-btn">
         <div class="convo-mode-illustration">${TALKING_ILLUSTRATION}</div>
         <div class="convo-mode-text">
-          <div class="convo-mode-title">🎙️ Speak with an AI<span class="scenario-badge">needs internet</span></div>
+          <div class="convo-mode-title">Speak with an AI<span class="scenario-badge">needs internet</span></div>
           <div class="convo-mode-sub">A real spoken conversation — talk out loud, get natural replies back.</div>
         </div>
       </button>
@@ -50,7 +50,7 @@ export async function renderConversationsSetup(root) {
       <div class="convo-mode-banner convo-mode-write">
         <div class="convo-mode-illustration">${WRITING_ILLUSTRATION}</div>
         <div class="convo-mode-text">
-          <div class="convo-mode-title">✍️ Written roleplays</div>
+          <div class="convo-mode-title">Written roleplays</div>
           <div class="convo-mode-sub">Pick a scenario below and tap your responses. Works offline.</div>
         </div>
       </div>

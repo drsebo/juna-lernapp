@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'juna-lernapp-v4';
+const CACHE_VERSION = 'juna-lernapp-v5';
 
 const APP_SHELL = [
   './',
@@ -24,6 +24,7 @@ const APP_SHELL = [
   './src/engine/examPrep.js',
   './src/engine/grammarExercises.js',
   './src/engine/leitner.js',
+  './src/engine/motivation.js',
   './src/engine/progress.js',
   './src/engine/session.js',
   './src/engine/speech.js',

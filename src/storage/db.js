@@ -30,6 +30,9 @@ function defaultState() {
     overallProgress: {
       sessionsCompleted: 0
     },
+    // Total XP earned. Missing on docs from before XP existed —
+    // engine/motivation.js getXp() then estimates it from past answers.
+    xp: 0,
     timerExtensions: [
       // { date: ISO string, mode: "grammar"|"vocabulary"|"conversation", minutesAdded: 5 }
     ],

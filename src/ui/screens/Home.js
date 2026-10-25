@@ -4,6 +4,7 @@ import { loadContent } from '../../data/contentStore.js';
 import { computeVocabTargetProgress, computeGrammarTargetProgress, resolveReferenceIndex } from '../../engine/progress.js';
 import { examCompletionPct } from '../../engine/examPrep.js';
 import { logOut } from '../../auth/authGate.js';
+import { getXp, levelInfo, streakStatus, boxCounts } from '../../engine/motivation.js';
 
 const ICONS = {
   grammar: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 19V6a2 2 0 0 1 2-2h9l5 5v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2Z"/><path d="M14 4v4a1 1 0 0 0 1 1h4"/><path d="M8 13h8M8 17h5"/></svg>',
@@ -16,6 +17,9 @@ const ICONS = {
 export async function renderHome(root) {
   root.innerHTML = `<div class="placeholder-note">Loading…</div>`;
   const content = await loadContent();
+  // draw() re-renders the whole screen after each position edit — remember
+  // whether the teacher panel was open so it doesn't snap shut mid-edit.
+  let teacherPanelOpen = false;
 
   draw();
 
@@ -29,51 +33,88 @@ export async function renderHome(root) {
     const vocabRefItem = vocabRefIndex >= 0 ? content.vocab[vocabRefIndex] : null;
     const grammarRefItem = grammarRefIndex >= 0 ? content.grammarTopics[grammarRefIndex] : null;
 
+    const xp = getXp(state);
+    const lvl = levelInfo(xp);
+    const streakState = streakStatus(state, new Date().toISOString().slice(0, 10));
+    const shownStreak = streakState === 'start' ? 0 : streak;
+    const boxes = boxCounts(content.vocab, state);
+    const totalWords = boxes.fresh + boxes[1] + boxes[2] + boxes[3] + boxes[4];
+
     root.innerHTML = `
       <div class="top-bar">
-        <div class="streak-badge"><span class="flame">${ICONS.fire}</span> ${streak} day${streak === 1 ? '' : 's'}</div>
+        <div class="hello">Hi Juna! 👋</div>
+        <div class="streak-badge${shownStreak === 0 ? ' cold' : ''}"><span class="flame">${ICONS.fire}</span> ${shownStreak} day${shownStreak === 1 ? '' : 's'}</div>
       </div>
 
-      ${positionField({
-        key: 'grammar',
-        label: 'Grammar known up to',
-        placeholder: 'e.g. G30',
-        currentValue: grammarRefItem ? grammarRefItem.code : '',
-        datalistId: 'grammar-options',
-        datalistHtml: content.grammarTopics.map((t) => `<option value="${escapeAttr(t.code)}">${escapeHtml(t.code)} — ${escapeHtml(t.title)}</option>`).join(''),
-        status: grammarRefItem
-          ? `→ Unit ${grammarRefItem.unit} · ${grammarRefIndex + 1} topics covered so far`
-          : 'Enter the grammar number your teacher confirmed she knows (e.g. G30), to track real progress.',
-        pct: grammarRefItem ? computeGrammarTargetProgress(content.grammarTopics, state, grammarRefIndex) : 0
-      })}
+      <div class="hero">
+        <div class="hero-row">
+          <div class="level-ring" style="--pct:${lvl.pct}">
+            <div class="level-ring-inner"><span class="lvl-label">LEVEL</span><span class="lvl-num">${lvl.level}</span></div>
+          </div>
+          <div class="hero-text">
+            <div class="hero-title">${lvl.title}</div>
+            <div class="hero-sub">${xp} XP collected · ${boxes[4]} words mastered</div>
+          </div>
+        </div>
+        <div class="xp-bar"><div class="xp-bar-fill" style="width:${lvl.pct}%"></div></div>
+        <div class="xp-meta"><span>${lvl.xpIntoLevel} / ${lvl.xpForLevel} XP</span><span>${lvl.xpToNext} XP to Level ${lvl.level + 1}</span></div>
+      </div>
 
-      ${positionField({
-        key: 'vocabulary',
-        label: 'Vocabulary known up to',
-        placeholder: 'e.g. bracelet',
-        currentValue: vocabRefItem ? vocabRefItem.en : '',
-        status: vocabRefItem
-          ? `→ Unit ${vocabRefItem.unit} · ${vocabRefIndex + 1} words covered so far`
-          : 'Enter the last English word your teacher confirmed she knows, to track real progress.',
-        pct: vocabRefItem ? computeVocabTargetProgress(content.vocab, state, vocabRefIndex) : 0
-      })}
+      ${goalStrip(streakState, streak)}
 
-      ${examBar(state)}
-
-      <h1 class="greeting">Hi Juna! 👋</h1>
-      <p class="subgreeting">What do you want to practise today?</p>
-
+      <div class="section-title">What do you want to practise?</div>
       <div class="card-grid">
-        ${card('grammar', 'Grammar', 'Units 5 & 6', ICONS.grammar)}
-        ${card('vocabulary', 'Vocabulary', 'Units 5 & 6', ICONS.vocabulary)}
+        ${card('grammar', 'Grammar', 'Rules that click', ICONS.grammar)}
+        ${card('vocabulary', 'Vocabulary', `${boxes[4]} of ${totalWords} words mastered`, ICONS.vocabulary)}
         ${card('conversations', 'Conversations', 'Roleplay & dialogue', ICONS.conversations)}
         ${card('exam-prep', 'Exam Prep', hasActiveExam ? 'Active exam in progress' : 'Tap to set up an exam', ICONS.exam, !hasActiveExam)}
       </div>
 
       <button class="weak-points-btn" id="weak-points-btn">
-        <span>⭐ Study weak points</span>
+        <span>⭐ Study weak points<small>${boxes[1] > 0 ? `${boxes[1]} word${boxes[1] === 1 ? '' : 's'} in box 1 — level them up!` : 'Nothing weak right now — nice!'}</small></span>
         <span>›</span>
       </button>
+
+      ${examBar(state)}
+
+      <div class="section-title">Your word boxes</div>
+      <div class="boxes">
+        ${boxCell('fresh', boxes.fresh, 'New')}
+        ${boxCell(1, boxes[1], 'Box 1')}
+        ${boxCell(2, boxes[2], 'Box 2')}
+        ${boxCell(3, boxes[3], 'Box 3')}
+        ${boxCell(4, boxes[4], 'Mastered')}
+      </div>
+      <p class="boxes-hint">Every right answer moves a word one box up. Get it to “Mastered”!</p>
+
+      <details class="teacher-panel" id="teacher-panel"${teacherPanelOpen ? ' open' : ''}>
+        <summary><span>Teacher check-in<small>What has been confirmed in class</small></span></summary>
+        <div class="teacher-panel-body">
+          ${positionField({
+            key: 'grammar',
+            label: 'Grammar known up to',
+            placeholder: 'e.g. G30',
+            currentValue: grammarRefItem ? grammarRefItem.code : '',
+            datalistId: 'grammar-options',
+            datalistHtml: content.grammarTopics.map((t) => `<option value="${escapeAttr(t.code)}">${escapeHtml(t.code)} — ${escapeHtml(t.title)}</option>`).join(''),
+            status: grammarRefItem
+              ? `→ Unit ${grammarRefItem.unit} · ${grammarRefIndex + 1} topics covered so far`
+              : 'Enter the grammar number your teacher confirmed she knows (e.g. G30), to track real progress.',
+            pct: grammarRefItem ? computeGrammarTargetProgress(content.grammarTopics, state, grammarRefIndex) : 0
+          })}
+
+          ${positionField({
+            key: 'vocabulary',
+            label: 'Vocabulary known up to',
+            placeholder: 'e.g. bracelet',
+            currentValue: vocabRefItem ? vocabRefItem.en : '',
+            status: vocabRefItem
+              ? `→ Unit ${vocabRefItem.unit} · ${vocabRefIndex + 1} words covered so far`
+              : 'Enter the last English word your teacher confirmed she knows, to track real progress.',
+            pct: vocabRefItem ? computeVocabTargetProgress(content.vocab, state, vocabRefIndex) : 0
+          })}
+        </div>
+      </details>
 
       <button class="text-link-btn" id="logout-btn">Log out</button>
     `;
@@ -82,7 +123,8 @@ export async function renderHome(root) {
       el.addEventListener('click', () => navigate(`/${el.dataset.route}`));
     });
     root.querySelector('#weak-points-btn').addEventListener('click', () => navigate('/weak-points'));
-    root.querySelector('#exam-bar').addEventListener('click', () => navigate('/exam-prep'));
+    root.querySelector('#exam-bar')?.addEventListener('click', () => navigate('/exam-prep'));
+    root.querySelector('#teacher-panel').addEventListener('toggle', (e) => { teacherPanelOpen = e.target.open; });
     root.querySelector('#logout-btn').addEventListener('click', () => {
       // No persistent onAuthStateChanged listener is set up (app.js only checks
       // auth once at boot) — a full reload is the simplest way to land back on
@@ -159,23 +201,37 @@ function findGrammarByCode(grammarTopics, text) {
   return grammarTopics.find((t) => t.code.trim().toLowerCase() === norm) || null;
 }
 
-// A third bar, separate from the two subject paths: covers only the topics an
-// active exam actually needs (not the whole book), and sits greyed-out/inert
-// until an exam is set up — mirrors the Exam Prep card's own active/inactive
-// state so the two never contradict each other.
+// Shown only while an exam is active — covers just the topics that exam needs
+// (not the whole book). Without an exam the greyed-out Exam Prep card already
+// says everything, so a second empty bar would only be noise.
 function examBar(state) {
   const activeExam = state.exams.find((e) => e.id === state.activeExamId);
-  const pct = activeExam ? examCompletionPct(activeExam) : 0;
+  if (!activeExam) return '';
+  const pct = examCompletionPct(activeExam);
 
   return `
-    <div class="progress-wrap exam-bar${activeExam ? '' : ' disabled'}" id="exam-bar">
+    <div class="progress-wrap exam-bar" id="exam-bar">
       <div class="progress-label">
         <span class="progress-title">📋 Exam Prep</span>
-        <span>${activeExam ? `${pct}%` : 'No active exam'}</span>
+        <span>${pct}% ready</span>
       </div>
       <div class="progress-bar"><div class="progress-bar-fill" style="width:${pct}%"></div></div>
     </div>
   `;
+}
+
+function goalStrip(streakState, streak) {
+  if (streakState === 'done') {
+    return `<div class="goal-strip done"><div class="goal-check">✓</div><div><strong>Daily goal done!</strong><span>Your ${streak}-day streak is safe. Extra practice still earns XP.</span></div></div>`;
+  }
+  if (streakState === 'keep') {
+    return `<div class="goal-strip"><div class="goal-check">1</div><div><strong>Daily goal: 1 session</strong><span>Practise today to keep your ${streak}-day streak alive 🔥</span></div></div>`;
+  }
+  return `<div class="goal-strip"><div class="goal-check">1</div><div><strong>Daily goal: 1 session</strong><span>One short session today starts a new streak.</span></div></div>`;
+}
+
+function boxCell(box, count, name) {
+  return `<div class="box-cell" data-box="${box}"><div class="box-num">${count}</div><div class="box-name">${name}</div></div>`;
 }
 
 function card(route, title, sub, iconSvg, greyed = false) {

@@ -1,54 +1,35 @@
-// Small hand-drawn inline SVG illustrations for the Conversations screen — kept
-// as plain strings (no external image assets) so the app stays fully offline.
+// Icon tiles for the two Conversations modes — same language as the Home area
+// cards (rounded tile in the area's colour, white glyph, pressed-edge shadow).
+// Kept as plain inline SVG strings (no external assets) so the app stays fully
+// offline, and coloured via the CSS tokens so dark mode just works.
 
 export const TALKING_ILLUSTRATION = `
-<svg viewBox="0 0 220 130" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Two people talking">
-  <ellipse cx="110" cy="122" rx="88" ry="5" fill="#00000014"/>
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Speaking">
+  <rect x="6" y="10" width="88" height="84" rx="26" style="fill:var(--color-primary-press)"/>
+  <rect x="6" y="6" width="88" height="84" rx="26" style="fill:var(--color-primary)"/>
+  <circle cx="78" cy="20" r="16" fill="#ffffff" opacity="0.14"/>
 
-  <rect x="18" y="68" width="62" height="48" rx="24" fill="#2f6f5e"/>
-  <circle cx="49" cy="52" r="23" fill="#f4d9b0"/>
-  <circle cx="41" cy="53" r="2.4" fill="#2c2c2c"/>
-  <circle cx="57" cy="53" r="2.4" fill="#2c2c2c"/>
-  <path d="M40 61 Q49 66 58 61" stroke="#2c2c2c" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+  <rect x="40" y="22" width="20" height="34" rx="10" fill="#ffffff"/>
+  <path d="M31 46a19 19 0 0 0 38 0" stroke="#ffffff" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M50 65v9M41 75h18" stroke="#ffffff" stroke-width="5" fill="none" stroke-linecap="round"/>
 
-  <rect x="10" y="4" width="76" height="36" rx="15" fill="#e4f1ec" stroke="#2f6f5e" stroke-width="1.5"/>
-  <polygon points="36,38 48,38 34,52" fill="#e4f1ec" stroke="#2f6f5e" stroke-width="1.5" stroke-linejoin="round"/>
-  <path d="M24 16 q6 -7 12 0 q6 -7 12 0 q6 -7 12 0" stroke="#2f6f5e" stroke-width="2.6" fill="none" stroke-linecap="round"/>
-  <path d="M24 27 q6 -7 12 0 q6 -7 12 0" stroke="#2f6f5e" stroke-width="2.6" fill="none" stroke-linecap="round"/>
-
-  <rect x="140" y="68" width="62" height="48" rx="24" fill="#e8a33d"/>
-  <circle cx="171" cy="52" r="23" fill="#e8b57e"/>
-  <circle cx="163" cy="53" r="2.4" fill="#2c2c2c"/>
-  <circle cx="179" cy="53" r="2.4" fill="#2c2c2c"/>
-  <path d="M162 61 Q171 66 180 61" stroke="#2c2c2c" stroke-width="2.2" fill="none" stroke-linecap="round"/>
-
-  <rect x="134" y="4" width="76" height="36" rx="15" fill="#fdf1de" stroke="#e8a33d" stroke-width="1.5"/>
-  <polygon points="184,38 172,38 186,52" fill="#fdf1de" stroke="#e8a33d" stroke-width="1.5" stroke-linejoin="round"/>
-  <path d="M150 16 q6 -7 12 0 q6 -7 12 0" stroke="#e8a33d" stroke-width="2.6" fill="none" stroke-linecap="round"/>
-  <path d="M150 27 q6 -7 12 0 q6 -7 12 0 q6 -7 12 0" stroke="#e8a33d" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+  <path d="M20 36q-5 8 0 16" stroke="var(--color-accent)" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+  <path d="M80 36q5 8 0 16" stroke="var(--color-accent)" stroke-width="4.5" fill="none" stroke-linecap="round"/>
 </svg>
 `;
 
 export const WRITING_ILLUSTRATION = `
-<svg viewBox="0 0 220 130" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A person writing">
-  <ellipse cx="110" cy="122" rx="88" ry="5" fill="#00000014"/>
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Written chat">
+  <rect x="6" y="10" width="88" height="84" rx="26" style="fill:color-mix(in srgb, var(--tone-conversations) 70%, #000)"/>
+  <rect x="6" y="6" width="88" height="84" rx="26" style="fill:var(--tone-conversations)"/>
+  <circle cx="78" cy="20" r="16" fill="#ffffff" opacity="0.14"/>
 
-  <rect x="38" y="100" width="144" height="10" rx="4" fill="#d8d2c4"/>
-  <rect x="48" y="110" width="8" height="14" fill="#c3bcac"/>
-  <rect x="164" y="110" width="8" height="14" fill="#c3bcac"/>
+  <path d="M20 24h38a8 8 0 0 1 8 8v14a8 8 0 0 1-8 8H32l-9 8v-8h-3a8 8 0 0 1-8-8V32a8 8 0 0 1 8-8Z" fill="#ffffff"/>
+  <path d="M24 35h28M24 43h18" stroke="var(--tone-conversations)" stroke-width="4" stroke-linecap="round"/>
 
-  <rect x="78" y="58" width="64" height="46" rx="22" fill="#2f6f5e"/>
-  <circle cx="110" cy="42" r="24" fill="#f4d9b0"/>
-  <circle cx="102" cy="43" r="2.4" fill="#2c2c2c"/>
-  <circle cx="118" cy="43" r="2.4" fill="#2c2c2c"/>
-  <path d="M101 51 Q110 55 119 51" stroke="#2c2c2c" stroke-width="2.2" fill="none" stroke-linecap="round"/>
-
-  <rect x="76" y="86" width="68" height="42" rx="6" fill="#ffffff" stroke="#e0dccf" stroke-width="1.5"/>
-  <path d="M86 98 h30 M86 106 h46 M86 114 h36" stroke="#c7c1b2" stroke-width="3" stroke-linecap="round"/>
-
-  <path d="M136 92 Q150 84 158 72" stroke="#f4d9b0" stroke-width="10" stroke-linecap="round" fill="none"/>
-  <rect x="153" y="58" width="9" height="28" rx="3" fill="#e8a33d" transform="rotate(38 157.5 72)"/>
-  <path d="M158.5 55.5 l7.5 7 -12 4.5z" fill="#2c2c2c" transform="rotate(38 157.5 72)"/>
-  <path d="M170 60 q4 -4 8 -2 M172 68 q5 -3 9 0" stroke="#e8a33d" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <path d="M48 52h30a8 8 0 0 1 8 8v8a8 8 0 0 1-8 8h-2v8l-9-8H48a8 8 0 0 1-8-8v-8a8 8 0 0 1 8-8Z" style="fill:var(--color-accent)"/>
+  <circle cx="53" cy="64" r="3.2" fill="#1d1b3a"/>
+  <circle cx="63" cy="64" r="3.2" fill="#1d1b3a"/>
+  <circle cx="73" cy="64" r="3.2" fill="#1d1b3a"/>
 </svg>
 `;

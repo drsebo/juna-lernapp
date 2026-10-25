@@ -197,6 +197,7 @@ export async function renderVocabularySession(root) {
     const correct = checkVocabAnswer(input.value, word.en);
 
     if (correct) {
+      input.classList.remove('wrong');
       input.classList.add('correct');
       feedback.textContent = '✓ Correct!';
       feedback.className = 'feedback-text correct';
@@ -206,6 +207,10 @@ export async function renderVocabularySession(root) {
     }
 
     session.attempts += 1;
+    // Re-adding the class alone wouldn't replay the shake on a second miss —
+    // reading offsetWidth in between forces the animation to restart.
+    input.classList.remove('wrong');
+    void input.offsetWidth;
     input.classList.add('wrong');
     input.value = '';
     drawAttemptDots();
