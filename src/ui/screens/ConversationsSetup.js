@@ -84,7 +84,7 @@ export async function renderConversationsSetup(root) {
           ${badge}
         </div>
         <div class="scenario-goal">${s.goal}</div>
-        <div class="scenario-meta">${stars} · Unit ${s.unit}</div>
+        <div class="scenario-meta">${stars} · Unit ${s.unit}${s.section ? ` · ${s.section}` : ''}</div>
       </button>
     `;
   }

@@ -1746,3 +1746,13 @@ button { font-family: inherit; }
 .mock-solution { font-size: 0.85rem; padding: 2px 0; }
 .mock-solution.ok { color: var(--color-success); }
 .mock-solution.wrong { color: var(--color-danger); }
+
+/* AI conversation: grade 6 topic list */
+.theme-picker .seg-btn small {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 500;
+  opacity: 0.75;
+}
+
+.theme-situation { margin-top: 10px; }
