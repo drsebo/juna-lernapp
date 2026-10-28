@@ -9,11 +9,16 @@ const AGENT_IDS = {
   5: 'agent_5501kx8em1ckfcas3g3kmm49s72j',
   6: 'agent_5501kx8em1ckfcas3g3kmm49s72j'
 };
-const WIDGET_SCRIPT_SRC = 'https://unpkg.com/@elevenlabs/convai-widget-embed';
+// Official ElevenLabs browser SDK, pinned. Loaded from the CDN (no build step),
+// only on this screen — the voice conversation needs internet anyway.
+const SDK_URL = 'https://cdn.jsdelivr.net/npm/@elevenlabs/client@1.27.0/+esm';
 const LEARNER_NAME = 'Juna';
 // Above this length the word list is cut down to the current grade's words
 // plus a note that all grade 5 words are known too.
 const MAX_VOCABULARY_CHARS = 6000;
+// No connection after this long (e.g. microphone or network stuck): give up
+// with a message instead of spinning forever.
+const CONNECT_TIMEOUT_MS = 15000;
 
 const GENERAL_THEME = { key: 'general', label: 'Surprise me', hint: 'Any topic — let the AI pick.', opener: "Hi! I'm here to help you practice English. What would you like to talk about today?" };
 
@@ -28,8 +33,23 @@ const GRADE5_THEMES = [
   { key: 'party_rules', label: 'Party rules', hint: 'Unit 6', opener: "So, what are the rules for the party — what can and can't we do?" }
 ];
 
+let sdkPromise = null;
+let sdk = null;
+
+// Started as soon as the screen opens, so that tapping a topic can start the
+// session right inside the tap — iPad Safari only allows microphone and audio
+// playback from a direct user gesture.
+function preloadSdk() {
+  if (!sdkPromise) {
+    sdkPromise = import(SDK_URL).then((mod) => { sdk = mod; return mod; });
+    sdkPromise.catch(() => { sdkPromise = null; });
+  }
+  return sdkPromise;
+}
+
 export async function renderAiConversation(root) {
   root.innerHTML = `<div class="placeholder-note">Loading…</div>`;
+  preloadSdk().catch((err) => console.warn('ElevenLabs SDK not loaded yet', err));
   const content = await loadContent();
   const state = db.load();
   const targetUnit = parseUnitFromPosition(gradeState(state).bookPosition.vocabulary)
@@ -37,56 +57,192 @@ export async function renderAiConversation(root) {
   const themes = content.grade === 5 ? GRADE5_THEMES : themesFromScenarios(content);
   const vocabulary = await buildKnownVocabulary(content, targetUnit);
 
-  const local = { theme: 'general' };
-  draw();
+  let conversation = null; // the running ElevenLabs session
+  let ended = false;
+  let currentAttempt = null; // guards the connect timeout against old attempts
+  // leaving the screen (back button, other route) ends a running conversation
+  const onLeave = () => { endConversation(); window.removeEventListener('hashchange', onLeave); };
+  window.addEventListener('hashchange', onLeave);
 
-  function draw() {
+  drawPicker();
+
+  function drawPicker() {
     root.innerHTML = `
       <div class="screen-header">
         <button class="back-btn" id="back-btn">‹</button>
         <h1 class="greeting" style="margin:0;font-size:1.2rem;">Talk with an AI partner</h1>
       </div>
-      <p class="subgreeting">This is a live, open conversation with an AI — not the scripted roleplays. It needs an internet connection and microphone access, and isn't stored in this app.</p>
-      <p class="subgreeting">The AI is asked to stick to the ${vocabulary.count} words/phrases you've covered so far (Vocabulary: ${gradeState(state).bookPosition.vocabulary || 'not set'}${vocabulary.grade5Note ? ' + all of Klasse 5' : ''}). It's a best-effort instruction to the AI, not a hard filter — it can still stray sometimes.</p>
+      <p class="subgreeting">Tap a topic – the conversation starts right away. Allow the microphone, then just speak. Needs internet; nothing is stored in this app.</p>
+      <p class="subgreeting">The AI is asked to stick to the ${vocabulary.count} words/phrases you've covered so far (Vocabulary: ${gradeState(state).bookPosition.vocabulary || 'not set'}${vocabulary.grade5Note ? ' + all of Klasse 5' : ''}). It's a best-effort instruction, not a hard filter.</p>
 
-      <p class="setup-label">Pick a topic to start with</p>
-      <div class="segmented theme-picker" id="theme-picker">
-        ${themes.map((t) => `<button class="seg-btn${t.key === local.theme ? ' active' : ''}" data-theme="${t.key}">${t.label}${t.unitLabel ? ` <small>${t.unitLabel}</small>` : ''}</button>`).join('')}
+      <div class="voice-topic-list" id="theme-picker">
+        ${themes.map((t) => `
+          <button class="voice-topic" data-theme="${t.key}">
+            <span class="voice-topic-mic">🎙️</span>
+            <span class="voice-topic-text"><strong>${t.label}</strong>${t.unitLabel || t.hint ? `<small>${t.unitLabel || t.hint}</small>` : ''}</span>
+          </button>
+        `).join('')}
       </div>
-      ${currentTheme().situation ? `<p class="setup-hint theme-situation">${currentTheme().situation}${currentTheme().phrases ? `<br><em>${currentTheme().phrases.slice(0, 3).join(' · ')}</em>` : ''}</p>` : ''}
-
-      <div class="ai-widget-wrap" id="ai-widget-wrap"></div>
     `;
-
     root.querySelector('#back-btn').addEventListener('click', () => navigate('/conversations'));
-    root.querySelectorAll('#theme-picker .seg-btn').forEach((btn) => {
-      btn.addEventListener('click', () => { local.theme = btn.dataset.theme; draw(); });
+    root.querySelectorAll('#theme-picker .voice-topic').forEach((btn) => {
+      btn.addEventListener('click', () => start(themes.find((t) => t.key === btn.dataset.theme)));
+    });
+  }
+
+  // ---------- running conversation ----------
+
+  function start(theme) {
+    ended = false;
+    const view = drawSession(theme);
+    if (!sdk) {
+      // SDK still loading (slow connection): wait, then start — on iPad the
+      // learner may have to tap "Start" once more, because the tap is used up.
+      view.setStatus('connecting', 'Lade das Sprachmodul …');
+      preloadSdk()
+        .then(() => view.showRetry('Bereit – tippe auf „Gespräch starten“.'))
+        .catch(() => view.showError('Das Sprachmodul konnte nicht geladen werden. Bist du online?'));
+      return;
+    }
+    view.setStatus('connecting', 'Verbinde … bitte das Mikrofon erlauben.');
+    let connected = false;
+    const attempt = {};
+    currentAttempt = attempt;
+    setTimeout(() => {
+      if (!connected && !ended && currentAttempt === attempt) {
+        view.showError('Keine Verbindung zustande gekommen. Prüfe Internet und Mikrofon-Erlaubnis und versuch es nochmal.');
+      }
+    }, CONNECT_TIMEOUT_MS);
+    sdk.Conversation.startSession({
+      agentId: AGENT_IDS[content.grade] || AGENT_IDS[5],
+      connectionType: 'websocket',
+      dynamicVariables: dynamicVariables(theme),
+      onConnect: () => {
+        connected = true;
+        view.setStatus('listening', 'Verbunden – sprich einfach los!');
+      },
+      onDisconnect: () => {
+        conversation = null;
+        if (!ended) view.showEnded();
+      },
+      onError: (message) => {
+        console.error('ElevenLabs error', message);
+        view.showError(`Fehler im Gespräch: ${message}`);
+      },
+      onModeChange: ({ mode }) => {
+        if (conversation) view.setStatus(mode, mode === 'speaking' ? 'Dein Partner spricht …' : 'Du bist dran – sprich einfach los 🎙️');
+      },
+      onMessage: ({ message, role, source }) => view.addLine(role || (source === 'ai' ? 'agent' : 'user'), message)
+    }).then((conv) => {
+      conversation = conv;
+      if (ended) conv.endSession();
+    }).catch((err) => {
+      console.error('Could not start the conversation', err);
+      const denied = err && (err.name === 'NotAllowedError' || /permission|denied|not allowed/i.test(String(err.message || err)));
+      view.showError(denied
+        ? 'Das Mikrofon ist nicht erlaubt. Auf dem iPad: Einstellungen → Apps → Safari → Mikrofon → „Erlauben“ (bzw. beim Nachfragen „Erlauben“ tippen) und dann neu starten.'
+        : `Das Gespräch konnte nicht starten (${err && err.message ? err.message : err}). Bist du online?`);
     });
 
-    mountWidget(root.querySelector('#ai-widget-wrap'), content.grade, dynamicVariables());
+    function drawSession() {
+      root.innerHTML = `
+        <div class="screen-header">
+          <button class="back-btn" id="back-btn">‹</button>
+          <h1 class="greeting" style="margin:0;font-size:1.2rem;">${theme.label}</h1>
+        </div>
+        ${theme.situation ? `<p class="setup-hint">${theme.situation}</p>` : ''}
+        <div class="voice-stage">
+          <div class="voice-orb" id="voice-orb" data-state="connecting"><span>🎙️</span></div>
+          <div class="voice-status" id="voice-status"></div>
+        </div>
+        <div class="voice-transcript" id="voice-transcript"></div>
+        ${theme.phrases ? `<p class="setup-hint voice-phrases"><strong>Hilfe:</strong> ${theme.phrases.slice(0, 4).join(' · ')}</p>` : ''}
+        <div class="voice-actions" id="voice-actions">
+          <button class="primary-btn secondary" id="mute-btn">🔇 Mikro aus</button>
+          <button class="primary-btn" id="end-btn">Gespräch beenden</button>
+        </div>
+      `;
+      const orb = root.querySelector('#voice-orb');
+      const status = root.querySelector('#voice-status');
+      const transcript = root.querySelector('#voice-transcript');
+      const actions = root.querySelector('#voice-actions');
+      let muted = false;
+
+      root.querySelector('#back-btn').addEventListener('click', () => { endConversation(); drawPicker(); });
+      root.querySelector('#end-btn').addEventListener('click', () => { endConversation(); showEnded(); });
+      root.querySelector('#mute-btn').addEventListener('click', (e) => {
+        if (!conversation) return;
+        muted = !muted;
+        conversation.setMicMuted(muted);
+        e.currentTarget.textContent = muted ? '🎙️ Mikro an' : '🔇 Mikro aus';
+        orb.dataset.muted = String(muted);
+      });
+
+      function setStatus(state, text) {
+        orb.dataset.state = state;
+        status.textContent = text;
+      }
+
+      function addLine(role, text) {
+        if (!text) return;
+        transcript.insertAdjacentHTML('beforeend', `<div class="voice-line ${role === 'agent' ? 'agent' : 'user'}">${escapeHtml(text)}</div>`);
+        transcript.scrollTop = transcript.scrollHeight;
+      }
+
+      function finalButtons(primaryLabel) {
+        actions.innerHTML = `
+          <button class="primary-btn secondary" id="topics-btn">Anderes Thema</button>
+          <button class="primary-btn" id="again-btn">${primaryLabel}</button>
+        `;
+        actions.querySelector('#topics-btn').addEventListener('click', drawPicker);
+        actions.querySelector('#again-btn').addEventListener('click', () => start(theme));
+      }
+
+      function showEnded() {
+        setStatus('ended', 'Gespräch beendet – gut gemacht! 🎉');
+        finalButtons('Nochmal sprechen');
+      }
+
+      function showError(text) {
+        endConversation();
+        setStatus('error', text);
+        finalButtons('Nochmal versuchen');
+      }
+
+      function showRetry(text) {
+        setStatus('ended', text);
+        finalButtons('Gespräch starten');
+      }
+
+      return { setStatus, addLine, showEnded, showError, showRetry };
+    }
   }
 
-  function currentTheme() {
-    return themes.find((t) => t.key === local.theme) || themes[0];
+  function endConversation() {
+    ended = true;
+    if (conversation) {
+      const conv = conversation;
+      conversation = null;
+      conv.endSession().catch((err) => console.warn('endSession failed', err));
+    }
   }
 
-  // Variables the agent's prompt can use ({{scenario}}, {{grade}} …). Grade 5
-  // keeps sending the theme key as "scenario", exactly as before.
-  function dynamicVariables() {
-    const theme = currentTheme();
+  // Only the variables that exist in the agent (scenario, known_vocabulary,
+  // opening_line) are sent — unknown ones can make the session fail. Grade,
+  // unit and grammar focus travel inside the scenario text, which the agent's
+  // prompt already uses.
+  function dynamicVariables(theme) {
     const unit = theme.unit || targetUnit;
+    const focus = grammarFocus(content, theme.grammarCodes, unit);
+    const scenario = theme.key === 'general'
+      ? 'general – free talk: ask what she would like to talk about'
+      : (theme.scenario || `${theme.key} (${theme.hint || `Unit ${unit}`})`);
     return {
-      scenario: content.grade === 5 ? theme.key : theme.scenario || 'free conversation about everyday topics',
+      scenario: `${scenario.replace(/[.\s]+$/, '')}. Learner: ${LEARNER_NAME}, grade ${content.grade}, currently at Unit ${unit}. Practise especially: ${focus}.`,
       known_vocabulary: vocabulary.text,
       // Drives the agent's "Erste Nachricht" field (set to {{opening_line}} in the
-      // ElevenLabs dashboard) so the very first thing said already sets the scene
-      // for the chosen theme, instead of a generic "what do you want to talk
-      // about" greeting that ignores the theme the learner just picked.
-      opening_line: theme.opener,
-      grade: String(content.grade),
-      unit: String(unit),
-      grammar_focus: grammarFocus(content, theme.grammarCodes, unit),
-      learner_name: LEARNER_NAME
+      // ElevenLabs dashboard) so the very first thing said already sets the scene.
+      opening_line: theme.opener
     };
   }
 }
@@ -156,30 +312,6 @@ function parseUnitFromPosition(position) {
   return match ? Number(match[1]) : null;
 }
 
-function mountWidget(container, grade, variables) {
-  ensureWidgetScriptLoaded();
-
-  const widget = document.createElement('elevenlabs-convai');
-  widget.setAttribute('agent-id', AGENT_IDS[grade] || AGENT_IDS[5]);
-  widget.setAttribute('dynamic-variables', JSON.stringify(variables));
-  container.appendChild(widget);
-}
-
-let scriptLoadPromise = null;
-
-function ensureWidgetScriptLoaded() {
-  if (scriptLoadPromise) return scriptLoadPromise;
-  if (document.querySelector(`script[src="${WIDGET_SCRIPT_SRC}"]`)) {
-    scriptLoadPromise = Promise.resolve();
-    return scriptLoadPromise;
-  }
-  scriptLoadPromise = new Promise((resolve, reject) => {
-    const script = document.createElement('script');
-    script.src = WIDGET_SCRIPT_SRC;
-    script.async = true;
-    script.onload = resolve;
-    script.onerror = reject;
-    document.body.appendChild(script);
-  });
-  return scriptLoadPromise;
+function escapeHtml(str) {
+  return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }

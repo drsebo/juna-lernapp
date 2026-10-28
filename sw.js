@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'juna-lernapp-v11';
+const CACHE_VERSION = 'juna-lernapp-v12';
 
 const APP_SHELL = [
   './',
