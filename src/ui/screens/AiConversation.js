@@ -1,6 +1,8 @@
-import { navigate } from '../../router.js';
+import { navigate, onLeaveScreen } from '../../router.js';
 import { loadContent } from '../../data/contentStore.js';
 import { db, gradeState } from '../../storage/db.js';
+import { recordSessionCompletion } from '../../engine/progress.js';
+import { awardXp, xpForVoice, MIN_VOICE_SECONDS } from '../../engine/motivation.js';
 
 // ElevenLabs agent per grade. Both use the existing Juna agent for now — to
 // give grade 6 its own agent (e.g. a duplicate "Juna English 6" with the
@@ -54,15 +56,22 @@ export async function renderAiConversation(root) {
   const state = db.load();
   const targetUnit = parseUnitFromPosition(gradeState(state).bookPosition.vocabulary)
     || Math.max(...content.vocab.map((w) => w.unit));
-  const themes = content.grade === 5 ? GRADE5_THEMES : themesFromScenarios(content);
+  const allThemes = content.grade === 5 ? GRADE5_THEMES : themesFromScenarios(content);
+  // Only the topics of the unit picked on the Conversations screen (plus
+  // "Surprise me"); without a picked unit, all of them.
+  const pickedUnit = gradeState(state).conversationUnit || null;
+  const themes = pickedUnit
+    ? allThemes.filter((t) => t.key === 'general' || themeUnit(t) === pickedUnit)
+    : allThemes;
   const vocabulary = await buildKnownVocabulary(content, targetUnit);
 
   let conversation = null; // the running ElevenLabs session
   let ended = false;
   let currentAttempt = null; // guards the connect timeout against old attempts
+  let connectedAt = null; // start of the talking time that earns XP
   // leaving the screen (back button, other route) ends a running conversation
-  const onLeave = () => { endConversation(); window.removeEventListener('hashchange', onLeave); };
-  window.addEventListener('hashchange', onLeave);
+  // and credits its talking time before the next screen is drawn
+  onLeaveScreen(endConversation);
 
   drawPicker();
 
@@ -73,6 +82,7 @@ export async function renderAiConversation(root) {
         <h1 class="greeting" style="margin:0;font-size:1.2rem;">Talk with an AI partner</h1>
       </div>
       <p class="subgreeting">Tap a topic – the conversation starts right away. Allow the microphone, then just speak. Needs internet; nothing is stored in this app.</p>
+      ${pickedUnit ? `<p class="setup-label voice-unit-head">Unit ${pickedUnit} <button class="text-link-btn inline-link" id="change-unit">Unit wechseln</button></p>` : ''}
       <p class="subgreeting">The AI is asked to stick to the ${vocabulary.count} words/phrases you've covered so far (Vocabulary: ${gradeState(state).bookPosition.vocabulary || 'not set'}${vocabulary.grade5Note ? ' + all of Klasse 5' : ''}). It's a best-effort instruction, not a hard filter.</p>
 
       <div class="voice-topic-list" id="theme-picker">
@@ -85,6 +95,7 @@ export async function renderAiConversation(root) {
       </div>
     `;
     root.querySelector('#back-btn').addEventListener('click', () => navigate('/conversations'));
+    root.querySelector('#change-unit')?.addEventListener('click', () => navigate('/conversations'));
     root.querySelectorAll('#theme-picker .voice-topic').forEach((btn) => {
       btn.addEventListener('click', () => start(themes.find((t) => t.key === btn.dataset.theme)));
     });
@@ -119,11 +130,13 @@ export async function renderAiConversation(root) {
       dynamicVariables: dynamicVariables(theme),
       onConnect: () => {
         connected = true;
+        connectedAt = Date.now();
         view.setStatus('listening', 'Verbunden – sprich einfach los!');
       },
       onDisconnect: () => {
         conversation = null;
-        if (!ended) view.showEnded();
+        const xp = creditTalkingTime();
+        if (!ended) view.showEnded(xp);
       },
       onError: (message) => {
         console.error('ElevenLabs error', message);
@@ -169,7 +182,7 @@ export async function renderAiConversation(root) {
       let muted = false;
 
       root.querySelector('#back-btn').addEventListener('click', () => { endConversation(); drawPicker(); });
-      root.querySelector('#end-btn').addEventListener('click', () => { endConversation(); showEnded(); });
+      root.querySelector('#end-btn').addEventListener('click', () => { const xp = endConversation(); showEnded(xp); });
       root.querySelector('#mute-btn').addEventListener('click', (e) => {
         if (!conversation) return;
         muted = !muted;
@@ -198,8 +211,13 @@ export async function renderAiConversation(root) {
         actions.querySelector('#again-btn').addEventListener('click', () => start(theme));
       }
 
-      function showEnded() {
+      function showEnded(xp) {
         setStatus('ended', 'Gespräch beendet – gut gemacht! 🎉');
+        if (xp && xp.earned) {
+          status.insertAdjacentHTML('afterend', `<div class="xp-earned voice-xp">⚡ +${xp.earned} XP · ${talkTime(xp.seconds)} Englisch gesprochen</div>`);
+        } else if (xp) {
+          status.insertAdjacentHTML('afterend', `<div class="setup-hint voice-xp">XP gibt es ab ${MIN_VOICE_SECONDS} Sekunden Gespräch.</div>`);
+        }
         finalButtons('Nochmal sprechen');
       }
 
@@ -218,13 +236,32 @@ export async function renderAiConversation(root) {
     }
   }
 
+  // Returns what creditTalkingTime() credited (null if nothing was running).
   function endConversation() {
     ended = true;
+    const xp = creditTalkingTime();
     if (conversation) {
       const conv = conversation;
       conversation = null;
       conv.endSession().catch((err) => console.warn('endSession failed', err));
     }
+    return xp;
+  }
+
+  // Credits the connected time once per conversation: XP (engine/motivation
+  // xpForVoice), the daily goal / streak like any other session, and the
+  // total speaking time. Runs on every way out (end button, disconnect,
+  // leaving the screen) so no talking time is lost.
+  function creditTalkingTime() {
+    if (!connectedAt) return null;
+    const seconds = Math.round((Date.now() - connectedAt) / 1000);
+    connectedAt = null;
+    const earned = xpForVoice(seconds);
+    db.update((s) => {
+      s.overallProgress.voiceSeconds = (s.overallProgress.voiceSeconds || 0) + seconds;
+      if (earned > 0) awardXp(recordSessionCompletion(s, new Date().toISOString()), earned);
+    });
+    return { earned, seconds };
   }
 
   // Only the variables that exist in the agent (scenario, known_vocabulary,
@@ -232,7 +269,7 @@ export async function renderAiConversation(root) {
   // unit and grammar focus travel inside the scenario text, which the agent's
   // prompt already uses.
   function dynamicVariables(theme) {
-    const unit = theme.unit || targetUnit;
+    const unit = theme.unit || pickedUnit || targetUnit;
     const focus = grammarFocus(content, theme.grammarCodes, unit);
     const scenario = theme.key === 'general'
       ? 'general – free talk: ask what she would like to talk about'
@@ -245,6 +282,13 @@ export async function renderAiConversation(root) {
       opening_line: theme.opener
     };
   }
+}
+
+// Grade 6 themes carry their unit; grade 5 ones say it in the hint ("Unit 5").
+function themeUnit(theme) {
+  if (theme.unit) return theme.unit;
+  const match = (theme.hint || '').match(/Unit (\d+)/);
+  return match ? Number(match[1]) : null;
 }
 
 function themesFromScenarios(content) {
@@ -310,6 +354,13 @@ function parseUnitFromPosition(position) {
   if (!position) return null;
   const match = position.match(/(\d+)/);
   return match ? Number(match[1]) : null;
+}
+
+// 96 → "1 Min. 36 Sek."
+function talkTime(seconds) {
+  const m = Math.floor(seconds / 60);
+  const s = seconds % 60;
+  return [m && `${m} Min.`, (s || !m) && `${s} Sek.`].filter(Boolean).join(' ');
 }
 
 function escapeHtml(str) {

@@ -21,6 +21,16 @@ export function getXp(state) {
   return (vocabCorrect + grammarCorrect) * XP_PER_CORRECT + sessions * XP_SESSION_BONUS;
 }
 
+// Voice conversations: XP for the time actually spent talking (connected),
+// counted from MIN_VOICE_SECONDS on — a session bonus plus XP per full minute.
+export const XP_PER_VOICE_MINUTE = 20;
+export const MIN_VOICE_SECONDS = 30;
+
+export function xpForVoice(seconds) {
+  if (seconds < MIN_VOICE_SECONDS) return 0;
+  return XP_SESSION_BONUS + Math.floor(seconds / 60) * XP_PER_VOICE_MINUTE;
+}
+
 export function xpForSession(results) {
   return results.correctCount * XP_PER_CORRECT + XP_SESSION_BONUS;
 }

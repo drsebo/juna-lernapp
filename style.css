@@ -1850,3 +1850,6 @@ button { font-family: inherit; }
 .stand-feedback.ok { color: var(--color-success); }
 .stand-feedback.error { color: var(--color-danger); }
 .stand-feedback.pending { color: var(--color-text-muted); }
+
+.voice-xp { margin-top: 4px; text-align: center; }
+.voice-unit-head { margin-top: 4px; }

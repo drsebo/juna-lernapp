@@ -9,6 +9,27 @@ export function navigate(path) {
   window.location.hash = path;
 }
 
+// A screen with something still running (e.g. a voice conversation) can
+// register a handler that runs once, right before the next screen is drawn —
+// so its side effects (like credited XP) are visible on that next screen.
+const leaveHandlers = new Set();
+
+export function onLeaveScreen(handler) {
+  leaveHandlers.add(handler);
+}
+
+function runLeaveHandlers() {
+  const handlers = [...leaveHandlers];
+  leaveHandlers.clear();
+  handlers.forEach((handler) => {
+    try {
+      handler();
+    } catch (err) {
+      console.error('Leave handler failed', err);
+    }
+  });
+}
+
 function currentPath() {
   const hash = window.location.hash.replace(/^#/, '');
   return hash || '/';
@@ -22,6 +43,7 @@ function currentPath() {
 function render() {
   const path = currentPath();
   const renderFn = routes.get(path) || routes.get('/');
+  runLeaveHandlers();
   rootEl.innerHTML = '';
   Promise.resolve(renderFn(rootEl)).catch((err) => {
     console.error('Failed to render screen', err);

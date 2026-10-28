@@ -18,8 +18,9 @@ export async function renderConversationsSetup(root) {
   const content = await loadContent();
   const state = db.load();
   const units = availableUnitNumbers(content);
-  const { bookPosition } = gradeState(state);
-  const savedUnit = parseUnitFromPosition(bookPosition.vocabulary || bookPosition.grammar);
+  const { bookPosition, conversationUnit } = gradeState(state);
+  const savedUnit = (units.includes(conversationUnit) && conversationUnit)
+    || parseUnitFromPosition(bookPosition.vocabulary || bookPosition.grammar);
 
   const local = { unit: savedUnit || defaultUnit(content, gradeState(state)) };
   draw();
@@ -62,9 +63,17 @@ export async function renderConversationsSetup(root) {
     `;
 
     root.querySelector('#back-btn').addEventListener('click', () => navigate('/'));
-    root.querySelector('#ai-voice-btn').addEventListener('click', () => navigate('/conversations/ai'));
+    // the voice mode only offers the topics of the unit picked here
+    root.querySelector('#ai-voice-btn').addEventListener('click', () => {
+      db.update((s) => { gradeState(s).conversationUnit = local.unit; });
+      navigate('/conversations/ai');
+    });
     root.querySelectorAll('#unit-segmented .seg-btn').forEach((btn) => {
-      btn.addEventListener('click', () => { local.unit = Number(btn.dataset.unit); draw(); });
+      btn.addEventListener('click', () => {
+        local.unit = Number(btn.dataset.unit);
+        db.update((s) => { gradeState(s).conversationUnit = local.unit; });
+        draw();
+      });
     });
     root.querySelectorAll('.scenario-list .scenario-card').forEach((card) => {
       card.addEventListener('click', () => {
